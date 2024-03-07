@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <crap_result>
   <project/>
-  <timestamp>2024-03-05 08:38:17</timestamp>
+  <timestamp>2024-03-07 21:26:16</timestamp>
   <stats>
     <name>Method Crap Stats</name>
-    <methodCount>605</methodCount>
+    <methodCount>607</methodCount>
     <crapMethodCount>9</crapMethodCount>
     <crapLoad>140</crapLoad>
-    <totalCrap>4346.27</totalCrap>
-    <crapMethodPercent>1.49</crapMethodPercent>
+    <totalCrap>4338.19</totalCrap>
+    <crapMethodPercent>1.48</crapMethodPercent>
   </stats>
   <methods>
     <method>
@@ -1502,9 +1502,20 @@
       <methodName>setOptions</methodName>
       <methodSignature>setOptions(array $options): self</methodSignature>
       <fullMethod>setOptions(array $options): self</fullMethod>
-      <crap>12</crap>
+      <crap>3</crap>
       <complexity>3</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Blade\Assets</package>
+      <className>Playground\Blade\Assets\Asset</className>
+      <methodName>docs</methodName>
+      <methodSignature>docs(): string</methodSignature>
+      <fullMethod>docs(): string</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1601,9 +1612,9 @@
       <methodName>setOptions</methodName>
       <methodSignature>setOptions(array $options): self</methodSignature>
       <fullMethod>setOptions(array $options): self</fullMethod>
-      <crap>15.15</crap>
+      <crap>15.13</crap>
       <complexity>15</complexity>
-      <coverage>91.3</coverage>
+      <coverage>91.67</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1722,9 +1733,9 @@
       <methodName>setOptions</methodName>
       <methodSignature>setOptions(array $options): self</methodSignature>
       <fullMethod>setOptions(array $options): self</fullMethod>
-      <crap>15.09</crap>
+      <crap>15.08</crap>
       <complexity>15</complexity>
-      <coverage>92.59</coverage>
+      <coverage>92.86</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1744,9 +1755,9 @@
       <methodName>async</methodName>
       <methodSignature>async(): bool</methodSignature>
       <fullMethod>async(): bool</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1755,9 +1766,9 @@
       <methodName>nomodule</methodName>
       <methodSignature>nomodule(): bool</methodSignature>
       <fullMethod>nomodule(): bool</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1766,9 +1777,9 @@
       <methodName>defer</methodName>
       <methodSignature>defer(): bool</methodSignature>
       <fullMethod>defer(): bool</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1777,9 +1788,9 @@
       <methodName>scoped</methodName>
       <methodSignature>scoped(): bool</methodSignature>
       <fullMethod>scoped(): bool</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1799,9 +1810,9 @@
       <methodName>fetchpriority</methodName>
       <methodSignature>fetchpriority(): string</methodSignature>
       <fullMethod>fetchpriority(): string</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1821,9 +1832,9 @@
       <methodName>referrerpolicy</methodName>
       <methodSignature>referrerpolicy(): string</methodSignature>
       <fullMethod>referrerpolicy(): string</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1876,8 +1887,8 @@
       <methodName>__toString</methodName>
       <methodSignature>__toString(): string</methodSignature>
       <fullMethod>__toString(): string</fullMethod>
-      <crap>5</crap>
-      <complexity>5</complexity>
+      <crap>11</crap>
+      <complexity>11</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -1931,9 +1942,9 @@
       <methodName>setOptions</methodName>
       <methodSignature>setOptions(array $options): self</methodSignature>
       <fullMethod>setOptions(array $options): self</fullMethod>
-      <crap>5.05</crap>
+      <crap>5</crap>
       <complexity>5</complexity>
-      <coverage>87.5</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1942,9 +1953,9 @@
       <methodName>docs</methodName>
       <methodSignature>docs(): string</methodSignature>
       <fullMethod>docs(): string</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2173,6 +2184,17 @@
       <methodName>version</methodName>
       <methodSignature>version(): string</methodSignature>
       <fullMethod>version(): string</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Blade</package>
+      <className>Playground\Blade\ServiceProvider</className>
+      <methodName>publishesAssets</methodName>
+      <methodSignature>publishesAssets(): void</methodSignature>
+      <fullMethod>publishesAssets(): void</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
