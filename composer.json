@@ -37,6 +37,7 @@
         "gammamatrix/playground-auth": "dev-develop|dev-master|dev-feature/*|^73.0",
         "gammamatrix/playground-admin-resource": "dev-develop|dev-master|dev-feature/*|^73.0",
         "gammamatrix/playground-cms-resource": "dev-develop|dev-master|dev-feature/*|^73.0",
+        "gammamatrix/playground-login-blade": "dev-develop|dev-master|dev-feature/*|^73.0",
         "gammamatrix/playground-site-blade": "dev-develop|dev-master|dev-feature/*|^73.0",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^10.10",
