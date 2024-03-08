@@ -72,7 +72,7 @@ return [
     |
     | Options for Sanctum:
     | - PLAYGROUND_AUTH_USER_PRIVILEGES - allow saving privileges in the user model.
-    | - PLAYGROUND_AUTH_VERIFY === privileges
+    | - PLAYGROUND_AUTH_VERIFY === sanctum
     |
     | Verification:
     | - admin: $user->isAdmin()
@@ -117,6 +117,12 @@ return [
      * @var bool userRoles   Enable if the user model has the attribute User::$roles
      */
     'userRoles' => (bool) env('PLAYGROUND_AUTH_USER_ROLES', true),
+
+    /**
+     * @var string canDefault  The default privilege for Auth\Can::class checks.
+     *                         A value is required for Sanctum checks.
+     */
+    'canDefault' => env('PLAYGROUND_AUTH_CAN_DEFAULT', 'app'),
 
     /*
     |--------------------------------------------------------------------------

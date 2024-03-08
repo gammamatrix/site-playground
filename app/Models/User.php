@@ -8,10 +8,10 @@ use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum;
-use Playground\Models\User as BaseUser;
 use Playground\Models\Interfaces\WithCreatorInterface;
 use Playground\Models\Interfaces\WithModifierInterface;
 use Playground\Models\Traits;
+use Playground\Models\User as BaseUser;
 
 /**
  * \App\Models\User
