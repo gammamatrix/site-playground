@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <crap_result>
   <project/>
-  <timestamp>2024-03-07 21:26:16</timestamp>
+  <timestamp>2024-03-08 20:10:42</timestamp>
   <stats>
     <name>Method Crap Stats</name>
-    <methodCount>607</methodCount>
-    <crapMethodCount>9</crapMethodCount>
-    <crapLoad>140</crapLoad>
-    <totalCrap>4338.19</totalCrap>
-    <crapMethodPercent>1.48</crapMethodPercent>
+    <methodCount>609</methodCount>
+    <crapMethodCount>10</crapMethodCount>
+    <crapLoad>152</crapLoad>
+    <totalCrap>4556.19</totalCrap>
+    <crapMethodPercent>1.64</crapMethodPercent>
   </stats>
   <methods>
     <method>
@@ -916,6 +916,17 @@
     <method>
       <package>Playground\Auth</package>
       <className>Playground\Auth\Issuer</className>
+      <methodName>useSanctum</methodName>
+      <methodSignature>useSanctum(): bool</methodSignature>
+      <fullMethod>useSanctum(): bool</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Auth</package>
+      <className>Playground\Auth\Issuer</className>
       <methodName>compileAbilitiesByGroup</methodName>
       <methodSignature>compileAbilitiesByGroup(string $group): array</methodSignature>
       <fullMethod>compileAbilitiesByGroup(string $group): array</fullMethod>
@@ -950,12 +961,12 @@
       <package>Playground\Auth</package>
       <className>Playground\Auth\Issuer</className>
       <methodName>init</methodName>
-      <methodSignature>init(Illuminate\Contracts\Auth\Authenticatable $user, array $config): void</methodSignature>
-      <fullMethod>init(Illuminate\Contracts\Auth\Authenticatable $user, array $config): void</fullMethod>
-      <crap>272</crap>
-      <complexity>16</complexity>
+      <methodSignature>init(Illuminate\Contracts\Auth\Authenticatable $user): self</methodSignature>
+      <fullMethod>init(Illuminate\Contracts\Auth\Authenticatable $user): self</fullMethod>
+      <crap>462</crap>
+      <complexity>21</complexity>
       <coverage>0</coverage>
-      <crapLoad>16</crapLoad>
+      <crapLoad>21</crapLoad>
     </method>
     <method>
       <package>Playground\Auth</package>
@@ -971,13 +982,24 @@
     <method>
       <package>Playground\Auth</package>
       <className>Playground\Auth\Issuer</className>
-      <methodName>sanctum</methodName>
-      <methodSignature>sanctum(Laravel\Sanctum\Contracts\HasApiTokens $user): array</methodSignature>
-      <fullMethod>sanctum(Laravel\Sanctum\Contracts\HasApiTokens $user): array</fullMethod>
-      <crap>42</crap>
-      <complexity>6</complexity>
+      <methodName>authorize</methodName>
+      <methodSignature>authorize(Illuminate\Contracts\Auth\Authenticatable $user): array</methodSignature>
+      <fullMethod>authorize(Illuminate\Contracts\Auth\Authenticatable $user): array</fullMethod>
+      <crap>12</crap>
+      <complexity>3</complexity>
       <coverage>0</coverage>
       <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Auth</package>
+      <className>Playground\Auth\Issuer</className>
+      <methodName>sanctum</methodName>
+      <methodSignature>sanctum(Illuminate\Contracts\Auth\Authenticatable $user): array</methodSignature>
+      <fullMethod>sanctum(Illuminate\Contracts\Auth\Authenticatable $user): array</fullMethod>
+      <crap>56</crap>
+      <complexity>7</complexity>
+      <coverage>0</coverage>
+      <crapLoad>7</crapLoad>
     </method>
     <method>
       <package>Playground\Auth</package>
