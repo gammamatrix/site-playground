@@ -51,6 +51,47 @@
         </style>
     </head>
     <body>
+        <h2>Abstract (Tests\Unit\Playground\Auth\Policies\Policy\Abstract)</h2>
+        <ul>
+            <li class="success">Before with root</li>
+            <li class="success">Before with root as secondary fails</li>
+            <li class="success">Index without role</li>
+            <li class="success">Index with admin</li>
+            <li class="success">View without role</li>
+            <li class="success">View with admin</li>
+            <li class="success">View with admin in roles</li>
+        </ul>
+        <h2>Abstract Role (Tests\Unit\Playground\Auth\Policies\ModelPolicy\AbstractRole)</h2>
+        <ul>
+            <li class="success">Create without role</li>
+            <li class="success">Create with admin</li>
+            <li class="success">Delete without role</li>
+            <li class="success">Delete with admin</li>
+            <li class="success">Delete locked with admin</li>
+            <li class="success">Detail without role</li>
+            <li class="success">Detail with admin</li>
+            <li class="success">Edit without role</li>
+            <li class="success">Edit with admin</li>
+            <li class="success">ForceDelete without role</li>
+            <li class="success">ForceDelete with admin</li>
+            <li class="success">Lock without role</li>
+            <li class="success">Lock with admin</li>
+            <li class="success">Manage without role</li>
+            <li class="success">Manage with admin</li>
+            <li class="success">Restore without role</li>
+            <li class="success">Restore with admin</li>
+            <li class="success">Store without role</li>
+            <li class="success">Store with admin</li>
+            <li class="success">Update without role</li>
+            <li class="success">Update with admin</li>
+            <li class="success">Update locked with admin</li>
+            <li class="success">Unlock without role</li>
+            <li class="success">Unlock with admin</li>
+        </ul>
+        <h2>Command (Tests\Feature\Playground\Auth\Console\Commands\About\Command)</h2>
+        <ul>
+            <li class="success">Command about displays package information and succeed with code 0</li>
+        </ul>
         <h2>Command (Tests\Feature\Playground\Console\Commands\About\Command)</h2>
         <ul>
             <li class="success">Command about displays package information and succeed with code 0</li>
@@ -58,6 +99,12 @@
         <h2>Command (Tests\Feature\Playground\Test\Console\Commands\About\Command)</h2>
         <ul>
             <li class="success">Command about displays package information and succeed with code 0</li>
+        </ul>
+        <h2>Command (Tests\Unit\Playground\Auth\Console\Commands\HashPassword\Command)</h2>
+        <ul>
+            <li class="success">Command auth hash password with json</li>
+            <li class="success">Command auth hash password</li>
+            <li class="success">Command auth hash password without argument and fail</li>
         </ul>
         <h2>Example (Tests\Feature\Example)</h2>
         <ul>
@@ -256,6 +303,40 @@
             <li class="success">Get attributes</li>
             <li class="success">GetAttributes filled</li>
             <li class="success">Factory with make</li>
+        </ul>
+        <h2>Trait (Tests\Unit\Playground\Auth\Policies\PolicyTrait\Trait)</h2>
+        <ul>
+            <li class="success">Get entity</li>
+            <li class="success">Get package</li>
+            <li class="success">Has token</li>
+            <li class="success">Get token</li>
+            <li class="success">Set token</li>
+            <li class="success">Verify does not log when app debugging is disabled</li>
+            <li class="success">Verify does not log when auth debugging is disabled</li>
+            <li class="success">Verify logs with debugging enabled</li>
+            <li class="success">Verify privileges</li>
+            <li class="success">Verify roles</li>
+            <li class="success">Verify user</li>
+        </ul>
+        <h2>Trait (Tests\Unit\Playground\Auth\Policies\PrivilegeTrait\Trait)</h2>
+        <ul>
+            <li class="success">Privilege PrivilegePolicy without parameter</li>
+            <li class="success">Privilege PrivilegeModelPolicy without parameter</li>
+            <li class="success">Privilege UserPolicy without parameter</li>
+            <li class="success">Privilege with package and without parameter</li>
+            <li class="success">Privilege with package and entity and without parameter</li>
+            <li class="success">Has privilege</li>
+            <li class="success">HasPrivilege with user hasPrivilege</li>
+            <li class="success">HasPrivilege with user privileges</li>
+            <li class="success">HasPrivilege without privileges enabled</li>
+        </ul>
+        <h2>Trait (Tests\Unit\Playground\Auth\Policies\RoleTrait\Trait)</h2>
+        <ul>
+            <li class="success">Get roles for admin</li>
+            <li class="success">Get roles for action</li>
+            <li class="success">Get roles to view</li>
+            <li class="success">Has role</li>
+            <li class="success">HasRole advanced role</li>
         </ul>
     </body>
 </html>
