@@ -9,7 +9,7 @@
 
 ##teamcity[testStarted name='test_that_true_is_true' locationHint='php_qn:///app/tests/Unit/ExampleTest.php::\Tests\Unit\ExampleTest::test_that_true_is_true' flowId='1']
 
-##teamcity[testFinished name='test_that_true_is_true' duration='121' flowId='1']
+##teamcity[testFinished name='test_that_true_is_true' duration='114' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Unit\ExampleTest' flowId='1']
 
@@ -17,23 +17,23 @@
 
 ##teamcity[testStarted name='test_WithChildren_children_returns_HasMany' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Model/ModelTest.php::\Tests\Unit\Playground\Models\Model\ModelTest::test_WithChildren_children_returns_HasMany' flowId='1']
 
-##teamcity[testFinished name='test_WithChildren_children_returns_HasMany' duration='201' flowId='1']
+##teamcity[testFinished name='test_WithChildren_children_returns_HasMany' duration='197' flowId='1']
 
 ##teamcity[testStarted name='test_WithCreator_creator_returns_HasOne' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Model/ModelTest.php::\Tests\Unit\Playground\Models\Model\ModelTest::test_WithCreator_creator_returns_HasOne' flowId='1']
 
-##teamcity[testFinished name='test_WithCreator_creator_returns_HasOne' duration='13' flowId='1']
+##teamcity[testFinished name='test_WithCreator_creator_returns_HasOne' duration='12' flowId='1']
 
 ##teamcity[testStarted name='test_WithModifier_modifier_returns_HasOne' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Model/ModelTest.php::\Tests\Unit\Playground\Models\Model\ModelTest::test_WithModifier_modifier_returns_HasOne' flowId='1']
 
-##teamcity[testFinished name='test_WithModifier_modifier_returns_HasOne' duration='8' flowId='1']
+##teamcity[testFinished name='test_WithModifier_modifier_returns_HasOne' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_WithOwner_owner_returns_HasOne' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Model/ModelTest.php::\Tests\Unit\Playground\Models\Model\ModelTest::test_WithOwner_owner_returns_HasOne' flowId='1']
 
-##teamcity[testFinished name='test_WithOwner_owner_returns_HasOne' duration='8' flowId='1']
+##teamcity[testFinished name='test_WithOwner_owner_returns_HasOne' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_WithParent_parent_returns_HasOne' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Model/ModelTest.php::\Tests\Unit\Playground\Models\Model\ModelTest::test_WithParent_parent_returns_HasOne' flowId='1']
 
-##teamcity[testFinished name='test_WithParent_parent_returns_HasOne' duration='8' flowId='1']
+##teamcity[testFinished name='test_WithParent_parent_returns_HasOne' duration='5' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Unit\Playground\Models\Model\ModelTest' flowId='1']
 
@@ -45,43 +45,43 @@
 
 ##teamcity[testStarted name='test_scopeFilterColumns_returns_query_without_filters' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterColumns/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterColumns\ModelTest::test_scopeFilterColumns_returns_query_without_filters' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterColumns_returns_query_without_filters' duration='6' flowId='1']
+##teamcity[testFinished name='test_scopeFilterColumns_returns_query_without_filters' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterColumns_returns_query_with_invalid_column' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterColumns/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterColumns\ModelTest::test_scopeFilterColumns_returns_query_with_invalid_column' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterColumns_returns_query_with_invalid_column' duration='7' flowId='1']
+##teamcity[testFinished name='test_scopeFilterColumns_returns_query_with_invalid_column' duration='6' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterColumns_returns_query_with_filters_without_meta_for_strings' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterColumns/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterColumns\ModelTest::test_scopeFilterColumns_returns_query_with_filters_without_meta_for_strings' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterColumns_returns_query_with_filters_without_meta_for_strings' duration='7' flowId='1']
+##teamcity[testFinished name='test_scopeFilterColumns_returns_query_with_filters_without_meta_for_strings' duration='6' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterColumns_returns_query_with_null_comparison_and_ignore' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterColumns/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterColumns\ModelTest::test_scopeFilterColumns_returns_query_with_null_comparison_and_ignore' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterColumns_returns_query_with_null_comparison_and_ignore' duration='6' flowId='1']
+##teamcity[testFinished name='test_scopeFilterColumns_returns_query_with_null_comparison_and_ignore' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterColumns_returns_query_with_comparison' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterColumns/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterColumns\ModelTest::test_scopeFilterColumns_returns_query_with_comparison' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterColumns_returns_query_with_comparison' duration='7' flowId='1']
+##teamcity[testFinished name='test_scopeFilterColumns_returns_query_with_comparison' duration='6' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterColumns_with_boolean_filter_type_and_null_value' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterColumns/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterColumns\ModelTest::test_scopeFilterColumns_with_boolean_filter_type_and_null_value' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterColumns_with_boolean_filter_type_and_null_value' duration='7' flowId='1']
+##teamcity[testFinished name='test_scopeFilterColumns_with_boolean_filter_type_and_null_value' duration='6' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterColumns_with_boolean_filter_type_and_true_value' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterColumns/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterColumns\ModelTest::test_scopeFilterColumns_with_boolean_filter_type_and_true_value' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterColumns_with_boolean_filter_type_and_true_value' duration='7' flowId='1']
+##teamcity[testFinished name='test_scopeFilterColumns_with_boolean_filter_type_and_true_value' duration='6' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterColumns_with_boolean_filter_type_and_false_value' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterColumns/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterColumns\ModelTest::test_scopeFilterColumns_with_boolean_filter_type_and_false_value' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterColumns_with_boolean_filter_type_and_false_value' duration='7' flowId='1']
+##teamcity[testFinished name='test_scopeFilterColumns_with_boolean_filter_type_and_false_value' duration='6' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterColumns_with_filter_operator_without_operator_and_default_to_like' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterColumns/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterColumns\ModelTest::test_scopeFilterColumns_with_filter_operator_without_operator_and_default_to_like' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterColumns_with_filter_operator_without_operator_and_default_to_like' duration='7' flowId='1']
+##teamcity[testFinished name='test_scopeFilterColumns_with_filter_operator_without_operator_and_default_to_like' duration='6' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterColumns_with_filter_operators' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterColumns/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterColumns\ModelTest::test_scopeFilterColumns_with_filter_operators' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterColumns_with_filter_operators' duration='24' flowId='1']
+##teamcity[testFinished name='test_scopeFilterColumns_with_filter_operators' duration='13' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterColumns_with_between_filter_operator_without_single_parameter_and_ignore_between' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterColumns/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterColumns\ModelTest::test_scopeFilterColumns_with_between_filter_operator_without_single_parameter_and_ignore_between' flowId='1']
 
@@ -89,7 +89,7 @@
 
 ##teamcity[testStarted name='test_scopeFilterColumns_with_between_filter_operator' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterColumns/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterColumns\ModelTest::test_scopeFilterColumns_with_between_filter_operator' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterColumns_with_between_filter_operator' duration='7' flowId='1']
+##teamcity[testFinished name='test_scopeFilterColumns_with_between_filter_operator' duration='6' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterColumns_with_not_between_filter_operator_without_single_parameter_and_ignore_between' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterColumns/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterColumns\ModelTest::test_scopeFilterColumns_with_not_between_filter_operator_without_single_parameter_and_ignore_between' flowId='1']
 
@@ -97,7 +97,7 @@
 
 ##teamcity[testStarted name='test_scopeFilterColumns_with_not_between_filter_operator' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterColumns/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterColumns\ModelTest::test_scopeFilterColumns_with_not_between_filter_operator' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterColumns_with_not_between_filter_operator' duration='7' flowId='1']
+##teamcity[testFinished name='test_scopeFilterColumns_with_not_between_filter_operator' duration='6' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Unit\Playground\Models\Scopes\ScopeFilterColumns\ModelTest' flowId='1']
 
@@ -109,7 +109,7 @@
 
 ##teamcity[testStarted name='test_scopeFilterDates_returns_query_without_filters' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterDates/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_without_filters' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterDates_returns_query_without_filters' duration='7' flowId='1']
+##teamcity[testFinished name='test_scopeFilterDates_returns_query_without_filters' duration='6' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterDates_returns_query_with_invalid_column' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterDates/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column' flowId='1']
 
@@ -117,7 +117,7 @@
 
 ##teamcity[testStarted name='test_scopeFilterDates_returns_query_with_filters_without_meta_for_strings' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterDates/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_filters_without_meta_for_strings' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterDates_returns_query_with_filters_without_meta_for_strings' duration='7' flowId='1']
+##teamcity[testFinished name='test_scopeFilterDates_returns_query_with_filters_without_meta_for_strings' duration='6' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterDates_returns_query_with_null_comparison_and_ignore' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterDates/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_null_comparison_and_ignore' flowId='1']
 
@@ -125,35 +125,35 @@
 
 ##teamcity[testStarted name='test_scopeFilterDates_returns_query_with_null_comparison_and_allow' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterDates/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_null_comparison_and_allow' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterDates_returns_query_with_null_comparison_and_allow' duration='7' flowId='1']
+##teamcity[testFinished name='test_scopeFilterDates_returns_query_with_null_comparison_and_allow' duration='6' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterDates_returns_query_with_comparison' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterDates/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_comparison' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterDates_returns_query_with_comparison' duration='7' flowId='1']
+##teamcity[testFinished name='test_scopeFilterDates_returns_query_with_comparison' duration='6' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterDates_returns_query_with_wildcard' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterDates/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_wildcard' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterDates_returns_query_with_wildcard' duration='7' flowId='1']
+##teamcity[testFinished name='test_scopeFilterDates_returns_query_with_wildcard' duration='6' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterDates_returns_query_with_operator_wildcard' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterDates/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_operator_wildcard' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterDates_returns_query_with_operator_wildcard' duration='7' flowId='1']
+##teamcity[testFinished name='test_scopeFilterDates_returns_query_with_operator_wildcard' duration='6' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterDates_returns_query_with_object_value_and_ignore' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterDates/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_object_value_and_ignore' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterDates_returns_query_with_object_value_and_ignore' duration='6' flowId='1']
+##teamcity[testFinished name='test_scopeFilterDates_returns_query_with_object_value_and_ignore' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterDates_returns_query_with_unnullable_value_and_ignore' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterDates/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_unnullable_value_and_ignore' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterDates_returns_query_with_unnullable_value_and_ignore' duration='6' flowId='1']
+##teamcity[testFinished name='test_scopeFilterDates_returns_query_with_unnullable_value_and_ignore' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterDates_returns_query_with_invalid_operator_and_use_like' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterDates/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_operator_and_use_like' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterDates_returns_query_with_invalid_operator_and_use_like' duration='7' flowId='1']
+##teamcity[testFinished name='test_scopeFilterDates_returns_query_with_invalid_operator_and_use_like' duration='6' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterDates_returns_query_with_invalid_parsable_value_and_ignore' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterDates/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_parsable_value_and_ignore' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterDates_returns_query_with_invalid_parsable_value_and_ignore' duration='7' flowId='1']
+##teamcity[testFinished name='test_scopeFilterDates_returns_query_with_invalid_parsable_value_and_ignore' duration='6' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterDates_returns_query_with_short_date_and_gte_operator' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterDates/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_short_date_and_gte_operator' flowId='1']
 
@@ -161,19 +161,19 @@
 
 ##teamcity[testStarted name='test_scopeFilterDates_returns_query_with_phrase_date_and_automatically_parse' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterDates/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_phrase_date_and_automatically_parse' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterDates_returns_query_with_phrase_date_and_automatically_parse' duration='7' flowId='1']
+##teamcity[testFinished name='test_scopeFilterDates_returns_query_with_phrase_date_and_automatically_parse' duration='6' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterDates_with_between_filter_operator_with_parse' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterDates/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_with_between_filter_operator_with_parse' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterDates_with_between_filter_operator_with_parse' duration='8' flowId='1']
+##teamcity[testFinished name='test_scopeFilterDates_with_between_filter_operator_with_parse' duration='6' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterDates_with_not_between_filter_operator_with_parse' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterDates/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_with_not_between_filter_operator_with_parse' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterDates_with_not_between_filter_operator_with_parse' duration='8' flowId='1']
+##teamcity[testFinished name='test_scopeFilterDates_with_not_between_filter_operator_with_parse' duration='7' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterDates_with_filter_operators' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterDates/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_with_filter_operators' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterDates_with_filter_operators' duration='24' flowId='1']
+##teamcity[testFinished name='test_scopeFilterDates_with_filter_operators' duration='13' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest' flowId='1']
 
@@ -181,15 +181,15 @@
 
 ##teamcity[testStarted name='test_scopeFilterFlags_returns_query_without_flags_or_filters' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterFlags/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterFlags\ModelTest::test_scopeFilterFlags_returns_query_without_flags_or_filters' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterFlags_returns_query_without_flags_or_filters' duration='6' flowId='1']
+##teamcity[testFinished name='test_scopeFilterFlags_returns_query_without_flags_or_filters' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterFlags_returns_query_without_filters' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterFlags/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterFlags\ModelTest::test_scopeFilterFlags_returns_query_without_filters' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterFlags_returns_query_without_filters' duration='6' flowId='1']
+##teamcity[testFinished name='test_scopeFilterFlags_returns_query_without_filters' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterFlags_returns_query_with_filters' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterFlags/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterFlags\ModelTest::test_scopeFilterFlags_returns_query_with_filters' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterFlags_returns_query_with_filters' duration='7' flowId='1']
+##teamcity[testFinished name='test_scopeFilterFlags_returns_query_with_filters' duration='5' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Unit\Playground\Models\Scopes\ScopeFilterFlags\ModelTest' flowId='1']
 
@@ -197,47 +197,47 @@
 
 ##teamcity[testStarted name='test_scopeFilterIds_returns_query_without_ids_or_filters' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterIds/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterIds\ModelTest::test_scopeFilterIds_returns_query_without_ids_or_filters' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterIds_returns_query_without_ids_or_filters' duration='6' flowId='1']
+##teamcity[testFinished name='test_scopeFilterIds_returns_query_without_ids_or_filters' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterIds_returns_query_without_filters' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterIds/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterIds\ModelTest::test_scopeFilterIds_returns_query_without_filters' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterIds_returns_query_without_filters' duration='6' flowId='1']
+##teamcity[testFinished name='test_scopeFilterIds_returns_query_without_filters' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterIds_returns_query_with_invalid_column' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterIds/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterIds\ModelTest::test_scopeFilterIds_returns_query_with_invalid_column' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterIds_returns_query_with_invalid_column' duration='6' flowId='1']
+##teamcity[testFinished name='test_scopeFilterIds_returns_query_with_invalid_column' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterIds_returns_query_with_null_comparison' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterIds/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterIds\ModelTest::test_scopeFilterIds_returns_query_with_null_comparison' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterIds_returns_query_with_null_comparison' duration='6' flowId='1']
+##teamcity[testFinished name='test_scopeFilterIds_returns_query_with_null_comparison' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterIds_returns_query_with_comparison' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterIds/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterIds\ModelTest::test_scopeFilterIds_returns_query_with_comparison' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterIds_returns_query_with_comparison' duration='7' flowId='1']
+##teamcity[testFinished name='test_scopeFilterIds_returns_query_with_comparison' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterIds_returns_query_with_filters_array' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterIds/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterIds\ModelTest::test_scopeFilterIds_returns_query_with_filters_array' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterIds_returns_query_with_filters_array' duration='25' flowId='1']
+##teamcity[testFinished name='test_scopeFilterIds_returns_query_with_filters_array' duration='22' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterIds_returns_query_with_filters_with_integer' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterIds/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterIds\ModelTest::test_scopeFilterIds_returns_query_with_filters_with_integer' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterIds_returns_query_with_filters_with_integer' duration='7' flowId='1']
+##teamcity[testFinished name='test_scopeFilterIds_returns_query_with_filters_with_integer' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterIds_returns_query_with_array_of_ids_without_type' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterIds/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterIds\ModelTest::test_scopeFilterIds_returns_query_with_array_of_ids_without_type' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterIds_returns_query_with_array_of_ids_without_type' duration='10' flowId='1']
+##teamcity[testFinished name='test_scopeFilterIds_returns_query_with_array_of_ids_without_type' duration='7' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterIds_returns_query_with_array_of_uuids_for_integer_type_ids_and_ignore' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterIds/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterIds\ModelTest::test_scopeFilterIds_returns_query_with_array_of_uuids_for_integer_type_ids_and_ignore' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterIds_returns_query_with_array_of_uuids_for_integer_type_ids_and_ignore' duration='8' flowId='1']
+##teamcity[testFinished name='test_scopeFilterIds_returns_query_with_array_of_uuids_for_integer_type_ids_and_ignore' duration='7' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterIds_returns_query_with_array_of_integer_ids_ignore_duplicate_id' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterIds/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterIds\ModelTest::test_scopeFilterIds_returns_query_with_array_of_integer_ids_ignore_duplicate_id' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterIds_returns_query_with_array_of_integer_ids_ignore_duplicate_id' duration='7' flowId='1']
+##teamcity[testFinished name='test_scopeFilterIds_returns_query_with_array_of_integer_ids_ignore_duplicate_id' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterIds_returns_query_with_filters_with_null_and_string_and_array' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterIds/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterIds\ModelTest::test_scopeFilterIds_returns_query_with_filters_with_null_and_string_and_array' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterIds_returns_query_with_filters_with_null_and_string_and_array' duration='11' flowId='1']
+##teamcity[testFinished name='test_scopeFilterIds_returns_query_with_filters_with_null_and_string_and_array' duration='8' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Unit\Playground\Models\Scopes\ScopeFilterIds\ModelTest' flowId='1']
 
@@ -245,15 +245,15 @@
 
 ##teamcity[testStarted name='test_scopeFilterTrash_returns_query_with_empty_visibility' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterTrash/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterTrash\ModelTest::test_scopeFilterTrash_returns_query_with_empty_visibility' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterTrash_returns_query_with_empty_visibility' duration='6' flowId='1']
+##teamcity[testFinished name='test_scopeFilterTrash_returns_query_with_empty_visibility' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterTrash_returns_query_with_trash' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterTrash/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterTrash\ModelTest::test_scopeFilterTrash_returns_query_with_trash' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterTrash_returns_query_with_trash' duration='6' flowId='1']
+##teamcity[testFinished name='test_scopeFilterTrash_returns_query_with_trash' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_scopeFilterTrash_returns_query_with_only_trash' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeFilterTrash/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeFilterTrash\ModelTest::test_scopeFilterTrash_returns_query_with_only_trash' flowId='1']
 
-##teamcity[testFinished name='test_scopeFilterTrash_returns_query_with_only_trash' duration='6' flowId='1']
+##teamcity[testFinished name='test_scopeFilterTrash_returns_query_with_only_trash' duration='5' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Unit\Playground\Models\Scopes\ScopeFilterTrash\ModelTest' flowId='1']
 
@@ -261,35 +261,35 @@
 
 ##teamcity[testStarted name='test_scopeSort_returns_query_with_empty_sort' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeSort/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeSort\ModelTest::test_scopeSort_returns_query_with_empty_sort' flowId='1']
 
-##teamcity[testFinished name='test_scopeSort_returns_query_with_empty_sort' duration='6' flowId='1']
+##teamcity[testFinished name='test_scopeSort_returns_query_with_empty_sort' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_scopeSort_returns_query_with_array_boolean_sort_asc' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeSort/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeSort\ModelTest::test_scopeSort_returns_query_with_array_boolean_sort_asc' flowId='1']
 
-##teamcity[testFinished name='test_scopeSort_returns_query_with_array_boolean_sort_asc' duration='6' flowId='1']
+##teamcity[testFinished name='test_scopeSort_returns_query_with_array_boolean_sort_asc' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_scopeSort_returns_query_with_array_boolean_sort_desc' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeSort/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeSort\ModelTest::test_scopeSort_returns_query_with_array_boolean_sort_desc' flowId='1']
 
-##teamcity[testFinished name='test_scopeSort_returns_query_with_array_boolean_sort_desc' duration='6' flowId='1']
+##teamcity[testFinished name='test_scopeSort_returns_query_with_array_boolean_sort_desc' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_scopeSort_returns_query_with_array_boolean_sort_pair' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeSort/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeSort\ModelTest::test_scopeSort_returns_query_with_array_boolean_sort_pair' flowId='1']
 
-##teamcity[testFinished name='test_scopeSort_returns_query_with_array_boolean_sort_pair' duration='6' flowId='1']
+##teamcity[testFinished name='test_scopeSort_returns_query_with_array_boolean_sort_pair' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_scopeSort_returns_query_with_array_boolean_sort_triplet' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeSort/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeSort\ModelTest::test_scopeSort_returns_query_with_array_boolean_sort_triplet' flowId='1']
 
-##teamcity[testFinished name='test_scopeSort_returns_query_with_array_boolean_sort_triplet' duration='6' flowId='1']
+##teamcity[testFinished name='test_scopeSort_returns_query_with_array_boolean_sort_triplet' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_scopeSort_returns_query_with_csv_sort_asc' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeSort/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeSort\ModelTest::test_scopeSort_returns_query_with_csv_sort_asc' flowId='1']
 
-##teamcity[testFinished name='test_scopeSort_returns_query_with_csv_sort_asc' duration='6' flowId='1']
+##teamcity[testFinished name='test_scopeSort_returns_query_with_csv_sort_asc' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_scopeSort_returns_query_with_csv_sort_desc' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeSort/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeSort\ModelTest::test_scopeSort_returns_query_with_csv_sort_desc' flowId='1']
 
-##teamcity[testFinished name='test_scopeSort_returns_query_with_csv_sort_desc' duration='6' flowId='1']
+##teamcity[testFinished name='test_scopeSort_returns_query_with_csv_sort_desc' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_scopeSort_returns_query_with_simple_array_asc' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeSort/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeSort\ModelTest::test_scopeSort_returns_query_with_simple_array_asc' flowId='1']
 
-##teamcity[testFinished name='test_scopeSort_returns_query_with_simple_array_asc' duration='6' flowId='1']
+##teamcity[testFinished name='test_scopeSort_returns_query_with_simple_array_asc' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_scopeSort_returns_query_with_simple_array_desc' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeSort/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeSort\ModelTest::test_scopeSort_returns_query_with_simple_array_desc' flowId='1']
 
@@ -297,11 +297,11 @@
 
 ##teamcity[testStarted name='test_scopeSort_returns_query_with_hash_array_asc' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeSort/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeSort\ModelTest::test_scopeSort_returns_query_with_hash_array_asc' flowId='1']
 
-##teamcity[testFinished name='test_scopeSort_returns_query_with_hash_array_asc' duration='6' flowId='1']
+##teamcity[testFinished name='test_scopeSort_returns_query_with_hash_array_asc' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_scopeSort_returns_query_with_hash_array_desc' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/Scopes/ScopeSort/ModelTest.php::\Tests\Unit\Playground\Models\Scopes\ScopeSort\ModelTest::test_scopeSort_returns_query_with_hash_array_desc' flowId='1']
 
-##teamcity[testFinished name='test_scopeSort_returns_query_with_hash_array_desc' duration='6' flowId='1']
+##teamcity[testFinished name='test_scopeSort_returns_query_with_hash_array_desc' duration='5' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Unit\Playground\Models\Scopes\ScopeSort\ModelTest' flowId='1']
 
@@ -309,19 +309,19 @@
 
 ##teamcity[testStarted name='test_add_has_and_remove_Abilities' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/User/ModelTest.php::\Tests\Unit\Playground\Models\User\ModelTest::test_add_has_and_remove_Abilities' flowId='1']
 
-##teamcity[testFinished name='test_add_has_and_remove_Abilities' duration='72' flowId='1']
+##teamcity[testFinished name='test_add_has_and_remove_Abilities' duration='61' flowId='1']
 
 ##teamcity[testStarted name='test_add_has_and_remove_Privileges' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/User/ModelTest.php::\Tests\Unit\Playground\Models\User\ModelTest::test_add_has_and_remove_Privileges' flowId='1']
 
-##teamcity[testFinished name='test_add_has_and_remove_Privileges' duration='7' flowId='1']
+##teamcity[testFinished name='test_add_has_and_remove_Privileges' duration='6' flowId='1']
 
 ##teamcity[testStarted name='test_add_has_and_remove_Roles' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/User/ModelTest.php::\Tests\Unit\Playground\Models\User\ModelTest::test_add_has_and_remove_Roles' flowId='1']
 
-##teamcity[testFinished name='test_add_has_and_remove_Roles' duration='9' flowId='1']
+##teamcity[testFinished name='test_add_has_and_remove_Roles' duration='6' flowId='1']
 
 ##teamcity[testStarted name='test_isAdmin_with_admins_and_users' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/Models/User/ModelTest.php::\Tests\Unit\Playground\Models\User\ModelTest::test_isAdmin_with_admins_and_users' flowId='1']
 
-##teamcity[testFinished name='test_isAdmin_with_admins_and_users' duration='7' flowId='1']
+##teamcity[testFinished name='test_isAdmin_with_admins_and_users' duration='6' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Unit\Playground\Models\User\ModelTest' flowId='1']
 
@@ -329,11 +329,11 @@
 
 ##teamcity[testStarted name='test_version_matches' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/ServiceProvider/InstanceTest.php::\Tests\Unit\Playground\ServiceProvider\InstanceTest::test_version_matches' flowId='1']
 
-##teamcity[testFinished name='test_version_matches' duration='6' flowId='1']
+##teamcity[testFinished name='test_version_matches' duration='4' flowId='1']
 
 ##teamcity[testStarted name='test_userPrimaryKeyType_with_empty_model' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/ServiceProvider/InstanceTest.php::\Tests\Unit\Playground\ServiceProvider\InstanceTest::test_userPrimaryKeyType_with_empty_model' flowId='1']
 
-##teamcity[testFinished name='test_userPrimaryKeyType_with_empty_model' duration='5' flowId='1']
+##teamcity[testFinished name='test_userPrimaryKeyType_with_empty_model' duration='4' flowId='1']
 
 ##teamcity[testStarted name='test_userPrimaryKeyType_with_incrementing_model' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/ServiceProvider/InstanceTest.php::\Tests\Unit\Playground\ServiceProvider\InstanceTest::test_userPrimaryKeyType_with_incrementing_model' flowId='1']
 
@@ -341,7 +341,7 @@
 
 ##teamcity[testStarted name='test_userPrimaryKeyType_with_uuid_model' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/ServiceProvider/InstanceTest.php::\Tests\Unit\Playground\ServiceProvider\InstanceTest::test_userPrimaryKeyType_with_uuid_model' flowId='1']
 
-##teamcity[testFinished name='test_userPrimaryKeyType_with_uuid_model' duration='6' flowId='1']
+##teamcity[testFinished name='test_userPrimaryKeyType_with_uuid_model' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_userPrimaryKeyType_with_exception' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Unit/ServiceProvider/InstanceTest.php::\Tests\Unit\Playground\ServiceProvider\InstanceTest::test_userPrimaryKeyType_with_exception' flowId='1']
 
@@ -353,7 +353,7 @@
 
 ##teamcity[testStarted name='test_getAttributes' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/AppPlaygroundUser/InstanceTest.php::\Tests\Unit\Playground\Test\Models\AppPlaygroundUser\InstanceTest::test_getAttributes' flowId='1']
 
-##teamcity[testFinished name='test_getAttributes' duration='21' flowId='1']
+##teamcity[testFinished name='test_getAttributes' duration='17' flowId='1']
 
 ##teamcity[testStarted name='test_hasRole_is_false_without_role' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/AppPlaygroundUser/InstanceTest.php::\Tests\Unit\Playground\Test\Models\AppPlaygroundUser\InstanceTest::test_hasRole_is_false_without_role' flowId='1']
 
@@ -373,7 +373,7 @@
 
 ##teamcity[testStarted name='test_isAdmin_is_true_with_admin_secondary_role' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/AppPlaygroundUser/InstanceTest.php::\Tests\Unit\Playground\Test\Models\AppPlaygroundUser\InstanceTest::test_isAdmin_is_true_with_admin_secondary_role' flowId='1']
 
-##teamcity[testFinished name='test_isAdmin_is_true_with_admin_secondary_role' duration='6' flowId='1']
+##teamcity[testFinished name='test_isAdmin_is_true_with_admin_secondary_role' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_isAdmin_is_true_with_wheel_role' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/AppPlaygroundUser/InstanceTest.php::\Tests\Unit\Playground\Test\Models\AppPlaygroundUser\InstanceTest::test_isAdmin_is_true_with_wheel_role' flowId='1']
 
@@ -381,7 +381,7 @@
 
 ##teamcity[testStarted name='test_isAdmin_is_true_with_wheel_secondary_role' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/AppPlaygroundUser/InstanceTest.php::\Tests\Unit\Playground\Test\Models\AppPlaygroundUser\InstanceTest::test_isAdmin_is_true_with_wheel_secondary_role' flowId='1']
 
-##teamcity[testFinished name='test_isAdmin_is_true_with_wheel_secondary_role' duration='6' flowId='1']
+##teamcity[testFinished name='test_isAdmin_is_true_with_wheel_secondary_role' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_isAdmin_is_true_with_root_role' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/AppPlaygroundUser/InstanceTest.php::\Tests\Unit\Playground\Test\Models\AppPlaygroundUser\InstanceTest::test_isAdmin_is_true_with_root_role' flowId='1']
 
@@ -389,11 +389,11 @@
 
 ##teamcity[testStarted name='test_isAdmin_is_false_with_root_secondary_role' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/AppPlaygroundUser/InstanceTest.php::\Tests\Unit\Playground\Test\Models\AppPlaygroundUser\InstanceTest::test_isAdmin_is_false_with_root_secondary_role' flowId='1']
 
-##teamcity[testFinished name='test_isAdmin_is_false_with_root_secondary_role' duration='6' flowId='1']
+##teamcity[testFinished name='test_isAdmin_is_false_with_root_secondary_role' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_factory_with_make' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/AppPlaygroundUser/InstanceTest.php::\Tests\Unit\Playground\Test\Models\AppPlaygroundUser\InstanceTest::test_factory_with_make' flowId='1']
 
-##teamcity[testFinished name='test_factory_with_make' duration='12' flowId='1']
+##teamcity[testFinished name='test_factory_with_make' duration='11' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Unit\Playground\Test\Models\AppPlaygroundUser\InstanceTest' flowId='1']
 
@@ -401,15 +401,15 @@
 
 ##teamcity[testStarted name='test_model_instance' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/src/Unit/Models/ModelCase.php::\Tests\Unit\Playground\Test\Models\AppPlaygroundUser\ModelTest::test_model_instance' flowId='1']
 
-##teamcity[testFinished name='test_model_instance' duration='5' flowId='1']
+##teamcity[testFinished name='test_model_instance' duration='4' flowId='1']
 
 ##teamcity[testStarted name='test_verify_model_relationships' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/src/Unit/Models/ModelCase.php::\Tests\Unit\Playground\Test\Models\AppPlaygroundUser\ModelTest::test_verify_model_relationships' flowId='1']
 
-##teamcity[testFinished name='test_verify_model_relationships' duration='7' flowId='1']
+##teamcity[testFinished name='test_verify_model_relationships' duration='6' flowId='1']
 
 ##teamcity[testStarted name='test_model_factory_make' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/src/Unit/Models/ModelCase.php::\Tests\Unit\Playground\Test\Models\AppPlaygroundUser\ModelTest::test_model_factory_make' flowId='1']
 
-##teamcity[testFinished name='test_model_factory_make' duration='8' flowId='1']
+##teamcity[testFinished name='test_model_factory_make' duration='7' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Unit\Playground\Test\Models\AppPlaygroundUser\ModelTest' flowId='1']
 
@@ -421,11 +421,11 @@
 
 ##teamcity[testStarted name='test_verify_model_relationships' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/src/Unit/Models/ModelCase.php::\Tests\Unit\Playground\Test\Models\ModelCase\ModelTest::test_verify_model_relationships' flowId='1']
 
-##teamcity[testFinished name='test_verify_model_relationships' duration='5' flowId='1']
+##teamcity[testFinished name='test_verify_model_relationships' duration='4' flowId='1']
 
 ##teamcity[testStarted name='test_model_factory_make' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/src/Unit/Models/ModelCase.php::\Tests\Unit\Playground\Test\Models\ModelCase\ModelTest::test_model_factory_make' flowId='1']
 
-##teamcity[testFinished name='test_model_factory_make' duration='10' flowId='1']
+##teamcity[testFinished name='test_model_factory_make' duration='9' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Unit\Playground\Test\Models\ModelCase\ModelTest' flowId='1']
 
@@ -433,7 +433,7 @@
 
 ##teamcity[testStarted name='test_getAttributes' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/PlaygroundUser/InstanceTest.php::\Tests\Unit\Playground\Test\Models\PlaygroundUser\InstanceTest::test_getAttributes' flowId='1']
 
-##teamcity[testFinished name='test_getAttributes' duration='11' flowId='1']
+##teamcity[testFinished name='test_getAttributes' duration='8' flowId='1']
 
 ##teamcity[testStarted name='test_hasRole_is_false_without_role' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/PlaygroundUser/InstanceTest.php::\Tests\Unit\Playground\Test\Models\PlaygroundUser\InstanceTest::test_hasRole_is_false_without_role' flowId='1']
 
@@ -453,7 +453,7 @@
 
 ##teamcity[testStarted name='test_isAdmin_is_true_with_admin_secondary_role' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/PlaygroundUser/InstanceTest.php::\Tests\Unit\Playground\Test\Models\PlaygroundUser\InstanceTest::test_isAdmin_is_true_with_admin_secondary_role' flowId='1']
 
-##teamcity[testFinished name='test_isAdmin_is_true_with_admin_secondary_role' duration='6' flowId='1']
+##teamcity[testFinished name='test_isAdmin_is_true_with_admin_secondary_role' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_isAdmin_is_true_with_wheel_role' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/PlaygroundUser/InstanceTest.php::\Tests\Unit\Playground\Test\Models\PlaygroundUser\InstanceTest::test_isAdmin_is_true_with_wheel_role' flowId='1']
 
@@ -461,19 +461,19 @@
 
 ##teamcity[testStarted name='test_isAdmin_is_true_with_wheel_secondary_role' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/PlaygroundUser/InstanceTest.php::\Tests\Unit\Playground\Test\Models\PlaygroundUser\InstanceTest::test_isAdmin_is_true_with_wheel_secondary_role' flowId='1']
 
-##teamcity[testFinished name='test_isAdmin_is_true_with_wheel_secondary_role' duration='6' flowId='1']
+##teamcity[testFinished name='test_isAdmin_is_true_with_wheel_secondary_role' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_isAdmin_is_true_with_root_role' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/PlaygroundUser/InstanceTest.php::\Tests\Unit\Playground\Test\Models\PlaygroundUser\InstanceTest::test_isAdmin_is_true_with_root_role' flowId='1']
 
-##teamcity[testFinished name='test_isAdmin_is_true_with_root_role' duration='6' flowId='1']
+##teamcity[testFinished name='test_isAdmin_is_true_with_root_role' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_isAdmin_is_false_with_root_secondary_role' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/PlaygroundUser/InstanceTest.php::\Tests\Unit\Playground\Test\Models\PlaygroundUser\InstanceTest::test_isAdmin_is_false_with_root_secondary_role' flowId='1']
 
-##teamcity[testFinished name='test_isAdmin_is_false_with_root_secondary_role' duration='6' flowId='1']
+##teamcity[testFinished name='test_isAdmin_is_false_with_root_secondary_role' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_factory_with_make' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/PlaygroundUser/InstanceTest.php::\Tests\Unit\Playground\Test\Models\PlaygroundUser\InstanceTest::test_factory_with_make' flowId='1']
 
-##teamcity[testFinished name='test_factory_with_make' duration='8' flowId='1']
+##teamcity[testFinished name='test_factory_with_make' duration='20' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Unit\Playground\Test\Models\PlaygroundUser\InstanceTest' flowId='1']
 
@@ -481,15 +481,15 @@
 
 ##teamcity[testStarted name='test_model_instance' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/src/Unit/Models/ModelCase.php::\Tests\Unit\Playground\Test\Models\PlaygroundUser\ModelTest::test_model_instance' flowId='1']
 
-##teamcity[testFinished name='test_model_instance' duration='8' flowId='1']
+##teamcity[testFinished name='test_model_instance' duration='4' flowId='1']
 
 ##teamcity[testStarted name='test_verify_model_relationships' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/src/Unit/Models/ModelCase.php::\Tests\Unit\Playground\Test\Models\PlaygroundUser\ModelTest::test_verify_model_relationships' flowId='1']
 
-##teamcity[testFinished name='test_verify_model_relationships' duration='7' flowId='1']
+##teamcity[testFinished name='test_verify_model_relationships' duration='4' flowId='1']
 
 ##teamcity[testStarted name='test_model_factory_make' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/src/Unit/Models/ModelCase.php::\Tests\Unit\Playground\Test\Models\PlaygroundUser\ModelTest::test_model_factory_make' flowId='1']
 
-##teamcity[testFinished name='test_model_factory_make' duration='8' flowId='1']
+##teamcity[testFinished name='test_model_factory_make' duration='7' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Unit\Playground\Test\Models\PlaygroundUser\ModelTest' flowId='1']
 
@@ -497,11 +497,11 @@
 
 ##teamcity[testStarted name='test_getAttributes' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/User/ModelTest.php::\Tests\Unit\Playground\Test\Models\User\ModelTest::test_getAttributes' flowId='1']
 
-##teamcity[testFinished name='test_getAttributes' duration='6' flowId='1']
+##teamcity[testFinished name='test_getAttributes' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_getAttributes_filled' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/User/ModelTest.php::\Tests\Unit\Playground\Test\Models\User\ModelTest::test_getAttributes_filled' flowId='1']
 
-##teamcity[testFinished name='test_getAttributes_filled' duration='6' flowId='1']
+##teamcity[testFinished name='test_getAttributes_filled' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_factory_with_make' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/User/ModelTest.php::\Tests\Unit\Playground\Test\Models\User\ModelTest::test_factory_with_make' flowId='1']
 
@@ -513,7 +513,7 @@
 
 ##teamcity[testStarted name='test_getAttributes' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/UserWithRoleAndPrivileges/ModelTest.php::\Tests\Unit\Playground\Test\Models\UserWithRoleAndPrivileges\ModelTest::test_getAttributes' flowId='1']
 
-##teamcity[testFinished name='test_getAttributes' duration='23' flowId='1']
+##teamcity[testFinished name='test_getAttributes' duration='21' flowId='1']
 
 ##teamcity[testStarted name='test_hasPrivilege_is_false_without_privilege' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/UserWithRoleAndPrivileges/ModelTest.php::\Tests\Unit\Playground\Test\Models\UserWithRoleAndPrivileges\ModelTest::test_hasPrivilege_is_false_without_privilege' flowId='1']
 
@@ -521,15 +521,15 @@
 
 ##teamcity[testStarted name='test_hasPrivilege_is_false_with_wrong_privilege' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/UserWithRoleAndPrivileges/ModelTest.php::\Tests\Unit\Playground\Test\Models\UserWithRoleAndPrivileges\ModelTest::test_hasPrivilege_is_false_with_wrong_privilege' flowId='1']
 
-##teamcity[testFinished name='test_hasPrivilege_is_false_with_wrong_privilege' duration='6' flowId='1']
+##teamcity[testFinished name='test_hasPrivilege_is_false_with_wrong_privilege' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_hasPrivilege_is_true_with_correct_privilege' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/UserWithRoleAndPrivileges/ModelTest.php::\Tests\Unit\Playground\Test\Models\UserWithRoleAndPrivileges\ModelTest::test_hasPrivilege_is_true_with_correct_privilege' flowId='1']
 
-##teamcity[testFinished name='test_hasPrivilege_is_true_with_correct_privilege' duration='6' flowId='1']
+##teamcity[testFinished name='test_hasPrivilege_is_true_with_correct_privilege' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_factory_with_make' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/UserWithRoleAndPrivileges/ModelTest.php::\Tests\Unit\Playground\Test\Models\UserWithRoleAndPrivileges\ModelTest::test_factory_with_make' flowId='1']
 
-##teamcity[testFinished name='test_factory_with_make' duration='9' flowId='1']
+##teamcity[testFinished name='test_factory_with_make' duration='8' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Unit\Playground\Test\Models\UserWithRoleAndPrivileges\ModelTest' flowId='1']
 
@@ -537,7 +537,7 @@
 
 ##teamcity[testStarted name='test_getAttributes' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/UserWithRoleAndRoles/ModelTest.php::\Tests\Unit\Playground\Test\Models\UserWithRoleAndRoles\ModelTest::test_getAttributes' flowId='1']
 
-##teamcity[testFinished name='test_getAttributes' duration='9' flowId='1']
+##teamcity[testFinished name='test_getAttributes' duration='8' flowId='1']
 
 ##teamcity[testStarted name='test_hasRole_is_false_without_role' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/UserWithRoleAndRoles/ModelTest.php::\Tests\Unit\Playground\Test\Models\UserWithRoleAndRoles\ModelTest::test_hasRole_is_false_without_role' flowId='1']
 
@@ -549,11 +549,11 @@
 
 ##teamcity[testStarted name='test_hasRole_is_true_with_matching_secondary_role' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/UserWithRoleAndRoles/ModelTest.php::\Tests\Unit\Playground\Test\Models\UserWithRoleAndRoles\ModelTest::test_hasRole_is_true_with_matching_secondary_role' flowId='1']
 
-##teamcity[testFinished name='test_hasRole_is_true_with_matching_secondary_role' duration='6' flowId='1']
+##teamcity[testFinished name='test_hasRole_is_true_with_matching_secondary_role' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_isAdmin_is_true_with_admin_role' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/UserWithRoleAndRoles/ModelTest.php::\Tests\Unit\Playground\Test\Models\UserWithRoleAndRoles\ModelTest::test_isAdmin_is_true_with_admin_role' flowId='1']
 
-##teamcity[testFinished name='test_isAdmin_is_true_with_admin_role' duration='6' flowId='1']
+##teamcity[testFinished name='test_isAdmin_is_true_with_admin_role' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_isAdmin_is_true_with_admin_secondary_role' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/UserWithRoleAndRoles/ModelTest.php::\Tests\Unit\Playground\Test\Models\UserWithRoleAndRoles\ModelTest::test_isAdmin_is_true_with_admin_secondary_role' flowId='1']
 
@@ -561,15 +561,15 @@
 
 ##teamcity[testStarted name='test_isAdmin_is_true_with_wheel_role' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/UserWithRoleAndRoles/ModelTest.php::\Tests\Unit\Playground\Test\Models\UserWithRoleAndRoles\ModelTest::test_isAdmin_is_true_with_wheel_role' flowId='1']
 
-##teamcity[testFinished name='test_isAdmin_is_true_with_wheel_role' duration='6' flowId='1']
+##teamcity[testFinished name='test_isAdmin_is_true_with_wheel_role' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_isAdmin_is_true_with_wheel_secondary_role' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/UserWithRoleAndRoles/ModelTest.php::\Tests\Unit\Playground\Test\Models\UserWithRoleAndRoles\ModelTest::test_isAdmin_is_true_with_wheel_secondary_role' flowId='1']
 
-##teamcity[testFinished name='test_isAdmin_is_true_with_wheel_secondary_role' duration='6' flowId='1']
+##teamcity[testFinished name='test_isAdmin_is_true_with_wheel_secondary_role' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_isAdmin_is_true_with_root_role' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/UserWithRoleAndRoles/ModelTest.php::\Tests\Unit\Playground\Test\Models\UserWithRoleAndRoles\ModelTest::test_isAdmin_is_true_with_root_role' flowId='1']
 
-##teamcity[testFinished name='test_isAdmin_is_true_with_root_role' duration='6' flowId='1']
+##teamcity[testFinished name='test_isAdmin_is_true_with_root_role' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_isAdmin_is_false_with_root_secondary_role' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/UserWithRoleAndRoles/ModelTest.php::\Tests\Unit\Playground\Test\Models\UserWithRoleAndRoles\ModelTest::test_isAdmin_is_false_with_root_secondary_role' flowId='1']
 
@@ -585,11 +585,11 @@
 
 ##teamcity[testStarted name='test_getAttributes' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/UserWithRoleAndRolesAndPrivileges/ModelTest.php::\Tests\Unit\Playground\Test\Models\UserWithRoleAndRolesAndPrivileges\ModelTest::test_getAttributes' flowId='1']
 
-##teamcity[testFinished name='test_getAttributes' duration='9' flowId='1']
+##teamcity[testFinished name='test_getAttributes' duration='8' flowId='1']
 
 ##teamcity[testStarted name='test_factory_with_make' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/UserWithRoleAndRolesAndPrivileges/ModelTest.php::\Tests\Unit\Playground\Test\Models\UserWithRoleAndRolesAndPrivileges\ModelTest::test_factory_with_make' flowId='1']
 
-##teamcity[testFinished name='test_factory_with_make' duration='7' flowId='1']
+##teamcity[testFinished name='test_factory_with_make' duration='6' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Unit\Playground\Test\Models\UserWithRoleAndRolesAndPrivileges\ModelTest' flowId='1']
 
@@ -597,7 +597,7 @@
 
 ##teamcity[testStarted name='test_getAttributes' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/UserWithSanctum/ModelTest.php::\Tests\Unit\Playground\Test\Models\UserWithSanctum\ModelTest::test_getAttributes' flowId='1']
 
-##teamcity[testFinished name='test_getAttributes' duration='8' flowId='1']
+##teamcity[testFinished name='test_getAttributes' duration='6' flowId='1']
 
 ##teamcity[testStarted name='test_factory_with_make' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Unit/Models/UserWithSanctum/ModelTest.php::\Tests\Unit\Playground\Test\Models\UserWithSanctum\ModelTest::test_factory_with_make' flowId='1']
 
@@ -613,7 +613,7 @@
 
 ##teamcity[testStarted name='test_the_application_returns_a_successful_response' locationHint='php_qn:///app/tests/Feature/ExampleTest.php::\Tests\Feature\ExampleTest::test_the_application_returns_a_successful_response' flowId='1']
 
-##teamcity[testFinished name='test_the_application_returns_a_successful_response' duration='33' flowId='1']
+##teamcity[testFinished name='test_the_application_returns_a_successful_response' duration='32' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Feature\ExampleTest' flowId='1']
 
@@ -621,7 +621,7 @@
 
 ##teamcity[testStarted name='test_command_about_displays_package_information_and_succeed_with_code_0' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Feature/Console/Commands/About/CommandTest.php::\Tests\Feature\Playground\Console\Commands\About\CommandTest::test_command_about_displays_package_information_and_succeed_with_code_0' flowId='1']
 
-##teamcity[testFinished name='test_command_about_displays_package_information_and_succeed_with_code_0' duration='141' flowId='1']
+##teamcity[testFinished name='test_command_about_displays_package_information_and_succeed_with_code_0' duration='135' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Feature\Playground\Console\Commands\About\CommandTest' flowId='1']
 
@@ -629,7 +629,7 @@
 
 ##teamcity[testStarted name='test_save_model_in_database' locationHint='php_qn:///app/vendor/gammamatrix/playground/tests/Feature/Models/User/ModelTest.php::\Tests\Feature\Playground\Models\User\ModelTest::test_save_model_in_database' flowId='1']
 
-##teamcity[testFinished name='test_save_model_in_database' duration='44' flowId='1']
+##teamcity[testFinished name='test_save_model_in_database' duration='37' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Feature\Playground\Models\User\ModelTest' flowId='1']
 
@@ -637,7 +637,7 @@
 
 ##teamcity[testStarted name='test_command_about_displays_package_information_and_succeed_with_code_0' locationHint='php_qn:///app/vendor/gammamatrix/playground-test/tests/Feature/Console/Commands/About/CommandTest.php::\Tests\Feature\Playground\Test\Console\Commands\About\CommandTest::test_command_about_displays_package_information_and_succeed_with_code_0' flowId='1']
 
-##teamcity[testFinished name='test_command_about_displays_package_information_and_succeed_with_code_0' duration='55' flowId='1']
+##teamcity[testFinished name='test_command_about_displays_package_information_and_succeed_with_code_0' duration='53' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Feature\Playground\Test\Console\Commands\About\CommandTest' flowId='1']
 
