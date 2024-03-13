@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="/app/phpunit.xml.dist" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.229014">
-    <testsuite name="Unit" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.078708">
-      <testsuite name="Tests\Unit\ExampleTest" file="/app/tests/Unit/ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.078708">
-        <testcase name="test_that_true_is_true" file="/app/tests/Unit/ExampleTest.php" line="11" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" assertions="1" time="0.078708"/>
+  <testsuite name="/app/phpunit.xml.dist" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.228563">
+    <testsuite name="Unit" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.077844">
+      <testsuite name="Tests\Unit\ExampleTest" file="/app/tests/Unit/ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.077844">
+        <testcase name="test_that_true_is_true" file="/app/tests/Unit/ExampleTest.php" line="11" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" assertions="1" time="0.077844"/>
       </testsuite>
     </testsuite>
-    <testsuite name="Feature" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.150307">
-      <testsuite name="Tests\Feature\ExampleTest" file="/app/tests/Feature/ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.150307">
-        <testcase name="test_the_application_returns_a_successful_response" file="/app/tests/Feature/ExampleTest.php" line="12" class="Tests\Feature\ExampleTest" classname="Tests.Feature.ExampleTest" assertions="1" time="0.150307"/>
+    <testsuite name="Feature" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.150719">
+      <testsuite name="Tests\Feature\ExampleTest" file="/app/tests/Feature/ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.150719">
+        <testcase name="test_the_application_returns_a_successful_response" file="/app/tests/Feature/ExampleTest.php" line="12" class="Tests\Feature\ExampleTest" classname="Tests.Feature.ExampleTest" assertions="1" time="0.150719"/>
       </testsuite>
     </testsuite>
   </testsuite>
