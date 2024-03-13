@@ -99,11 +99,11 @@ return [
 
     'key' => env('APP_KEY'),
 
-    'previous_keys' => [
+    'previous_keys' => is_string(env('APP_PREVIOUS_KEYS', '')) ? [
         ...array_filter(
             explode(',', env('APP_PREVIOUS_KEYS', ''))
         ),
-    ],
+    ] : [],
 
     /*
     |--------------------------------------------------------------------------

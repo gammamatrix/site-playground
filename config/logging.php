@@ -54,7 +54,7 @@ return [
 
         'stack' => [
             'driver' => 'stack',
-            'channels' => explode(',', env('LOG_STACK', 'single')),
+            'channels' => is_string(env('LOG_STACK', 'single')) ? explode(',', env('LOG_STACK', 'single')) : ['single'],
             'ignore_exceptions' => false,
         ],
 
