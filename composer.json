@@ -13,10 +13,12 @@
         "sanctum",
         "playground-blade"
     ],
+    "homepage": "https://gammamatrix-playground.readthedocs.io/",
     "license": "MIT",
     "require": {
         "php": "^8.2",
         "gammamatrix/playground": "dev-develop|dev-master|dev-feature/*|^73.0@dev|^73.0",
+        "gammamatrix/playground-auth": "^73.0@dev",
         "laravel/framework": "^11.0",
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9"
