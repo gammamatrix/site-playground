@@ -33,6 +33,14 @@ Abstract Role (Tests\Unit\Playground\Auth\Policies\ModelPolicy\AbstractRole)
  [x] Unlock without role
  [x] Unlock with admin
 
+Array Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\ArrayTrait)
+ [x] Filter array
+ [x] FilterArray to json
+
+Bits Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\BitsTrait)
+ [x] FilterBits for exponent zero
+ [x] FilterBits for exponent greater than zero
+
 Command (Tests\Feature\Playground\Auth\Console\Commands\About\Command)
  [x] Command about displays package information and succeed with code 0
 
@@ -40,6 +48,9 @@ Command (Tests\Feature\Playground\Blade\Console\Commands\About\Command)
  [x] Command about displays package information and succeed with code 0
 
 Command (Tests\Feature\Playground\Console\Commands\About\Command)
+ [x] Command about displays package information and succeed with code 0
+
+Command (Tests\Feature\Playground\Http\Console\Commands\About\Command)
  [x] Command about displays package information and succeed with code 0
 
 Command (Tests\Feature\Playground\Test\Console\Commands\About\Command)
@@ -78,6 +89,10 @@ Component (Tests\Unit\Playground\Blade\View\Components\ModelFlag\Component)
 Component (Tests\Unit\Playground\Blade\View\Components\Table\Data\Component)
  [x] Component instance
  [x] Component can render view
+
+Date Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\DateTrait)
+ [x] Filter date
+ [x] Filter date as carbon
 
 Example (Tests\Feature\Example)
  [x] The application returns a successful response
@@ -276,6 +291,31 @@ Model (Tests\Unit\Playground\Test\Models\User\Model)
  [x] GetAttributes filled
  [x] Factory with make
 
+Number Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\NumberTrait)
+ [x] Filter float
+ [x] Filter integer
+ [x] Filter integer id
+ [x] Filter integer positive
+ [x] Filter percent
+
+Phone Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\PhoneTrait)
+ [x] Filter phone
+
+Status Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\StatusTrait)
+ [x] FilterStatus with empty input
+ [x] FilterStatus with integer
+ [x] FilterStatus with integer as string
+ [x] FilterStatus with integer as negative float
+ [x] FilterStatus with map
+
+System Fields Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\SystemFieldsTrait)
+ [x] FilterSystemFields with empty input
+ [x] FilterSystemFields for groups
+ [x] FilterSystemFields for valid permissions
+ [x] FilterSystemFields for invalid permissions
+ [x] FilterSystemFields for rank
+ [x] FilterSystemFields for size
+
 Trait (Tests\Unit\Playground\Auth\Policies\PolicyTrait\Trait)
  [x] Get entity
  [x] Get package
@@ -306,4 +346,19 @@ Trait (Tests\Unit\Playground\Auth\Policies\RoleTrait\Trait)
  [x] Get roles to view
  [x] Has role
  [x] HasRole advanced role
+
+Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\Trait)
+ [x] Purify
+ [x] Exorcise
+ [x] Get html purifier
+ [x] GetHtmlPurifier with iframes
+ [x] GetHtmlPurifier with purifier path
+
+Uuid Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\UuidTrait)
+ [x] Filter uuid
+
+Value Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\ValueTrait)
+ [x] Filter boolean
+ [x] Filter email
+ [x] Filter html
 
