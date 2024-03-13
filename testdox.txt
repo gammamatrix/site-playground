@@ -36,6 +36,9 @@ Abstract Role (Tests\Unit\Playground\Auth\Policies\ModelPolicy\AbstractRole)
 Command (Tests\Feature\Playground\Auth\Console\Commands\About\Command)
  [x] Command about displays package information and succeed with code 0
 
+Command (Tests\Feature\Playground\Blade\Console\Commands\About\Command)
+ [x] Command about displays package information and succeed with code 0
+
 Command (Tests\Feature\Playground\Console\Commands\About\Command)
  [x] Command about displays package information and succeed with code 0
 
@@ -47,11 +50,61 @@ Command (Tests\Unit\Playground\Auth\Console\Commands\HashPassword\Command)
  [x] Command auth hash password
  [x] Command auth hash password without argument and fail
 
+Component (Tests\Unit\Playground\Blade\View\Components\Forms\ColumnEditor\Component)
+ [x] Component instance
+ [x] Component can render view without parameters
+ [x] Component can render view with content textarea
+ [x] Component can render view with content textarea and described
+
+Component (Tests\Unit\Playground\Blade\View\Components\Forms\ColumnSelect\Component)
+ [x] Component instance
+ [x] Component can render view without parameters
+ [x] Component can render view with select
+
+Component (Tests\Unit\Playground\Blade\View\Components\Forms\Column\Component)
+ [x] Component instance
+ [x] Component can render view without parameters
+ [x] Component can render view without label on title column
+ [x] Component can render view with label on title column
+ [x] Component can render view with label on title column with error
+
+Component (Tests\Unit\Playground\Blade\View\Components\ModelFlag\Component)
+ [x] Component instance
+ [x] Component renders empty view without labels or classes
+ [x] Component can render view with true value
+ [x] Component can render view with false value
+ [x] Component can render view with null value
+
+Component (Tests\Unit\Playground\Blade\View\Components\Table\Data\Component)
+ [x] Component instance
+ [x] Component can render view
+
 Example (Tests\Feature\Example)
  [x] The application returns a successful response
 
 Example (Tests\Unit\Example)
  [x] That true is true
+
+Instance (Tests\Unit\Playground\Blade\Assets\Comment\Instance)
+ [x] Instance with docs
+
+Instance (Tests\Unit\Playground\Blade\Assets\Font\Instance)
+ [x] Instance with docs
+
+Instance (Tests\Unit\Playground\Blade\Assets\Icon\Instance)
+ [x] Instance with docs
+
+Instance (Tests\Unit\Playground\Blade\Assets\Link\Instance)
+ [x] Instance with docs
+
+Instance (Tests\Unit\Playground\Blade\Assets\Script\Instance)
+ [x] Instance with docs
+
+Instance (Tests\Unit\Playground\Blade\Assets\Style\Instance)
+ [x] Instance with docs
+
+Instance (Tests\Unit\Playground\Blade\Assets\Stylesheet\Instance)
+ [x] Instance with docs
 
 Instance (Tests\Unit\Playground\ServiceProvider\Instance)
  [x] Version matches
