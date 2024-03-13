@@ -1,34 +1,46 @@
 <?php
-/**
- * Playground
- */
 namespace App\Models;
 
-use Illuminate\Contracts\Auth\MustVerifyEmail;
-use Illuminate\Database\Eloquent\SoftDeletes;
+// use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
-use Laravel\Sanctum;
-use Playground\Models\Interfaces\WithCreatorInterface;
-use Playground\Models\Interfaces\WithModifierInterface;
-use Playground\Models\Traits;
-use Playground\Models\User as BaseUser;
 
-/**
- * \App\Models\User
- *
- * This model includes RBAC and supports Sanctum.
- */
-class User extends BaseUser implements MustVerifyEmail, Sanctum\Contracts\HasApiTokens, WithCreatorInterface, WithModifierInterface
+class User extends Authenticatable
 {
-    use Notifiable;
-    use Sanctum\HasApiTokens;
-    use SoftDeletes;
-    use Traits\ScopeFilterColumns;
-    use Traits\ScopeFilterDates;
-    use Traits\ScopeFilterFlags;
-    use Traits\ScopeFilterIds;
-    use Traits\ScopeFilterTrash;
-    use Traits\ScopeSort;
-    use Traits\WithCreator;
-    use Traits\WithModifier;
+    use HasFactory, Notifiable;
+
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array<int, string>
+     */
+    protected $fillable = [
+        'name',
+        'email',
+        'password',
+    ];
+
+    /**
+     * The attributes that should be hidden for serialization.
+     *
+     * @var array<int, string>
+     */
+    protected $hidden = [
+        'password',
+        'remember_token',
+    ];
+
+    /**
+     * Get the attributes that should be cast.
+     *
+     * @return array<string, string>
+     */
+    protected function casts(): array
+    {
+        return [
+            'email_verified_at' => 'datetime',
+            'password' => 'hashed',
+        ];
+    }
 }
