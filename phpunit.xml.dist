@@ -32,8 +32,8 @@
             <!-- <directory>vendor/gammamatrix/playground-admin/tests/Unit</directory>
             <directory>vendor/gammamatrix/playground-admin-resource/tests/Unit</directory>
             <directory>vendor/gammamatrix/playground-cms/tests/Unit</directory>
-            <directory>vendor/gammamatrix/playground-cms-resource/tests/Unit</directory>
-            <directory>vendor/gammamatrix/playground-http/tests/Unit</directory> -->
+            <directory>vendor/gammamatrix/playground-cms-resource/tests/Unit</directory> -->
+            <directory>vendor/gammamatrix/playground-http/tests/Unit</directory>
             <directory>vendor/gammamatrix/playground-test/tests/Unit</directory>
         </testsuite>
         <testsuite name="Feature">
@@ -45,9 +45,9 @@
             <directory>vendor/gammamatrix/playground-admin-resource/tests/Feature</directory>
             <directory>vendor/gammamatrix/playground-cms/tests/Feature</directory>
             <directory>vendor/gammamatrix/playground-cms-resource/tests/Feature</directory>
-            <directory>vendor/gammamatrix/playground-http/tests/Feature</directory>
             <directory>vendor/gammamatrix/playground-login-blade/tests/Feature</directory>
             <directory>vendor/gammamatrix/playground-site-blade/tests/Feature</directory> -->
+            <directory>vendor/gammamatrix/playground-http/tests/Feature</directory>
             <directory>vendor/gammamatrix/playground-test/tests/Feature</directory>
         </testsuite>
     </testsuites>
@@ -82,9 +82,9 @@
             <directory suffix=".php">vendor/gammamatrix/playground-admin-resource/src</directory>
             <directory suffix=".php">vendor/gammamatrix/playground-cms/src</directory>
             <directory suffix=".php">vendor/gammamatrix/playground-cms-resource/src</directory>
-            <directory suffix=".php">vendor/gammamatrix/playground-http/src</directory>
             <directory suffix=".php">vendor/gammamatrix/playground-login-blade/src</directory>
             <directory suffix=".php">vendor/gammamatrix/playground-site-blade/src</directory> -->
+            <directory suffix=".php">vendor/gammamatrix/playground-http/src</directory>
             <directory suffix=".php">vendor/gammamatrix/playground-test/src</directory>
         </include>
     </source>
