@@ -22,11 +22,10 @@ build
 composer.lock
 database/dumps/
 logs
-node_modules
 /tmp
 tmp*
 temp*
-/node_modules
+node_modules
 /public/build
 /public/hot
 /public/storage

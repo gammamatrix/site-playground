@@ -6,7 +6,7 @@
 <!-- [![Playground on Packagist](https://img.shields.io/packagist/v/gammamatrix/playground)](https://packagist.org/packages/gammamatrix/playground) -->
 
 
-Site: Playground Blade Sanctum Package for [Laravel](https://laravel.com/docs/10.x) applications.
+Site: Playground Package for [Laravel v11](https://laravel.com/docs/11.x) applications.
 
 This package may be installed with `composer create-project`
 
@@ -22,13 +22,11 @@ Installed Playground Packages
 | [playground-auth](https://github.com/gammamatrix/playground-auth) | Provide authentication for Laravel applications. Allows using Sanctum. |
 | [playground-blade](https://github.com/gammamatrix/playground-blade) | Provides Blade UI handling. |
 | [playground-cms](https://github.com/gammamatrix/playground-cms) | Provide the Cms models for a Playground Laravel application. |
+| [playground-cms-resource](https://github.com/gammamatrix/playground-cms-resource) | Provide the CMS for a Laravel application. |
 | [playground-http](https://github.com/gammamatrix/playground-http) | Provide http content and filter handling for controllers. |
 | [playground-login-blade](https://github.com/gammamatrix/playground-login-blade) | Provides a Blade UI for authentication handling. |
-| [playground-matrix](https://github.com/gammamatrix/playground-matrix) | Provide the Matrix models for a Playground Laravel application. |
-| [playground-matrix-resource](https://github.com/gammamatrix/playground-matrix-resource) | Provide the Matrix UI for a Laravel application. |
 | [playground-site-blade](https://github.com/gammamatrix/playground-site-blade) | Provides Blade UI handling for standard website. |
 | [playground-test](https://github.com/gammamatrix/playground-test) | A test helper for Playground Laravel packages. |
-- [playground-cms-resource will be installed soon](https://github.com/gammamatrix/playground-cms-resource/issues/1)
 
 ## Testing
 
