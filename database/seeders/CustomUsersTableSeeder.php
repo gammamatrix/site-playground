@@ -1,4 +1,6 @@
 <?php
+
+declare(strict_types=1);
 /**
  * Playground
  */
@@ -206,21 +208,21 @@ class CustomUsersTableSeeder extends Seeder
                 ]);
             }
 
-            // $roles = [];
+            $roles = [];
 
-            // if (is_array($meta['roles'])) {
-            //     foreach ($meta['roles'] as $role) {
-            //         if (! empty($role)
-            //             && is_string($role)
-            //             && ! in_array($role, $roles)
-            //             && $role !== $model->role
-            //         ) {
-            //             $roles[] = $role;
-            //         }
-            //     }
-            // }
+            if (is_array($meta['roles'])) {
+                foreach ($meta['roles'] as $role) {
+                    if (! empty($role)
+                        && is_string($role)
+                        && ! in_array($role, $roles)
+                        && $role !== $model->role
+                    ) {
+                        $roles[] = $role;
+                    }
+                }
+            }
 
-            // $model->setAttribute('roles', $roles);
+            $model->setAttribute('roles', $roles);
             // dd([
             //     '__METHOD__' => __METHOD__,
             //     '__FILE__' => __FILE__,
