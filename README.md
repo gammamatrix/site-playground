@@ -3,6 +3,8 @@
 [![Playground CI Workflow](https://github.com/gammamatrix/site-playground/actions/workflows/ci.yml/badge.svg?branch=develop)](https://raw.githubusercontent.com/gammamatrix/site-playground/testing/develop/testdox.txt)
 [![Test Coverage](https://raw.githubusercontent.com/gammamatrix/site-playground/testing/develop/coverage.svg)](tests)
 [![PHPStan Level 9 src and tests](https://img.shields.io/badge/PHPStan-level%209-brightgreen)](.github/workflows/ci.yml#L120)
+<!-- [![Playground on Packagist](https://img.shields.io/packagist/v/gammamatrix/playground)](https://packagist.org/packages/gammamatrix/playground) -->
+
 
 Site: Playground Blade Sanctum Package for [Laravel](https://laravel.com/docs/10.x) applications.
 

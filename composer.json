@@ -14,24 +14,6 @@
         "playground-blade"
     ],
     "license": "MIT",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/gammamatrix/playground-admin"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/gammamatrix/playground-admin-resource"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/gammamatrix/playground-cms"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/gammamatrix/playground-cms-resource"
-        }
-    ],
     "require": {
         "php": "^8.1",
         "gammamatrix/playground-auth": "dev-develop|dev-master|dev-feature/*|^73.0",
