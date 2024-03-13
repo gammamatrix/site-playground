@@ -51,6 +51,14 @@
         </style>
     </head>
     <body>
+        <h2>Command (Tests\Feature\Playground\Console\Commands\About\Command)</h2>
+        <ul>
+            <li class="success">Command about displays package information and succeed with code 0</li>
+        </ul>
+        <h2>Command (Tests\Feature\Playground\Test\Console\Commands\About\Command)</h2>
+        <ul>
+            <li class="success">Command about displays package information and succeed with code 0</li>
+        </ul>
         <h2>Example (Tests\Feature\Example)</h2>
         <ul>
             <li class="success">The application returns a successful response</li>
@@ -58,6 +66,196 @@
         <h2>Example (Tests\Unit\Example)</h2>
         <ul>
             <li class="success">That true is true</li>
+        </ul>
+        <h2>Instance (Tests\Unit\Playground\ServiceProvider\Instance)</h2>
+        <ul>
+            <li class="success">Version matches</li>
+            <li class="success">UserPrimaryKeyType with empty model</li>
+            <li class="success">UserPrimaryKeyType with incrementing model</li>
+            <li class="success">UserPrimaryKeyType with uuid model</li>
+            <li class="success">UserPrimaryKeyType with exception</li>
+        </ul>
+        <h2>Instance (Tests\Unit\Playground\Test\Models\AppPlaygroundUser\Instance)</h2>
+        <ul>
+            <li class="success">Get attributes</li>
+            <li class="success">HasRole is false without role</li>
+            <li class="success">HasRole is true with matching role</li>
+            <li class="success">HasRole is true with matching secondary role</li>
+            <li class="success">IsAdmin is true with admin role</li>
+            <li class="success">IsAdmin is true with admin secondary role</li>
+            <li class="success">IsAdmin is true with wheel role</li>
+            <li class="success">IsAdmin is true with wheel secondary role</li>
+            <li class="success">IsAdmin is true with root role</li>
+            <li class="success">IsAdmin is false with root secondary role</li>
+            <li class="success">Factory with make</li>
+        </ul>
+        <h2>Instance (Tests\Unit\Playground\Test\Models\PlaygroundUser\Instance)</h2>
+        <ul>
+            <li class="success">Get attributes</li>
+            <li class="success">HasRole is false without role</li>
+            <li class="success">HasRole is true with matching role</li>
+            <li class="success">HasRole is true with matching secondary role</li>
+            <li class="success">IsAdmin is true with admin role</li>
+            <li class="success">IsAdmin is true with admin secondary role</li>
+            <li class="success">IsAdmin is true with wheel role</li>
+            <li class="success">IsAdmin is true with wheel secondary role</li>
+            <li class="success">IsAdmin is true with root role</li>
+            <li class="success">IsAdmin is false with root secondary role</li>
+            <li class="success">Factory with make</li>
+        </ul>
+        <h2>Model (Tests\Feature\Playground\Models\User\Model)</h2>
+        <ul>
+            <li class="success">Save model in database</li>
+        </ul>
+        <h2>Model (Tests\Unit\Playground\Models\Model\Model)</h2>
+        <ul>
+            <li class="success">WithChildren children returns HasMany</li>
+            <li class="success">WithCreator creator returns HasOne</li>
+            <li class="success">WithModifier modifier returns HasOne</li>
+            <li class="success">WithOwner owner returns HasOne</li>
+            <li class="success">WithParent parent returns HasOne</li>
+        </ul>
+        <h2>Model (Tests\Unit\Playground\Models\Scopes\ScopeFilterColumns\Model)</h2>
+        <ul>
+            <li class="success">ScopeFilterColumns returns query without columns or filters</li>
+            <li class="success">ScopeFilterColumns returns query without filters</li>
+            <li class="success">ScopeFilterColumns returns query with invalid column</li>
+            <li class="success">ScopeFilterColumns returns query with filters without meta for strings</li>
+            <li class="success">ScopeFilterColumns returns query with null comparison and ignore</li>
+            <li class="success">ScopeFilterColumns returns query with comparison</li>
+            <li class="success">ScopeFilterColumns with boolean filter type and null value</li>
+            <li class="success">ScopeFilterColumns with boolean filter type and true value</li>
+            <li class="success">ScopeFilterColumns with boolean filter type and false value</li>
+            <li class="success">ScopeFilterColumns with filter operator without operator and default to like</li>
+            <li class="success">ScopeFilterColumns with filter operators</li>
+            <li class="success">ScopeFilterColumns with between filter operator without single parameter and ignore between</li>
+            <li class="success">ScopeFilterColumns with between filter operator</li>
+            <li class="success">ScopeFilterColumns with not between filter operator without single parameter and ignore between</li>
+            <li class="success">ScopeFilterColumns with not between filter operator</li>
+        </ul>
+        <h2>Model (Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\Model)</h2>
+        <ul>
+            <li class="success">ScopeFilterDates returns query without dates or filters</li>
+            <li class="success">ScopeFilterDates returns query without filters</li>
+            <li class="success">ScopeFilterDates returns query with invalid column</li>
+            <li class="success">ScopeFilterDates returns query with filters without meta for strings</li>
+            <li class="success">ScopeFilterDates returns query with null comparison and ignore</li>
+            <li class="success">ScopeFilterDates returns query with null comparison and allow</li>
+            <li class="success">ScopeFilterDates returns query with comparison</li>
+            <li class="success">ScopeFilterDates returns query with wildcard</li>
+            <li class="success">ScopeFilterDates returns query with operator wildcard</li>
+            <li class="success">ScopeFilterDates returns query with object value and ignore</li>
+            <li class="success">ScopeFilterDates returns query with unnullable value and ignore</li>
+            <li class="success">ScopeFilterDates returns query with invalid operator and use like</li>
+            <li class="success">ScopeFilterDates returns query with invalid parsable value and ignore</li>
+            <li class="success">ScopeFilterDates returns query with short date and gte operator</li>
+            <li class="success">ScopeFilterDates returns query with phrase date and automatically parse</li>
+            <li class="success">ScopeFilterDates with between filter operator with parse</li>
+            <li class="success">ScopeFilterDates with not between filter operator with parse</li>
+            <li class="success">ScopeFilterDates with filter operators</li>
+        </ul>
+        <h2>Model (Tests\Unit\Playground\Models\Scopes\ScopeFilterFlags\Model)</h2>
+        <ul>
+            <li class="success">ScopeFilterFlags returns query without flags or filters</li>
+            <li class="success">ScopeFilterFlags returns query without filters</li>
+            <li class="success">ScopeFilterFlags returns query with filters</li>
+        </ul>
+        <h2>Model (Tests\Unit\Playground\Models\Scopes\ScopeFilterIds\Model)</h2>
+        <ul>
+            <li class="success">ScopeFilterIds returns query without ids or filters</li>
+            <li class="success">ScopeFilterIds returns query without filters</li>
+            <li class="success">ScopeFilterIds returns query with invalid column</li>
+            <li class="success">ScopeFilterIds returns query with null comparison</li>
+            <li class="success">ScopeFilterIds returns query with comparison</li>
+            <li class="success">ScopeFilterIds returns query with filters array</li>
+            <li class="success">ScopeFilterIds returns query with filters with integer</li>
+            <li class="success">ScopeFilterIds returns query with array of ids without type</li>
+            <li class="success">ScopeFilterIds returns query with array of uuids for integer type ids and ignore</li>
+            <li class="success">ScopeFilterIds returns query with array of integer ids ignore duplicate id</li>
+            <li class="success">ScopeFilterIds returns query with filters with null and string and array</li>
+        </ul>
+        <h2>Model (Tests\Unit\Playground\Models\Scopes\ScopeFilterTrash\Model)</h2>
+        <ul>
+            <li class="success">ScopeFilterTrash returns query with empty visibility</li>
+            <li class="success">ScopeFilterTrash returns query with trash</li>
+            <li class="success">ScopeFilterTrash returns query with only trash</li>
+        </ul>
+        <h2>Model (Tests\Unit\Playground\Models\Scopes\ScopeSort\Model)</h2>
+        <ul>
+            <li class="success">ScopeSort returns query with empty sort</li>
+            <li class="success">ScopeSort returns query with array boolean sort asc</li>
+            <li class="success">ScopeSort returns query with array boolean sort desc</li>
+            <li class="success">ScopeSort returns query with array boolean sort pair</li>
+            <li class="success">ScopeSort returns query with array boolean sort triplet</li>
+            <li class="success">ScopeSort returns query with csv sort asc</li>
+            <li class="success">ScopeSort returns query with csv sort desc</li>
+            <li class="success">ScopeSort returns query with simple array asc</li>
+            <li class="success">ScopeSort returns query with simple array desc</li>
+            <li class="success">ScopeSort returns query with hash array asc</li>
+            <li class="success">ScopeSort returns query with hash array desc</li>
+        </ul>
+        <h2>Model (Tests\Unit\Playground\Models\User\Model)</h2>
+        <ul>
+            <li class="success">Add has and remove Abilities</li>
+            <li class="success">Add has and remove Privileges</li>
+            <li class="success">Add has and remove Roles</li>
+            <li class="success">IsAdmin with admins and users</li>
+        </ul>
+        <h2>Model (Tests\Unit\Playground\Test\Models\AppPlaygroundUser\Model)</h2>
+        <ul>
+            <li class="success">Model instance</li>
+            <li class="success">Verify model relationships</li>
+            <li class="success">Model factory make</li>
+        </ul>
+        <h2>Model (Tests\Unit\Playground\Test\Models\ModelCase\Model)</h2>
+        <ul>
+            <li class="success">Model instance</li>
+            <li class="success">Verify model relationships</li>
+            <li class="success">Model factory make</li>
+        </ul>
+        <h2>Model (Tests\Unit\Playground\Test\Models\PlaygroundUser\Model)</h2>
+        <ul>
+            <li class="success">Model instance</li>
+            <li class="success">Verify model relationships</li>
+            <li class="success">Model factory make</li>
+        </ul>
+        <h2>Model (Tests\Unit\Playground\Test\Models\UserWithRoleAndPrivileges\Model)</h2>
+        <ul>
+            <li class="success">Get attributes</li>
+            <li class="success">HasPrivilege is false without privilege</li>
+            <li class="success">HasPrivilege is false with wrong privilege</li>
+            <li class="success">HasPrivilege is true with correct privilege</li>
+            <li class="success">Factory with make</li>
+        </ul>
+        <h2>Model (Tests\Unit\Playground\Test\Models\UserWithRoleAndRolesAndPrivileges\Model)</h2>
+        <ul>
+            <li class="success">Get attributes</li>
+            <li class="success">Factory with make</li>
+        </ul>
+        <h2>Model (Tests\Unit\Playground\Test\Models\UserWithRoleAndRoles\Model)</h2>
+        <ul>
+            <li class="success">Get attributes</li>
+            <li class="success">HasRole is false without role</li>
+            <li class="success">HasRole is true with matching role</li>
+            <li class="success">HasRole is true with matching secondary role</li>
+            <li class="success">IsAdmin is true with admin role</li>
+            <li class="success">IsAdmin is true with admin secondary role</li>
+            <li class="success">IsAdmin is true with wheel role</li>
+            <li class="success">IsAdmin is true with wheel secondary role</li>
+            <li class="success">IsAdmin is true with root role</li>
+            <li class="success">IsAdmin is false with root secondary role</li>
+            <li class="success">Factory with make</li>
+        </ul>
+        <h2>Model (Tests\Unit\Playground\Test\Models\UserWithSanctum\Model)</h2>
+        <ul>
+            <li class="success">Get attributes</li>
+            <li class="success">Factory with make</li>
+        </ul>
+        <h2>Model (Tests\Unit\Playground\Test\Models\User\Model)</h2>
+        <ul>
+            <li class="success">Get attributes</li>
+            <li class="success">GetAttributes filled</li>
+            <li class="success">Factory with make</li>
         </ul>
     </body>
 </html>
