@@ -48,7 +48,7 @@ coverage
 phpunit.xml
 phpstan.neon
 testbench.yaml
-docs
+/docs
 tests/logs
 ################################################################################
 # Shared and mount ignores
