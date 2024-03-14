@@ -1,0 +1,1318 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <file name="IndexRequest.php" path="/vendor/gammamatrix/playground-http/src/Requests">
+    <totals>
+      <lines total="163" comments="56" code="107" executable="32" executed="32" percent="100.00"/>
+      <methods count="5" tested="5" percent="100.00"/>
+      <functions count="0" tested="0" percent="0"/>
+      <classes count="1" tested="1" percent="100.00"/>
+      <traits count="0" tested="0" percent="0"/>
+    </totals>
+    <class name="Playground\Http\Requests\IndexRequest" start="12" executable="32" executed="32" crap="15">
+      <namespace name="Playground\Http\Requests"/>
+      <method name="rules" signature="rules(): array" start="66" end="83" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="rules_filters" signature="rules_filters(array $rules): void" start="88" end="102" crap="5" executable="8" executed="8" coverage="100"/>
+      <method name="prepareForValidation" signature="prepareForValidation(): void" start="107" end="129" crap="4" executable="7" executed="7" coverage="100"/>
+      <method name="passedValidation" signature="passedValidation()" start="136" end="139" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="prepareForValidationPagination" signature="prepareForValidationPagination(): array" start="144" end="161" crap="4" executable="13" executed="13" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="68">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="70">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="82">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="90">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="91">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="93">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="94">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="96">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="97">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="99">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="100">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="116">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="118">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="119">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="122">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="123">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="126">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="127">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="139">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="146">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="147">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="148">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="149">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="150">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="152">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="153">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="154">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="158">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="159">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="155">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="157">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+      <line nr="160">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+      </line>
+    </coverage>
+    <source>
+      <line no="1">
+        <token name="T_OPEN_TAG">&lt;?php</token>
+      </line>
+      <line no="2"/>
+      <line no="3">
+        <token name="T_DECLARE">declare</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">strict_types</token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_LNUMBER">1</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="4">
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="5">
+        <token name="T_DOC_COMMENT"> * Playground</token>
+      </line>
+      <line no="6">
+        <token name="T_DOC_COMMENT"> */</token>
+      </line>
+      <line no="7">
+        <token name="T_NAMESPACE">namespace</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_NAME_QUALIFIED">Playground\Http\Requests</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="8"/>
+      <line no="9">
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="10">
+        <token name="T_DOC_COMMENT"> * \Playground\Http\Requests\IndexRequest</token>
+      </line>
+      <line no="11">
+        <token name="T_DOC_COMMENT"> */</token>
+      </line>
+      <line no="12">
+        <token name="T_CLASS">class</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">IndexRequest</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EXTENDS">extends</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">FormRequest</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_IMPLEMENTS">implements</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_NAME_QUALIFIED">Contracts\PaginationColumns</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_NAME_QUALIFIED">Contracts\PaginationDates</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_NAME_QUALIFIED">Contracts\PaginationFlags</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_NAME_QUALIFIED">Contracts\PaginationIds</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_NAME_QUALIFIED">Contracts\PaginationOperators</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_NAME_QUALIFIED">Contracts\PaginationSortable</token>
+      </line>
+      <line no="13">
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="14">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_USE">use</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_NAME_QUALIFIED">Concerns\PaginationColumns</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="15">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_USE">use</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_NAME_QUALIFIED">Concerns\PaginationDates</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="16">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_USE">use</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_NAME_QUALIFIED">Concerns\PaginationFlags</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="17">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_USE">use</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_NAME_QUALIFIED">Concerns\PaginationIds</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="18">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_USE">use</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_NAME_QUALIFIED">Concerns\PaginationOperators</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="19">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_USE">use</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_NAME_QUALIFIED">Concerns\PaginationSortable</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="20"/>
+      <line no="21">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="22">
+        <token name="T_DOC_COMMENT">     * The number of models to return for pagination.</token>
+      </line>
+      <line no="23">
+        <token name="T_DOC_COMMENT">     *</token>
+      </line>
+      <line no="24">
+        <token name="T_DOC_COMMENT">     * @var int</token>
+      </line>
+      <line no="25">
+        <token name="T_DOC_COMMENT">     */</token>
+      </line>
+      <line no="26">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PROTECTED">protected</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$perPage</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_LNUMBER">15</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="27"/>
+      <line no="28">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="29">
+        <token name="T_DOC_COMMENT">     * The maximum number of models to return for pagination.</token>
+      </line>
+      <line no="30">
+        <token name="T_DOC_COMMENT">     *</token>
+      </line>
+      <line no="31">
+        <token name="T_DOC_COMMENT">     * @var int</token>
+      </line>
+      <line no="32">
+        <token name="T_DOC_COMMENT">     */</token>
+      </line>
+      <line no="33">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PROTECTED">protected</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$perPageMax</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_LNUMBER">100</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="34"/>
+      <line no="35">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="36">
+        <token name="T_DOC_COMMENT">     * @var array&lt;string, string|array&lt;mixed&gt;&gt;</token>
+      </line>
+      <line no="37">
+        <token name="T_DOC_COMMENT">     */</token>
+      </line>
+      <line no="38">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONST">const</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">RULES</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_SQUARE">[</token>
+      </line>
+      <line no="39">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'perPage'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_SQUARE">[</token>
+      </line>
+      <line no="40">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'nullable'</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="41">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'integer'</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="42">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="43">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'page'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_SQUARE">[</token>
+      </line>
+      <line no="44">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'nullable'</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="45">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'integer'</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="46">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="47">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'sort'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_SQUARE">[</token>
+      </line>
+      <line no="48">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'nullable'</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="49">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="50">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'filter'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_SQUARE">[</token>
+      </line>
+      <line no="51">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'nullable'</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="52">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'array'</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="53">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="54">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">// Trashed</token>
+      </line>
+      <line no="55">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'filter.trash'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_SQUARE">[</token>
+      </line>
+      <line no="56">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'nullable'</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="57">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'in:hide,with,only'</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="58">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="59">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="60"/>
+      <line no="61">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="62">
+        <token name="T_DOC_COMMENT">     * Get the validation rules that apply to the request.</token>
+      </line>
+      <line no="63">
+        <token name="T_DOC_COMMENT">     *</token>
+      </line>
+      <line no="64">
+        <token name="T_DOC_COMMENT">     * @return array&lt;string, \Illuminate\Contracts\Validation\ValidationRule|array&lt;mixed&gt;|string&gt;</token>
+      </line>
+      <line no="65">
+        <token name="T_DOC_COMMENT">     */</token>
+      </line>
+      <line no="66">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">rules</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_ARRAY">array</token>
+      </line>
+      <line no="67">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="68">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$rules</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">parent</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">rules</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="69"/>
+      <line no="70">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">rules_filters</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$rules</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="71">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">// dump([</token>
+      </line>
+      <line no="72">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">//     '__METHOD__' =&gt; __METHOD__,</token>
+      </line>
+      <line no="73">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">//     '__FILE__' =&gt; __FILE__,</token>
+      </line>
+      <line no="74">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">//     '__LINE__' =&gt; __LINE__,</token>
+      </line>
+      <line no="75">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">//     '$rules' =&gt; $rules,</token>
+      </line>
+      <line no="76">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">// ]);</token>
+      </line>
+      <line no="77"/>
+      <line no="78">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">// \Log::debug(__METHOD__, [</token>
+      </line>
+      <line no="79">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">//     '$action' =&gt; $action,</token>
+      </line>
+      <line no="80">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">//     '$rules' =&gt; $rules,</token>
+      </line>
+      <line no="81">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">// ]);</token>
+      </line>
+      <line no="82">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$rules</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="83">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="84"/>
+      <line no="85">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="86">
+        <token name="T_DOC_COMMENT">     * @param array&lt;string, mixed&gt; $rules</token>
+      </line>
+      <line no="87">
+        <token name="T_DOC_COMMENT">     */</token>
+      </line>
+      <line no="88">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">rules_filters</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_ARRAY">array</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_AMPERSAND_FOLLOWED_BY_VAR_OR_VARARG">&amp;</token>
+        <token name="T_VARIABLE">$rules</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">void</token>
+      </line>
+      <line no="89">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="90">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">method_exists</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'rules_filters_flags'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="91">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">rules_filters_flags</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$rules</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="92">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="93">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">method_exists</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'rules_filters_dates'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="94">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">rules_filters_dates</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$rules</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="95">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="96">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">method_exists</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'rules_filters_ids'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="97">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">rules_filters_ids</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$rules</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="98">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="99">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">method_exists</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'rules_filters_columns'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="100">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">rules_filters_columns</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$rules</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="101">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="102">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="103"/>
+      <line no="104">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="105">
+        <token name="T_DOC_COMMENT">     * Prepare the data for validation.</token>
+      </line>
+      <line no="106">
+        <token name="T_DOC_COMMENT">     */</token>
+      </line>
+      <line no="107">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PROTECTED">protected</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">prepareForValidation</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">void</token>
+      </line>
+      <line no="108">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="109">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">// dump([</token>
+      </line>
+      <line no="110">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">//     '__METHOD__' =&gt; __METHOD__,</token>
+      </line>
+      <line no="111">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">//     '__FILE__' =&gt; __FILE__,</token>
+      </line>
+      <line no="112">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">//     '__LINE__' =&gt; __LINE__,</token>
+      </line>
+      <line no="113">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">//     '$this-&gt;input()' =&gt; $this-&gt;input(),</token>
+      </line>
+      <line no="114">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">// ]);</token>
+      </line>
+      <line no="115"/>
+      <line no="116">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">prepareForValidationPagination</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="117"/>
+      <line no="118">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">method_exists</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'prepareForValidationForDates'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="119">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">prepareForValidationForDates</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="120">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="121"/>
+      <line no="122">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">method_exists</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'prepareForValidationIds'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="123">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">prepareForValidationSort</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="124">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="125"/>
+      <line no="126">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">method_exists</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'prepareForValidationIds'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="127">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">prepareForValidationSort</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="128">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="129">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="130"/>
+      <line no="131">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="132">
+        <token name="T_DOC_COMMENT">     * Handle a passed validation attempt.</token>
+      </line>
+      <line no="133">
+        <token name="T_DOC_COMMENT">     *</token>
+      </line>
+      <line no="134">
+        <token name="T_DOC_COMMENT">     * @return void</token>
+      </line>
+      <line no="135">
+        <token name="T_DOC_COMMENT">     */</token>
+      </line>
+      <line no="136">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PROTECTED">protected</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">passedValidation</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+      </line>
+      <line no="137">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="138">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">// NOTE sort could be converted back to a string</token>
+      </line>
+      <line no="139">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="140"/>
+      <line no="141">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="142">
+        <token name="T_DOC_COMMENT">     * @return array&lt;string, ?int&gt;</token>
+      </line>
+      <line no="143">
+        <token name="T_DOC_COMMENT">     */</token>
+      </line>
+      <line no="144">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">prepareForValidationPagination</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_ARRAY">array</token>
+      </line>
+      <line no="145">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="146">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$page</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">get</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'page'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="147">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$page</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">is_numeric</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$page</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_QUESTION_MARK">?</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_INT_CAST">(int)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">abs</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$page</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">null</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="148">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$perPage</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">get</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'perPage'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="149">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$perPage</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">is_numeric</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$perPage</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_QUESTION_MARK">?</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_INT_CAST">(int)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">abs</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$perPage</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">perPage</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="150">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$perPage</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$perPage</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_GT">&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">perPageMax</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_QUESTION_MARK">?</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">perPageMax</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$perPage</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="151"/>
+      <line no="152">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">merge</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_OPEN_SQUARE">[</token>
+      </line>
+      <line no="153">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'page'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$page</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="154">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'perPage'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$perPage</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="155">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="156"/>
+      <line no="157">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_SQUARE">[</token>
+      </line>
+      <line no="158">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'page'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$page</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="159">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'perPage'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$perPage</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="160">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="161">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="162">
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="163"/>
+    </source>
+  </file>
+</phpunit>

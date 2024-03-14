@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <crap_result>
   <project/>
-  <timestamp>2024-03-14 05:29:25</timestamp>
+  <timestamp>2024-03-14 06:02:20</timestamp>
   <stats>
     <name>Method Crap Stats</name>
-    <methodCount>440</methodCount>
-    <crapMethodCount>16</crapMethodCount>
-    <crapLoad>243</crapLoad>
-    <totalCrap>6283.02</totalCrap>
-    <crapMethodPercent>3.64</crapMethodPercent>
+    <methodCount>554</methodCount>
+    <crapMethodCount>8</crapMethodCount>
+    <crapLoad>116</crapLoad>
+    <totalCrap>3428.26</totalCrap>
+    <crapMethodPercent>1.44</crapMethodPercent>
   </stats>
   <methods>
     <method>
@@ -34,14 +34,652 @@
       <crapLoad>0</crapLoad>
     </method>
     <method>
+      <package>Playground\Admin\Resource\Http\Controllers\Concerns</package>
+      <className>Playground\Admin\Resource\Http\Controllers\Concerns\UserProvider</className>
+      <methodName>getUserClass</methodName>
+      <methodSignature>getUserClass(): string</methodSignature>
+      <fullMethod>getUserClass(): string</fullMethod>
+      <crap>5</crap>
+      <complexity>5</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Controllers\Concerns</package>
+      <className>Playground\Admin\Resource\Http\Controllers\Concerns\UserProvider</className>
+      <methodName>getUserInstance</methodName>
+      <methodSignature>getUserInstance(array $data): Illuminate\Database\Eloquent\Model</methodSignature>
+      <fullMethod>getUserInstance(array $data): Illuminate\Database\Eloquent\Model</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Controllers\Concerns</package>
+      <className>Playground\Admin\Resource\Http\Controllers\Concerns\UserProvider</className>
+      <methodName>findUserOrFail</methodName>
+      <methodSignature>findUserOrFail(string|int $id, bool $withTrash): Illuminate\Database\Eloquent\Model</methodSignature>
+      <fullMethod>findUserOrFail(string|int $id, bool $withTrash): Illuminate\Database\Eloquent\Model</fullMethod>
+      <crap>3</crap>
+      <complexity>3</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Controllers</package>
+      <className>Playground\Admin\Resource\Http\Controllers\Controller</className>
+      <methodName>getViewPath</methodName>
+      <methodSignature>getViewPath(string $controller, string $view): string</methodSignature>
+      <fullMethod>getViewPath(string $controller, string $view): string</fullMethod>
+      <crap>4</crap>
+      <complexity>4</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Controllers</package>
+      <className>Playground\Admin\Resource\Http\Controllers\Controller</className>
+      <methodName>setPackageInfoValue</methodName>
+      <methodSignature>setPackageInfoValue(string $key, string $value): void</methodSignature>
+      <fullMethod>setPackageInfoValue(string $key, string $value): void</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Controllers</package>
+      <className>Playground\Admin\Resource\Http\Controllers\IndexController</className>
+      <methodName>index</methodName>
+      <methodSignature>index(): Illuminate\View\View</methodSignature>
+      <fullMethod>index(): Illuminate\View\View</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Controllers</package>
+      <className>Playground\Admin\Resource\Http\Controllers\SettingController</className>
+      <methodName>create</methodName>
+      <methodSignature>create(Playground\Admin\Resource\Http\Requests\Setting\CreateRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</methodSignature>
+      <fullMethod>create(Playground\Admin\Resource\Http\Requests\Setting\CreateRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</fullMethod>
+      <crap>4</crap>
+      <complexity>4</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Controllers</package>
+      <className>Playground\Admin\Resource\Http\Controllers\SettingController</className>
+      <methodName>edit</methodName>
+      <methodSignature>edit(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\EditRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</methodSignature>
+      <fullMethod>edit(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\EditRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</fullMethod>
+      <crap>3</crap>
+      <complexity>3</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Controllers</package>
+      <className>Playground\Admin\Resource\Http\Controllers\SettingController</className>
+      <methodName>destroy</methodName>
+      <methodSignature>destroy(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\DestroyRequest $request): \Illuminate\Http\Response|\Illuminate\Http\RedirectResponse</methodSignature>
+      <fullMethod>destroy(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\DestroyRequest $request): \Illuminate\Http\Response|\Illuminate\Http\RedirectResponse</fullMethod>
+      <crap>5</crap>
+      <complexity>5</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Controllers</package>
+      <className>Playground\Admin\Resource\Http\Controllers\SettingController</className>
+      <methodName>lock</methodName>
+      <methodSignature>lock(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\LockRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\Setting</methodSignature>
+      <fullMethod>lock(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\LockRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\Setting</fullMethod>
+      <crap>4</crap>
+      <complexity>4</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Controllers</package>
+      <className>Playground\Admin\Resource\Http\Controllers\SettingController</className>
+      <methodName>index</methodName>
+      <methodSignature>index(Playground\Admin\Resource\Http\Requests\Setting\IndexRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Admin\Resource\Http\Resources\SettingCollection</methodSignature>
+      <fullMethod>index(Playground\Admin\Resource\Http\Requests\Setting\IndexRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Admin\Resource\Http\Resources\SettingCollection</fullMethod>
+      <crap>6</crap>
+      <complexity>6</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Controllers</package>
+      <className>Playground\Admin\Resource\Http\Controllers\SettingController</className>
+      <methodName>restore</methodName>
+      <methodSignature>restore(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\RestoreRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\Setting</methodSignature>
+      <fullMethod>restore(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\RestoreRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\Setting</fullMethod>
+      <crap>4</crap>
+      <complexity>4</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Controllers</package>
+      <className>Playground\Admin\Resource\Http\Controllers\SettingController</className>
+      <methodName>show</methodName>
+      <methodSignature>show(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\ShowRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Admin\Resource\Http\Resources\Setting</methodSignature>
+      <fullMethod>show(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\ShowRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Admin\Resource\Http\Resources\Setting</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Controllers</package>
+      <className>Playground\Admin\Resource\Http\Controllers\SettingController</className>
+      <methodName>store</methodName>
+      <methodSignature>store(Playground\Admin\Resource\Http\Requests\Setting\StoreRequest $request): \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\Setting</methodSignature>
+      <fullMethod>store(Playground\Admin\Resource\Http\Requests\Setting\StoreRequest $request): \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\Setting</fullMethod>
+      <crap>4</crap>
+      <complexity>4</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Controllers</package>
+      <className>Playground\Admin\Resource\Http\Controllers\SettingController</className>
+      <methodName>unlock</methodName>
+      <methodSignature>unlock(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\UnlockRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\Setting</methodSignature>
+      <fullMethod>unlock(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\UnlockRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\Setting</fullMethod>
+      <crap>4</crap>
+      <complexity>4</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Controllers</package>
+      <className>Playground\Admin\Resource\Http\Controllers\SettingController</className>
+      <methodName>update</methodName>
+      <methodSignature>update(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\UpdateRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\Setting</methodSignature>
+      <fullMethod>update(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\UpdateRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\Setting</fullMethod>
+      <crap>4</crap>
+      <complexity>4</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Controllers</package>
+      <className>Playground\Admin\Resource\Http\Controllers\UserController</className>
+      <methodName>create</methodName>
+      <methodSignature>create(Playground\Admin\Resource\Http\Requests\User\CreateRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</methodSignature>
+      <fullMethod>create(Playground\Admin\Resource\Http\Requests\User\CreateRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</fullMethod>
+      <crap>4</crap>
+      <complexity>4</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Controllers</package>
+      <className>Playground\Admin\Resource\Http\Controllers\UserController</className>
+      <methodName>edit</methodName>
+      <methodSignature>edit(string|int $id, Playground\Admin\Resource\Http\Requests\User\EditRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</methodSignature>
+      <fullMethod>edit(string|int $id, Playground\Admin\Resource\Http\Requests\User\EditRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</fullMethod>
+      <crap>3</crap>
+      <complexity>3</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Controllers</package>
+      <className>Playground\Admin\Resource\Http\Controllers\UserController</className>
+      <methodName>destroy</methodName>
+      <methodSignature>destroy(string|int $id, Playground\Admin\Resource\Http\Requests\User\DestroyRequest $request): \Illuminate\Http\Response|\Illuminate\Http\RedirectResponse</methodSignature>
+      <fullMethod>destroy(string|int $id, Playground\Admin\Resource\Http\Requests\User\DestroyRequest $request): \Illuminate\Http\Response|\Illuminate\Http\RedirectResponse</fullMethod>
+      <crap>5</crap>
+      <complexity>5</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Controllers</package>
+      <className>Playground\Admin\Resource\Http\Controllers\UserController</className>
+      <methodName>lock</methodName>
+      <methodSignature>lock(string|int $id, Playground\Admin\Resource\Http\Requests\User\LockRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\User</methodSignature>
+      <fullMethod>lock(string|int $id, Playground\Admin\Resource\Http\Requests\User\LockRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\User</fullMethod>
+      <crap>4</crap>
+      <complexity>4</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Controllers</package>
+      <className>Playground\Admin\Resource\Http\Controllers\UserController</className>
+      <methodName>index</methodName>
+      <methodSignature>index(Playground\Admin\Resource\Http\Requests\User\IndexRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Admin\Resource\Http\Resources\UserCollection</methodSignature>
+      <fullMethod>index(Playground\Admin\Resource\Http\Requests\User\IndexRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Admin\Resource\Http\Resources\UserCollection</fullMethod>
+      <crap>12</crap>
+      <complexity>12</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Controllers</package>
+      <className>Playground\Admin\Resource\Http\Controllers\UserController</className>
+      <methodName>restore</methodName>
+      <methodSignature>restore(string|int $id, Playground\Admin\Resource\Http\Requests\User\RestoreRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\User</methodSignature>
+      <fullMethod>restore(string|int $id, Playground\Admin\Resource\Http\Requests\User\RestoreRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\User</fullMethod>
+      <crap>5</crap>
+      <complexity>5</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Controllers</package>
+      <className>Playground\Admin\Resource\Http\Controllers\UserController</className>
+      <methodName>show</methodName>
+      <methodSignature>show(string|int $id, Playground\Admin\Resource\Http\Requests\User\ShowRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Admin\Resource\Http\Resources\User</methodSignature>
+      <fullMethod>show(string|int $id, Playground\Admin\Resource\Http\Requests\User\ShowRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Admin\Resource\Http\Resources\User</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Controllers</package>
+      <className>Playground\Admin\Resource\Http\Controllers\UserController</className>
+      <methodName>store</methodName>
+      <methodSignature>store(Playground\Admin\Resource\Http\Requests\User\StoreRequest $request): \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\User</methodSignature>
+      <fullMethod>store(Playground\Admin\Resource\Http\Requests\User\StoreRequest $request): \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\User</fullMethod>
+      <crap>4</crap>
+      <complexity>4</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Controllers</package>
+      <className>Playground\Admin\Resource\Http\Controllers\UserController</className>
+      <methodName>unlock</methodName>
+      <methodSignature>unlock(string|int $id, Playground\Admin\Resource\Http\Requests\User\UnlockRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\User</methodSignature>
+      <fullMethod>unlock(string|int $id, Playground\Admin\Resource\Http\Requests\User\UnlockRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\User</fullMethod>
+      <crap>4</crap>
+      <complexity>4</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Controllers</package>
+      <className>Playground\Admin\Resource\Http\Controllers\UserController</className>
+      <methodName>update</methodName>
+      <methodSignature>update(string|int $id, Playground\Admin\Resource\Http\Requests\User\UpdateRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\User</methodSignature>
+      <fullMethod>update(string|int $id, Playground\Admin\Resource\Http\Requests\User\UpdateRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\User</fullMethod>
+      <crap>4</crap>
+      <complexity>4</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Requests</package>
+      <className>Playground\Admin\Resource\Http\Requests\FormRequest</className>
+      <methodName>authorize</methodName>
+      <methodSignature>authorize(): bool</methodSignature>
+      <fullMethod>authorize(): bool</fullMethod>
+      <crap>3</crap>
+      <complexity>3</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Requests</package>
+      <className>Playground\Admin\Resource\Http\Requests\FormRequest</className>
+      <methodName>rules</methodName>
+      <methodSignature>rules(): array</methodSignature>
+      <fullMethod>rules(): array</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Requests</package>
+      <className>Playground\Admin\Resource\Http\Requests\FormRequest</className>
+      <methodName>userHasAdminPrivileges</methodName>
+      <methodSignature>userHasAdminPrivileges(Illuminate\Contracts\Auth\Authenticatable $user): bool</methodSignature>
+      <fullMethod>userHasAdminPrivileges(Illuminate\Contracts\Auth\Authenticatable $user): bool</fullMethod>
+      <crap>3</crap>
+      <complexity>3</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Requests\Setting</package>
+      <className>Playground\Admin\Resource\Http\Requests\Setting\DestroyRequest</className>
+      <methodName>rules</methodName>
+      <methodSignature>rules(): array</methodSignature>
+      <fullMethod>rules(): array</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Requests\Setting</package>
+      <className>Playground\Admin\Resource\Http\Requests\Setting\StoreRequest</className>
+      <methodName>prepareForValidation</methodName>
+      <methodSignature>prepareForValidation()</methodSignature>
+      <fullMethod>prepareForValidation()</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Requests\Setting</package>
+      <className>Playground\Admin\Resource\Http\Requests\Setting\UpdateRequest</className>
+      <methodName>prepareForValidation</methodName>
+      <methodSignature>prepareForValidation()</methodSignature>
+      <fullMethod>prepareForValidation()</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Requests\User</package>
+      <className>Playground\Admin\Resource\Http\Requests\User\CreateRequest</className>
+      <methodName>rules</methodName>
+      <methodSignature>rules(): array</methodSignature>
+      <fullMethod>rules(): array</fullMethod>
+      <crap>4</crap>
+      <complexity>4</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Requests\User</package>
+      <className>Playground\Admin\Resource\Http\Requests\User\DestroyRequest</className>
+      <methodName>rules</methodName>
+      <methodSignature>rules(): array</methodSignature>
+      <fullMethod>rules(): array</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Requests\User</package>
+      <className>Playground\Admin\Resource\Http\Requests\User\EditRequest</className>
+      <methodName>rules</methodName>
+      <methodSignature>rules(): array</methodSignature>
+      <fullMethod>rules(): array</fullMethod>
+      <crap>4</crap>
+      <complexity>4</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Requests\User</package>
+      <className>Playground\Admin\Resource\Http\Requests\User\StoreRequest</className>
+      <methodName>prepareForValidation</methodName>
+      <methodSignature>prepareForValidation()</methodSignature>
+      <fullMethod>prepareForValidation()</fullMethod>
+      <crap>5</crap>
+      <complexity>5</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Requests\User</package>
+      <className>Playground\Admin\Resource\Http\Requests\User\StoreRequest</className>
+      <methodName>rules</methodName>
+      <methodSignature>rules(): array</methodSignature>
+      <fullMethod>rules(): array</fullMethod>
+      <crap>4</crap>
+      <complexity>4</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Requests\User</package>
+      <className>Playground\Admin\Resource\Http\Requests\User\UpdateRequest</className>
+      <methodName>prepareForValidation</methodName>
+      <methodSignature>prepareForValidation()</methodSignature>
+      <fullMethod>prepareForValidation()</fullMethod>
+      <crap>5</crap>
+      <complexity>5</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Requests\User</package>
+      <className>Playground\Admin\Resource\Http\Requests\User\UpdateRequest</className>
+      <methodName>rules</methodName>
+      <methodSignature>rules(): array</methodSignature>
+      <fullMethod>rules(): array</fullMethod>
+      <crap>4</crap>
+      <complexity>4</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Resources</package>
+      <className>Playground\Admin\Resource\Http\Resources\Setting</className>
+      <methodName>toArray</methodName>
+      <methodSignature>toArray(Illuminate\Http\Request $request)</methodSignature>
+      <fullMethod>toArray(Illuminate\Http\Request $request)</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Resources</package>
+      <className>Playground\Admin\Resource\Http\Resources\Setting</className>
+      <methodName>with</methodName>
+      <methodSignature>with(Illuminate\Http\Request $request): array</methodSignature>
+      <fullMethod>with(Illuminate\Http\Request $request): array</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Resources</package>
+      <className>Playground\Admin\Resource\Http\Resources\SettingCollection</className>
+      <methodName>toArray</methodName>
+      <methodSignature>toArray(Illuminate\Http\Request $request)</methodSignature>
+      <fullMethod>toArray(Illuminate\Http\Request $request)</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Resources</package>
+      <className>Playground\Admin\Resource\Http\Resources\SettingCollection</className>
+      <methodName>with</methodName>
+      <methodSignature>with(Illuminate\Http\Request $request): array</methodSignature>
+      <fullMethod>with(Illuminate\Http\Request $request): array</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Resources</package>
+      <className>Playground\Admin\Resource\Http\Resources\User</className>
+      <methodName>toArray</methodName>
+      <methodSignature>toArray(Illuminate\Http\Request $request)</methodSignature>
+      <fullMethod>toArray(Illuminate\Http\Request $request)</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Resources</package>
+      <className>Playground\Admin\Resource\Http\Resources\User</className>
+      <methodName>with</methodName>
+      <methodSignature>with(Illuminate\Http\Request $request): array</methodSignature>
+      <fullMethod>with(Illuminate\Http\Request $request): array</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Resources</package>
+      <className>Playground\Admin\Resource\Http\Resources\UserCollection</className>
+      <methodName>toArray</methodName>
+      <methodSignature>toArray(Illuminate\Http\Request $request)</methodSignature>
+      <fullMethod>toArray(Illuminate\Http\Request $request)</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource\Http\Resources</package>
+      <className>Playground\Admin\Resource\Http\Resources\UserCollection</className>
+      <methodName>with</methodName>
+      <methodSignature>with(Illuminate\Http\Request $request): array</methodSignature>
+      <fullMethod>with(Illuminate\Http\Request $request): array</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource</package>
+      <className>Playground\Admin\Resource\ServiceProvider</className>
+      <methodName>boot</methodName>
+      <methodSignature>boot(): void</methodSignature>
+      <fullMethod>boot(): void</fullMethod>
+      <crap>12</crap>
+      <complexity>12</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource</package>
+      <className>Playground\Admin\Resource\ServiceProvider</className>
+      <methodName>register</methodName>
+      <methodSignature>register(): void</methodSignature>
+      <fullMethod>register(): void</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource</package>
+      <className>Playground\Admin\Resource\ServiceProvider</className>
+      <methodName>setPolicies</methodName>
+      <methodSignature>setPolicies(array $policies): void</methodSignature>
+      <fullMethod>setPolicies(array $policies): void</fullMethod>
+      <crap>57.05</crap>
+      <complexity>10</complexity>
+      <coverage>22.22</coverage>
+      <crapLoad>8</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource</package>
+      <className>Playground\Admin\Resource\ServiceProvider</className>
+      <methodName>routes</methodName>
+      <methodSignature>routes(array $config): void</methodSignature>
+      <fullMethod>routes(array $config): void</fullMethod>
+      <crap>4</crap>
+      <complexity>4</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource</package>
+      <className>Playground\Admin\Resource\ServiceProvider</className>
+      <methodName>about</methodName>
+      <methodSignature>about(): void</methodSignature>
+      <fullMethod>about(): void</fullMethod>
+      <crap>23</crap>
+      <complexity>23</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin\Resource</package>
+      <className>Playground\Admin\Resource\ServiceProvider</className>
+      <methodName>version</methodName>
+      <methodSignature>version(): string</methodSignature>
+      <fullMethod>version(): string</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin</package>
+      <className>Playground\Admin\ServiceProvider</className>
+      <methodName>boot</methodName>
+      <methodSignature>boot()</methodSignature>
+      <fullMethod>boot()</fullMethod>
+      <crap>5</crap>
+      <complexity>5</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin</package>
+      <className>Playground\Admin\ServiceProvider</className>
+      <methodName>register</methodName>
+      <methodSignature>register(): void</methodSignature>
+      <fullMethod>register(): void</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin</package>
+      <className>Playground\Admin\ServiceProvider</className>
+      <methodName>publishMigrations</methodName>
+      <methodSignature>publishMigrations(): void</methodSignature>
+      <fullMethod>publishMigrations(): void</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin</package>
+      <className>Playground\Admin\ServiceProvider</className>
+      <methodName>about</methodName>
+      <methodSignature>about(): void</methodSignature>
+      <fullMethod>about(): void</fullMethod>
+      <crap>5</crap>
+      <complexity>5</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Admin</package>
+      <className>Playground\Admin\ServiceProvider</className>
+      <methodName>version</methodName>
+      <methodSignature>version(): string</methodSignature>
+      <fullMethod>version(): string</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
       <package>Playground\Auth</package>
       <className>Playground\Auth\Can</className>
       <methodName>matches</methodName>
       <methodSignature>matches(?Illuminate\Contracts\Auth\Authenticatable $user): bool</methodSignature>
       <fullMethod>matches(?Illuminate\Contracts\Auth\Authenticatable $user): bool</fullMethod>
-      <crap>38.11</crap>
+      <crap>8.7</crap>
       <complexity>8</complexity>
-      <coverage>22.22</coverage>
+      <coverage>77.78</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -105,10 +743,10 @@
       <methodName>access</methodName>
       <methodSignature>access(?Illuminate\Contracts\Auth\Authenticatable $user, array $options): Playground\Auth\Permission</methodSignature>
       <fullMethod>access(?Illuminate\Contracts\Auth\Authenticatable $user, array $options): Playground\Auth\Permission</fullMethod>
-      <crap>1806.54</crap>
+      <crap>488.75</crap>
       <complexity>49</complexity>
-      <coverage>9.88</coverage>
-      <crapLoad>45</crapLoad>
+      <coverage>43.21</coverage>
+      <crapLoad>29</crapLoad>
     </method>
     <method>
       <package>Playground\Auth</package>
@@ -116,9 +754,9 @@
       <methodName>withPrivilege</methodName>
       <methodSignature>withPrivilege(array $meta): string</methodSignature>
       <fullMethod>withPrivilege(array $meta): string</fullMethod>
-      <crap>6.07</crap>
+      <crap>6</crap>
       <complexity>6</complexity>
-      <coverage>87.5</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -248,9 +886,9 @@
       <methodName>markAllowed</methodName>
       <methodSignature>markAllowed(): self</methodSignature>
       <fullMethod>markAllowed(): self</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1700,9 +2338,9 @@
       <methodName>getPaginationColumns</methodName>
       <methodSignature>getPaginationColumns(): array</methodSignature>
       <fullMethod>getPaginationColumns(): array</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1711,10 +2349,10 @@
       <methodName>rules_filters_columns</methodName>
       <methodSignature>rules_filters_columns(array $rules): void</methodSignature>
       <fullMethod>rules_filters_columns(array $rules): void</fullMethod>
-      <crap>240</crap>
+      <crap>15.48</crap>
       <complexity>15</complexity>
-      <coverage>0</coverage>
-      <crapLoad>15</crapLoad>
+      <coverage>87.1</coverage>
+      <crapLoad>0</crapLoad>
     </method>
     <method>
       <package>Playground\Http\Requests\Concerns</package>
@@ -1722,9 +2360,9 @@
       <methodName>getPaginationDates</methodName>
       <methodSignature>getPaginationDates(): array</methodSignature>
       <fullMethod>getPaginationDates(): array</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1733,9 +2371,9 @@
       <methodName>rules_filters_dates</methodName>
       <methodSignature>rules_filters_dates(array $rules): void</methodSignature>
       <fullMethod>rules_filters_dates(array $rules): void</fullMethod>
-      <crap>20</crap>
+      <crap>4.13</crap>
       <complexity>4</complexity>
-      <coverage>0</coverage>
+      <coverage>80</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1744,10 +2382,10 @@
       <methodName>prepareForValidationForDates</methodName>
       <methodSignature>prepareForValidationForDates(): ?array</methodSignature>
       <fullMethod>prepareForValidationForDates(): ?array</fullMethod>
-      <crap>420</crap>
+      <crap>23.2</crap>
       <complexity>20</complexity>
-      <coverage>0</coverage>
-      <crapLoad>20</crapLoad>
+      <coverage>80</coverage>
+      <crapLoad>0</crapLoad>
     </method>
     <method>
       <package>Playground\Http\Requests\Concerns</package>
@@ -1755,9 +2393,9 @@
       <methodName>getPaginationFlags</methodName>
       <methodSignature>getPaginationFlags(): array</methodSignature>
       <fullMethod>getPaginationFlags(): array</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1766,10 +2404,10 @@
       <methodName>rules_filters_flags</methodName>
       <methodSignature>rules_filters_flags(array $rules): void</methodSignature>
       <fullMethod>rules_filters_flags(array $rules): void</fullMethod>
-      <crap>72</crap>
+      <crap>8.63</crap>
       <complexity>8</complexity>
-      <coverage>0</coverage>
-      <crapLoad>8</crapLoad>
+      <coverage>78.57</coverage>
+      <crapLoad>0</crapLoad>
     </method>
     <method>
       <package>Playground\Http\Requests\Concerns</package>
@@ -1777,9 +2415,9 @@
       <methodName>getPaginationIds</methodName>
       <methodSignature>getPaginationIds(): array</methodSignature>
       <fullMethod>getPaginationIds(): array</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1788,9 +2426,9 @@
       <methodName>rules_filters_ids</methodName>
       <methodSignature>rules_filters_ids(array $rules): void</methodSignature>
       <fullMethod>rules_filters_ids(array $rules): void</fullMethod>
-      <crap>20</crap>
+      <crap>4.13</crap>
       <complexity>4</complexity>
-      <coverage>0</coverage>
+      <coverage>80</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1810,9 +2448,9 @@
       <methodName>getPaginationOperators</methodName>
       <methodSignature>getPaginationOperators(): array</methodSignature>
       <fullMethod>getPaginationOperators(): array</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1821,9 +2459,9 @@
       <methodName>getSortable</methodName>
       <methodSignature>getSortable(): array</methodSignature>
       <fullMethod>getSortable(): array</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1843,9 +2481,9 @@
       <methodName>prepareForValidationSort</methodName>
       <methodSignature>prepareForValidationSort(): array</methodSignature>
       <fullMethod>prepareForValidationSort(): array</fullMethod>
-      <crap>20</crap>
+      <crap>4.77</crap>
       <complexity>4</complexity>
-      <coverage>0</coverage>
+      <coverage>63.64</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2052,10 +2690,10 @@
       <methodName>filterCommonFields</methodName>
       <methodSignature>filterCommonFields(array $input): void</methodSignature>
       <fullMethod>filterCommonFields(array $input): void</fullMethod>
-      <crap>90</crap>
+      <crap>9</crap>
       <complexity>9</complexity>
-      <coverage>0</coverage>
-      <crapLoad>9</crapLoad>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
     </method>
     <method>
       <package>Playground\Http\Requests\Concerns</package>
@@ -2063,9 +2701,9 @@
       <methodName>filterContentFields</methodName>
       <methodSignature>filterContentFields(array $input): void</methodSignature>
       <fullMethod>filterContentFields(array $input): void</fullMethod>
-      <crap>30</crap>
+      <crap>5</crap>
       <complexity>5</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2085,9 +2723,9 @@
       <methodName>filterUri</methodName>
       <methodSignature>filterUri(mixed $value): string</methodSignature>
       <fullMethod>filterUri(mixed $value): string</fullMethod>
-      <crap>20</crap>
+      <crap>6</crap>
       <complexity>4</complexity>
-      <coverage>0</coverage>
+      <coverage>50</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2107,9 +2745,9 @@
       <methodName>rules_store_slug_create</methodName>
       <methodSignature>rules_store_slug_create(array $rules): void</methodSignature>
       <fullMethod>rules_store_slug_create(array $rules): void</fullMethod>
-      <crap>6</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2118,9 +2756,9 @@
       <methodName>rules_store_slug_update</methodName>
       <methodSignature>rules_store_slug_update(array $rules): void</methodSignature>
       <fullMethod>rules_store_slug_update(array $rules): void</fullMethod>
-      <crap>6</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2129,10 +2767,10 @@
       <methodName>prepareForValidationForSlug</methodName>
       <methodSignature>prepareForValidationForSlug(): array</methodSignature>
       <fullMethod>prepareForValidationForSlug(): array</fullMethod>
-      <crap>210</crap>
+      <crap>14.43</crap>
       <complexity>14</complexity>
-      <coverage>0</coverage>
-      <crapLoad>14</crapLoad>
+      <coverage>86.96</coverage>
+      <crapLoad>0</crapLoad>
     </method>
     <method>
       <package>Playground\Http\Requests</package>
@@ -2140,9 +2778,9 @@
       <methodName>authorize</methodName>
       <methodSignature>authorize(): bool</methodSignature>
       <fullMethod>authorize(): bool</fullMethod>
-      <crap>6</crap>
+      <crap>2.06</crap>
       <complexity>2</complexity>
-      <coverage>0</coverage>
+      <coverage>75</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2151,9 +2789,9 @@
       <methodName>rules</methodName>
       <methodSignature>rules(): array</methodSignature>
       <fullMethod>rules(): array</fullMethod>
-      <crap>6</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2162,9 +2800,9 @@
       <methodName>rules</methodName>
       <methodSignature>rules(): array</methodSignature>
       <fullMethod>rules(): array</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2173,9 +2811,9 @@
       <methodName>rules_filters</methodName>
       <methodSignature>rules_filters(array $rules): void</methodSignature>
       <fullMethod>rules_filters(array $rules): void</fullMethod>
-      <crap>30</crap>
+      <crap>5</crap>
       <complexity>5</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2184,9 +2822,9 @@
       <methodName>prepareForValidation</methodName>
       <methodSignature>prepareForValidation(): void</methodSignature>
       <fullMethod>prepareForValidation(): void</fullMethod>
-      <crap>20</crap>
+      <crap>4</crap>
       <complexity>4</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2195,9 +2833,9 @@
       <methodName>passedValidation</methodName>
       <methodSignature>passedValidation()</methodSignature>
       <fullMethod>passedValidation()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2206,9 +2844,9 @@
       <methodName>prepareForValidationPagination</methodName>
       <methodSignature>prepareForValidationPagination(): array</methodSignature>
       <fullMethod>prepareForValidationPagination(): array</fullMethod>
-      <crap>20</crap>
+      <crap>4</crap>
       <complexity>4</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2217,9 +2855,9 @@
       <methodName>messages</methodName>
       <methodSignature>messages(): array</methodSignature>
       <fullMethod>messages(): array</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2228,9 +2866,9 @@
       <methodName>rules</methodName>
       <methodSignature>rules(): array</methodSignature>
       <fullMethod>rules(): array</fullMethod>
-      <crap>6</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2239,9 +2877,9 @@
       <methodName>prepareForValidation</methodName>
       <methodSignature>prepareForValidation()</methodSignature>
       <fullMethod>prepareForValidation()</fullMethod>
-      <crap>6</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2250,9 +2888,9 @@
       <methodName>messages</methodName>
       <methodSignature>messages(): array</methodSignature>
       <fullMethod>messages(): array</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2261,9 +2899,9 @@
       <methodName>rules</methodName>
       <methodSignature>rules(): array</methodSignature>
       <fullMethod>rules(): array</fullMethod>
-      <crap>6</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2272,9 +2910,9 @@
       <methodName>prepareForValidation</methodName>
       <methodSignature>prepareForValidation()</methodSignature>
       <fullMethod>prepareForValidation()</fullMethod>
-      <crap>6</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2322,6 +2960,622 @@
       <crapLoad>0</crapLoad>
     </method>
     <method>
+      <package>Playground\Login\Blade\Http\Controllers</package>
+      <className>Playground\Login\Blade\Http\Controllers\AuthenticatedSessionController</className>
+      <methodName>create</methodName>
+      <methodSignature>create(): Illuminate\View\View</methodSignature>
+      <fullMethod>create(): Illuminate\View\View</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Controllers</package>
+      <className>Playground\Login\Blade\Http\Controllers\AuthenticatedSessionController</className>
+      <methodName>store</methodName>
+      <methodSignature>store(Playground\Login\Blade\Http\Requests\LoginRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse</methodSignature>
+      <fullMethod>store(Playground\Login\Blade\Http\Requests\LoginRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse</fullMethod>
+      <crap>16</crap>
+      <complexity>16</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Controllers</package>
+      <className>Playground\Login\Blade\Http\Controllers\AuthenticatedSessionController</className>
+      <methodName>destroy</methodName>
+      <methodSignature>destroy(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse</methodSignature>
+      <fullMethod>destroy(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse</fullMethod>
+      <crap>10</crap>
+      <complexity>10</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Controllers</package>
+      <className>Playground\Login\Blade\Http\Controllers\AuthenticatedSessionController</className>
+      <methodName>destroyTokens</methodName>
+      <methodSignature>destroyTokens(Illuminate\Contracts\Auth\Authenticatable $user, Illuminate\Http\Request $request, array $config): void</methodSignature>
+      <fullMethod>destroyTokens(Illuminate\Contracts\Auth\Authenticatable $user, Illuminate\Http\Request $request, array $config): void</fullMethod>
+      <crap>17</crap>
+      <complexity>17</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Controllers</package>
+      <className>Playground\Login\Blade\Http\Controllers\AuthenticatedSessionController</className>
+      <methodName>token</methodName>
+      <methodSignature>token(Illuminate\Http\Request $request): Illuminate\Http\JsonResponse</methodSignature>
+      <fullMethod>token(Illuminate\Http\Request $request): Illuminate\Http\JsonResponse</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Controllers</package>
+      <className>Playground\Login\Blade\Http\Controllers\ConfirmablePasswordController</className>
+      <methodName>show</methodName>
+      <methodSignature>show(): Illuminate\View\View</methodSignature>
+      <fullMethod>show(): Illuminate\View\View</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Controllers</package>
+      <className>Playground\Login\Blade\Http\Controllers\ConfirmablePasswordController</className>
+      <methodName>store</methodName>
+      <methodSignature>store(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse</methodSignature>
+      <fullMethod>store(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Controllers</package>
+      <className>Playground\Login\Blade\Http\Controllers\Controller</className>
+      <methodName>getRedirectUrl</methodName>
+      <methodSignature>getRedirectUrl(): string</methodSignature>
+      <fullMethod>getRedirectUrl(): string</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Controllers</package>
+      <className>Playground\Login\Blade\Http\Controllers\Controller</className>
+      <methodName>getPackageViewPathFromConfig</methodName>
+      <methodSignature>getPackageViewPathFromConfig(mixed $config, string $view): string</methodSignature>
+      <fullMethod>getPackageViewPathFromConfig(mixed $config, string $view): string</fullMethod>
+      <crap>5</crap>
+      <complexity>5</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Controllers</package>
+      <className>Playground\Login\Blade\Http\Controllers\EmailVerificationController</className>
+      <methodName>show</methodName>
+      <methodSignature>show(Illuminate\Http\Request $request): \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Illuminate\View\View</methodSignature>
+      <fullMethod>show(Illuminate\Http\Request $request): \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Illuminate\View\View</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Controllers</package>
+      <className>Playground\Login\Blade\Http\Controllers\EmailVerificationController</className>
+      <methodName>send</methodName>
+      <methodSignature>send(Illuminate\Http\Request $request): \Illuminate\Http\RedirectResponse|\Illuminate\Http\Response</methodSignature>
+      <fullMethod>send(Illuminate\Http\Request $request): \Illuminate\Http\RedirectResponse|\Illuminate\Http\Response</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Controllers</package>
+      <className>Playground\Login\Blade\Http\Controllers\EmailVerificationController</className>
+      <methodName>verify</methodName>
+      <methodSignature>verify(Playground\Login\Blade\Http\Requests\EmailVerificationRequest $request): \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Illuminate\View\View</methodSignature>
+      <fullMethod>verify(Playground\Login\Blade\Http\Requests\EmailVerificationRequest $request): \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Illuminate\View\View</fullMethod>
+      <crap>3</crap>
+      <complexity>3</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Controllers</package>
+      <className>Playground\Login\Blade\Http\Controllers\NewPasswordController</className>
+      <methodName>create</methodName>
+      <methodSignature>create(Playground\Login\Blade\Http\Requests\NewPasswordRequest $request): Illuminate\View\View</methodSignature>
+      <fullMethod>create(Playground\Login\Blade\Http\Requests\NewPasswordRequest $request): Illuminate\View\View</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Controllers</package>
+      <className>Playground\Login\Blade\Http\Controllers\NewPasswordController</className>
+      <methodName>store</methodName>
+      <methodSignature>store(Playground\Login\Blade\Http\Requests\StoreNewPasswordRequest $request): Illuminate\Http\RedirectResponse</methodSignature>
+      <fullMethod>store(Playground\Login\Blade\Http\Requests\StoreNewPasswordRequest $request): Illuminate\Http\RedirectResponse</fullMethod>
+      <crap>4</crap>
+      <complexity>4</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Controllers</package>
+      <className>Playground\Login\Blade\Http\Controllers\PasswordResetLinkController</className>
+      <methodName>create</methodName>
+      <methodSignature>create(): Illuminate\View\View</methodSignature>
+      <fullMethod>create(): Illuminate\View\View</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Controllers</package>
+      <className>Playground\Login\Blade\Http\Controllers\PasswordResetLinkController</className>
+      <methodName>store</methodName>
+      <methodSignature>store(Playground\Login\Blade\Http\Requests\PasswordResetLinkRequest $request): Illuminate\Http\RedirectResponse</methodSignature>
+      <fullMethod>store(Playground\Login\Blade\Http\Requests\PasswordResetLinkRequest $request): Illuminate\Http\RedirectResponse</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Controllers</package>
+      <className>Playground\Login\Blade\Http\Controllers\RegisteredUserController</className>
+      <methodName>create</methodName>
+      <methodSignature>create(): Illuminate\View\View</methodSignature>
+      <fullMethod>create(): Illuminate\View\View</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Controllers</package>
+      <className>Playground\Login\Blade\Http\Controllers\RegisteredUserController</className>
+      <methodName>store</methodName>
+      <methodSignature>store(Playground\Login\Blade\Http\Requests\RegisterUserRequest $request): Illuminate\Http\RedirectResponse</methodSignature>
+      <fullMethod>store(Playground\Login\Blade\Http\Requests\RegisterUserRequest $request): Illuminate\Http\RedirectResponse</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Requests</package>
+      <className>Playground\Login\Blade\Http\Requests\EmailVerificationRequest</className>
+      <methodName>authorize</methodName>
+      <methodSignature>authorize()</methodSignature>
+      <fullMethod>authorize()</fullMethod>
+      <crap>13</crap>
+      <complexity>13</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Requests</package>
+      <className>Playground\Login\Blade\Http\Requests\LoginRequest</className>
+      <methodName>authorize</methodName>
+      <methodSignature>authorize(): bool</methodSignature>
+      <fullMethod>authorize(): bool</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Requests</package>
+      <className>Playground\Login\Blade\Http\Requests\LoginRequest</className>
+      <methodName>rules</methodName>
+      <methodSignature>rules(): array</methodSignature>
+      <fullMethod>rules(): array</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Requests</package>
+      <className>Playground\Login\Blade\Http\Requests\LoginRequest</className>
+      <methodName>authenticate</methodName>
+      <methodSignature>authenticate(): void</methodSignature>
+      <fullMethod>authenticate(): void</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Requests</package>
+      <className>Playground\Login\Blade\Http\Requests\LoginRequest</className>
+      <methodName>ensureIsNotRateLimited</methodName>
+      <methodSignature>ensureIsNotRateLimited(): void</methodSignature>
+      <fullMethod>ensureIsNotRateLimited(): void</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Requests</package>
+      <className>Playground\Login\Blade\Http\Requests\LoginRequest</className>
+      <methodName>throttleKey</methodName>
+      <methodSignature>throttleKey(): string</methodSignature>
+      <fullMethod>throttleKey(): string</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Requests</package>
+      <className>Playground\Login\Blade\Http\Requests\NewPasswordRequest</className>
+      <methodName>authorize</methodName>
+      <methodSignature>authorize(): bool</methodSignature>
+      <fullMethod>authorize(): bool</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Requests</package>
+      <className>Playground\Login\Blade\Http\Requests\PasswordResetLinkRequest</className>
+      <methodName>authorize</methodName>
+      <methodSignature>authorize(): bool</methodSignature>
+      <fullMethod>authorize(): bool</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Requests</package>
+      <className>Playground\Login\Blade\Http\Requests\PasswordResetLinkRequest</className>
+      <methodName>rules</methodName>
+      <methodSignature>rules(): array</methodSignature>
+      <fullMethod>rules(): array</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Requests</package>
+      <className>Playground\Login\Blade\Http\Requests\RegisterUserRequest</className>
+      <methodName>authorize</methodName>
+      <methodSignature>authorize(): bool</methodSignature>
+      <fullMethod>authorize(): bool</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Requests</package>
+      <className>Playground\Login\Blade\Http\Requests\RegisterUserRequest</className>
+      <methodName>rules</methodName>
+      <methodSignature>rules(): array</methodSignature>
+      <fullMethod>rules(): array</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Requests</package>
+      <className>Playground\Login\Blade\Http\Requests\StoreNewPasswordRequest</className>
+      <methodName>authorize</methodName>
+      <methodSignature>authorize(): bool</methodSignature>
+      <fullMethod>authorize(): bool</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade\Http\Requests</package>
+      <className>Playground\Login\Blade\Http\Requests\StoreNewPasswordRequest</className>
+      <methodName>rules</methodName>
+      <methodSignature>rules(): array</methodSignature>
+      <fullMethod>rules(): array</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade</package>
+      <className>Playground\Login\Blade\ServiceProvider</className>
+      <methodName>boot</methodName>
+      <methodSignature>boot(): void</methodSignature>
+      <fullMethod>boot(): void</fullMethod>
+      <crap>7</crap>
+      <complexity>7</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade</package>
+      <className>Playground\Login\Blade\ServiceProvider</className>
+      <methodName>about</methodName>
+      <methodSignature>about(): void</methodSignature>
+      <fullMethod>about(): void</fullMethod>
+      <crap>23</crap>
+      <complexity>23</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade</package>
+      <className>Playground\Login\Blade\ServiceProvider</className>
+      <methodName>register</methodName>
+      <methodSignature>register(): void</methodSignature>
+      <fullMethod>register(): void</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade</package>
+      <className>Playground\Login\Blade\ServiceProvider</className>
+      <methodName>routes</methodName>
+      <methodSignature>routes(array $routes): void</methodSignature>
+      <fullMethod>routes(array $routes): void</fullMethod>
+      <crap>9</crap>
+      <complexity>9</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Login\Blade</package>
+      <className>Playground\Login\Blade\ServiceProvider</className>
+      <methodName>version</methodName>
+      <methodSignature>version(): string</methodSignature>
+      <fullMethod>version(): string</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Site\Blade\Http\Controllers</package>
+      <className>Playground\Site\Blade\Http\Controllers\AboutController</className>
+      <methodName>index</methodName>
+      <methodSignature>index(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</methodSignature>
+      <fullMethod>index(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Site\Blade\Http\Controllers</package>
+      <className>Playground\Site\Blade\Http\Controllers\BootstrapController</className>
+      <methodName>index</methodName>
+      <methodSignature>index(Illuminate\Http\Request $request): Illuminate\View\View</methodSignature>
+      <fullMethod>index(Illuminate\Http\Request $request): Illuminate\View\View</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Site\Blade\Http\Controllers</package>
+      <className>Playground\Site\Blade\Http\Controllers\BootstrapController</className>
+      <methodName>theme</methodName>
+      <methodSignature>theme(Illuminate\Http\Request $request): \Illuminate\Http\RedirectResponse|\Illuminate\View\View</methodSignature>
+      <fullMethod>theme(Illuminate\Http\Request $request): \Illuminate\Http\RedirectResponse|\Illuminate\View\View</fullMethod>
+      <crap>5</crap>
+      <complexity>5</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Site\Blade\Http\Controllers</package>
+      <className>Playground\Site\Blade\Http\Controllers\Controller</className>
+      <methodName>response_payload</methodName>
+      <methodSignature>response_payload(Illuminate\Http\Request $request): array</methodSignature>
+      <fullMethod>response_payload(Illuminate\Http\Request $request): array</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Site\Blade\Http\Controllers</package>
+      <className>Playground\Site\Blade\Http\Controllers\Controller</className>
+      <methodName>getPackageViewPathFromConfig</methodName>
+      <methodSignature>getPackageViewPathFromConfig(mixed $config, string $controller, string $view): string</methodSignature>
+      <fullMethod>getPackageViewPathFromConfig(mixed $config, string $controller, string $view): string</fullMethod>
+      <crap>5</crap>
+      <complexity>5</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Site\Blade\Http\Controllers</package>
+      <className>Playground\Site\Blade\Http\Controllers\Controller</className>
+      <methodName>init</methodName>
+      <methodSignature>init(Illuminate\Http\Request $request): void</methodSignature>
+      <fullMethod>init(Illuminate\Http\Request $request): void</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Site\Blade\Http\Controllers</package>
+      <className>Playground\Site\Blade\Http\Controllers\DashboardController</className>
+      <methodName>index</methodName>
+      <methodSignature>index(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Illuminate\View\View</methodSignature>
+      <fullMethod>index(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Illuminate\View\View</fullMethod>
+      <crap>5</crap>
+      <complexity>5</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Site\Blade\Http\Controllers</package>
+      <className>Playground\Site\Blade\Http\Controllers\DashboardController</className>
+      <methodName>init</methodName>
+      <methodSignature>init(Illuminate\Http\Request $request): void</methodSignature>
+      <fullMethod>init(Illuminate\Http\Request $request): void</fullMethod>
+      <crap>5.01</crap>
+      <complexity>5</complexity>
+      <coverage>92.86</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Site\Blade\Http\Controllers</package>
+      <className>Playground\Site\Blade\Http\Controllers\HomeController</className>
+      <methodName>index</methodName>
+      <methodSignature>index(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Illuminate\View\View</methodSignature>
+      <fullMethod>index(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Illuminate\View\View</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Site\Blade\Http\Controllers</package>
+      <className>Playground\Site\Blade\Http\Controllers\IndexController</className>
+      <methodName>index</methodName>
+      <methodSignature>index(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Illuminate\View\View</methodSignature>
+      <fullMethod>index(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Illuminate\View\View</fullMethod>
+      <crap>6</crap>
+      <complexity>2</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Site\Blade\Http\Controllers</package>
+      <className>Playground\Site\Blade\Http\Controllers\SitemapController</className>
+      <methodName>index</methodName>
+      <methodSignature>index(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Illuminate\View\View</methodSignature>
+      <fullMethod>index(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Illuminate\View\View</fullMethod>
+      <crap>4</crap>
+      <complexity>4</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Site\Blade\Http\Controllers</package>
+      <className>Playground\Site\Blade\Http\Controllers\SitemapController</className>
+      <methodName>init</methodName>
+      <methodSignature>init(Illuminate\Http\Request $request): void</methodSignature>
+      <fullMethod>init(Illuminate\Http\Request $request): void</fullMethod>
+      <crap>6.14</crap>
+      <complexity>5</complexity>
+      <coverage>64.29</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Site\Blade\Http\Controllers</package>
+      <className>Playground\Site\Blade\Http\Controllers\SitemapController</className>
+      <methodName>configs</methodName>
+      <methodSignature>configs(): void</methodSignature>
+      <fullMethod>configs(): void</fullMethod>
+      <crap>9</crap>
+      <complexity>9</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Site\Blade\Http\Controllers</package>
+      <className>Playground\Site\Blade\Http\Controllers\SitemapController</className>
+      <methodName>sitemaps</methodName>
+      <methodSignature>sitemaps(): void</methodSignature>
+      <fullMethod>sitemaps(): void</fullMethod>
+      <crap>10.14</crap>
+      <complexity>10</complexity>
+      <coverage>88.89</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Site\Blade\Http\Controllers</package>
+      <className>Playground\Site\Blade\Http\Controllers\WelcomeController</className>
+      <methodName>index</methodName>
+      <methodSignature>index(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</methodSignature>
+      <fullMethod>index(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Site\Blade</package>
+      <className>Playground\Site\Blade\ServiceProvider</className>
+      <methodName>boot</methodName>
+      <methodSignature>boot(): void</methodSignature>
+      <fullMethod>boot(): void</fullMethod>
+      <crap>7</crap>
+      <complexity>7</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Site\Blade</package>
+      <className>Playground\Site\Blade\ServiceProvider</className>
+      <methodName>about</methodName>
+      <methodSignature>about(): void</methodSignature>
+      <fullMethod>about(): void</fullMethod>
+      <crap>23</crap>
+      <complexity>23</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Site\Blade</package>
+      <className>Playground\Site\Blade\ServiceProvider</className>
+      <methodName>register</methodName>
+      <methodSignature>register(): void</methodSignature>
+      <fullMethod>register(): void</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Site\Blade</package>
+      <className>Playground\Site\Blade\ServiceProvider</className>
+      <methodName>routes</methodName>
+      <methodSignature>routes(array $routes): void</methodSignature>
+      <fullMethod>routes(array $routes): void</fullMethod>
+      <crap>9</crap>
+      <complexity>9</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Site\Blade</package>
+      <className>Playground\Site\Blade\ServiceProvider</className>
+      <methodName>version</methodName>
+      <methodSignature>version(): string</methodSignature>
+      <fullMethod>version(): string</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
       <package>Playground\Test\Feature\Http\Controllers\Resource\Playground</package>
       <className>Playground\Test\Feature\Http\Controllers\Resource\Playground\CreateJsonTrait</className>
       <methodName>getGetFqdn</methodName>
@@ -2329,7 +3583,7 @@
       <fullMethod>getGetFqdn(): string</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2340,7 +3594,7 @@
       <fullMethod>getPackageInfo(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2351,7 +3605,7 @@
       <fullMethod>getStructureCreate(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2360,9 +3614,9 @@
       <methodName>test_json_guest_cannot_get_create_info</methodName>
       <methodSignature>test_json_guest_cannot_get_create_info()</methodSignature>
       <fullMethod>test_json_guest_cannot_get_create_info()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2371,9 +3625,9 @@
       <methodName>test_json_admin_can_get_create_info</methodName>
       <methodSignature>test_json_admin_can_get_create_info()</methodSignature>
       <fullMethod>test_json_admin_can_get_create_info()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2382,9 +3636,9 @@
       <methodName>test_json_get_create_info_as_admin_with_invalid_parameter_and_fail_validation</methodName>
       <methodSignature>test_json_get_create_info_as_admin_with_invalid_parameter_and_fail_validation()</methodSignature>
       <fullMethod>test_json_get_create_info_as_admin_with_invalid_parameter_and_fail_validation()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2395,7 +3649,7 @@
       <fullMethod>getGetFqdn(): string</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2406,7 +3660,7 @@
       <fullMethod>getPackageInfo(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2415,9 +3669,9 @@
       <methodName>test_guest_cannot_render_create_view</methodName>
       <methodSignature>test_guest_cannot_render_create_view()</methodSignature>
       <fullMethod>test_guest_cannot_render_create_view()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2426,9 +3680,9 @@
       <methodName>test_admin_can_render_create_view</methodName>
       <methodSignature>test_admin_can_render_create_view()</methodSignature>
       <fullMethod>test_admin_can_render_create_view()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2437,9 +3691,9 @@
       <methodName>test_admin_can_render_create_view_with_return_url</methodName>
       <methodSignature>test_admin_can_render_create_view_with_return_url()</methodSignature>
       <fullMethod>test_admin_can_render_create_view_with_return_url()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2448,9 +3702,9 @@
       <methodName>test_create_view_as_admin_with_invalid_parameter_and_fail_validation_and_redirect</methodName>
       <methodSignature>test_create_view_as_admin_with_invalid_parameter_and_fail_validation_and_redirect()</methodSignature>
       <fullMethod>test_create_view_as_admin_with_invalid_parameter_and_fail_validation_and_redirect()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2461,7 +3715,7 @@
       <fullMethod>getGetFqdn(): string</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2472,7 +3726,7 @@
       <fullMethod>getPackageInfo(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2481,9 +3735,9 @@
       <methodName>test_json_guest_cannot_destroy</methodName>
       <methodSignature>test_json_guest_cannot_destroy()</methodSignature>
       <fullMethod>test_json_guest_cannot_destroy()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2492,9 +3746,9 @@
       <methodName>test_json_destroy_as_admin_and_succeed</methodName>
       <methodSignature>test_json_destroy_as_admin_and_succeed()</methodSignature>
       <fullMethod>test_json_destroy_as_admin_and_succeed()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2503,9 +3757,9 @@
       <methodName>test_json_destroy_as_admin_and_succeed_with_force_delete</methodName>
       <methodSignature>test_json_destroy_as_admin_and_succeed_with_force_delete()</methodSignature>
       <fullMethod>test_json_destroy_as_admin_and_succeed_with_force_delete()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2514,9 +3768,9 @@
       <methodName>test_json_destroy_as_admin_and_succeed_with_no_content</methodName>
       <methodSignature>test_json_destroy_as_admin_and_succeed_with_no_content()</methodSignature>
       <fullMethod>test_json_destroy_as_admin_and_succeed_with_no_content()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2525,9 +3779,9 @@
       <methodName>test_json_destroy_as_admin_and_succeed_and_ignore_redirect</methodName>
       <methodSignature>test_json_destroy_as_admin_and_succeed_and_ignore_redirect()</methodSignature>
       <fullMethod>test_json_destroy_as_admin_and_succeed_and_ignore_redirect()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2536,9 +3790,9 @@
       <methodName>test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed</methodName>
       <methodSignature>test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed()</methodSignature>
       <fullMethod>test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2549,7 +3803,7 @@
       <fullMethod>getGetFqdn(): string</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2560,7 +3814,7 @@
       <fullMethod>getPackageInfo(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2569,9 +3823,9 @@
       <methodName>test_guest_cannot_destroy</methodName>
       <methodSignature>test_guest_cannot_destroy()</methodSignature>
       <fullMethod>test_guest_cannot_destroy()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2580,9 +3834,9 @@
       <methodName>test_destroy_as_admin_and_succeed</methodName>
       <methodSignature>test_destroy_as_admin_and_succeed()</methodSignature>
       <fullMethod>test_destroy_as_admin_and_succeed()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2591,9 +3845,9 @@
       <methodName>test_destroy_as_admin_and_succeed_with_force_delete</methodName>
       <methodSignature>test_destroy_as_admin_and_succeed_with_force_delete()</methodSignature>
       <fullMethod>test_destroy_as_admin_and_succeed_with_force_delete()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2602,9 +3856,9 @@
       <methodName>test_destroy_as_admin_and_succeed_with_redirect_to_index_with_trash</methodName>
       <methodSignature>test_destroy_as_admin_and_succeed_with_redirect_to_index_with_trash()</methodSignature>
       <fullMethod>test_destroy_as_admin_and_succeed_with_redirect_to_index_with_trash()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2613,9 +3867,9 @@
       <methodName>test_destroy_as_user_and_get_denied_and_no_force_delete_allowed</methodName>
       <methodSignature>test_destroy_as_user_and_get_denied_and_no_force_delete_allowed()</methodSignature>
       <fullMethod>test_destroy_as_user_and_get_denied_and_no_force_delete_allowed()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2626,7 +3880,7 @@
       <fullMethod>getGetFqdn(): string</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2637,7 +3891,7 @@
       <fullMethod>getPackageInfo(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2648,7 +3902,7 @@
       <fullMethod>getStructureEdit(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2657,9 +3911,9 @@
       <methodName>test_json_guest_cannot_get_edit_info</methodName>
       <methodSignature>test_json_guest_cannot_get_edit_info()</methodSignature>
       <fullMethod>test_json_guest_cannot_get_edit_info()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2668,9 +3922,9 @@
       <methodName>test_json_admin_can_get_edit_info</methodName>
       <methodSignature>test_json_admin_can_get_edit_info()</methodSignature>
       <fullMethod>test_json_admin_can_get_edit_info()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2679,9 +3933,9 @@
       <methodName>test_json_edit_as_admin_and_fail_validation_with_invalid_parameter</methodName>
       <methodSignature>test_json_edit_as_admin_and_fail_validation_with_invalid_parameter()</methodSignature>
       <fullMethod>test_json_edit_as_admin_and_fail_validation_with_invalid_parameter()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2692,7 +3946,7 @@
       <fullMethod>getGetFqdn(): string</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2703,7 +3957,7 @@
       <fullMethod>getPackageInfo(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2712,9 +3966,9 @@
       <methodName>test_guest_cannot_render_edit_view</methodName>
       <methodSignature>test_guest_cannot_render_edit_view()</methodSignature>
       <fullMethod>test_guest_cannot_render_edit_view()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2723,9 +3977,9 @@
       <methodName>test_admin_can_render_edit_view</methodName>
       <methodSignature>test_admin_can_render_edit_view()</methodSignature>
       <fullMethod>test_admin_can_render_edit_view()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2734,9 +3988,9 @@
       <methodName>test_admin_can_render_edit_view_with_return_url</methodName>
       <methodSignature>test_admin_can_render_edit_view_with_return_url()</methodSignature>
       <fullMethod>test_admin_can_render_edit_view_with_return_url()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2745,9 +3999,9 @@
       <methodName>test_edit_view_as_admin_with_invalid_parameter_and_fail_validation_and_redirect</methodName>
       <methodSignature>test_edit_view_as_admin_with_invalid_parameter_and_fail_validation_and_redirect()</methodSignature>
       <fullMethod>test_edit_view_as_admin_with_invalid_parameter_and_fail_validation_and_redirect()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2758,7 +4012,7 @@
       <fullMethod>getGetFqdn(): string</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2769,7 +4023,7 @@
       <fullMethod>getPackageInfo(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2780,7 +4034,7 @@
       <fullMethod>getStructureIndex(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2789,9 +4043,9 @@
       <methodName>test_json_guest_cannot_get_index</methodName>
       <methodSignature>test_json_guest_cannot_get_index()</methodSignature>
       <fullMethod>test_json_guest_cannot_get_index()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2800,9 +4054,9 @@
       <methodName>test_json_admin_can_get_index</methodName>
       <methodSignature>test_json_admin_can_get_index()</methodSignature>
       <fullMethod>test_json_admin_can_get_index()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2811,9 +4065,9 @@
       <methodName>test_json_admin_can_get_index_with_filters</methodName>
       <methodSignature>test_json_admin_can_get_index_with_filters()</methodSignature>
       <fullMethod>test_json_admin_can_get_index_with_filters()</fullMethod>
-      <crap>30</crap>
+      <crap>5</crap>
       <complexity>5</complexity>
-      <coverage>0</coverage>
+      <coverage>95</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2824,7 +4078,7 @@
       <fullMethod>getGetFqdn(): string</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2835,7 +4089,7 @@
       <fullMethod>getPackageInfo(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2844,9 +4098,9 @@
       <methodName>test_guest_cannot_render_index_view</methodName>
       <methodSignature>test_guest_cannot_render_index_view()</methodSignature>
       <fullMethod>test_guest_cannot_render_index_view()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2855,9 +4109,9 @@
       <methodName>test_admin_can_render_index_view</methodName>
       <methodSignature>test_admin_can_render_index_view()</methodSignature>
       <fullMethod>test_admin_can_render_index_view()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2866,9 +4120,9 @@
       <methodName>test_admin_can_render_index_view_with_filters</methodName>
       <methodSignature>test_admin_can_render_index_view_with_filters()</methodSignature>
       <fullMethod>test_admin_can_render_index_view_with_filters()</fullMethod>
-      <crap>30</crap>
+      <crap>5</crap>
       <complexity>5</complexity>
-      <coverage>0</coverage>
+      <coverage>95</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2879,7 +4133,7 @@
       <fullMethod>getGetFqdn(): string</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2890,7 +4144,7 @@
       <fullMethod>getPackageInfo(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2901,7 +4155,7 @@
       <fullMethod>getStructureData(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2910,9 +4164,9 @@
       <methodName>test_json_guest_cannot_lock</methodName>
       <methodSignature>test_json_guest_cannot_lock()</methodSignature>
       <fullMethod>test_json_guest_cannot_lock()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2921,9 +4175,9 @@
       <methodName>test_json_lock_as_admin_and_succeed</methodName>
       <methodSignature>test_json_lock_as_admin_and_succeed()</methodSignature>
       <fullMethod>test_json_lock_as_admin_and_succeed()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2932,9 +4186,9 @@
       <methodName>test_json_lock_as_admin_and_succeed_with_no_redirect</methodName>
       <methodSignature>test_json_lock_as_admin_and_succeed_with_no_redirect()</methodSignature>
       <fullMethod>test_json_lock_as_admin_and_succeed_with_no_redirect()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2943,9 +4197,9 @@
       <methodName>test_json_lock_as_user_and_get_denied</methodName>
       <methodSignature>test_json_lock_as_user_and_get_denied()</methodSignature>
       <fullMethod>test_json_lock_as_user_and_get_denied()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2956,7 +4210,7 @@
       <fullMethod>getGetFqdn(): string</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2967,7 +4221,7 @@
       <fullMethod>getPackageInfo(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2976,9 +4230,9 @@
       <methodName>test_guest_cannot_lock</methodName>
       <methodSignature>test_guest_cannot_lock()</methodSignature>
       <fullMethod>test_guest_cannot_lock()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2987,9 +4241,9 @@
       <methodName>test_lock_as_admin_and_succeed</methodName>
       <methodSignature>test_lock_as_admin_and_succeed()</methodSignature>
       <fullMethod>test_lock_as_admin_and_succeed()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2998,9 +4252,9 @@
       <methodName>test_lock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_locked_desc</methodName>
       <methodSignature>test_lock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_locked_desc()</methodSignature>
       <fullMethod>test_lock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_locked_desc()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3009,9 +4263,9 @@
       <methodName>test_lock_as_user_and_get_denied</methodName>
       <methodSignature>test_lock_as_user_and_get_denied()</methodSignature>
       <fullMethod>test_lock_as_user_and_get_denied()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3022,7 +4276,7 @@
       <fullMethod>getGetFqdn(): string</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3033,7 +4287,7 @@
       <fullMethod>getStructureData(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3042,9 +4296,9 @@
       <methodName>test_json_guest_cannot_restore</methodName>
       <methodSignature>test_json_guest_cannot_restore()</methodSignature>
       <fullMethod>test_json_guest_cannot_restore()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3053,9 +4307,9 @@
       <methodName>test_json_restore_as_admin_and_succeed</methodName>
       <methodSignature>test_json_restore_as_admin_and_succeed()</methodSignature>
       <fullMethod>test_json_restore_as_admin_and_succeed()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3064,9 +4318,9 @@
       <methodName>test_json_restore_as_admin_and_succeed_with_no_redirect</methodName>
       <methodSignature>test_json_restore_as_admin_and_succeed_with_no_redirect()</methodSignature>
       <fullMethod>test_json_restore_as_admin_and_succeed_with_no_redirect()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3075,9 +4329,9 @@
       <methodName>test_json_restore_as_user_and_get_denied</methodName>
       <methodSignature>test_json_restore_as_user_and_get_denied()</methodSignature>
       <fullMethod>test_json_restore_as_user_and_get_denied()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3297,7 +4551,7 @@
       <fullMethod>getGetFqdn(): string</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3308,7 +4562,7 @@
       <fullMethod>getPackageInfo(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3317,9 +4571,9 @@
       <methodName>test_guest_cannot_restore</methodName>
       <methodSignature>test_guest_cannot_restore()</methodSignature>
       <fullMethod>test_guest_cannot_restore()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3328,9 +4582,9 @@
       <methodName>test_restore_as_admin_and_succeed</methodName>
       <methodSignature>test_restore_as_admin_and_succeed()</methodSignature>
       <fullMethod>test_restore_as_admin_and_succeed()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3339,9 +4593,9 @@
       <methodName>test_restore_as_admin_and_succeed_with_redirect_to_index_with_only_trash</methodName>
       <methodSignature>test_restore_as_admin_and_succeed_with_redirect_to_index_with_only_trash()</methodSignature>
       <fullMethod>test_restore_as_admin_and_succeed_with_redirect_to_index_with_only_trash()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3350,9 +4604,9 @@
       <methodName>test_restore_as_user_and_get_denied</methodName>
       <methodSignature>test_restore_as_user_and_get_denied()</methodSignature>
       <fullMethod>test_restore_as_user_and_get_denied()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3649,7 +4903,7 @@
       <fullMethod>getGetFqdn(): string</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3660,7 +4914,7 @@
       <fullMethod>getPackageInfo(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3669,9 +4923,9 @@
       <methodName>test_json_guest_cannot_see_info</methodName>
       <methodSignature>test_json_guest_cannot_see_info()</methodSignature>
       <fullMethod>test_json_guest_cannot_see_info()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3680,9 +4934,9 @@
       <methodName>test_json_show_info_for_admin</methodName>
       <methodSignature>test_json_show_info_for_admin()</methodSignature>
       <fullMethod>test_json_show_info_for_admin()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3693,7 +4947,7 @@
       <fullMethod>getGetFqdn(): string</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3704,7 +4958,7 @@
       <fullMethod>getPackageInfo(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3713,9 +4967,9 @@
       <methodName>test_guest_cannot_render_show_view</methodName>
       <methodSignature>test_guest_cannot_render_show_view()</methodSignature>
       <fullMethod>test_guest_cannot_render_show_view()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3724,9 +4978,9 @@
       <methodName>test_show_view_rendered_by_admin</methodName>
       <methodSignature>test_show_view_rendered_by_admin()</methodSignature>
       <fullMethod>test_show_view_rendered_by_admin()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3737,7 +4991,7 @@
       <fullMethod>getGetFqdn(): string</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3748,7 +5002,7 @@
       <fullMethod>getStructureData(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3759,7 +5013,7 @@
       <fullMethod>getPackageInfo(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3768,9 +5022,9 @@
       <methodName>test_json_guest_cannot_store</methodName>
       <methodSignature>test_json_guest_cannot_store()</methodSignature>
       <fullMethod>test_json_guest_cannot_store()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3779,9 +5033,9 @@
       <methodName>test_json_store_as_admin_without_payload_and_fail_validation</methodName>
       <methodSignature>test_json_store_as_admin_without_payload_and_fail_validation()</methodSignature>
       <fullMethod>test_json_store_as_admin_without_payload_and_fail_validation()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3790,9 +5044,9 @@
       <methodName>test_json_store_as_admin_and_succeed</methodName>
       <methodSignature>test_json_store_as_admin_and_succeed()</methodSignature>
       <fullMethod>test_json_store_as_admin_and_succeed()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3803,7 +5057,7 @@
       <fullMethod>getGetFqdn(): string</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3814,7 +5068,7 @@
       <fullMethod>getPackageInfo(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3823,9 +5077,9 @@
       <methodName>test_guest_cannot_store</methodName>
       <methodSignature>test_guest_cannot_store()</methodSignature>
       <fullMethod>test_guest_cannot_store()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3834,9 +5088,9 @@
       <methodName>test_store_as_admin_without_payload_and_fail_validation</methodName>
       <methodSignature>test_store_as_admin_without_payload_and_fail_validation()</methodSignature>
       <fullMethod>test_store_as_admin_without_payload_and_fail_validation()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3845,9 +5099,9 @@
       <methodName>test_store_as_admin_and_succeed</methodName>
       <methodSignature>test_store_as_admin_and_succeed()</methodSignature>
       <fullMethod>test_store_as_admin_and_succeed()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3856,9 +5110,9 @@
       <methodName>test_store_as_admin_and_succeed_with_return_url</methodName>
       <methodSignature>test_store_as_admin_and_succeed_with_return_url()</methodSignature>
       <fullMethod>test_store_as_admin_and_succeed_with_return_url()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3869,7 +5123,7 @@
       <fullMethod>getGetFqdn(): string</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3880,7 +5134,7 @@
       <fullMethod>getPackageInfo(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3891,7 +5145,7 @@
       <fullMethod>getStructureData(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3900,9 +5154,9 @@
       <methodName>test_json_guest_cannot_unlock</methodName>
       <methodSignature>test_json_guest_cannot_unlock()</methodSignature>
       <fullMethod>test_json_guest_cannot_unlock()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3911,9 +5165,9 @@
       <methodName>test_json_unlock_as_admin_and_succeed</methodName>
       <methodSignature>test_json_unlock_as_admin_and_succeed()</methodSignature>
       <fullMethod>test_json_unlock_as_admin_and_succeed()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3922,9 +5176,9 @@
       <methodName>test_json_unlock_as_admin_and_succeed_with_no_redirect</methodName>
       <methodSignature>test_json_unlock_as_admin_and_succeed_with_no_redirect()</methodSignature>
       <fullMethod>test_json_unlock_as_admin_and_succeed_with_no_redirect()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3933,9 +5187,9 @@
       <methodName>test_json_unlock_as_user_and_get_denied</methodName>
       <methodSignature>test_json_unlock_as_user_and_get_denied()</methodSignature>
       <fullMethod>test_json_unlock_as_user_and_get_denied()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3946,7 +5200,7 @@
       <fullMethod>getGetFqdn(): string</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3957,7 +5211,7 @@
       <fullMethod>getPackageInfo(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3968,7 +5222,7 @@
       <fullMethod>getStructureData(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3977,9 +5231,9 @@
       <methodName>test_guest_cannot_unlock</methodName>
       <methodSignature>test_guest_cannot_unlock()</methodSignature>
       <fullMethod>test_guest_cannot_unlock()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3988,9 +5242,9 @@
       <methodName>test_unlock_as_admin_and_succeed</methodName>
       <methodSignature>test_unlock_as_admin_and_succeed()</methodSignature>
       <fullMethod>test_unlock_as_admin_and_succeed()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -3999,9 +5253,9 @@
       <methodName>test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc</methodName>
       <methodSignature>test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc()</methodSignature>
       <fullMethod>test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4010,9 +5264,9 @@
       <methodName>test_unlock_as_user_and_get_denied</methodName>
       <methodSignature>test_unlock_as_user_and_get_denied()</methodSignature>
       <fullMethod>test_unlock_as_user_and_get_denied()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4023,7 +5277,7 @@
       <fullMethod>getGetFqdn(): string</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4034,7 +5288,7 @@
       <fullMethod>getPackageInfo(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4043,9 +5297,9 @@
       <methodName>test_json_guest_cannot_update</methodName>
       <methodSignature>test_json_guest_cannot_update()</methodSignature>
       <fullMethod>test_json_guest_cannot_update()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4054,9 +5308,9 @@
       <methodName>test_json_update_as_admin_without_payload_and_fail_validation</methodName>
       <methodSignature>test_json_update_as_admin_without_payload_and_fail_validation()</methodSignature>
       <fullMethod>test_json_update_as_admin_without_payload_and_fail_validation()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4065,9 +5319,9 @@
       <methodName>test_json_admin_can_update</methodName>
       <methodSignature>test_json_admin_can_update()</methodSignature>
       <fullMethod>test_json_admin_can_update()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4078,7 +5332,7 @@
       <fullMethod>getGetFqdn(): string</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4089,7 +5343,7 @@
       <fullMethod>getPackageInfo(): array</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4098,9 +5352,9 @@
       <methodName>test_guest_cannot_update</methodName>
       <methodSignature>test_guest_cannot_update()</methodSignature>
       <fullMethod>test_guest_cannot_update()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4109,9 +5363,9 @@
       <methodName>test_update_as_admin_without_payload_and_fail_validation</methodName>
       <methodSignature>test_update_as_admin_without_payload_and_fail_validation()</methodSignature>
       <fullMethod>test_update_as_admin_without_payload_and_fail_validation()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4120,9 +5374,9 @@
       <methodName>test_admin_can_update</methodName>
       <methodSignature>test_admin_can_update()</methodSignature>
       <fullMethod>test_admin_can_update()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4131,9 +5385,9 @@
       <methodName>test_admin_can_update_view_with_return_url</methodName>
       <methodSignature>test_admin_can_update_view_with_return_url()</methodSignature>
       <fullMethod>test_admin_can_update_view_with_return_url()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4142,9 +5396,9 @@
       <methodName>getModel</methodName>
       <methodSignature>getModel(): Illuminate\Database\Eloquent\Model</methodSignature>
       <fullMethod>getModel(): Illuminate\Database\Eloquent\Model</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4153,9 +5407,9 @@
       <methodName>getModelClass</methodName>
       <methodSignature>getModelClass(): string</methodSignature>
       <fullMethod>getModelClass(): string</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4164,9 +5418,9 @@
       <methodName>test_model_instance</methodName>
       <methodSignature>test_model_instance(): void</methodSignature>
       <fullMethod>test_model_instance(): void</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4175,10 +5429,10 @@
       <methodName>verifyRelationship</methodName>
       <methodSignature>verifyRelationship(string $relationshipType, string $accessor): bool</methodSignature>
       <fullMethod>verifyRelationship(string $relationshipType, string $accessor): bool</fullMethod>
-      <crap>272</crap>
+      <crap>32.38</crap>
       <complexity>16</complexity>
-      <coverage>0</coverage>
-      <crapLoad>16</crapLoad>
+      <coverage>60</coverage>
+      <crapLoad>0</crapLoad>
     </method>
     <method>
       <package>Playground\Test\Feature\Models</package>
@@ -4186,9 +5440,9 @@
       <methodName>verifyRelationships</methodName>
       <methodSignature>verifyRelationships(): array</methodSignature>
       <fullMethod>verifyRelationships(): array</fullMethod>
-      <crap>42</crap>
+      <crap>7.99</crap>
       <complexity>6</complexity>
-      <coverage>0</coverage>
+      <coverage>61.9</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4197,10 +5451,10 @@
       <methodName>verifyRelationshipHasOne</methodName>
       <methodSignature>verifyRelationshipHasOne(Illuminate\Database\Eloquent\Model $model, string $accessor): void</methodSignature>
       <fullMethod>verifyRelationshipHasOne(Illuminate\Database\Eloquent\Model $model, string $accessor): void</fullMethod>
-      <crap>342</crap>
+      <crap>18</crap>
       <complexity>18</complexity>
-      <coverage>0</coverage>
-      <crapLoad>18</crapLoad>
+      <coverage>98.55</coverage>
+      <crapLoad>0</crapLoad>
     </method>
     <method>
       <package>Playground\Test\Feature\Models</package>
@@ -4219,9 +5473,9 @@
       <methodName>test_verify_model_relationships</methodName>
       <methodSignature>test_verify_model_relationships(): void</methodSignature>
       <fullMethod>test_verify_model_relationships(): void</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4230,9 +5484,9 @@
       <methodName>test_factory_create</methodName>
       <methodSignature>test_factory_create(): void</methodSignature>
       <fullMethod>test_factory_create(): void</fullMethod>
-      <crap>6</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4252,9 +5506,9 @@
       <methodName>invokeProtected</methodName>
       <methodSignature>invokeProtected($out, $method, array $params): mixed</methodSignature>
       <fullMethod>invokeProtected($out, $method, array $params): mixed</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4428,9 +5682,9 @@
       <methodName>getRequest</methodName>
       <methodSignature>getRequest(): Illuminate\Foundation\Http\FormRequest</methodSignature>
       <fullMethod>getRequest(): Illuminate\Foundation\Http\FormRequest</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4439,9 +5693,9 @@
       <methodName>getRequestClass</methodName>
       <methodSignature>getRequestClass(): string</methodSignature>
       <fullMethod>getRequestClass(): string</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4450,9 +5704,9 @@
       <methodName>test_request_instance</methodName>
       <methodSignature>test_request_instance(): void</methodSignature>
       <fullMethod>test_request_instance(): void</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4472,9 +5726,9 @@
       <methodName>getModel</methodName>
       <methodSignature>getModel(): Illuminate\Database\Eloquent\Model</methodSignature>
       <fullMethod>getModel(): Illuminate\Database\Eloquent\Model</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4483,9 +5737,9 @@
       <methodName>getModelClass</methodName>
       <methodSignature>getModelClass(): string</methodSignature>
       <fullMethod>getModelClass(): string</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4494,9 +5748,9 @@
       <methodName>test_model_instance</methodName>
       <methodSignature>test_model_instance(): void</methodSignature>
       <fullMethod>test_model_instance(): void</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4505,10 +5759,10 @@
       <methodName>verifyRelationship</methodName>
       <methodSignature>verifyRelationship(string $relationshipType, string $accessor): bool</methodSignature>
       <fullMethod>verifyRelationship(string $relationshipType, string $accessor): bool</fullMethod>
-      <crap>110</crap>
+      <crap>19.83</crap>
       <complexity>10</complexity>
-      <coverage>0</coverage>
-      <crapLoad>10</crapLoad>
+      <coverage>53.85</coverage>
+      <crapLoad>0</crapLoad>
     </method>
     <method>
       <package>Playground\Test\Unit\Models</package>
@@ -4516,10 +5770,10 @@
       <methodName>verifyRelationships</methodName>
       <methodSignature>verifyRelationships(): array</methodSignature>
       <fullMethod>verifyRelationships(): array</fullMethod>
-      <crap>56</crap>
+      <crap>10.14</crap>
       <complexity>7</complexity>
-      <coverage>0</coverage>
-      <crapLoad>7</crapLoad>
+      <coverage>60</coverage>
+      <crapLoad>0</crapLoad>
     </method>
     <method>
       <package>Playground\Test\Unit\Models</package>
@@ -4527,9 +5781,9 @@
       <methodName>test_verify_model_relationships</methodName>
       <methodSignature>test_verify_model_relationships(): void</methodSignature>
       <fullMethod>test_verify_model_relationships(): void</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -4538,9 +5792,9 @@
       <methodName>test_model_factory_make</methodName>
       <methodSignature>test_model_factory_make(): void</methodSignature>
       <fullMethod>test_model_factory_make(): void</fullMethod>
-      <crap>6</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>

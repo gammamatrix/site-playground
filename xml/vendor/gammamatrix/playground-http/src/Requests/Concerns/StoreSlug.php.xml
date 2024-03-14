@@ -1,0 +1,1240 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <file name="StoreSlug.php" path="/vendor/gammamatrix/playground-http/src/Requests/Concerns">
+    <totals>
+      <lines total="99" comments="27" code="72" executable="36" executed="33" percent="91.67"/>
+      <methods count="3" tested="2" percent="66.67"/>
+      <functions count="0" tested="0" percent="0"/>
+      <classes count="0" tested="0" percent="0"/>
+      <traits count="1" tested="0" percent="0.00"/>
+    </totals>
+    <trait name="Playground\Http\Requests\Concerns\StoreSlug" start="14" executable="36" executed="33" crap="18.19">
+      <namespace name="Playground\Http\Requests\Concerns"/>
+      <method name="rules_store_slug_create" signature="rules_store_slug_create(array $rules): void" start="21" end="31" crap="2" executable="6" executed="6" coverage="100"/>
+      <method name="rules_store_slug_update" signature="rules_store_slug_update(array $rules): void" start="36" end="50" crap="2" executable="7" executed="7" coverage="100"/>
+      <method name="prepareForValidationForSlug" signature="prepareForValidationForSlug(): array" start="55" end="97" crap="14.43" executable="23" executed="20" coverage="86.95652173913"/>
+    </trait>
+    <coverage>
+      <line nr="23">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+      </line>
+      <line nr="28">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+      </line>
+      <line nr="29">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+      </line>
+      <line nr="38">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+      </line>
+      <line nr="43">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+      </line>
+      <line nr="47">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+      </line>
+      <line nr="48">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+      </line>
+      <line nr="57">
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_for_laravel"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_for_playground"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_for_laravel"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_for_playground"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update_view_with_return_url"/>
+      </line>
+      <line nr="58">
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_for_laravel"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_for_playground"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_for_laravel"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_for_playground"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update_view_with_return_url"/>
+      </line>
+      <line nr="59">
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_for_laravel"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_for_playground"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_for_laravel"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_for_playground"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update_view_with_return_url"/>
+      </line>
+      <line nr="61">
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_for_laravel"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_for_playground"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_for_laravel"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_for_playground"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update_view_with_return_url"/>
+      </line>
+      <line nr="63">
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_for_laravel"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_for_playground"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_for_laravel"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_for_playground"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update_view_with_return_url"/>
+      </line>
+      <line nr="64">
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_parameters"/>
+      </line>
+      <line nr="65">
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_parameters"/>
+      </line>
+      <line nr="66">
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_parameters"/>
+      </line>
+      <line nr="71">
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_for_laravel"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_for_playground"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_for_laravel"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_for_playground"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update_view_with_return_url"/>
+      </line>
+      <line nr="72">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+      </line>
+      <line nr="73">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+      </line>
+      <line nr="86">
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_for_laravel"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_for_playground"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_for_laravel"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_for_playground"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update_view_with_return_url"/>
+      </line>
+      <line nr="87">
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+      </line>
+      <line nr="88">
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+      </line>
+      <line nr="93">
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_for_laravel"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_for_playground"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_for_laravel"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_for_playground"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update_view_with_return_url"/>
+      </line>
+      <line nr="94">
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_for_laravel"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_for_playground"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_for_laravel"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_for_playground"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update_view_with_return_url"/>
+      </line>
+      <line nr="95">
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_for_laravel"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_for_playground"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_for_laravel"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_for_playground"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update_view_with_return_url"/>
+      </line>
+      <line nr="24">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+      </line>
+      <line nr="25">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+      </line>
+      <line nr="26">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+      </line>
+      <line nr="39">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+      </line>
+      <line nr="40">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+      </line>
+      <line nr="41">
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+      </line>
+      <line nr="89">
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+      </line>
+      <line nr="92">
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_for_laravel"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_for_playground"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_for_laravel"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_for_playground"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update_view_with_return_url"/>
+      </line>
+      <line nr="96">
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_for_laravel"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_for_playground"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_for_laravel"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_for_playground"/>
+        <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_prepareForValidation_parameters"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_update_as_admin_without_payload_and_fail_validation"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update_view_with_return_url"/>
+      </line>
+    </coverage>
+    <source>
+      <line no="1">
+        <token name="T_OPEN_TAG">&lt;?php</token>
+      </line>
+      <line no="2"/>
+      <line no="3">
+        <token name="T_DECLARE">declare</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">strict_types</token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_LNUMBER">1</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="4">
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="5">
+        <token name="T_DOC_COMMENT"> * Playground</token>
+      </line>
+      <line no="6">
+        <token name="T_DOC_COMMENT"> */</token>
+      </line>
+      <line no="7">
+        <token name="T_NAMESPACE">namespace</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_NAME_QUALIFIED">Playground\Http\Requests\Concerns</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="8"/>
+      <line no="9">
+        <token name="T_USE">use</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_NAME_QUALIFIED">Illuminate\Support\Str</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="10"/>
+      <line no="11">
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="12">
+        <token name="T_DOC_COMMENT"> * \Playground\Http\Requests\Concerns\StoreSlug</token>
+      </line>
+      <line no="13">
+        <token name="T_DOC_COMMENT"> */</token>
+      </line>
+      <line no="14">
+        <token name="T_TRAIT">trait</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">StoreSlug</token>
+      </line>
+      <line no="15">
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="16">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PROTECTED">protected</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">string</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$slug_table</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">''</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="17"/>
+      <line no="18">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="19">
+        <token name="T_DOC_COMMENT">     * @param array&lt;string, string|array&lt;string, mixed&gt;&gt; $rules</token>
+      </line>
+      <line no="20">
+        <token name="T_DOC_COMMENT">     */</token>
+      </line>
+      <line no="21">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">rules_store_slug_create</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_ARRAY">array</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_AMPERSAND_FOLLOWED_BY_VAR_OR_VARARG">&amp;</token>
+        <token name="T_VARIABLE">$rules</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">void</token>
+      </line>
+      <line no="22">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="23">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$rules</token>
+        <token name="T_OPEN_SQUARE">[</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'slug'</token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_SQUARE">[</token>
+      </line>
+      <line no="24">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'nullable'</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="25">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'string'</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="26">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="27"/>
+      <line no="28">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">slug_table</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="29">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_VARIABLE">$rules</token>
+        <token name="T_OPEN_SQUARE">[</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'slug'</token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_OPEN_SQUARE">[</token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">sprintf</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'unique:%1$s'</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">slug_table</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="30">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="31">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="32"/>
+      <line no="33">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="34">
+        <token name="T_DOC_COMMENT">     * @param array&lt;string, string|array&lt;string, mixed&gt;&gt; $rules</token>
+      </line>
+      <line no="35">
+        <token name="T_DOC_COMMENT">     */</token>
+      </line>
+      <line no="36">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">rules_store_slug_update</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_ARRAY">array</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_AMPERSAND_FOLLOWED_BY_VAR_OR_VARARG">&amp;</token>
+        <token name="T_VARIABLE">$rules</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">void</token>
+      </line>
+      <line no="37">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="38">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$rules</token>
+        <token name="T_OPEN_SQUARE">[</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'slug'</token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_SQUARE">[</token>
+      </line>
+      <line no="39">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'nullable'</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="40">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'string'</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="41">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="42"/>
+      <line no="43">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">slug_table</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="44">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="45">
+        <token name="T_DOC_COMMENT">             * @var int|string $id</token>
+      </line>
+      <line no="46">
+        <token name="T_DOC_COMMENT">             */</token>
+      </line>
+      <line no="47">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_VARIABLE">$id</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">id</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="48">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_VARIABLE">$rules</token>
+        <token name="T_OPEN_SQUARE">[</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'slug'</token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_OPEN_SQUARE">[</token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">sprintf</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'unique:%1$s,id,%2$s'</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">slug_table</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$id</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="49">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="50">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="51"/>
+      <line no="52">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="53">
+        <token name="T_DOC_COMMENT">     * @return array&lt;string, string&gt;</token>
+      </line>
+      <line no="54">
+        <token name="T_DOC_COMMENT">     */</token>
+      </line>
+      <line no="55">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">prepareForValidationForSlug</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_ARRAY">array</token>
+      </line>
+      <line no="56">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="57">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$slug</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">get</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'slug'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="58">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$title</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">get</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'title'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="59">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$label</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">get</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'label'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="60"/>
+      <line no="61">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$merge</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">false</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="62"/>
+      <line no="63">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_EMPTY">empty</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$slug</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_BOOLEAN_AND">&amp;&amp;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_EXCLAMATION_MARK">!</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EMPTY">empty</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$label</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_BOOLEAN_OR">||</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EXCLAMATION_MARK">!</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EMPTY">empty</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$title</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="64">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_EXCLAMATION_MARK">!</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EMPTY">empty</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$title</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_BOOLEAN_AND">&amp;&amp;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">is_string</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$title</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="65">
+        <token name="T_WHITESPACE">                </token>
+        <token name="T_VARIABLE">$merge</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">true</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="66">
+        <token name="T_WHITESPACE">                </token>
+        <token name="T_VARIABLE">$slug</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Str</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">of</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$title</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">slug</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'-'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">toString</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="67">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CLOSE_CURLY">}</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_ELSEIF">elseif</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_EXCLAMATION_MARK">!</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EMPTY">empty</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$label</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_BOOLEAN_AND">&amp;&amp;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">is_string</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$label</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="68">
+        <token name="T_WHITESPACE">                </token>
+        <token name="T_VARIABLE">$merge</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">true</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="69">
+        <token name="T_WHITESPACE">                </token>
+        <token name="T_VARIABLE">$slug</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Str</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">of</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$label</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">slug</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'-'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">toString</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="70">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="71">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_CURLY">}</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_ELSEIF">elseif</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_EXCLAMATION_MARK">!</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EMPTY">empty</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$slug</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_BOOLEAN_AND">&amp;&amp;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">is_string</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$slug</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="72">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_VARIABLE">$merge</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">true</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="73">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_VARIABLE">$slug</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Str</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">of</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$slug</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">slug</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'-'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">toString</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="74">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="75"/>
+      <line no="76">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">// dd([</token>
+      </line>
+      <line no="77">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">//     '__METHOD__' =&gt; __METHOD__,</token>
+      </line>
+      <line no="78">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">//     '__FILE__' =&gt; __FILE__,</token>
+      </line>
+      <line no="79">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">//     '__LINE__' =&gt; __LINE__,</token>
+      </line>
+      <line no="80">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">//     '$merge' =&gt; $merge,</token>
+      </line>
+      <line no="81">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">//     '$slug' =&gt; $slug,</token>
+      </line>
+      <line no="82">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">//     '$title' =&gt; $title,</token>
+      </line>
+      <line no="83">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">//     '$label' =&gt; $label,</token>
+      </line>
+      <line no="84">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_COMMENT">// ]);</token>
+      </line>
+      <line no="85"/>
+      <line no="86">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$merge</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="87">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">merge</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_OPEN_SQUARE">[</token>
+      </line>
+      <line no="88">
+        <token name="T_WHITESPACE">                </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'slug'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$slug</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="89">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="90">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="91"/>
+      <line no="92">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_SQUARE">[</token>
+      </line>
+      <line no="93">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'slug'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">is_string</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$slug</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_QUESTION_MARK">?</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$slug</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">''</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="94">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'label'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">is_string</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$label</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_QUESTION_MARK">?</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$label</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">''</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="95">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'title'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">is_string</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$title</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_QUESTION_MARK">?</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$title</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">''</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="96">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="97">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="98">
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="99"/>
+    </source>
+  </file>
+</phpunit>

@@ -97,6 +97,12 @@ Bootstrap Route (Tests\Feature\Playground\Site\Blade\Http\Controllers\Playground
  [x] As wheel and succeed
  [x] Json as wheel and succeed
 
+Command (Tests\Feature\Playground\Admin\Console\Commands\About\Command)
+ [x] Command about displays package information and succeed with code 0
+
+Command (Tests\Feature\Playground\Admin\Resource\Console\Commands\About\Command)
+ [x] Command about displays package information and succeed with code 0
+
 Command (Tests\Feature\Playground\Auth\Console\Commands\About\Command)
  [x] Command about displays package information and succeed with code 0
 
@@ -152,9 +158,22 @@ Component (Tests\Unit\Playground\Blade\View\Components\Table\Data\Component)
  [x] Component instance
  [x] Component can render view
 
+Create Request (Tests\Unit\Playground\Admin\Resource\Http\Requests\Setting\CreateRequest)
+ [x] Request instance
+
+Create Request (Tests\Unit\Playground\Admin\Resource\Http\Requests\User\CreateRequest)
+ [x] Request instance
+ [x] Return playground rules
+ [x] Return laravel rules
+
 Date Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\DateTrait)
  [x] Filter date
  [x] Filter date as carbon
+
+Edit Request (Tests\Unit\Playground\Admin\Resource\Http\Requests\User\EditRequest)
+ [x] Request instance
+ [x] Return playground rules
+ [x] Return laravel rules
 
 Email Verification Route (Tests\Feature\Playground\Login\Blade\Http\Controllers\Laravel\EmailVerificationRoute)
  [x] Email verification screen can be rendered
@@ -185,6 +204,27 @@ Example (Tests\Feature\Example)
 
 Example (Tests\Unit\Example)
  [x] That true is true
+
+Index Route (Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\IndexRoute)
+ [x] Guest cannot render index view
+ [x] Admin can render index view
+
+Instance (Tests\Feature\Playground\Admin\Resource\Http\Requests\FormRequest\Instance)
+ [x] FormRequest authorize with admin
+
+Instance (Tests\Unit\Playground\Admin\Resource\Http\Controllers\UserController\Instance)
+ [x] UserProvidergetUserClass with invalid user class
+
+Instance (Tests\Unit\Playground\Admin\Resource\Http\Requests\FormRequest\Instance)
+ [x] FormRequest authorize without user
+ [x] RULES is empty by default
+ [x] UserHasAdminPrivileges without user
+ [x] UserHasAdminPrivileges with admin
+ [x] UserHasAdminPrivileges with default laravel user
+
+Instance (Tests\Unit\Playground\Admin\Resource\ServiceProvider\Instance)
+ [x] Version matches
+ [x] SetPolicies with empty array
 
 Instance (Tests\Unit\Playground\Blade\Assets\Comment\Instance)
  [x] Instance with docs
@@ -247,8 +287,18 @@ Logout Route (Tests\Feature\Playground\Login\Blade\Http\Controllers\Sanctum\Logo
  [x] Sanctum users can logout everywhere tokens without token
  [x] Sanctum users can authenticate and logout and delete token with sessions
 
+Model (Tests\Feature\Playground\Admin\Models\Setting\Model)
+ [x] Model instance
+ [x] Verify model relationships
+ [x] Factory create
+
 Model (Tests\Feature\Playground\Models\User\Model)
  [x] Save model in database
+
+Model (Tests\Unit\Playground\Admin\Models\Setting\Model)
+ [x] Model instance
+ [x] Verify model relationships
+ [x] Model factory make
 
 Model (Tests\Unit\Playground\Models\Model\Model)
  [x] WithChildren children returns HasMany
@@ -420,6 +470,9 @@ Password Reset Route (Tests\Feature\Playground\Login\Blade\Http\Controllers\Play
 Phone Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\PhoneTrait)
  [x] Filter phone
 
+Policy (Tests\Unit\Playground\Admin\Resource\Policies\SettingPolicy\Policy)
+ [x] Policy instance
+
 Public Dashboard Route (Tests\Feature\Playground\Site\Blade\Http\Controllers\Laravel\PublicDashboardRoute)
  [x] As guest and fail when disabled for guest and no redirect
  [x] As guest and redirect when disabled for all
@@ -474,12 +527,95 @@ Registration Route (Tests\Feature\Playground\Login\Blade\Http\Controllers\Playgr
  [x] Registration screen can be rendered
  [x] New users can register
 
+Setting Route (Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRoute)
+ [x] Guest cannot render index view
+ [x] Json guest cannot see info
+ [x] Guest cannot render show view
+ [x] Json guest cannot destroy
+ [x] Guest cannot destroy
+ [x] Guest cannot lock
+ [x] Json guest cannot restore
+ [x] Guest cannot restore
+ [x] Guest cannot render create view
+ [x] Guest cannot render edit view
+ [x] Json guest cannot get index
+ [x] Json guest cannot lock
+ [x] Json guest cannot unlock
+ [x] Guest cannot unlock
+ [x] Json guest cannot get create info
+ [x] Json guest cannot get edit info
+ [x] Guest cannot store
+ [x] Json guest cannot store
+ [x] Admin can render index view
+ [x] Json guest cannot update
+ [x] Guest cannot update
+ [x] Admin can render create view
+ [x] Json admin can get index
+ [x] Json show info for admin
+ [x] Show view rendered by admin
+ [x] Json admin can get create info
+ [x] Admin can render edit view
+ [x] Json admin can get edit info
+ [x] Json destroy as admin and succeed
+ [x] Destroy as admin and succeed
+ [x] Lock as admin and succeed
+ [x] Store as admin without payload and fail validation
+ [x] Json restore as admin and succeed
+ [x] Restore as admin and succeed
+ [x] Admin can render create view with return url
+ [x] Json update as admin without payload and fail validation
+ [x] Update as admin without payload and fail validation
+ [x] Json lock as admin and succeed
+ [x] Json store as admin without payload and fail validation
+ [x] Json unlock as admin and succeed
+ [x] Unlock as admin and succeed
+ [x] Json get create info as admin with invalid parameter and fail validation
+ [x] Admin can render edit view with return url
+ [x] Admin can render index view with filters
+ [x] Json admin can get index with filters
+ [x] Json edit as admin and fail validation with invalid parameter
+ [x] Store as admin and succeed
+ [x] Json admin can update
+ [x] Admin can update
+ [x] Create view as admin with invalid parameter and fail validation and redirect
+ [x] Json store as admin and succeed
+ [x] Lock as admin and succeed with redirect to index with sorted by locked desc
+ [x] Destroy as admin and succeed with force delete
+ [x] Json lock as admin and succeed with no redirect
+ [x] Json destroy as admin and succeed with force delete
+ [x] Json restore as admin and succeed with no redirect
+ [x] Restore as admin and succeed with redirect to index with only trash
+ [x] Json unlock as admin and succeed with no redirect
+ [x] Edit view as admin with invalid parameter and fail validation and redirect
+ [x] Unlock as admin and succeed with redirect to index with sorted by unlocked desc
+ [x] Destroy as admin and succeed with redirect to index with trash
+ [x] Json destroy as admin and succeed with no content
+ [x] Lock as user and get denied
+ [x] Admin can update view with return url
+ [x] Store as admin and succeed with return url
+ [x] Json lock as user and get denied
+ [x] Json restore as user and get denied
+ [x] Json unlock as user and get denied
+ [x] Restore as user and get denied
+ [x] Unlock as user and get denied
+ [x] Json destroy as admin and succeed and ignore redirect
+ [x] Destroy as user and get denied and no force delete allowed
+ [x] Json destroy as user and get denied and no force delete allowed
+
 Status Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\StatusTrait)
  [x] FilterStatus with empty input
  [x] FilterStatus with integer
  [x] FilterStatus with integer as string
  [x] FilterStatus with integer as negative float
  [x] FilterStatus with map
+
+Store Request (Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequest)
+ [x] Request instance
+ [x] Return playground rules
+ [x] Return laravel rules
+ [x] PrepareForValidation for laravel
+ [x] PrepareForValidation for playground
+ [x] PrepareForValidation parameters
 
 System Fields Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\SystemFieldsTrait)
  [x] FilterSystemFields with empty input
@@ -539,6 +675,14 @@ Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\Trait)
  [x] GetHtmlPurifier with iframes
  [x] GetHtmlPurifier with purifier path
 
+Update Request (Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequest)
+ [x] Request instance
+ [x] Return playground rules
+ [x] Return laravel rules
+ [x] PrepareForValidation for laravel
+ [x] PrepareForValidation for playground
+ [x] PrepareForValidation parameters
+
 User Dashboard Route (Tests\Feature\Playground\Site\Blade\Http\Controllers\Laravel\UserDashboardRoute)
  [x] As guest and fail when disabled for guest and no redirect with auth middleware
  [x] As guest and redirect
@@ -570,6 +714,81 @@ User Home Route (Tests\Feature\Playground\Site\Blade\Http\Controllers\Playground
  [x] Route json home as guest and fail
  [x] Route home as user admin and succeed
  [x] Route json home as admin and succeed
+
+User Route (Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRoute)
+ [x] Guest cannot render index view
+ [x] Json guest cannot see info
+ [x] Guest cannot render show view
+ [x] Json guest cannot destroy
+ [x] Guest cannot destroy
+ [x] Guest cannot lock
+ [x] Json guest cannot restore
+ [x] Guest cannot restore
+ [x] Guest cannot render create view
+ [x] Guest cannot render edit view
+ [x] Json guest cannot get index
+ [x] Json guest cannot lock
+ [x] Json guest cannot unlock
+ [x] Guest cannot unlock
+ [x] Json guest cannot get create info
+ [x] Json guest cannot get edit info
+ [x] Guest cannot store
+ [x] Json guest cannot store
+ [x] Admin can render index view
+ [x] Json guest cannot update
+ [x] Guest cannot update
+ [x] Admin can render create view
+ [x] Json admin can get index
+ [x] Json show info for admin
+ [x] Show view rendered by admin
+ [x] Json admin can get create info
+ [x] Admin can render edit view
+ [x] Json admin can get edit info
+ [x] Json destroy as admin and succeed
+ [x] Destroy as admin and succeed
+ [x] Lock as admin and succeed
+ [x] Store as admin without payload and fail validation
+ [x] Json restore as admin and succeed
+ [x] Restore as admin and succeed
+ [x] Admin can render create view with return url
+ [x] Json update as admin without payload and fail validation
+ [x] Update as admin without payload and fail validation
+ [x] Json lock as admin and succeed
+ [x] Json store as admin without payload and fail validation
+ [x] Json unlock as admin and succeed
+ [x] Unlock as admin and succeed
+ [x] Json get create info as admin with invalid parameter and fail validation
+ [x] Admin can render edit view with return url
+ [x] Admin can render index view with filters
+ [x] Json admin can get index with filters
+ [x] Json edit as admin and fail validation with invalid parameter
+ [x] Store as admin and succeed
+ [x] Json admin can update
+ [x] Admin can update
+ [x] Create view as admin with invalid parameter and fail validation and redirect
+ [x] Json store as admin and succeed
+ [x] Lock as admin and succeed with redirect to index with sorted by locked desc
+ [x] Destroy as admin and succeed with force delete
+ [x] Json lock as admin and succeed with no redirect
+ [x] Json destroy as admin and succeed with force delete
+ [x] Json restore as admin and succeed with no redirect
+ [x] Restore as admin and succeed with redirect to index with only trash
+ [x] Json unlock as admin and succeed with no redirect
+ [x] Edit view as admin with invalid parameter and fail validation and redirect
+ [x] Unlock as admin and succeed with redirect to index with sorted by unlocked desc
+ [x] Destroy as admin and succeed with redirect to index with trash
+ [x] Json destroy as admin and succeed with no content
+ [x] Lock as user and get denied
+ [x] Admin can update view with return url
+ [x] Store as admin and succeed with return url
+ [x] Json lock as user and get denied
+ [x] Json restore as user and get denied
+ [x] Json unlock as user and get denied
+ [x] Restore as user and get denied
+ [x] Unlock as user and get denied
+ [x] Json destroy as admin and succeed and ignore redirect
+ [x] Destroy as user and get denied and no force delete allowed
+ [x] Json destroy as user and get denied and no force delete allowed
 
 User Sitemap Route (Tests\Feature\Playground\Site\Blade\Http\Controllers\Laravel\UserSitemapRoute)
  [x] Route sitemap as guest and fail when disabled for guest and no redirect
