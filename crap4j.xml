@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <crap_result>
   <project/>
-  <timestamp>2024-03-14 05:13:05</timestamp>
+  <timestamp>2024-03-14 05:29:25</timestamp>
   <stats>
     <name>Method Crap Stats</name>
     <methodCount>440</methodCount>
-    <crapMethodCount>25</crapMethodCount>
-    <crapLoad>362</crapLoad>
-    <totalCrap>8404.36</totalCrap>
-    <crapMethodPercent>5.68</crapMethodPercent>
+    <crapMethodCount>16</crapMethodCount>
+    <crapLoad>243</crapLoad>
+    <totalCrap>6283.02</totalCrap>
+    <crapMethodPercent>3.64</crapMethodPercent>
   </stats>
   <methods>
     <method>
@@ -160,10 +160,10 @@
       <methodName>compileAbilitiesByGroup</methodName>
       <methodSignature>compileAbilitiesByGroup(string $group): array</methodSignature>
       <fullMethod>compileAbilitiesByGroup(string $group): array</fullMethod>
-      <crap>812</crap>
+      <crap>245.47</crap>
       <complexity>28</complexity>
-      <coverage>0</coverage>
-      <crapLoad>29</crapLoad>
+      <coverage>34.78</coverage>
+      <crapLoad>19</crapLoad>
     </method>
     <method>
       <package>Playground\Auth</package>
@@ -171,9 +171,9 @@
       <methodName>abilitiesByGroup</methodName>
       <methodSignature>abilitiesByGroup(string $group): array</methodSignature>
       <fullMethod>abilitiesByGroup(string $group): array</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -182,10 +182,10 @@
       <methodName>abilities</methodName>
       <methodSignature>abilities(Illuminate\Contracts\Auth\Authenticatable $user): array</methodSignature>
       <fullMethod>abilities(Illuminate\Contracts\Auth\Authenticatable $user): array</fullMethod>
-      <crap>156</crap>
+      <crap>14.62</crap>
       <complexity>12</complexity>
-      <coverage>0</coverage>
-      <crapLoad>12</crapLoad>
+      <coverage>73.68</coverage>
+      <crapLoad>0</crapLoad>
     </method>
     <method>
       <package>Playground\Auth</package>
@@ -193,10 +193,10 @@
       <methodName>init</methodName>
       <methodSignature>init(Illuminate\Contracts\Auth\Authenticatable $user): self</methodSignature>
       <fullMethod>init(Illuminate\Contracts\Auth\Authenticatable $user): self</fullMethod>
-      <crap>462</crap>
+      <crap>26.18</crap>
       <complexity>21</complexity>
-      <coverage>0</coverage>
-      <crapLoad>21</crapLoad>
+      <coverage>77.27</coverage>
+      <crapLoad>0</crapLoad>
     </method>
     <method>
       <package>Playground\Auth</package>
@@ -204,10 +204,10 @@
       <methodName>listed</methodName>
       <methodSignature>listed(Illuminate\Contracts\Auth\Authenticatable $user): void</methodSignature>
       <fullMethod>listed(Illuminate\Contracts\Auth\Authenticatable $user): void</fullMethod>
-      <crap>56</crap>
+      <crap>7.54</crap>
       <complexity>7</complexity>
-      <coverage>0</coverage>
-      <crapLoad>7</crapLoad>
+      <coverage>77.78</coverage>
+      <crapLoad>0</crapLoad>
     </method>
     <method>
       <package>Playground\Auth</package>
@@ -215,9 +215,9 @@
       <methodName>authorize</methodName>
       <methodSignature>authorize(Illuminate\Contracts\Auth\Authenticatable $user): array</methodSignature>
       <fullMethod>authorize(Illuminate\Contracts\Auth\Authenticatable $user): array</fullMethod>
-      <crap>12</crap>
+      <crap>3</crap>
       <complexity>3</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -226,10 +226,10 @@
       <methodName>sanctum</methodName>
       <methodSignature>sanctum(Illuminate\Contracts\Auth\Authenticatable $user): array</methodSignature>
       <fullMethod>sanctum(Illuminate\Contracts\Auth\Authenticatable $user): array</fullMethod>
-      <crap>56</crap>
+      <crap>7.06</crap>
       <complexity>7</complexity>
-      <coverage>0</coverage>
-      <crapLoad>7</crapLoad>
+      <coverage>89.47</coverage>
+      <crapLoad>0</crapLoad>
     </method>
     <method>
       <package>Playground\Auth</package>
@@ -864,9 +864,9 @@
       <methodName>setOptions</methodName>
       <methodSignature>setOptions(array $options): self</methodSignature>
       <fullMethod>setOptions(array $options): self</fullMethod>
-      <crap>20.58</crap>
+      <crap>15.13</crap>
       <complexity>15</complexity>
-      <coverage>70.83</coverage>
+      <coverage>91.67</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -985,9 +985,9 @@
       <methodName>setOptions</methodName>
       <methodSignature>setOptions(array $options): self</methodSignature>
       <fullMethod>setOptions(array $options): self</fullMethod>
-      <crap>18.52</crap>
+      <crap>15.08</crap>
       <complexity>15</complexity>
-      <coverage>75</coverage>
+      <coverage>92.86</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1150,9 +1150,9 @@
       <methodName>setOptions</methodName>
       <methodSignature>setOptions(array $options): self</methodSignature>
       <fullMethod>setOptions(array $options): self</fullMethod>
-      <crap>3.04</crap>
+      <crap>3</crap>
       <complexity>3</complexity>
-      <coverage>83.33</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1194,9 +1194,9 @@
       <methodName>setOptions</methodName>
       <methodSignature>setOptions(array $options): self</methodSignature>
       <fullMethod>setOptions(array $options): self</fullMethod>
-      <crap>5.05</crap>
+      <crap>5</crap>
       <complexity>5</complexity>
-      <coverage>87.5</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1238,10 +1238,10 @@
       <methodName>loadBodyAssets</methodName>
       <methodSignature>loadBodyAssets(array $assets): self</methodSignature>
       <fullMethod>loadBodyAssets(array $assets): self</fullMethod>
-      <crap>182</crap>
+      <crap>13.09</crap>
       <complexity>13</complexity>
-      <coverage>0</coverage>
-      <crapLoad>13</crapLoad>
+      <coverage>92</coverage>
+      <crapLoad>0</crapLoad>
     </method>
     <method>
       <package>Playground\Blade\Concerns</package>
@@ -1249,10 +1249,10 @@
       <methodName>loadHeadAssets</methodName>
       <methodSignature>loadHeadAssets(array $assets): self</methodSignature>
       <fullMethod>loadHeadAssets(array $assets): self</fullMethod>
-      <crap>272</crap>
+      <crap>16</crap>
       <complexity>16</complexity>
-      <coverage>0</coverage>
-      <crapLoad>16</crapLoad>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
     </method>
     <method>
       <package>Playground\Blade\Concerns</package>
@@ -1260,9 +1260,9 @@
       <methodName>bodyAssets</methodName>
       <methodSignature>bodyAssets(Playground\Blade\Themes\Theme $theme): array</methodSignature>
       <fullMethod>bodyAssets(Playground\Blade\Themes\Theme $theme): array</fullMethod>
-      <crap>6</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1271,9 +1271,9 @@
       <methodName>headAssets</methodName>
       <methodSignature>headAssets(Playground\Blade\Themes\Theme $theme): array</methodSignature>
       <fullMethod>headAssets(Playground\Blade\Themes\Theme $theme): array</fullMethod>
-      <crap>6</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1282,10 +1282,10 @@
       <methodName>initThemes</methodName>
       <methodSignature>initThemes(): self</methodSignature>
       <fullMethod>initThemes(): self</fullMethod>
-      <crap>90</crap>
+      <crap>9</crap>
       <complexity>9</complexity>
-      <coverage>0</coverage>
-      <crapLoad>9</crapLoad>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
     </method>
     <method>
       <package>Playground\Blade\Concerns</package>
@@ -1293,9 +1293,9 @@
       <methodName>loadThemes</methodName>
       <methodSignature>loadThemes(array $themes): self</methodSignature>
       <fullMethod>loadThemes(array $themes): self</fullMethod>
-      <crap>20</crap>
+      <crap>4</crap>
       <complexity>4</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1304,9 +1304,9 @@
       <methodName>theme</methodName>
       <methodSignature>theme(): Playground\Blade\Themes\Theme</methodSignature>
       <fullMethod>theme(): Playground\Blade\Themes\Theme</fullMethod>
-      <crap>20</crap>
+      <crap>4</crap>
       <complexity>4</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1315,9 +1315,9 @@
       <methodName>themes</methodName>
       <methodSignature>themes(): array</methodSignature>
       <fullMethod>themes(): array</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1348,9 +1348,9 @@
       <methodName>saveTheme</methodName>
       <methodSignature>saveTheme(Playground\Blade\Themes\Theme $theme): self</methodSignature>
       <fullMethod>saveTheme(Playground\Blade\Themes\Theme $theme): self</fullMethod>
-      <crap>20</crap>
+      <crap>4</crap>
       <complexity>4</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1359,9 +1359,9 @@
       <methodName>setTheme</methodName>
       <methodSignature>setTheme(string $themeKey, bool $save): self</methodSignature>
       <fullMethod>setTheme(string $themeKey, bool $save): self</fullMethod>
-      <crap>30</crap>
+      <crap>5.68</crap>
       <complexity>5</complexity>
-      <coverage>0</coverage>
+      <coverage>70</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1392,9 +1392,9 @@
       <methodName>getFacadeAccessor</methodName>
       <methodSignature>getFacadeAccessor()</methodSignature>
       <fullMethod>getFacadeAccessor()</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1427,7 +1427,7 @@
       <fullMethod>register(): void</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>85.71</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1458,9 +1458,9 @@
       <methodName>setOptions</methodName>
       <methodSignature>setOptions(array $options): self</methodSignature>
       <fullMethod>setOptions(array $options): self</fullMethod>
-      <crap>12</crap>
+      <crap>3</crap>
       <complexity>3</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1469,9 +1469,9 @@
       <methodName>bsTheme</methodName>
       <methodSignature>bsTheme(): string</methodSignature>
       <fullMethod>bsTheme(): string</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1480,9 +1480,9 @@
       <methodName>__construct</methodName>
       <methodSignature>__construct(mixed $options)</methodSignature>
       <fullMethod>__construct(mixed $options)</fullMethod>
-      <crap>6</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1491,9 +1491,9 @@
       <methodName>initAssets</methodName>
       <methodSignature>initAssets(): self</methodSignature>
       <fullMethod>initAssets(): self</fullMethod>
-      <crap>6</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1502,10 +1502,10 @@
       <methodName>setOptions</methodName>
       <methodSignature>setOptions(array $options): self</methodSignature>
       <fullMethod>setOptions(array $options): self</fullMethod>
-      <crap>182</crap>
+      <crap>13</crap>
       <complexity>13</complexity>
-      <coverage>0</coverage>
-      <crapLoad>13</crapLoad>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
     </method>
     <method>
       <package>Playground\Blade\Themes</package>
@@ -1513,9 +1513,9 @@
       <methodName>enabled</methodName>
       <methodSignature>enabled(): bool</methodSignature>
       <fullMethod>enabled(): bool</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1524,9 +1524,9 @@
       <methodName>key</methodName>
       <methodSignature>key(): string</methodSignature>
       <fullMethod>key(): string</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1546,9 +1546,9 @@
       <methodName>label</methodName>
       <methodSignature>label(): string</methodSignature>
       <fullMethod>label(): string</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1557,9 +1557,9 @@
       <methodName>icon</methodName>
       <methodSignature>icon(): string</methodSignature>
       <fullMethod>icon(): string</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1568,9 +1568,9 @@
       <methodName>session</methodName>
       <methodSignature>session(): bool</methodSignature>
       <fullMethod>session(): bool</fullMethod>
-      <crap>2</crap>
+      <crap>1</crap>
       <complexity>1</complexity>
-      <coverage>0</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1579,10 +1579,10 @@
       <methodName>initAssets</methodName>
       <methodSignature>initAssets(): self</methodSignature>
       <fullMethod>initAssets(): self</fullMethod>
-      <crap>90</crap>
+      <crap>9</crap>
       <complexity>9</complexity>
-      <coverage>0</coverage>
-      <crapLoad>9</crapLoad>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
     </method>
     <method>
       <package>Playground\Blade\View\Components\Forms</package>

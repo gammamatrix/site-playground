@@ -1,3 +1,21 @@
+About Route (Tests\Feature\Playground\Site\Blade\Http\Controllers\Laravel\AboutRoute)
+ [x] As guest and succeed
+ [x] Json as guest and succeed
+ [x] As user and succeed
+ [x] Json as user and succeed
+
+About Route (Tests\Feature\Playground\Site\Blade\Http\Controllers\Playground\AboutRoute)
+ [x] As guest and succeed
+ [x] Json as guest and succeed
+ [x] As user and succeed
+ [x] Json as user and succeed
+ [x] As client and succeed
+ [x] Json as client and succeed
+ [x] As manager and succeed
+ [x] Json as manager and succeed
+ [x] As admin and succeed
+ [x] Json as admin and succeed
+
 Abstract (Tests\Unit\Playground\Auth\Policies\Policy\Abstract)
  [x] Before with root
  [x] Before with root as secondary fails
@@ -37,9 +55,47 @@ Array Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\ArrayTrait
  [x] Filter array
  [x] FilterArray to json
 
+Authentication Route (Tests\Feature\Playground\Login\Blade\Http\Controllers\Laravel\AuthenticationRoute)
+ [x] Login screen can be rendered
+ [x] Users can authenticate using the login screen laravel
+ [x] Users can authenticate using json
+ [x] Users cannot authenticate with invalid password
+ [x] Users can logout on get request
+ [x] Users can logout on get request using json
+ [x] Users can logout on post request
+ [x] Guests can logout on get request
+ [x] Csfr token request
+ [x] Login repeat under rate limit and clear
+ [x] Login repeat and hit rate limit
+
+Authentication Route (Tests\Feature\Playground\Login\Blade\Http\Controllers\Playground\AuthenticationRoute)
+ [x] Login screen can be rendered
+ [x] Users can authenticate using the login screen playground
+ [x] Users can authenticate using json
+ [x] Users cannot authenticate with invalid password
+ [x] Users can logout on get request
+ [x] Users can logout on get request using json
+ [x] Users can logout on post request
+ [x] Guests can logout on get request
+ [x] Csfr token request
+ [x] Login repeat under rate limit and clear
+ [x] Login repeat and hit rate limit
+
 Bits Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\BitsTrait)
  [x] FilterBits for exponent zero
  [x] FilterBits for exponent greater than zero
+
+Bootstrap Route (Tests\Feature\Playground\Site\Blade\Http\Controllers\Laravel\BootstrapRoute)
+ [x] As guest and succeed
+ [x] Json as guest and succeed
+ [x] As wheel and succeed
+ [x] Json as wheel and succeed
+
+Bootstrap Route (Tests\Feature\Playground\Site\Blade\Http\Controllers\Playground\BootstrapRoute)
+ [x] As guest and succeed
+ [x] Json as guest and succeed
+ [x] As wheel and succeed
+ [x] Json as wheel and succeed
 
 Command (Tests\Feature\Playground\Auth\Console\Commands\About\Command)
  [x] Command about displays package information and succeed with code 0
@@ -51,6 +107,12 @@ Command (Tests\Feature\Playground\Console\Commands\About\Command)
  [x] Command about displays package information and succeed with code 0
 
 Command (Tests\Feature\Playground\Http\Console\Commands\About\Command)
+ [x] Command about displays package information and succeed with code 0
+
+Command (Tests\Feature\Playground\Login\Blade\Console\Commands\About\Command)
+ [x] Command about displays package information and succeed with code 0
+
+Command (Tests\Feature\Playground\Site\Blade\Console\Commands\About\Command)
  [x] Command about displays package information and succeed with code 0
 
 Command (Tests\Feature\Playground\Test\Console\Commands\About\Command)
@@ -93,6 +155,30 @@ Component (Tests\Unit\Playground\Blade\View\Components\Table\Data\Component)
 Date Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\DateTrait)
  [x] Filter date
  [x] Filter date as carbon
+
+Email Verification Route (Tests\Feature\Playground\Login\Blade\Http\Controllers\Laravel\EmailVerificationRoute)
+ [x] Email verification screen can be rendered
+ [x] Email verification screen is not rendered if already verified
+ [x] Json send email verification notification as guest
+ [x] Send email verification notification as guest and redirect
+ [x] Send email verification notification as user
+ [x] Send email verification notification when already verified
+ [x] Email can be verified
+ [x] Email is not verified with invalid hash
+ [x] Email is not verified with invalid user id
+ [x] Email verified with already verified
+
+Email Verification Route (Tests\Feature\Playground\Login\Blade\Http\Controllers\Playground\EmailVerificationRoute)
+ [x] Email verification screen can be rendered
+ [x] Email verification screen is not rendered if already verified
+ [x] Json send email verification notification as guest
+ [x] Send email verification notification as guest and redirect
+ [x] Send email verification notification as user
+ [x] Send email verification notification when already verified
+ [x] Email can be verified
+ [x] Email is not verified with invalid hash
+ [x] Email is not verified with invalid user id
+ [x] Email verified with already verified
 
 Example (Tests\Feature\Example)
  [x] The application returns a successful response
@@ -153,6 +239,13 @@ Instance (Tests\Unit\Playground\Test\Models\PlaygroundUser\Instance)
  [x] IsAdmin is true with root role
  [x] IsAdmin is false with root secondary role
  [x] Factory with make
+
+Logout Route (Tests\Feature\Playground\Login\Blade\Http\Controllers\Sanctum\LogoutRoute)
+ [x] Sanctum users can authenticate and logout and delete token
+ [x] Sanctum users can logout without token using json
+ [x] Sanctum users can logout all tokens without token using json
+ [x] Sanctum users can logout everywhere tokens without token
+ [x] Sanctum users can authenticate and logout and delete token with sessions
 
 Model (Tests\Feature\Playground\Models\User\Model)
  [x] Save model in database
@@ -298,8 +391,88 @@ Number Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\NumberTra
  [x] Filter integer positive
  [x] Filter percent
 
+Password Confirmation Route (Tests\Feature\Playground\Login\Blade\Http\Controllers\Laravel\PasswordConfirmationRoute)
+ [x] Confirm password screen can be rendered
+ [x] Password can be confirmed
+ [x] Password is not confirmed with invalid password
+
+Password Confirmation Route (Tests\Feature\Playground\Login\Blade\Http\Controllers\Playground\PasswordConfirmationRoute)
+ [x] Confirm password screen can be rendered
+ [x] Password can be confirmed
+ [x] Password is not confirmed with invalid password
+
+Password Reset Route (Tests\Feature\Playground\Login\Blade\Http\Controllers\Laravel\PasswordResetRoute)
+ [x] Reset password link screen can be rendered
+ [x] Reset password link can be requested
+ [x] Reset password screen can be rendered
+ [x] Password can be reset with valid token
+ [x] Password reset with invalid token
+ [x] Password reset with invalid user
+
+Password Reset Route (Tests\Feature\Playground\Login\Blade\Http\Controllers\Playground\PasswordResetRoute)
+ [x] Reset password link screen can be rendered
+ [x] Reset password link can be requested
+ [x] Reset password screen can be rendered
+ [x] Password can be reset with valid token
+ [x] Password reset with invalid token
+ [x] Password reset with invalid user
+
 Phone Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\PhoneTrait)
  [x] Filter phone
+
+Public Dashboard Route (Tests\Feature\Playground\Site\Blade\Http\Controllers\Laravel\PublicDashboardRoute)
+ [x] As guest and fail when disabled for guest and no redirect
+ [x] As guest and redirect when disabled for all
+ [x] As guest and redirect when disabled for guest
+ [x] As guest and succeed
+
+Public Dashboard Route (Tests\Feature\Playground\Site\Blade\Http\Controllers\Playground\PublicDashboardRoute)
+ [x] As guest and fail when disabled for guest and no redirect
+ [x] As guest and redirect when disabled for all
+ [x] As guest and redirect when disabled for guest
+ [x] As guest and succeed
+
+Public Home Route (Tests\Feature\Playground\Site\Blade\Http\Controllers\Laravel\PublicHomeRoute)
+ [x] As guest and succeed
+ [x] Json as guest and succeed
+ [x] As admin and succeed
+ [x] Json as admin and succeed
+
+Public Home Route (Tests\Feature\Playground\Site\Blade\Http\Controllers\Playground\PublicHomeRoute)
+ [x] As guest and succeed
+ [x] Json as guest and succeed
+ [x] As admin and succeed
+ [x] Json as admin and succeed
+
+Public Sitemap Route (Tests\Feature\Playground\Site\Blade\Http\Controllers\Laravel\PublicSitemapRoute)
+ [x] As guest and fail when disabled for guest and no redirect
+ [x] As guest and redirect when disabled for all
+ [x] As guest and redirect when disabled for guest
+ [x] As guest and succeed
+ [x] As user and succeed
+ [x] As support and fail when disabled for all
+ [x] As user and fail when disabled for all and no redirect
+ [x] As admin and succeed
+ [x] As user and succeed with package sitemaps
+
+Public Sitemap Route (Tests\Feature\Playground\Site\Blade\Http\Controllers\Playground\PublicSitemapRoute)
+ [x] As guest and fail when disabled for guest and no redirect
+ [x] As guest and redirect when disabled for all
+ [x] As guest and redirect when disabled for guest
+ [x] As guest and succeed
+ [x] As user and succeed
+ [x] As support and fail when disabled for all
+ [x] As user and fail when disabled for all and no redirect
+ [x] As admin and succeed
+ [x] As user and succeed with package sitemaps
+
+Registration Route (Tests\Feature\Playground\Login\Blade\Http\Controllers\Laravel\RegistrationRoute)
+ [x] Registration screen can be rendered
+ [x] New users can register
+
+Registration Route (Tests\Feature\Playground\Login\Blade\Http\Controllers\Playground\RegistrationRoute)
+ [x] Registration screen can be rendered
+ [x] New users can register
 
 Status Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\StatusTrait)
  [x] FilterStatus with empty input
@@ -315,6 +488,18 @@ System Fields Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\Sy
  [x] FilterSystemFields for invalid permissions
  [x] FilterSystemFields for rank
  [x] FilterSystemFields for size
+
+Theme Route (Tests\Feature\Playground\Site\Blade\Http\Controllers\Laravel\ThemeRoute)
+ [x] As guest and succeed
+ [x] As guest with preview and succeed
+ [x] As user and succeed
+ [x] As admin and succeed with theme and redirect
+
+Theme Route (Tests\Feature\Playground\Site\Blade\Http\Controllers\Playground\ThemeRoute)
+ [x] As guest and succeed
+ [x] As guest with preview and succeed
+ [x] As user and succeed
+ [x] As admin and succeed with theme and redirect
 
 Trait (Tests\Unit\Playground\Auth\Policies\PolicyTrait\Trait)
  [x] Get entity
@@ -354,6 +539,60 @@ Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\Trait)
  [x] GetHtmlPurifier with iframes
  [x] GetHtmlPurifier with purifier path
 
+User Dashboard Route (Tests\Feature\Playground\Site\Blade\Http\Controllers\Laravel\UserDashboardRoute)
+ [x] As guest and fail when disabled for guest and no redirect with auth middleware
+ [x] As guest and redirect
+ [x] As guest and redirect when disabled for guest
+ [x] As guest and fail
+ [x] As user and succeed
+ [x] As user and fail when disabled for all
+ [x] As user and fail when disabled for all and no redirect
+ [x] Json as admin and succeed
+
+User Dashboard Route (Tests\Feature\Playground\Site\Blade\Http\Controllers\Playground\UserDashboardRoute)
+ [x] As guest and fail when disabled for guest and no redirect with auth middleware
+ [x] As guest and redirect
+ [x] As guest and redirect when disabled for guest
+ [x] As guest and fail
+ [x] As user and succeed
+ [x] As user and fail when disabled for all
+ [x] As user and fail when disabled for all and no redirect
+ [x] Json as admin and succeed
+
+User Home Route (Tests\Feature\Playground\Site\Blade\Http\Controllers\Laravel\UserHomeRoute)
+ [x] Route home as guest and fail
+ [x] Route json home as guest and fail
+ [x] Route home as user admin and succeed
+ [x] Route json home as admin and succeed
+
+User Home Route (Tests\Feature\Playground\Site\Blade\Http\Controllers\Playground\UserHomeRoute)
+ [x] Route home as guest and fail
+ [x] Route json home as guest and fail
+ [x] Route home as user admin and succeed
+ [x] Route json home as admin and succeed
+
+User Sitemap Route (Tests\Feature\Playground\Site\Blade\Http\Controllers\Laravel\UserSitemapRoute)
+ [x] Route sitemap as guest and fail when disabled for guest and no redirect
+ [x] Route sitemap as guest and redirect when disabled for all
+ [x] Route sitemap as guest and redirect when disabled for guest
+ [x] Route json sitemap as guest and fail
+ [x] Route sitemap as user and succeed
+ [x] Route sitemap as support and fail when disabled for all
+ [x] Route sitemap as user and fail when disabled for all and no redirect
+ [x] Route json sitemap as admin and succeed
+ [x] Route sitemap as user and succeed with package sitemaps
+
+User Sitemap Route (Tests\Feature\Playground\Site\Blade\Http\Controllers\Playground\UserSitemapRoute)
+ [x] Route sitemap as guest and fail when disabled for guest and no redirect
+ [x] Route sitemap as guest and redirect when disabled for all
+ [x] Route sitemap as guest and redirect when disabled for guest
+ [x] Route json sitemap as guest and fail
+ [x] Route sitemap as user and succeed
+ [x] Route sitemap as support and fail when disabled for all
+ [x] Route sitemap as user and fail when disabled for all and no redirect
+ [x] Route json sitemap as admin and succeed
+ [x] Route sitemap as user and succeed with package sitemaps
+
 Uuid Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\UuidTrait)
  [x] Filter uuid
 
@@ -361,4 +600,16 @@ Value Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\ValueTrait
  [x] Filter boolean
  [x] Filter email
  [x] Filter html
+
+Welcome Route (Tests\Feature\Playground\Site\Blade\Http\Controllers\Laravel\WelcomeRoute)
+ [x] As guest and succeed
+ [x] Json as guest and succeed
+ [x] As user and succeed
+ [x] Json as manager admin and succeed
+
+Welcome Route (Tests\Feature\Playground\Site\Blade\Http\Controllers\Playground\WelcomeRoute)
+ [x] As guest and succeed
+ [x] Json as guest and succeed
+ [x] As user and succeed
+ [x] Json as manager admin and succeed
 
