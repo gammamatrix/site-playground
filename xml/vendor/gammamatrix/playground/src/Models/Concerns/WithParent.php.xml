@@ -16,32 +16,62 @@
       <line nr="21">
         <covered by="Tests\Unit\Playground\Models\Model\ModelTest::test_WithParent_parent_returns_HasOne"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\Page\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\Snippet\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_show_view_rendered_by_admin"/>
+        <covered by="Tests\Feature\Playground\Cms\Models\Page\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Feature\Playground\Cms\Models\Snippet\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_show_view_rendered_by_admin"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_show_view_rendered_by_admin"/>
       </line>
       <line nr="22">
         <covered by="Tests\Unit\Playground\Models\Model\ModelTest::test_WithParent_parent_returns_HasOne"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\Page\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\Snippet\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_show_view_rendered_by_admin"/>
+        <covered by="Tests\Feature\Playground\Cms\Models\Page\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Feature\Playground\Cms\Models\Snippet\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_show_view_rendered_by_admin"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_show_view_rendered_by_admin"/>
       </line>
       <line nr="23">
         <covered by="Tests\Unit\Playground\Models\Model\ModelTest::test_WithParent_parent_returns_HasOne"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\Page\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\Snippet\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_show_view_rendered_by_admin"/>
+        <covered by="Tests\Feature\Playground\Cms\Models\Page\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Feature\Playground\Cms\Models\Snippet\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_show_view_rendered_by_admin"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_show_view_rendered_by_admin"/>
       </line>
       <line nr="24">
         <covered by="Tests\Unit\Playground\Models\Model\ModelTest::test_WithParent_parent_returns_HasOne"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\Page\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\Snippet\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_show_view_rendered_by_admin"/>
+        <covered by="Tests\Feature\Playground\Cms\Models\Page\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Feature\Playground\Cms\Models\Snippet\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_show_view_rendered_by_admin"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_show_view_rendered_by_admin"/>
       </line>
       <line nr="25">
         <covered by="Tests\Unit\Playground\Models\Model\ModelTest::test_WithParent_parent_returns_HasOne"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\Page\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\Snippet\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_show_view_rendered_by_admin"/>
+        <covered by="Tests\Feature\Playground\Cms\Models\Page\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Feature\Playground\Cms\Models\Snippet\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_show_view_rendered_by_admin"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_show_view_rendered_by_admin"/>
       </line>
     </coverage>
     <source>

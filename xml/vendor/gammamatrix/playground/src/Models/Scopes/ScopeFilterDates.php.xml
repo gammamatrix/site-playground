@@ -36,6 +36,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="29">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_without_dates_or_filters"/>
@@ -62,6 +70,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="33">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -84,6 +100,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="34">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -106,6 +130,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="36">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -128,6 +160,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="54">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -150,6 +190,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="56">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -172,6 +220,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="58">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -194,6 +250,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="59">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -216,6 +280,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="60">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -238,6 +310,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="61">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -260,6 +340,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="64">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -270,6 +358,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="67">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_filters_without_meta_for_strings"/>
@@ -291,6 +387,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="69">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_filters_without_meta_for_strings"/>
@@ -312,6 +416,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="70">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_filters_without_meta_for_strings"/>
@@ -333,6 +445,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="71">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_filters_without_meta_for_strings"/>
@@ -354,6 +474,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="73">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_filters_without_meta_for_strings"/>
@@ -375,6 +503,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="75">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_filters_without_meta_for_strings"/>
@@ -396,6 +532,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="76">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_null_comparison_and_ignore"/>
@@ -425,6 +569,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="83">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_operator_wildcard"/>
@@ -440,6 +592,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="84">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_operator_wildcard"/>
@@ -455,6 +615,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="87">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_short_date_and_gte_operator"/>
@@ -466,6 +634,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="90">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_operator_wildcard"/>
@@ -481,6 +657,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="91">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_operator_wildcard"/>
@@ -496,6 +680,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="100">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_operator_wildcard"/>
@@ -511,6 +703,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="101">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_with_between_filter_operator_with_parse"/>
@@ -519,6 +719,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="102">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_operator_wildcard"/>
@@ -576,6 +784,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="118">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_unnullable_value_and_ignore"/>
@@ -636,6 +852,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="138">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_filters_without_meta_for_strings"/>
@@ -649,6 +873,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="139">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_filters_without_meta_for_strings"/>
@@ -660,6 +892,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="140">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_with_between_filter_operator_with_parse"/>
@@ -680,6 +920,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="144">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_parsable_value_and_ignore"/>
@@ -704,6 +952,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="152">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_unnullable_value_and_ignore"/>
@@ -724,6 +980,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="156">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_wildcard"/>
@@ -744,6 +1008,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="158">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_with_filter_operators"/>
@@ -771,6 +1043,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="164">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_null_comparison_and_allow"/>
@@ -789,6 +1069,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="166">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_with_filter_operators"/>
@@ -806,6 +1094,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="168">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_with_between_filter_operator_with_parse"/>
@@ -825,6 +1121,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="172">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_with_not_between_filter_operator_with_parse"/>
@@ -843,6 +1147,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="177">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_filters_without_meta_for_strings"/>
@@ -855,6 +1167,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="195">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -877,6 +1197,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="37">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -899,6 +1227,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="38">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -921,6 +1257,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="39">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -943,6 +1287,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="40">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -965,6 +1317,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="41">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -987,6 +1347,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="42">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -1009,6 +1377,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="43">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -1031,6 +1407,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="44">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -1053,6 +1437,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="45">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -1075,6 +1467,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="46">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -1097,6 +1497,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="47">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -1119,6 +1527,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="48">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -1141,6 +1557,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="49">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -1163,6 +1587,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="50">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -1185,6 +1617,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="51">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -1207,6 +1647,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="52">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_invalid_column"/>
@@ -1229,6 +1677,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="85">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_operator_wildcard"/>
@@ -1244,6 +1700,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="86">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_operator_wildcard"/>
@@ -1259,6 +1723,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="106">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_operator_wildcard"/>
@@ -1280,6 +1752,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="179">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_filters_without_meta_for_strings"/>
@@ -1292,6 +1772,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
       <line nr="180">
         <covered by="Tests\Unit\Playground\Models\Scopes\ScopeFilterDates\ModelTest::test_scopeFilterDates_returns_query_with_filters_without_meta_for_strings"/>
@@ -1304,6 +1792,14 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_get_index_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
       </line>
     </coverage>
     <source>

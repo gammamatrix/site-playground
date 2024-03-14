@@ -21,6 +21,18 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_render_index_view_with_filters"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_show_view_rendered_by_admin"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_revision_view_rendered_by_admin"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_show_view_rendered_by_admin"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_revision_view_rendered_by_admin"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_show_view_rendered_by_admin"/>
       </line>
     </coverage>
     <source>

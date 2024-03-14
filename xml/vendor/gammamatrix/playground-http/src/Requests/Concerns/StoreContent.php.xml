@@ -29,6 +29,18 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update_view_with_return_url"/>
       </line>
       <line nr="29">
         <covered by="Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_exorcise"/>
@@ -44,6 +56,18 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update_view_with_return_url"/>
       </line>
       <line nr="30">
         <covered by="Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_exorcise"/>
@@ -59,6 +83,18 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update_view_with_return_url"/>
       </line>
       <line nr="31">
         <covered by="Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_exorcise"/>
@@ -74,6 +110,18 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update_view_with_return_url"/>
       </line>
       <line nr="39">
         <covered by="Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_purify"/>
@@ -89,6 +137,18 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update_view_with_return_url"/>
       </line>
       <line nr="49">
         <covered by="Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_purify"/>
@@ -101,6 +161,18 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update_view_with_return_url"/>
       </line>
       <line nr="50">
         <covered by="Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_purify"/>
@@ -113,6 +185,18 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update_view_with_return_url"/>
       </line>
       <line nr="55">
         <covered by="Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_purify"/>
@@ -125,6 +209,18 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update_view_with_return_url"/>
       </line>
       <line nr="57">
         <covered by="Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_purify"/>
@@ -137,6 +233,18 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update_view_with_return_url"/>
       </line>
       <line nr="59">
         <covered by="Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_purify"/>
@@ -149,6 +257,18 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update_view_with_return_url"/>
       </line>
       <line nr="61">
         <covered by="Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_purify"/>
@@ -161,6 +281,18 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update_view_with_return_url"/>
       </line>
       <line nr="62">
         <covered by="Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_purify"/>
@@ -173,6 +305,18 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update_view_with_return_url"/>
       </line>
       <line nr="64">
         <covered by="Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_getHtmlPurifier_with_iframes"/>
@@ -188,6 +332,18 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update_view_with_return_url"/>
       </line>
       <line nr="68">
         <covered by="Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_purify"/>
@@ -200,6 +356,18 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update_view_with_return_url"/>
       </line>
       <line nr="70">
         <covered by="Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_getHtmlPurifier_with_purifier_path"/>
@@ -215,6 +383,18 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update_view_with_return_url"/>
       </line>
       <line nr="75">
         <covered by="Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_getHtmlPurifier_with_purifier_path"/>
@@ -230,6 +410,18 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update_view_with_return_url"/>
       </line>
       <line nr="79">
         <covered by="Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_purify"/>
@@ -242,6 +434,18 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update_view_with_return_url"/>
       </line>
       <line nr="80">
         <covered by="Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_purify"/>
@@ -254,6 +458,18 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update_view_with_return_url"/>
       </line>
       <line nr="83">
         <covered by="Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_purify"/>
@@ -266,6 +482,18 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update_view_with_return_url"/>
       </line>
       <line nr="86">
         <covered by="Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_purify"/>
@@ -278,6 +506,18 @@
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update_view_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed_with_return_url"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update_view_with_return_url"/>
       </line>
     </coverage>
     <source>

@@ -23,542 +23,812 @@
       <line nr="33">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_guest_cannot_destroy"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_destroy"/>
       </line>
       <line nr="35">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_guest_cannot_destroy"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_destroy"/>
       </line>
       <line nr="37">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_guest_cannot_destroy"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_destroy"/>
       </line>
       <line nr="39">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_guest_cannot_destroy"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_destroy"/>
       </line>
       <line nr="40">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_guest_cannot_destroy"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_destroy"/>
       </line>
       <line nr="44">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_guest_cannot_destroy"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_destroy"/>
       </line>
       <line nr="45">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_guest_cannot_destroy"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_destroy"/>
       </line>
       <line nr="46">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_guest_cannot_destroy"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_destroy"/>
       </line>
       <line nr="48">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_guest_cannot_destroy"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_destroy"/>
       </line>
       <line nr="51">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_guest_cannot_destroy"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_destroy"/>
       </line>
       <line nr="53">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_guest_cannot_destroy"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_destroy"/>
       </line>
       <line nr="55">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_guest_cannot_destroy"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_destroy"/>
       </line>
       <line nr="56">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_guest_cannot_destroy"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_destroy"/>
       </line>
       <line nr="63">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed"/>
       </line>
       <line nr="65">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed"/>
       </line>
       <line nr="67">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed"/>
       </line>
       <line nr="69">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed"/>
       </line>
       <line nr="71">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed"/>
       </line>
       <line nr="72">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed"/>
       </line>
       <line nr="76">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed"/>
       </line>
       <line nr="77">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed"/>
       </line>
       <line nr="78">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed"/>
       </line>
       <line nr="80">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed"/>
       </line>
       <line nr="83">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed"/>
       </line>
       <line nr="90">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed"/>
       </line>
       <line nr="91">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed"/>
       </line>
       <line nr="93">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed"/>
       </line>
       <line nr="94">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed"/>
       </line>
       <line nr="97">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed"/>
       </line>
       <line nr="102">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
       </line>
       <line nr="104">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
       </line>
       <line nr="106">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
       </line>
       <line nr="108">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
       </line>
       <line nr="110">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
       </line>
       <line nr="111">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
       </line>
       <line nr="115">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
       </line>
       <line nr="116">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
       </line>
       <line nr="117">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
       </line>
       <line nr="119">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
       </line>
       <line nr="123">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
       </line>
       <line nr="125">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
       </line>
       <line nr="126">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
       </line>
       <line nr="129">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
       </line>
       <line nr="134">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
       </line>
       <line nr="136">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
       </line>
       <line nr="138">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
       </line>
       <line nr="140">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
       </line>
       <line nr="142">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
       </line>
       <line nr="143">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
       </line>
       <line nr="147">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
       </line>
       <line nr="148">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
       </line>
       <line nr="149">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
       </line>
       <line nr="151">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
       </line>
       <line nr="154">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
       </line>
       <line nr="156">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
       </line>
       <line nr="157">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
       </line>
       <line nr="159">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
       </line>
       <line nr="160">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
       </line>
       <line nr="164">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
       </line>
       <line nr="169">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="171">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="173">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="175">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="177">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="178">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="182">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="184">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="188">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="189">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="190">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="192">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="193">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="196">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="198">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="199">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="201">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="202">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="206">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="211">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
       </line>
       <line nr="213">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
       </line>
       <line nr="215">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
       </line>
       <line nr="217">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
       </line>
       <line nr="219">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
       </line>
       <line nr="220">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
       </line>
       <line nr="224">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
       </line>
       <line nr="225">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
       </line>
       <line nr="226">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
       </line>
       <line nr="228">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
       </line>
       <line nr="232">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
       </line>
       <line nr="234">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
       </line>
       <line nr="236">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
       </line>
       <line nr="237">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
       </line>
       <line nr="41">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_guest_cannot_destroy"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_destroy"/>
       </line>
       <line nr="42">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_guest_cannot_destroy"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_destroy"/>
       </line>
       <line nr="47">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_guest_cannot_destroy"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_destroy"/>
       </line>
       <line nr="49">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_guest_cannot_destroy"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_destroy"/>
       </line>
       <line nr="57">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_guest_cannot_destroy"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_destroy"/>
       </line>
       <line nr="58">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_guest_cannot_destroy"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_destroy"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_destroy"/>
       </line>
       <line nr="73">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed"/>
       </line>
       <line nr="74">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed"/>
       </line>
       <line nr="79">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed"/>
       </line>
       <line nr="81">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed"/>
       </line>
       <line nr="92">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed"/>
       </line>
       <line nr="95">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed"/>
       </line>
       <line nr="96">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed"/>
       </line>
       <line nr="112">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
       </line>
       <line nr="113">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
       </line>
       <line nr="118">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
       </line>
       <line nr="120">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
       </line>
       <line nr="121">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
       </line>
       <line nr="127">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete"/>
       </line>
       <line nr="144">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
       </line>
       <line nr="145">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
       </line>
       <line nr="150">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
       </line>
       <line nr="152">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
       </line>
       <line nr="158">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
       </line>
       <line nr="161">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
       </line>
       <line nr="162">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content"/>
       </line>
       <line nr="179">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="180">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="183">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="185">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="186">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="191">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="194">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="200">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="203">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="204">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect"/>
       </line>
       <line nr="221">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
       </line>
       <line nr="222">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
       </line>
       <line nr="227">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
       </line>
       <line nr="229">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
       </line>
       <line nr="230">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
       </line>
       <line nr="238">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
       </line>
       <line nr="239">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed"/>
       </line>
     </coverage>
     <source>

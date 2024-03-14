@@ -28,6 +28,11 @@
         <covered by="Tests\Unit\Playground\Auth\Policies\RoleTrait\TraitTest::test_hasRole_advanced_role"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\FormRequest\InstanceTest::test_userHasAdminPrivileges_with_default_laravel_user"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\Page\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\PageRevision\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\Snippet\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\SnippetRevision\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Resource\Http\Requests\FormRequest\InstanceTest::test_userHasAdminPrivileges_with_default_laravel_user"/>
         <covered by="Tests\Feature\Playground\Login\Blade\Http\Controllers\Laravel\AuthenticationRouteTest::test_users_can_authenticate_using_the_login_screen_laravel"/>
         <covered by="Tests\Feature\Playground\Login\Blade\Http\Controllers\Laravel\AuthenticationRouteTest::test_users_can_authenticate_using_json"/>
         <covered by="Tests\Feature\Playground\Login\Blade\Http\Controllers\Laravel\AuthenticationRouteTest::test_users_cannot_authenticate_with_invalid_password"/>
@@ -95,6 +100,11 @@
         <covered by="Tests\Unit\Playground\Auth\Policies\RoleTrait\TraitTest::test_hasRole_advanced_role"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\FormRequest\InstanceTest::test_userHasAdminPrivileges_with_default_laravel_user"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\Page\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\PageRevision\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\Snippet\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\SnippetRevision\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Resource\Http\Requests\FormRequest\InstanceTest::test_userHasAdminPrivileges_with_default_laravel_user"/>
         <covered by="Tests\Feature\Playground\Login\Blade\Http\Controllers\Laravel\AuthenticationRouteTest::test_users_can_authenticate_using_the_login_screen_laravel"/>
         <covered by="Tests\Feature\Playground\Login\Blade\Http\Controllers\Laravel\AuthenticationRouteTest::test_users_can_authenticate_using_json"/>
         <covered by="Tests\Feature\Playground\Login\Blade\Http\Controllers\Laravel\AuthenticationRouteTest::test_users_cannot_authenticate_with_invalid_password"/>
@@ -162,6 +172,11 @@
         <covered by="Tests\Unit\Playground\Auth\Policies\RoleTrait\TraitTest::test_hasRole_advanced_role"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\FormRequest\InstanceTest::test_userHasAdminPrivileges_with_default_laravel_user"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\Page\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\PageRevision\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\Snippet\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\SnippetRevision\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Resource\Http\Requests\FormRequest\InstanceTest::test_userHasAdminPrivileges_with_default_laravel_user"/>
         <covered by="Tests\Feature\Playground\Login\Blade\Http\Controllers\Laravel\AuthenticationRouteTest::test_users_can_authenticate_using_the_login_screen_laravel"/>
         <covered by="Tests\Feature\Playground\Login\Blade\Http\Controllers\Laravel\AuthenticationRouteTest::test_users_can_authenticate_using_json"/>
         <covered by="Tests\Feature\Playground\Login\Blade\Http\Controllers\Laravel\AuthenticationRouteTest::test_users_cannot_authenticate_with_invalid_password"/>
@@ -229,6 +244,11 @@
         <covered by="Tests\Unit\Playground\Auth\Policies\RoleTrait\TraitTest::test_hasRole_advanced_role"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\FormRequest\InstanceTest::test_userHasAdminPrivileges_with_default_laravel_user"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\Page\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\PageRevision\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\Snippet\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\SnippetRevision\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Resource\Http\Requests\FormRequest\InstanceTest::test_userHasAdminPrivileges_with_default_laravel_user"/>
         <covered by="Tests\Feature\Playground\Login\Blade\Http\Controllers\Laravel\AuthenticationRouteTest::test_users_can_authenticate_using_the_login_screen_laravel"/>
         <covered by="Tests\Feature\Playground\Login\Blade\Http\Controllers\Laravel\AuthenticationRouteTest::test_users_can_authenticate_using_json"/>
         <covered by="Tests\Feature\Playground\Login\Blade\Http\Controllers\Laravel\AuthenticationRouteTest::test_users_cannot_authenticate_with_invalid_password"/>

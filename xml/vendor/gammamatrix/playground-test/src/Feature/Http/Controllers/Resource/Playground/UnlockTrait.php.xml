@@ -22,374 +22,560 @@
       <line nr="38">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_guest_cannot_unlock"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_unlock"/>
       </line>
       <line nr="40">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_guest_cannot_unlock"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_unlock"/>
       </line>
       <line nr="42">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_guest_cannot_unlock"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_unlock"/>
       </line>
       <line nr="43">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_guest_cannot_unlock"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_unlock"/>
       </line>
       <line nr="46">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_guest_cannot_unlock"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_unlock"/>
       </line>
       <line nr="47">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_guest_cannot_unlock"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_unlock"/>
       </line>
       <line nr="51">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_guest_cannot_unlock"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_unlock"/>
       </line>
       <line nr="52">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_guest_cannot_unlock"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_unlock"/>
       </line>
       <line nr="53">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_guest_cannot_unlock"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_unlock"/>
       </line>
       <line nr="55">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_guest_cannot_unlock"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_unlock"/>
       </line>
       <line nr="58">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_guest_cannot_unlock"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_unlock"/>
       </line>
       <line nr="60">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_guest_cannot_unlock"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_unlock"/>
       </line>
       <line nr="62">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_guest_cannot_unlock"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_unlock"/>
       </line>
       <line nr="63">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_guest_cannot_unlock"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_unlock"/>
       </line>
       <line nr="70">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed"/>
       </line>
       <line nr="72">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed"/>
       </line>
       <line nr="74">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed"/>
       </line>
       <line nr="76">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed"/>
       </line>
       <line nr="77">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed"/>
       </line>
       <line nr="80">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed"/>
       </line>
       <line nr="81">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed"/>
       </line>
       <line nr="85">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed"/>
       </line>
       <line nr="86">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed"/>
       </line>
       <line nr="87">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed"/>
       </line>
       <line nr="89">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed"/>
       </line>
       <line nr="92">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed"/>
       </line>
       <line nr="99">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed"/>
       </line>
       <line nr="100">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed"/>
       </line>
       <line nr="104">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed"/>
       </line>
       <line nr="105">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed"/>
       </line>
       <line nr="111">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
       </line>
       <line nr="113">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
       </line>
       <line nr="115">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
       </line>
       <line nr="117">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
       </line>
       <line nr="118">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
       </line>
       <line nr="121">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
       </line>
       <line nr="122">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
       </line>
       <line nr="126">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
       </line>
       <line nr="127">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
       </line>
       <line nr="130">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
       </line>
       <line nr="131">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
       </line>
       <line nr="132">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
       </line>
       <line nr="134">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
       </line>
       <line nr="135">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
       </line>
       <line nr="138">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
       </line>
       <line nr="140">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
       </line>
       <line nr="141">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
       </line>
       <line nr="145">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
       </line>
       <line nr="150">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_user_and_get_denied"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_user_and_get_denied"/>
       </line>
       <line nr="152">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_user_and_get_denied"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_user_and_get_denied"/>
       </line>
       <line nr="154">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_user_and_get_denied"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_user_and_get_denied"/>
       </line>
       <line nr="156">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_user_and_get_denied"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_user_and_get_denied"/>
       </line>
       <line nr="157">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_user_and_get_denied"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_user_and_get_denied"/>
       </line>
       <line nr="160">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_user_and_get_denied"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_user_and_get_denied"/>
       </line>
       <line nr="161">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_user_and_get_denied"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_user_and_get_denied"/>
       </line>
       <line nr="165">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_user_and_get_denied"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_user_and_get_denied"/>
       </line>
       <line nr="166">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_user_and_get_denied"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_user_and_get_denied"/>
       </line>
       <line nr="167">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_user_and_get_denied"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_user_and_get_denied"/>
       </line>
       <line nr="169">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_user_and_get_denied"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_user_and_get_denied"/>
       </line>
       <line nr="172">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_user_and_get_denied"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_user_and_get_denied"/>
       </line>
       <line nr="174">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_user_and_get_denied"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_user_and_get_denied"/>
       </line>
       <line nr="176">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_user_and_get_denied"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_user_and_get_denied"/>
       </line>
       <line nr="177">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_user_and_get_denied"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_user_and_get_denied"/>
       </line>
       <line nr="44">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_guest_cannot_unlock"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_unlock"/>
       </line>
       <line nr="48">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_guest_cannot_unlock"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_unlock"/>
       </line>
       <line nr="49">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_guest_cannot_unlock"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_unlock"/>
       </line>
       <line nr="54">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_guest_cannot_unlock"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_unlock"/>
       </line>
       <line nr="56">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_guest_cannot_unlock"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_unlock"/>
       </line>
       <line nr="64">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_guest_cannot_unlock"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_unlock"/>
       </line>
       <line nr="65">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_guest_cannot_unlock"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_unlock"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_unlock"/>
       </line>
       <line nr="78">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed"/>
       </line>
       <line nr="82">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed"/>
       </line>
       <line nr="83">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed"/>
       </line>
       <line nr="88">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed"/>
       </line>
       <line nr="90">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed"/>
       </line>
       <line nr="101">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed"/>
       </line>
       <line nr="102">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed"/>
       </line>
       <line nr="106">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed"/>
       </line>
       <line nr="119">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
       </line>
       <line nr="123">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
       </line>
       <line nr="124">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
       </line>
       <line nr="128">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
       </line>
       <line nr="133">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
       </line>
       <line nr="136">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
       </line>
       <line nr="142">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
       </line>
       <line nr="143">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc"/>
       </line>
       <line nr="158">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_user_and_get_denied"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_user_and_get_denied"/>
       </line>
       <line nr="162">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_user_and_get_denied"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_user_and_get_denied"/>
       </line>
       <line nr="163">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_user_and_get_denied"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_user_and_get_denied"/>
       </line>
       <line nr="168">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_user_and_get_denied"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_user_and_get_denied"/>
       </line>
       <line nr="170">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_user_and_get_denied"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_user_and_get_denied"/>
       </line>
       <line nr="178">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_user_and_get_denied"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_user_and_get_denied"/>
       </line>
       <line nr="179">
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\SettingRouteTest::test_unlock_as_user_and_get_denied"/>
         <covered by="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_user_and_get_denied"/>
+        <covered by="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_user_and_get_denied"/>
       </line>
     </coverage>
     <source>

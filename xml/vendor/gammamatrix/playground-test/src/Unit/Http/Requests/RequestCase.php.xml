@@ -21,6 +21,8 @@
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\EditRequestTest::test_request_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_request_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_request_instance"/>
+        <covered by="Tests\Unit\Playground\Cms\Resource\Http\Requests\Page\CreateRequestTest::test_request_instance"/>
+        <covered by="Tests\Unit\Playground\Cms\Resource\Http\Requests\Snippet\CreateRequestTest::test_request_instance"/>
       </line>
       <line nr="28">
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\Setting\CreateRequestTest::test_request_instance"/>
@@ -28,6 +30,8 @@
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\EditRequestTest::test_request_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_request_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_request_instance"/>
+        <covered by="Tests\Unit\Playground\Cms\Resource\Http\Requests\Page\CreateRequestTest::test_request_instance"/>
+        <covered by="Tests\Unit\Playground\Cms\Resource\Http\Requests\Snippet\CreateRequestTest::test_request_instance"/>
       </line>
       <line nr="38">
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\Setting\CreateRequestTest::test_request_instance"/>
@@ -35,6 +39,8 @@
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\EditRequestTest::test_request_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_request_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_request_instance"/>
+        <covered by="Tests\Unit\Playground\Cms\Resource\Http\Requests\Page\CreateRequestTest::test_request_instance"/>
+        <covered by="Tests\Unit\Playground\Cms\Resource\Http\Requests\Snippet\CreateRequestTest::test_request_instance"/>
       </line>
       <line nr="43">
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\Setting\CreateRequestTest::test_request_instance"/>
@@ -42,6 +48,8 @@
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\EditRequestTest::test_request_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_request_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_request_instance"/>
+        <covered by="Tests\Unit\Playground\Cms\Resource\Http\Requests\Page\CreateRequestTest::test_request_instance"/>
+        <covered by="Tests\Unit\Playground\Cms\Resource\Http\Requests\Snippet\CreateRequestTest::test_request_instance"/>
       </line>
       <line nr="45">
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\Setting\CreateRequestTest::test_request_instance"/>
@@ -49,6 +57,8 @@
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\EditRequestTest::test_request_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_request_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_request_instance"/>
+        <covered by="Tests\Unit\Playground\Cms\Resource\Http\Requests\Page\CreateRequestTest::test_request_instance"/>
+        <covered by="Tests\Unit\Playground\Cms\Resource\Http\Requests\Snippet\CreateRequestTest::test_request_instance"/>
       </line>
       <line nr="47">
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\Setting\CreateRequestTest::test_request_instance"/>
@@ -56,6 +66,8 @@
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\EditRequestTest::test_request_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequestTest::test_request_instance"/>
         <covered by="Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRequestTest::test_request_instance"/>
+        <covered by="Tests\Unit\Playground\Cms\Resource\Http\Requests\Page\CreateRequestTest::test_request_instance"/>
+        <covered by="Tests\Unit\Playground\Cms\Resource\Http\Requests\Snippet\CreateRequestTest::test_request_instance"/>
       </line>
     </coverage>
     <source>

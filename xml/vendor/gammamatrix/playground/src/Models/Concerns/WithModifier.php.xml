@@ -16,12 +16,28 @@
       <line nr="24">
         <covered by="Tests\Unit\Playground\Models\Model\ModelTest::test_WithModifier_modifier_returns_HasOne"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\Page\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\PageRevision\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\Snippet\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\SnippetRevision\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Feature\Playground\Cms\Models\Page\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Feature\Playground\Cms\Models\PageRevision\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Feature\Playground\Cms\Models\Snippet\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Feature\Playground\Cms\Models\SnippetRevision\ModelTest::test_verify_model_relationships"/>
       </line>
       <line nr="26">
         <covered by="Tests\Unit\Playground\Models\Model\ModelTest::test_WithModifier_modifier_returns_HasOne"/>
         <covered by="Tests\Unit\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\Page\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\PageRevision\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\Snippet\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Unit\Playground\Cms\Models\SnippetRevision\ModelTest::test_verify_model_relationships"/>
         <covered by="Tests\Feature\Playground\Admin\Models\Setting\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Feature\Playground\Cms\Models\Page\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Feature\Playground\Cms\Models\PageRevision\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Feature\Playground\Cms\Models\Snippet\ModelTest::test_verify_model_relationships"/>
+        <covered by="Tests\Feature\Playground\Cms\Models\SnippetRevision\ModelTest::test_verify_model_relationships"/>
       </line>
     </coverage>
     <source>

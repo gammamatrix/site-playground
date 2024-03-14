@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
-  <build time="Thu Mar 14 6:02:21 UTC 2024" phpunit="11.0.6" coverage="11.0.3">
+  <build time="Thu Mar 14 6:26:31 UTC 2024" phpunit="11.0.6" coverage="11.0.3">
     <runtime name="PHP" version="8.2.16" url="https://www.php.net/"/>
     <driver name="xdebug" version="3.3.1"/>
   </build>
@@ -198,6 +198,29 @@
       <test name="Tests\Unit\Playground\Admin\Resource\Policies\SettingPolicy\PolicyTest::test_policy_instance" size="unknown" status="success"/>
       <test name="Tests\Unit\Playground\Admin\Resource\ServiceProvider\InstanceTest::test_version_matches" size="unknown" status="success"/>
       <test name="Tests\Unit\Playground\Admin\Resource\ServiceProvider\InstanceTest::test_setPolicies_with_empty_array" size="unknown" status="success"/>
+      <test name="Tests\Unit\Playground\Cms\Models\Page\ModelTest::test_model_instance" size="unknown" status="success"/>
+      <test name="Tests\Unit\Playground\Cms\Models\Page\ModelTest::test_verify_model_relationships" size="unknown" status="success"/>
+      <test name="Tests\Unit\Playground\Cms\Models\Page\ModelTest::test_model_factory_make" size="unknown" status="success"/>
+      <test name="Tests\Unit\Playground\Cms\Models\PageRevision\ModelTest::test_model_instance" size="unknown" status="success"/>
+      <test name="Tests\Unit\Playground\Cms\Models\PageRevision\ModelTest::test_verify_model_relationships" size="unknown" status="success"/>
+      <test name="Tests\Unit\Playground\Cms\Models\PageRevision\ModelTest::test_model_factory_make" size="unknown" status="success"/>
+      <test name="Tests\Unit\Playground\Cms\Models\Snippet\ModelTest::test_model_instance" size="unknown" status="success"/>
+      <test name="Tests\Unit\Playground\Cms\Models\Snippet\ModelTest::test_verify_model_relationships" size="unknown" status="success"/>
+      <test name="Tests\Unit\Playground\Cms\Models\Snippet\ModelTest::test_model_factory_make" size="unknown" status="success"/>
+      <test name="Tests\Unit\Playground\Cms\Models\SnippetRevision\ModelTest::test_model_instance" size="unknown" status="success"/>
+      <test name="Tests\Unit\Playground\Cms\Models\SnippetRevision\ModelTest::test_verify_model_relationships" size="unknown" status="success"/>
+      <test name="Tests\Unit\Playground\Cms\Models\SnippetRevision\ModelTest::test_model_factory_make" size="unknown" status="success"/>
+      <test name="Tests\Unit\Playground\Cms\Resource\Http\Requests\FormRequest\InstanceTest::test_FormRequest_authorize_without_user" size="unknown" status="success"/>
+      <test name="Tests\Unit\Playground\Cms\Resource\Http\Requests\FormRequest\InstanceTest::test_RULES_is_empty_by_default" size="unknown" status="success"/>
+      <test name="Tests\Unit\Playground\Cms\Resource\Http\Requests\FormRequest\InstanceTest::test_userHasAdminPrivileges_without_user" size="unknown" status="success"/>
+      <test name="Tests\Unit\Playground\Cms\Resource\Http\Requests\FormRequest\InstanceTest::test_userHasAdminPrivileges_with_admin" size="unknown" status="success"/>
+      <test name="Tests\Unit\Playground\Cms\Resource\Http\Requests\FormRequest\InstanceTest::test_userHasAdminPrivileges_with_default_laravel_user" size="unknown" status="success"/>
+      <test name="Tests\Unit\Playground\Cms\Resource\Http\Requests\Page\CreateRequestTest::test_request_instance" size="unknown" status="success"/>
+      <test name="Tests\Unit\Playground\Cms\Resource\Http\Requests\Snippet\CreateRequestTest::test_request_instance" size="unknown" status="success"/>
+      <test name="Tests\Unit\Playground\Cms\Resource\Policies\PagePolicy\PolicyTest::test_policy_instance" size="unknown" status="success"/>
+      <test name="Tests\Unit\Playground\Cms\Resource\Policies\SnippetPolicy\PolicyTest::test_policy_instance" size="unknown" status="success"/>
+      <test name="Tests\Unit\Playground\Cms\Resource\ServiceProvider\InstanceTest::test_version_matches" size="unknown" status="success"/>
+      <test name="Tests\Unit\Playground\Cms\Resource\ServiceProvider\InstanceTest::test_setPolicies_with_empty_array" size="unknown" status="success"/>
       <test name="Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_purify" size="unknown" status="success"/>
       <test name="Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_exorcise" size="unknown" status="success"/>
       <test name="Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_getHtmlPurifier" size="unknown" status="success"/>
@@ -403,6 +426,205 @@
       <test name="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update" size="unknown" status="success"/>
       <test name="Tests\Feature\Playground\Admin\Resource\Http\Controllers\Playground\UserRouteTest::test_admin_can_update_view_with_return_url" size="unknown" status="success"/>
       <test name="Tests\Feature\Playground\Admin\Resource\Http\Requests\FormRequest\InstanceTest::test_FormRequest_authorize_with_admin" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Console\Commands\About\CommandTest::test_command_about_displays_package_information_and_succeed_with_code_0" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Models\Page\ModelTest::test_model_instance" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Models\Page\ModelTest::test_verify_model_relationships" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Models\Page\ModelTest::test_factory_create" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Models\PageRevision\ModelTest::test_model_instance" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Models\PageRevision\ModelTest::test_verify_model_relationships" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Models\PageRevision\ModelTest::test_factory_create" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Models\Snippet\ModelTest::test_model_instance" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Models\Snippet\ModelTest::test_verify_model_relationships" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Models\Snippet\ModelTest::test_factory_create" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Models\SnippetRevision\ModelTest::test_model_instance" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Models\SnippetRevision\ModelTest::test_verify_model_relationships" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Models\SnippetRevision\ModelTest::test_factory_create" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Console\Commands\About\CommandTest::test_command_about_displays_package_information_and_succeed_with_code_0" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\IndexRouteTest::test_guest_cannot_render_index_view" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\IndexRouteTest::test_admin_can_render_index_view" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_get_create_info" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_create_info" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_get_create_info_as_admin_with_invalid_parameter_and_fail_validation" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_render_create_view" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_create_view" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_create_view_with_return_url" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_create_view_as_admin_with_invalid_parameter_and_fail_validation_and_redirect" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_destroy" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_destroy" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_destroy_as_admin_and_succeed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_destroy_as_admin_and_succeed_with_force_delete" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_destroy_as_admin_and_succeed_with_redirect_to_index_with_trash" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_destroy_as_user_and_get_denied_and_no_force_delete_allowed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_get_edit_info" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_edit_info" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_edit_as_admin_and_fail_validation_with_invalid_parameter" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_render_edit_view" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_edit_view" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_edit_view_with_return_url" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_edit_view_as_admin_with_invalid_parameter_and_fail_validation_and_redirect" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_get_index" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_index_with_filters" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_render_index_view" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_index_view_with_filters" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_lock" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_lock_as_admin_and_succeed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_lock_as_admin_and_succeed_with_no_redirect" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_lock_as_user_and_get_denied" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_lock" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_lock_as_admin_and_succeed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_lock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_locked_desc" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_lock_as_user_and_get_denied" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_restore" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_restore_as_admin_and_succeed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_restore_as_admin_and_succeed_with_no_redirect" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_restore_as_user_and_get_denied" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_restore_revision" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_restore_revision_as_admin_and_succeed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_restore_revision_as_admin_and_succeed_without_redirect" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_restore_revision_as_user_and_get_denied" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_restore_revision" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_restore_revision_as_admin_and_succeed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_restore_revision_as_admin_and_succeed_with_redirect_to_index_with_only_trash" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_restore_revision_as_user_and_get_denied" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_restore" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_restore_as_admin_and_succeed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_restore_as_admin_and_succeed_with_redirect_to_index_with_only_trash" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_restore_as_user_and_get_denied" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_render_revision_view" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revision_info" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_get_revisions" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_get_revisions_with_filters" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_render_revisions_view" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_render_revisions_view_with_filters" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_render_revision_view" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_revision_view_rendered_by_admin" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_see_info" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_show_info_for_admin" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_render_show_view" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_show_view_rendered_by_admin" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_store" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_store_as_admin_without_payload_and_fail_validation" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_store_as_admin_and_succeed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_store" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_without_payload_and_fail_validation" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_store_as_admin_and_succeed_with_return_url" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_unlock" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_unlock_as_admin_and_succeed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_unlock_as_admin_and_succeed_with_no_redirect" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_unlock_as_user_and_get_denied" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_unlock" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_unlock_as_user_and_get_denied" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_guest_cannot_update" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_update_as_admin_without_payload_and_fail_validation" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_json_admin_can_update" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_guest_cannot_update" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_update_as_admin_without_payload_and_fail_validation" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\PageRouteTest::test_admin_can_update_view_with_return_url" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_get_create_info" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_create_info" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_get_create_info_as_admin_with_invalid_parameter_and_fail_validation" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_render_create_view" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_create_view" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_create_view_with_return_url" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_create_view_as_admin_with_invalid_parameter_and_fail_validation_and_redirect" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_destroy" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_force_delete" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_with_no_content" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_admin_and_succeed_and_ignore_redirect" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_destroy_as_user_and_get_denied_and_no_force_delete_allowed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_destroy" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_destroy_as_admin_and_succeed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_destroy_as_admin_and_succeed_with_force_delete" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_destroy_as_admin_and_succeed_with_redirect_to_index_with_trash" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_destroy_as_user_and_get_denied_and_no_force_delete_allowed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_get_edit_info" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_edit_info" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_edit_as_admin_and_fail_validation_with_invalid_parameter" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_render_edit_view" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_edit_view" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_edit_view_with_return_url" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_edit_view_as_admin_with_invalid_parameter_and_fail_validation_and_redirect" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_get_index" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_index_with_filters" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_render_index_view" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_index_view_with_filters" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_lock" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_lock_as_admin_and_succeed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_lock_as_admin_and_succeed_with_no_redirect" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_lock_as_user_and_get_denied" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_lock" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_lock_as_admin_and_succeed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_lock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_locked_desc" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_lock_as_user_and_get_denied" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_restore" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_restore_as_admin_and_succeed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_restore_as_admin_and_succeed_with_no_redirect" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_restore_as_user_and_get_denied" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_restore_revision" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_restore_revision_as_admin_and_succeed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_restore_revision_as_admin_and_succeed_without_redirect" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_restore_revision_as_user_and_get_denied" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_restore_revision" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_restore_revision_as_admin_and_succeed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_restore_revision_as_admin_and_succeed_with_redirect_to_index_with_only_trash" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_restore_revision_as_user_and_get_denied" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_restore" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_restore_as_admin_and_succeed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_restore_as_admin_and_succeed_with_redirect_to_index_with_only_trash" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_restore_as_user_and_get_denied" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_render_revision_view" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revision_info" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_get_revisions" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_get_revisions_with_filters" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_render_revisions_view" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_render_revisions_view_with_filters" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_render_revision_view" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_revision_view_rendered_by_admin" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_see_info" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_show_info_for_admin" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_render_show_view" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_show_view_rendered_by_admin" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_store" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_store_as_admin_without_payload_and_fail_validation" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_store_as_admin_and_succeed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_store" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_without_payload_and_fail_validation" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_store_as_admin_and_succeed_with_return_url" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_unlock" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_unlock_as_admin_and_succeed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_unlock_as_admin_and_succeed_with_no_redirect" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_unlock_as_user_and_get_denied" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_unlock" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_admin_and_succeed_with_redirect_to_index_with_sorted_by_unlocked_desc" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_unlock_as_user_and_get_denied" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_guest_cannot_update" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_update_as_admin_without_payload_and_fail_validation" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_json_admin_can_update" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_guest_cannot_update" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_update_as_admin_without_payload_and_fail_validation" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Controllers\Playground\SnippetRouteTest::test_admin_can_update_view_with_return_url" size="unknown" status="success"/>
+      <test name="Tests\Feature\Playground\Cms\Resource\Http\Requests\FormRequest\InstanceTest::test_FormRequest_authorize_with_admin" size="unknown" status="success"/>
       <test name="Tests\Feature\Playground\Login\Blade\Http\Controllers\Laravel\AuthenticationRouteTest::test_login_screen_can_be_rendered" size="unknown" status="success"/>
       <test name="Tests\Feature\Playground\Login\Blade\Http\Controllers\Laravel\AuthenticationRouteTest::test_users_can_authenticate_using_the_login_screen_laravel" size="unknown" status="success"/>
       <test name="Tests\Feature\Playground\Login\Blade\Http\Controllers\Laravel\AuthenticationRouteTest::test_users_can_authenticate_using_json" size="unknown" status="success"/>
@@ -590,10 +812,10 @@
     </tests>
     <directory name="/">
       <totals>
-        <lines total="18418" comments="4146" code="14272" executable="5294" executed="4417" percent="83.43"/>
-        <methods count="498" tested="384" percent="77.11"/>
+        <lines total="23595" comments="5008" code="18587" executable="6186" executed="5786" percent="93.53"/>
+        <methods count="553" tested="480" percent="86.80"/>
         <functions count="0" tested="0" percent="0"/>
-        <classes count="82" tested="102" percent="124.39"/>
+        <classes count="109" tested="130" percent="119.27"/>
         <traits count="60" tested="0" percent="0.00"/>
       </totals>
       <directory name="app">
@@ -670,18 +892,18 @@
       </directory>
       <directory name="vendor">
         <totals>
-          <lines total="18371" comments="4137" code="14234" executable="5292" executed="4415" percent="83.43"/>
-          <methods count="496" tested="382" percent="77.02"/>
+          <lines total="23548" comments="4999" code="18549" executable="6184" executed="5784" percent="93.53"/>
+          <methods count="551" tested="478" percent="86.75"/>
           <functions count="0" tested="0" percent="0"/>
-          <classes count="81" tested="101" percent="124.69"/>
+          <classes count="108" tested="129" percent="119.44"/>
           <traits count="60" tested="0" percent="0.00"/>
         </totals>
         <directory name="gammamatrix">
           <totals>
-            <lines total="18371" comments="4137" code="14234" executable="5292" executed="4415" percent="83.43"/>
-            <methods count="496" tested="382" percent="77.02"/>
+            <lines total="23548" comments="4999" code="18549" executable="6184" executed="5784" percent="93.53"/>
+            <methods count="551" tested="478" percent="86.75"/>
             <functions count="0" tested="0" percent="0"/>
-            <classes count="81" tested="101" percent="124.69"/>
+            <classes count="108" tested="129" percent="119.44"/>
             <traits count="60" tested="0" percent="0.00"/>
           </totals>
           <directory name="playground-admin-resource">
@@ -1656,6 +1878,537 @@
               </file>
             </directory>
           </directory>
+          <directory name="playground-cms-resource">
+            <totals>
+              <lines total="3999" comments="736" code="3263" executable="856" executed="838" percent="97.90"/>
+              <methods count="71" tested="66" percent="92.96"/>
+              <functions count="0" tested="0" percent="0"/>
+              <classes count="22" tested="17" percent="77.27"/>
+              <traits count="0" tested="0" percent="0"/>
+            </totals>
+            <directory name="src">
+              <totals>
+                <lines total="3999" comments="736" code="3263" executable="856" executed="838" percent="97.90"/>
+                <methods count="71" tested="66" percent="92.96"/>
+                <functions count="0" tested="0" percent="0"/>
+                <classes count="22" tested="17" percent="77.27"/>
+                <traits count="0" tested="0" percent="0"/>
+              </totals>
+              <directory name="Http">
+                <totals>
+                  <lines total="3645" comments="636" code="3009" executable="767" executed="763" percent="99.48"/>
+                  <methods count="59" tested="55" percent="93.22"/>
+                  <functions count="0" tested="0" percent="0"/>
+                  <classes count="19" tested="15" percent="78.95"/>
+                  <traits count="0" tested="0" percent="0"/>
+                </totals>
+                <directory name="Controllers">
+                  <totals>
+                    <lines total="1338" comments="179" code="1159" executable="583" executed="583" percent="100.00"/>
+                    <methods count="30" tested="30" percent="100.00"/>
+                    <functions count="0" tested="0" percent="0"/>
+                    <classes count="4" tested="4" percent="100.00"/>
+                    <traits count="0" tested="0" percent="0"/>
+                  </totals>
+                  <file name="Controller.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Controllers/Controller.php.xml">
+                    <totals>
+                      <lines total="38" comments="8" code="30" executable="8" executed="8" percent="100.00"/>
+                      <methods count="1" tested="1" percent="100.00"/>
+                      <functions count="0" tested="0" percent="0"/>
+                      <classes count="1" tested="1" percent="100.00"/>
+                      <traits count="0" tested="0" percent="0"/>
+                    </totals>
+                  </file>
+                  <file name="IndexController.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Controllers/IndexController.php.xml">
+                    <totals>
+                      <lines total="24" comments="9" code="15" executable="1" executed="1" percent="100.00"/>
+                      <methods count="1" tested="1" percent="100.00"/>
+                      <functions count="0" tested="0" percent="0"/>
+                      <classes count="1" tested="1" percent="100.00"/>
+                      <traits count="0" tested="0" percent="0"/>
+                    </totals>
+                  </file>
+                  <file name="PageController.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Controllers/PageController.php.xml">
+                    <totals>
+                      <lines total="638" comments="81" code="557" executable="287" executed="287" percent="100.00"/>
+                      <methods count="14" tested="14" percent="100.00"/>
+                      <functions count="0" tested="0" percent="0"/>
+                      <classes count="1" tested="1" percent="100.00"/>
+                      <traits count="0" tested="0" percent="0"/>
+                    </totals>
+                  </file>
+                  <file name="SnippetController.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Controllers/SnippetController.php.xml">
+                    <totals>
+                      <lines total="638" comments="81" code="557" executable="287" executed="287" percent="100.00"/>
+                      <methods count="14" tested="14" percent="100.00"/>
+                      <functions count="0" tested="0" percent="0"/>
+                      <classes count="1" tested="1" percent="100.00"/>
+                      <traits count="0" tested="0" percent="0"/>
+                    </totals>
+                  </file>
+                </directory>
+                <directory name="Requests">
+                  <totals>
+                    <lines total="1919" comments="351" code="1568" executable="82" executed="78" percent="95.12"/>
+                    <methods count="13" tested="9" percent="69.23"/>
+                    <functions count="0" tested="0" percent="0"/>
+                    <classes count="7" tested="3" percent="42.86"/>
+                    <traits count="0" tested="0" percent="0"/>
+                  </totals>
+                  <directory name="Page">
+                    <totals>
+                      <lines total="928" comments="166" code="762" executable="35" executed="33" percent="94.29"/>
+                      <methods count="5" tested="3" percent="60.00"/>
+                      <functions count="0" tested="0" percent="0"/>
+                      <classes count="3" tested="1" percent="33.33"/>
+                      <traits count="0" tested="0" percent="0"/>
+                    </totals>
+                    <file name="CreateRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/Page/CreateRequest.php.xml">
+                      <totals>
+                        <lines total="87" comments="9" code="78" executable="0" executed="0" percent="0"/>
+                        <methods count="0" tested="0" percent="0"/>
+                        <functions count="0" tested="0" percent="0"/>
+                        <classes count="0" tested="0" percent="0"/>
+                        <traits count="0" tested="0" percent="0"/>
+                      </totals>
+                    </file>
+                    <file name="DestroyRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/Page/DestroyRequest.php.xml">
+                      <totals>
+                        <lines total="41" comments="14" code="27" executable="5" executed="5" percent="100.00"/>
+                        <methods count="1" tested="1" percent="100.00"/>
+                        <functions count="0" tested="0" percent="0"/>
+                        <classes count="1" tested="1" percent="100.00"/>
+                        <traits count="0" tested="0" percent="0"/>
+                      </totals>
+                    </file>
+                    <file name="EditRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/Page/EditRequest.php.xml">
+                      <totals>
+                        <lines total="86" comments="9" code="77" executable="0" executed="0" percent="0"/>
+                        <methods count="0" tested="0" percent="0"/>
+                        <functions count="0" tested="0" percent="0"/>
+                        <classes count="0" tested="0" percent="0"/>
+                        <traits count="0" tested="0" percent="0"/>
+                      </totals>
+                    </file>
+                    <file name="IndexRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/Page/IndexRequest.php.xml">
+                      <totals>
+                        <lines total="160" comments="21" code="139" executable="0" executed="0" percent="0"/>
+                        <methods count="0" tested="0" percent="0"/>
+                        <functions count="0" tested="0" percent="0"/>
+                        <classes count="0" tested="0" percent="0"/>
+                        <traits count="0" tested="0" percent="0"/>
+                      </totals>
+                    </file>
+                    <file name="LockRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/Page/LockRequest.php.xml">
+                      <totals>
+                        <lines total="23" comments="9" code="14" executable="0" executed="0" percent="0"/>
+                        <methods count="0" tested="0" percent="0"/>
+                        <functions count="0" tested="0" percent="0"/>
+                        <classes count="0" tested="0" percent="0"/>
+                        <traits count="0" tested="0" percent="0"/>
+                      </totals>
+                    </file>
+                    <file name="RestoreRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/Page/RestoreRequest.php.xml">
+                      <totals>
+                        <lines total="23" comments="9" code="14" executable="0" executed="0" percent="0"/>
+                        <methods count="0" tested="0" percent="0"/>
+                        <functions count="0" tested="0" percent="0"/>
+                        <classes count="0" tested="0" percent="0"/>
+                        <traits count="0" tested="0" percent="0"/>
+                      </totals>
+                    </file>
+                    <file name="RestoreRevisionRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/Page/RestoreRevisionRequest.php.xml">
+                      <totals>
+                        <lines total="23" comments="9" code="14" executable="0" executed="0" percent="0"/>
+                        <methods count="0" tested="0" percent="0"/>
+                        <functions count="0" tested="0" percent="0"/>
+                        <classes count="0" tested="0" percent="0"/>
+                        <traits count="0" tested="0" percent="0"/>
+                      </totals>
+                    </file>
+                    <file name="RevisionsRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/Page/RevisionsRequest.php.xml">
+                      <totals>
+                        <lines total="160" comments="21" code="139" executable="0" executed="0" percent="0"/>
+                        <methods count="0" tested="0" percent="0"/>
+                        <functions count="0" tested="0" percent="0"/>
+                        <classes count="0" tested="0" percent="0"/>
+                        <traits count="0" tested="0" percent="0"/>
+                      </totals>
+                    </file>
+                    <file name="ShowRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/Page/ShowRequest.php.xml">
+                      <totals>
+                        <lines total="17" comments="6" code="11" executable="0" executed="0" percent="0"/>
+                        <methods count="0" tested="0" percent="0"/>
+                        <functions count="0" tested="0" percent="0"/>
+                        <classes count="0" tested="0" percent="0"/>
+                        <traits count="0" tested="0" percent="0"/>
+                      </totals>
+                    </file>
+                    <file name="ShowRevisionRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/Page/ShowRevisionRequest.php.xml">
+                      <totals>
+                        <lines total="17" comments="6" code="11" executable="0" executed="0" percent="0"/>
+                        <methods count="0" tested="0" percent="0"/>
+                        <functions count="0" tested="0" percent="0"/>
+                        <classes count="0" tested="0" percent="0"/>
+                        <traits count="0" tested="0" percent="0"/>
+                      </totals>
+                    </file>
+                    <file name="StoreRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/Page/StoreRequest.php.xml">
+                      <totals>
+                        <lines total="134" comments="22" code="112" executable="15" executed="14" percent="93.33"/>
+                        <methods count="2" tested="1" percent="50.00"/>
+                        <functions count="0" tested="0" percent="0"/>
+                        <classes count="1" tested="0" percent="0.00"/>
+                        <traits count="0" tested="0" percent="0"/>
+                      </totals>
+                    </file>
+                    <file name="UnlockRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/Page/UnlockRequest.php.xml">
+                      <totals>
+                        <lines total="23" comments="9" code="14" executable="0" executed="0" percent="0"/>
+                        <methods count="0" tested="0" percent="0"/>
+                        <functions count="0" tested="0" percent="0"/>
+                        <classes count="0" tested="0" percent="0"/>
+                        <traits count="0" tested="0" percent="0"/>
+                      </totals>
+                    </file>
+                    <file name="UpdateRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/Page/UpdateRequest.php.xml">
+                      <totals>
+                        <lines total="134" comments="22" code="112" executable="15" executed="14" percent="93.33"/>
+                        <methods count="2" tested="1" percent="50.00"/>
+                        <functions count="0" tested="0" percent="0"/>
+                        <classes count="1" tested="0" percent="0.00"/>
+                        <traits count="0" tested="0" percent="0"/>
+                      </totals>
+                    </file>
+                  </directory>
+                  <directory name="Snippet">
+                    <totals>
+                      <lines total="927" comments="166" code="761" executable="35" executed="33" percent="94.29"/>
+                      <methods count="5" tested="3" percent="60.00"/>
+                      <functions count="0" tested="0" percent="0"/>
+                      <classes count="3" tested="1" percent="33.33"/>
+                      <traits count="0" tested="0" percent="0"/>
+                    </totals>
+                    <file name="CreateRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/Snippet/CreateRequest.php.xml">
+                      <totals>
+                        <lines total="87" comments="9" code="78" executable="0" executed="0" percent="0"/>
+                        <methods count="0" tested="0" percent="0"/>
+                        <functions count="0" tested="0" percent="0"/>
+                        <classes count="0" tested="0" percent="0"/>
+                        <traits count="0" tested="0" percent="0"/>
+                      </totals>
+                    </file>
+                    <file name="DestroyRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/Snippet/DestroyRequest.php.xml">
+                      <totals>
+                        <lines total="41" comments="14" code="27" executable="5" executed="5" percent="100.00"/>
+                        <methods count="1" tested="1" percent="100.00"/>
+                        <functions count="0" tested="0" percent="0"/>
+                        <classes count="1" tested="1" percent="100.00"/>
+                        <traits count="0" tested="0" percent="0"/>
+                      </totals>
+                    </file>
+                    <file name="EditRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/Snippet/EditRequest.php.xml">
+                      <totals>
+                        <lines total="86" comments="9" code="77" executable="0" executed="0" percent="0"/>
+                        <methods count="0" tested="0" percent="0"/>
+                        <functions count="0" tested="0" percent="0"/>
+                        <classes count="0" tested="0" percent="0"/>
+                        <traits count="0" tested="0" percent="0"/>
+                      </totals>
+                    </file>
+                    <file name="IndexRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/Snippet/IndexRequest.php.xml">
+                      <totals>
+                        <lines total="160" comments="21" code="139" executable="0" executed="0" percent="0"/>
+                        <methods count="0" tested="0" percent="0"/>
+                        <functions count="0" tested="0" percent="0"/>
+                        <classes count="0" tested="0" percent="0"/>
+                        <traits count="0" tested="0" percent="0"/>
+                      </totals>
+                    </file>
+                    <file name="LockRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/Snippet/LockRequest.php.xml">
+                      <totals>
+                        <lines total="23" comments="9" code="14" executable="0" executed="0" percent="0"/>
+                        <methods count="0" tested="0" percent="0"/>
+                        <functions count="0" tested="0" percent="0"/>
+                        <classes count="0" tested="0" percent="0"/>
+                        <traits count="0" tested="0" percent="0"/>
+                      </totals>
+                    </file>
+                    <file name="RestoreRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/Snippet/RestoreRequest.php.xml">
+                      <totals>
+                        <lines total="23" comments="9" code="14" executable="0" executed="0" percent="0"/>
+                        <methods count="0" tested="0" percent="0"/>
+                        <functions count="0" tested="0" percent="0"/>
+                        <classes count="0" tested="0" percent="0"/>
+                        <traits count="0" tested="0" percent="0"/>
+                      </totals>
+                    </file>
+                    <file name="RestoreRevisionRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/Snippet/RestoreRevisionRequest.php.xml">
+                      <totals>
+                        <lines total="23" comments="9" code="14" executable="0" executed="0" percent="0"/>
+                        <methods count="0" tested="0" percent="0"/>
+                        <functions count="0" tested="0" percent="0"/>
+                        <classes count="0" tested="0" percent="0"/>
+                        <traits count="0" tested="0" percent="0"/>
+                      </totals>
+                    </file>
+                    <file name="RevisionsRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/Snippet/RevisionsRequest.php.xml">
+                      <totals>
+                        <lines total="160" comments="21" code="139" executable="0" executed="0" percent="0"/>
+                        <methods count="0" tested="0" percent="0"/>
+                        <functions count="0" tested="0" percent="0"/>
+                        <classes count="0" tested="0" percent="0"/>
+                        <traits count="0" tested="0" percent="0"/>
+                      </totals>
+                    </file>
+                    <file name="ShowRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/Snippet/ShowRequest.php.xml">
+                      <totals>
+                        <lines total="17" comments="6" code="11" executable="0" executed="0" percent="0"/>
+                        <methods count="0" tested="0" percent="0"/>
+                        <functions count="0" tested="0" percent="0"/>
+                        <classes count="0" tested="0" percent="0"/>
+                        <traits count="0" tested="0" percent="0"/>
+                      </totals>
+                    </file>
+                    <file name="ShowRevisionRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/Snippet/ShowRevisionRequest.php.xml">
+                      <totals>
+                        <lines total="17" comments="6" code="11" executable="0" executed="0" percent="0"/>
+                        <methods count="0" tested="0" percent="0"/>
+                        <functions count="0" tested="0" percent="0"/>
+                        <classes count="0" tested="0" percent="0"/>
+                        <traits count="0" tested="0" percent="0"/>
+                      </totals>
+                    </file>
+                    <file name="StoreRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/Snippet/StoreRequest.php.xml">
+                      <totals>
+                        <lines total="133" comments="22" code="111" executable="15" executed="14" percent="93.33"/>
+                        <methods count="2" tested="1" percent="50.00"/>
+                        <functions count="0" tested="0" percent="0"/>
+                        <classes count="1" tested="0" percent="0.00"/>
+                        <traits count="0" tested="0" percent="0"/>
+                      </totals>
+                    </file>
+                    <file name="UnlockRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/Snippet/UnlockRequest.php.xml">
+                      <totals>
+                        <lines total="23" comments="9" code="14" executable="0" executed="0" percent="0"/>
+                        <methods count="0" tested="0" percent="0"/>
+                        <functions count="0" tested="0" percent="0"/>
+                        <classes count="0" tested="0" percent="0"/>
+                        <traits count="0" tested="0" percent="0"/>
+                      </totals>
+                    </file>
+                    <file name="UpdateRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/Snippet/UpdateRequest.php.xml">
+                      <totals>
+                        <lines total="134" comments="22" code="112" executable="15" executed="14" percent="93.33"/>
+                        <methods count="2" tested="1" percent="50.00"/>
+                        <functions count="0" tested="0" percent="0"/>
+                        <classes count="1" tested="0" percent="0.00"/>
+                        <traits count="0" tested="0" percent="0"/>
+                      </totals>
+                    </file>
+                  </directory>
+                  <file name="FormRequest.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Requests/FormRequest.php.xml">
+                    <totals>
+                      <lines total="64" comments="19" code="45" executable="12" executed="12" percent="100.00"/>
+                      <methods count="3" tested="3" percent="100.00"/>
+                      <functions count="0" tested="0" percent="0"/>
+                      <classes count="1" tested="1" percent="100.00"/>
+                      <traits count="0" tested="0" percent="0"/>
+                    </totals>
+                  </file>
+                </directory>
+                <directory name="Resources">
+                  <totals>
+                    <lines total="388" comments="106" code="282" executable="102" executed="102" percent="100.00"/>
+                    <methods count="16" tested="16" percent="100.00"/>
+                    <functions count="0" tested="0" percent="0"/>
+                    <classes count="8" tested="8" percent="100.00"/>
+                    <traits count="0" tested="0" percent="0"/>
+                  </totals>
+                  <file name="Page.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Resources/Page.php.xml">
+                    <totals>
+                      <lines total="48" comments="14" code="34" executable="11" executed="11" percent="100.00"/>
+                      <methods count="2" tested="2" percent="100.00"/>
+                      <functions count="0" tested="0" percent="0"/>
+                      <classes count="1" tested="1" percent="100.00"/>
+                      <traits count="0" tested="0" percent="0"/>
+                    </totals>
+                  </file>
+                  <file name="PageCollection.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Resources/PageCollection.php.xml">
+                    <totals>
+                      <lines total="46" comments="11" code="35" executable="14" executed="14" percent="100.00"/>
+                      <methods count="2" tested="2" percent="100.00"/>
+                      <functions count="0" tested="0" percent="0"/>
+                      <classes count="1" tested="1" percent="100.00"/>
+                      <traits count="0" tested="0" percent="0"/>
+                    </totals>
+                  </file>
+                  <file name="PageRevision.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Resources/PageRevision.php.xml">
+                    <totals>
+                      <lines total="54" comments="17" code="37" executable="12" executed="12" percent="100.00"/>
+                      <methods count="2" tested="2" percent="100.00"/>
+                      <functions count="0" tested="0" percent="0"/>
+                      <classes count="1" tested="1" percent="100.00"/>
+                      <traits count="0" tested="0" percent="0"/>
+                    </totals>
+                  </file>
+                  <file name="PageRevisionCollection.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Resources/PageRevisionCollection.php.xml">
+                    <totals>
+                      <lines total="46" comments="11" code="35" executable="14" executed="14" percent="100.00"/>
+                      <methods count="2" tested="2" percent="100.00"/>
+                      <functions count="0" tested="0" percent="0"/>
+                      <classes count="1" tested="1" percent="100.00"/>
+                      <traits count="0" tested="0" percent="0"/>
+                    </totals>
+                  </file>
+                  <file name="Snippet.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Resources/Snippet.php.xml">
+                    <totals>
+                      <lines total="48" comments="14" code="34" executable="11" executed="11" percent="100.00"/>
+                      <methods count="2" tested="2" percent="100.00"/>
+                      <functions count="0" tested="0" percent="0"/>
+                      <classes count="1" tested="1" percent="100.00"/>
+                      <traits count="0" tested="0" percent="0"/>
+                    </totals>
+                  </file>
+                  <file name="SnippetCollection.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Resources/SnippetCollection.php.xml">
+                    <totals>
+                      <lines total="46" comments="11" code="35" executable="14" executed="14" percent="100.00"/>
+                      <methods count="2" tested="2" percent="100.00"/>
+                      <functions count="0" tested="0" percent="0"/>
+                      <classes count="1" tested="1" percent="100.00"/>
+                      <traits count="0" tested="0" percent="0"/>
+                    </totals>
+                  </file>
+                  <file name="SnippetRevision.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Resources/SnippetRevision.php.xml">
+                    <totals>
+                      <lines total="54" comments="17" code="37" executable="12" executed="12" percent="100.00"/>
+                      <methods count="2" tested="2" percent="100.00"/>
+                      <functions count="0" tested="0" percent="0"/>
+                      <classes count="1" tested="1" percent="100.00"/>
+                      <traits count="0" tested="0" percent="0"/>
+                    </totals>
+                  </file>
+                  <file name="SnippetRevisionCollection.php" href="vendor/gammamatrix/playground-cms-resource/src/Http/Resources/SnippetRevisionCollection.php.xml">
+                    <totals>
+                      <lines total="46" comments="11" code="35" executable="14" executed="14" percent="100.00"/>
+                      <methods count="2" tested="2" percent="100.00"/>
+                      <functions count="0" tested="0" percent="0"/>
+                      <classes count="1" tested="1" percent="100.00"/>
+                      <traits count="0" tested="0" percent="0"/>
+                    </totals>
+                  </file>
+                </directory>
+              </directory>
+              <directory name="Policies">
+                <totals>
+                  <lines total="170" comments="74" code="96" executable="6" executed="6" percent="100.00"/>
+                  <methods count="6" tested="6" percent="100.00"/>
+                  <functions count="0" tested="0" percent="0"/>
+                  <classes count="2" tested="2" percent="100.00"/>
+                  <traits count="0" tested="0" percent="0"/>
+                </totals>
+                <file name="PagePolicy.php" href="vendor/gammamatrix/playground-cms-resource/src/Policies/PagePolicy.php.xml">
+                  <totals>
+                    <lines total="85" comments="37" code="48" executable="3" executed="3" percent="100.00"/>
+                    <methods count="3" tested="3" percent="100.00"/>
+                    <functions count="0" tested="0" percent="0"/>
+                    <classes count="1" tested="1" percent="100.00"/>
+                    <traits count="0" tested="0" percent="0"/>
+                  </totals>
+                </file>
+                <file name="SnippetPolicy.php" href="vendor/gammamatrix/playground-cms-resource/src/Policies/SnippetPolicy.php.xml">
+                  <totals>
+                    <lines total="85" comments="37" code="48" executable="3" executed="3" percent="100.00"/>
+                    <methods count="3" tested="3" percent="100.00"/>
+                    <functions count="0" tested="0" percent="0"/>
+                    <classes count="1" tested="1" percent="100.00"/>
+                    <traits count="0" tested="0" percent="0"/>
+                  </totals>
+                </file>
+              </directory>
+              <file name="ServiceProvider.php" href="vendor/gammamatrix/playground-cms-resource/src/ServiceProvider.php.xml">
+                <totals>
+                  <lines total="184" comments="26" code="158" executable="83" executed="69" percent="83.13"/>
+                  <methods count="6" tested="5" percent="83.33"/>
+                  <functions count="0" tested="0" percent="0"/>
+                  <classes count="1" tested="0" percent="0.00"/>
+                  <traits count="0" tested="0" percent="0"/>
+                </totals>
+              </file>
+            </directory>
+          </directory>
+          <directory name="playground-cms">
+            <totals>
+              <lines total="1178" comments="126" code="1052" executable="63" executed="63" percent="100.00"/>
+              <methods count="11" tested="11" percent="100.00"/>
+              <functions count="0" tested="0" percent="0"/>
+              <classes count="5" tested="5" percent="100.00"/>
+              <traits count="0" tested="0" percent="0"/>
+            </totals>
+            <directory name="src">
+              <totals>
+                <lines total="1178" comments="126" code="1052" executable="63" executed="63" percent="100.00"/>
+                <methods count="11" tested="11" percent="100.00"/>
+                <functions count="0" tested="0" percent="0"/>
+                <classes count="5" tested="5" percent="100.00"/>
+                <traits count="0" tested="0" percent="0"/>
+              </totals>
+              <directory name="Models">
+                <totals>
+                  <lines total="1072" comments="102" code="970" executable="30" executed="30" percent="100.00"/>
+                  <methods count="6" tested="6" percent="100.00"/>
+                  <functions count="0" tested="0" percent="0"/>
+                  <classes count="4" tested="4" percent="100.00"/>
+                  <traits count="0" tested="0" percent="0"/>
+                </totals>
+                <file name="Page.php" href="vendor/gammamatrix/playground-cms/src/Models/Page.php.xml">
+                  <totals>
+                    <lines total="268" comments="24" code="244" executable="5" executed="5" percent="100.00"/>
+                    <methods count="1" tested="1" percent="100.00"/>
+                    <functions count="0" tested="0" percent="0"/>
+                    <classes count="1" tested="1" percent="100.00"/>
+                    <traits count="0" tested="0" percent="0"/>
+                  </totals>
+                </file>
+                <file name="PageRevision.php" href="vendor/gammamatrix/playground-cms/src/Models/PageRevision.php.xml">
+                  <totals>
+                    <lines total="282" comments="27" code="255" executable="10" executed="10" percent="100.00"/>
+                    <methods count="2" tested="2" percent="100.00"/>
+                    <functions count="0" tested="0" percent="0"/>
+                    <classes count="1" tested="1" percent="100.00"/>
+                    <traits count="0" tested="0" percent="0"/>
+                  </totals>
+                </file>
+                <file name="Snippet.php" href="vendor/gammamatrix/playground-cms/src/Models/Snippet.php.xml">
+                  <totals>
+                    <lines total="255" comments="24" code="231" executable="5" executed="5" percent="100.00"/>
+                    <methods count="1" tested="1" percent="100.00"/>
+                    <functions count="0" tested="0" percent="0"/>
+                    <classes count="1" tested="1" percent="100.00"/>
+                    <traits count="0" tested="0" percent="0"/>
+                  </totals>
+                </file>
+                <file name="SnippetRevision.php" href="vendor/gammamatrix/playground-cms/src/Models/SnippetRevision.php.xml">
+                  <totals>
+                    <lines total="267" comments="27" code="240" executable="10" executed="10" percent="100.00"/>
+                    <methods count="2" tested="2" percent="100.00"/>
+                    <functions count="0" tested="0" percent="0"/>
+                    <classes count="1" tested="1" percent="100.00"/>
+                    <traits count="0" tested="0" percent="0"/>
+                  </totals>
+                </file>
+              </directory>
+              <file name="ServiceProvider.php" href="vendor/gammamatrix/playground-cms/src/ServiceProvider.php.xml">
+                <totals>
+                  <lines total="106" comments="24" code="82" executable="33" executed="33" percent="100.00"/>
+                  <methods count="5" tested="5" percent="100.00"/>
+                  <functions count="0" tested="0" percent="0"/>
+                  <classes count="1" tested="1" percent="100.00"/>
+                  <traits count="0" tested="0" percent="0"/>
+                </totals>
+              </file>
+            </directory>
+          </directory>
           <directory name="playground-http">
             <totals>
               <lines total="2022" comments="713" code="1309" executable="472" executed="408" percent="86.44"/>
@@ -2198,58 +2951,58 @@
           </directory>
           <directory name="playground-test">
             <totals>
-              <lines total="5726" comments="1138" code="4588" executable="2165" executed="1595" percent="73.67"/>
-              <methods count="155" tested="97" percent="62.58"/>
+              <lines total="5726" comments="1138" code="4588" executable="2138" executed="2063" percent="96.49"/>
+              <methods count="128" tested="116" percent="90.62"/>
               <functions count="0" tested="0" percent="0"/>
-              <classes count="7" tested="24" percent="342.86"/>
+              <classes count="7" tested="30" percent="428.57"/>
               <traits count="30" tested="0" percent="0.00"/>
             </totals>
             <directory name="src">
               <totals>
-                <lines total="5726" comments="1138" code="4588" executable="2165" executed="1595" percent="73.67"/>
-                <methods count="155" tested="97" percent="62.58"/>
+                <lines total="5726" comments="1138" code="4588" executable="2138" executed="2063" percent="96.49"/>
+                <methods count="128" tested="116" percent="90.62"/>
                 <functions count="0" tested="0" percent="0"/>
-                <classes count="7" tested="24" percent="342.86"/>
+                <classes count="7" tested="30" percent="428.57"/>
                 <traits count="30" tested="0" percent="0.00"/>
               </totals>
               <directory name="Feature">
                 <totals>
-                  <lines total="4480" comments="661" code="3819" executable="1992" executed="1475" percent="74.05"/>
-                  <methods count="127" tested="76" percent="59.84"/>
+                  <lines total="4480" comments="661" code="3819" executable="1965" executed="1941" percent="98.78"/>
+                  <methods count="100" tested="95" percent="95.00"/>
                   <functions count="0" tested="0" percent="0"/>
-                  <classes count="1" tested="18" percent="1800.00"/>
+                  <classes count="1" tested="24" percent="2400.00"/>
                   <traits count="26" tested="0" percent="0.00"/>
                 </totals>
                 <directory name="Http">
                   <totals>
-                    <lines total="3922" comments="449" code="3473" executable="1796" executed="1355" percent="75.45"/>
-                    <methods count="118" tested="71" percent="60.17"/>
+                    <lines total="3922" comments="449" code="3473" executable="1769" executed="1767" percent="99.89"/>
+                    <methods count="91" tested="89" percent="97.80"/>
                     <functions count="0" tested="0" percent="0"/>
-                    <classes count="0" tested="18" percent="0"/>
+                    <classes count="0" tested="24" percent="0"/>
                     <traits count="26" tested="0" percent="0.00"/>
                   </totals>
                   <directory name="Controllers">
                     <totals>
-                      <lines total="3922" comments="449" code="3473" executable="1796" executed="1355" percent="75.45"/>
-                      <methods count="118" tested="71" percent="60.17"/>
+                      <lines total="3922" comments="449" code="3473" executable="1769" executed="1767" percent="99.89"/>
+                      <methods count="91" tested="89" percent="97.80"/>
                       <functions count="0" tested="0" percent="0"/>
-                      <classes count="0" tested="18" percent="0"/>
+                      <classes count="0" tested="24" percent="0"/>
                       <traits count="26" tested="0" percent="0.00"/>
                     </totals>
                     <directory name="Resource">
                       <totals>
-                        <lines total="3922" comments="449" code="3473" executable="1796" executed="1355" percent="75.45"/>
-                        <methods count="118" tested="71" percent="60.17"/>
+                        <lines total="3922" comments="449" code="3473" executable="1769" executed="1767" percent="99.89"/>
+                        <methods count="91" tested="89" percent="97.80"/>
                         <functions count="0" tested="0" percent="0"/>
-                        <classes count="0" tested="18" percent="0"/>
+                        <classes count="0" tested="24" percent="0"/>
                         <traits count="26" tested="0" percent="0.00"/>
                       </totals>
                       <directory name="Playground">
                         <totals>
-                          <lines total="3922" comments="449" code="3473" executable="1796" executed="1355" percent="75.45"/>
-                          <methods count="118" tested="71" percent="60.17"/>
+                          <lines total="3922" comments="449" code="3473" executable="1769" executed="1767" percent="99.89"/>
+                          <methods count="91" tested="89" percent="97.80"/>
                           <functions count="0" tested="0" percent="0"/>
-                          <classes count="0" tested="18" percent="0"/>
+                          <classes count="0" tested="24" percent="0"/>
                           <traits count="26" tested="0" percent="0.00"/>
                         </totals>
                         <file name="CreateJsonTrait.php" href="vendor/gammamatrix/playground-test/src/Feature/Http/Controllers/Resource/Playground/CreateJsonTrait.php.xml">
@@ -2353,19 +3106,19 @@
                         </file>
                         <file name="RestoreRevisionJsonTrait.php" href="vendor/gammamatrix/playground-test/src/Feature/Http/Controllers/Resource/Playground/RestoreRevisionJsonTrait.php.xml">
                           <totals>
-                            <lines total="209" comments="22" code="187" executable="113" executed="0" percent="0.00"/>
-                            <methods count="10" tested="0" percent="0.00"/>
+                            <lines total="209" comments="22" code="187" executable="107" executed="107" percent="100.00"/>
+                            <methods count="4" tested="4" percent="100.00"/>
                             <functions count="0" tested="0" percent="0"/>
-                            <classes count="0" tested="0" percent="0"/>
+                            <classes count="0" tested="1" percent="0"/>
                             <traits count="1" tested="0" percent="0.00"/>
                           </totals>
                         </file>
                         <file name="RestoreRevisionTrait.php" href="vendor/gammamatrix/playground-test/src/Feature/Http/Controllers/Resource/Playground/RestoreRevisionTrait.php.xml">
                           <totals>
-                            <lines total="202" comments="19" code="183" executable="112" executed="0" percent="0.00"/>
-                            <methods count="9" tested="0" percent="0.00"/>
+                            <lines total="202" comments="19" code="183" executable="107" executed="107" percent="100.00"/>
+                            <methods count="4" tested="4" percent="100.00"/>
                             <functions count="0" tested="0" percent="0"/>
-                            <classes count="0" tested="0" percent="0"/>
+                            <classes count="0" tested="1" percent="0"/>
                             <traits count="1" tested="0" percent="0.00"/>
                           </totals>
                         </file>
@@ -2380,37 +3133,37 @@
                         </file>
                         <file name="RevisionJsonTrait.php" href="vendor/gammamatrix/playground-test/src/Feature/Http/Controllers/Resource/Playground/RevisionJsonTrait.php.xml">
                           <totals>
-                            <lines total="103" comments="15" code="88" executable="45" executed="0" percent="0.00"/>
-                            <methods count="7" tested="0" percent="0.00"/>
+                            <lines total="103" comments="15" code="88" executable="40" executed="40" percent="100.00"/>
+                            <methods count="2" tested="2" percent="100.00"/>
                             <functions count="0" tested="0" percent="0"/>
-                            <classes count="0" tested="0" percent="0"/>
+                            <classes count="0" tested="1" percent="0"/>
                             <traits count="1" tested="0" percent="0.00"/>
                           </totals>
                         </file>
                         <file name="RevisionTrait.php" href="vendor/gammamatrix/playground-test/src/Feature/Http/Controllers/Resource/Playground/RevisionTrait.php.xml">
                           <totals>
-                            <lines total="101" comments="15" code="86" executable="44" executed="0" percent="0.00"/>
-                            <methods count="7" tested="0" percent="0.00"/>
+                            <lines total="101" comments="15" code="86" executable="39" executed="39" percent="100.00"/>
+                            <methods count="2" tested="2" percent="100.00"/>
                             <functions count="0" tested="0" percent="0"/>
-                            <classes count="0" tested="0" percent="0"/>
+                            <classes count="0" tested="1" percent="0"/>
                             <traits count="1" tested="0" percent="0.00"/>
                           </totals>
                         </file>
                         <file name="RevisionsJsonTrait.php" href="vendor/gammamatrix/playground-test/src/Feature/Http/Controllers/Resource/Playground/RevisionsJsonTrait.php.xml">
                           <totals>
-                            <lines total="145" comments="16" code="129" executable="63" executed="0" percent="0.00"/>
-                            <methods count="6" tested="0" percent="0.00"/>
+                            <lines total="145" comments="16" code="129" executable="60" executed="60" percent="100.00"/>
+                            <methods count="3" tested="3" percent="100.00"/>
                             <functions count="0" tested="0" percent="0"/>
-                            <classes count="0" tested="0" percent="0"/>
+                            <classes count="0" tested="1" percent="0"/>
                             <traits count="1" tested="0" percent="0.00"/>
                           </totals>
                         </file>
                         <file name="RevisionsTrait.php" href="vendor/gammamatrix/playground-test/src/Feature/Http/Controllers/Resource/Playground/RevisionsTrait.php.xml">
                           <totals>
-                            <lines total="143" comments="16" code="127" executable="62" executed="0" percent="0.00"/>
-                            <methods count="6" tested="0" percent="0.00"/>
+                            <lines total="143" comments="16" code="127" executable="59" executed="59" percent="100.00"/>
+                            <methods count="3" tested="3" percent="100.00"/>
                             <functions count="0" tested="0" percent="0"/>
-                            <classes count="0" tested="0" percent="0"/>
+                            <classes count="0" tested="1" percent="0"/>
                             <traits count="1" tested="0" percent="0.00"/>
                           </totals>
                         </file>
@@ -2492,16 +3245,16 @@
                 </directory>
                 <directory name="Models">
                   <totals>
-                    <lines total="558" comments="212" code="346" executable="196" executed="120" percent="61.22"/>
-                    <methods count="9" tested="5" percent="55.56"/>
+                    <lines total="558" comments="212" code="346" executable="196" executed="174" percent="88.78"/>
+                    <methods count="9" tested="6" percent="66.67"/>
                     <functions count="0" tested="0" percent="0"/>
                     <classes count="1" tested="0" percent="0.00"/>
                     <traits count="0" tested="0" percent="0"/>
                   </totals>
                   <file name="ModelCase.php" href="vendor/gammamatrix/playground-test/src/Feature/Models/ModelCase.php.xml">
                     <totals>
-                      <lines total="558" comments="212" code="346" executable="196" executed="120" percent="61.22"/>
-                      <methods count="9" tested="5" percent="55.56"/>
+                      <lines total="558" comments="212" code="346" executable="196" executed="174" percent="88.78"/>
+                      <methods count="9" tested="6" percent="66.67"/>
                       <functions count="0" tested="0" percent="0"/>
                       <classes count="1" tested="0" percent="0.00"/>
                       <traits count="0" tested="0" percent="0"/>
@@ -2655,7 +3408,7 @@
               </directory>
               <directory name="Unit">
                 <totals>
-                  <lines total="356" comments="139" code="217" executable="75" executed="50" percent="66.67"/>
+                  <lines total="356" comments="139" code="217" executable="75" executed="52" percent="69.33"/>
                   <methods count="11" tested="8" percent="72.73"/>
                   <functions count="0" tested="0" percent="0"/>
                   <classes count="2" tested="1" percent="50.00"/>
@@ -2690,7 +3443,7 @@
                 </directory>
                 <directory name="Models">
                   <totals>
-                    <lines total="306" comments="123" code="183" executable="69" executed="44" percent="63.77"/>
+                    <lines total="306" comments="123" code="183" executable="69" executed="46" percent="66.67"/>
                     <methods count="8" tested="5" percent="62.50"/>
                     <functions count="0" tested="0" percent="0"/>
                     <classes count="1" tested="0" percent="0.00"/>
@@ -2698,7 +3451,7 @@
                   </totals>
                   <file name="ModelCase.php" href="vendor/gammamatrix/playground-test/src/Unit/Models/ModelCase.php.xml">
                     <totals>
-                      <lines total="306" comments="123" code="183" executable="69" executed="44" percent="63.77"/>
+                      <lines total="306" comments="123" code="183" executable="69" executed="46" percent="66.67"/>
                       <methods count="8" tested="5" percent="62.50"/>
                       <functions count="0" tested="0" percent="0"/>
                       <classes count="1" tested="0" percent="0.00"/>
