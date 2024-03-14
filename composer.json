@@ -21,6 +21,7 @@
         "gammamatrix/playground-admin-resource": "^73.0@dev",
         "gammamatrix/playground-auth": "^73.0@dev",
         "gammamatrix/playground-blade": "^73.0@dev",
+        "gammamatrix/playground-cms-resource": "^73.0@dev",
         "gammamatrix/playground-http": "^73.0@dev",
         "gammamatrix/playground-login-blade": "^73.0@dev",
         "gammamatrix/playground-site-blade": "^73.0@dev",
