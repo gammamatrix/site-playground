@@ -13,15 +13,26 @@
         "sanctum",
         "playground-blade"
     ],
+    "homepage": "https://gammamatrix-playground.readthedocs.io/",
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "gammamatrix/playground": "dev-develop|dev-master|dev-feature/*|^73.0@dev|^73.0",
+        "gammamatrix/playground-admin-resource": "^73.0@dev",
+        "gammamatrix/playground-auth": "^73.0@dev",
+        "gammamatrix/playground-blade": "^73.0@dev",
+        "gammamatrix/playground-cms-resource": "^73.0@dev",
+        "gammamatrix/playground-http": "^73.0@dev",
+        "gammamatrix/playground-login-blade": "^73.0@dev",
+        "gammamatrix/playground-site-blade": "^73.0@dev",
         "laravel/framework": "^11.0",
+        "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
         "friendsofphp/php-cs-fixer": "^3.41",
+        "gammamatrix/playground-test": "dev-develop|dev-master|dev-feature/*|^73.0@dev|^73.0",
         "larastan/larastan": "^2.0",
         "laravel/pint": "^1.13",
         "laravel/sail": "^1.26",
@@ -40,7 +51,27 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "Tests\\": "tests/",
+            "Tests\\Feature\\Playground\\": "vendor/gammamatrix/playground/tests/Feature/",
+            "Tests\\Unit\\Playground\\": "vendor/gammamatrix/playground/tests/Unit/",
+            "Tests\\Feature\\Playground\\Admin\\": "vendor/gammamatrix/playground-admin/tests/Feature/",
+            "Tests\\Unit\\Playground\\Admin\\": "vendor/gammamatrix/playground-admin/tests/Unit/",
+            "Tests\\Feature\\Playground\\Admin\\Resource\\": "vendor/gammamatrix/playground-admin-resource/tests/Feature/",
+            "Tests\\Unit\\Playground\\Admin\\Resource\\": "vendor/gammamatrix/playground-admin-resource/tests/Unit/",
+            "Tests\\Feature\\Playground\\Auth\\": "vendor/gammamatrix/playground-auth/tests/Feature/",
+            "Tests\\Unit\\Playground\\Auth\\": "vendor/gammamatrix/playground-auth/tests/Unit/",
+            "Tests\\Feature\\Playground\\Blade\\": "vendor/gammamatrix/playground-blade/tests/Feature/",
+            "Tests\\Unit\\Playground\\Blade\\": "vendor/gammamatrix/playground-blade/tests/Unit/",
+            "Tests\\Feature\\Playground\\Cms\\": "vendor/gammamatrix/playground-cms/tests/Feature/",
+            "Tests\\Unit\\Playground\\Cms\\": "vendor/gammamatrix/playground-cms/tests/Unit/",
+            "Tests\\Feature\\Playground\\Cms\\Resource\\": "vendor/gammamatrix/playground-cms-resource/tests/Feature/",
+            "Tests\\Unit\\Playground\\Cms\\Resource\\": "vendor/gammamatrix/playground-cms-resource/tests/Unit/",
+            "Tests\\Feature\\Playground\\Http\\": "vendor/gammamatrix/playground-http/tests/Feature/",
+            "Tests\\Unit\\Playground\\Http\\": "vendor/gammamatrix/playground-http/tests/Unit/",
+            "Tests\\Feature\\Playground\\Login\\Blade\\": "vendor/gammamatrix/playground-login-blade/tests/Feature/",
+            "Tests\\Feature\\Playground\\Site\\Blade\\": "vendor/gammamatrix/playground-site-blade/tests/Feature/",
+            "Tests\\Feature\\Playground\\Test\\": "vendor/gammamatrix/playground-test/tests/Feature/",
+            "Tests\\Unit\\Playground\\Test\\": "vendor/gammamatrix/playground-test/tests/Unit/"
         }
     },
     "scripts": {
@@ -64,10 +95,6 @@
         "analyse": "vendor/bin/phpstan analyse --verbose --debug --level max"
     },
     "extra": {
-        "preferred-install": {
-            "gammamatrix/*": "source",
-            "*": "dist"
-        },
         "branch-alias": {
             "dev-develop": "73.x-dev"
         },
@@ -77,13 +104,16 @@
     },
     "config": {
         "optimize-autoloader": true,
-        "preferred-install": "dist",
+        "preferred-install": {
+            "gammamatrix/*": "source",
+            "*": "dist"
+        },
         "sort-packages": true,
         "allow-plugins": {
             "pestphp/pest-plugin": true,
             "php-http/discovery": true
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }

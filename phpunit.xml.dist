@@ -26,29 +26,29 @@
     <testsuites>
         <testsuite name="Unit">
             <directory>tests/Unit</directory>
-            <!-- <directory>vendor/gammamatrix/playground/tests/Unit</directory>
+            <directory>vendor/gammamatrix/playground/tests/Unit</directory>
+            <directory>vendor/gammamatrix/playground-auth/tests/Unit</directory>
+            <directory>vendor/gammamatrix/playground-blade/tests/Unit</directory>
             <directory>vendor/gammamatrix/playground-admin/tests/Unit</directory>
             <directory>vendor/gammamatrix/playground-admin-resource/tests/Unit</directory>
-            <directory>vendor/gammamatrix/playground-auth/tests/Unit</directory>
             <directory>vendor/gammamatrix/playground-cms/tests/Unit</directory>
             <directory>vendor/gammamatrix/playground-cms-resource/tests/Unit</directory>
-            <directory>vendor/gammamatrix/playground-blade/tests/Unit</directory>
             <directory>vendor/gammamatrix/playground-http/tests/Unit</directory>
-            <directory>vendor/gammamatrix/playground-test/tests/Unit</directory> -->
+            <directory>vendor/gammamatrix/playground-test/tests/Unit</directory>
         </testsuite>
         <testsuite name="Feature">
             <directory>tests/Feature</directory>
-            <!-- <directory>vendor/gammamatrix/playground/tests/Feature</directory>
+            <directory>vendor/gammamatrix/playground/tests/Feature</directory>
+            <directory>vendor/gammamatrix/playground-auth/tests/Feature</directory>
+            <directory>vendor/gammamatrix/playground-blade/tests/Feature</directory>
             <directory>vendor/gammamatrix/playground-admin/tests/Feature</directory>
             <directory>vendor/gammamatrix/playground-admin-resource/tests/Feature</directory>
-            <directory>vendor/gammamatrix/playground-auth/tests/Feature</directory>
             <directory>vendor/gammamatrix/playground-cms/tests/Feature</directory>
             <directory>vendor/gammamatrix/playground-cms-resource/tests/Feature</directory>
-            <directory>vendor/gammamatrix/playground-blade/tests/Feature</directory>
-            <directory>vendor/gammamatrix/playground-http/tests/Feature</directory>
             <directory>vendor/gammamatrix/playground-login-blade/tests/Feature</directory>
+            <directory>vendor/gammamatrix/playground-http/tests/Feature</directory>
             <directory>vendor/gammamatrix/playground-site-blade/tests/Feature</directory>
-            <directory>vendor/gammamatrix/playground-test/tests/Feature</directory> -->
+            <directory>vendor/gammamatrix/playground-test/tests/Feature</directory>
         </testsuite>
     </testsuites>
     <coverage
@@ -60,10 +60,10 @@
             <clover outputFile="output/clover.xml" />
             <cobertura outputFile="output/cobertura.xml" />
             <crap4j outputFile="output/crap4j.xml" threshold="50" />
-            <!-- <html outputDirectory="output/html" lowUpperBound="50" highLowerBound="90" /> -->
+            <html outputDirectory="output/html" lowUpperBound="50" highLowerBound="90" />
             <php outputFile="output/coverage.php" />
             <text outputFile="output/coverage.txt" showUncoveredFiles="false" showOnlySummary="true" />
-            <!-- <xml outputDirectory="output/xml" /> -->
+            <xml outputDirectory="output/xml" />
         </report>
     </coverage>
     <logging>
@@ -75,33 +75,34 @@
     <source>
         <include>
             <directory>app</directory>
-            <!-- <directory suffix=".php">vendor/gammamatrix/playground/src</directory>
-            <directory suffix=".php">vendor/gammamatrix/playground-admin/src</directory>
-            <directory suffix=".php">vendor/gammamatrix/playground-admin-resource/src</directory>
+            <directory suffix=".php">vendor/gammamatrix/playground/src</directory>
             <directory suffix=".php">vendor/gammamatrix/playground-auth/src</directory>
             <directory suffix=".php">vendor/gammamatrix/playground-blade/src</directory>
+            <directory suffix=".php">vendor/gammamatrix/playground-admin/src</directory>
+            <directory suffix=".php">vendor/gammamatrix/playground-admin-resource/src</directory>
             <directory suffix=".php">vendor/gammamatrix/playground-cms/src</directory>
             <directory suffix=".php">vendor/gammamatrix/playground-cms-resource/src</directory>
-            <directory suffix=".php">vendor/gammamatrix/playground-http/src</directory>
             <directory suffix=".php">vendor/gammamatrix/playground-login-blade/src</directory>
             <directory suffix=".php">vendor/gammamatrix/playground-site-blade/src</directory>
-            <directory suffix=".php">vendor/gammamatrix/playground-test/src</directory> -->
+            <directory suffix=".php">vendor/gammamatrix/playground-http/src</directory>
+            <directory suffix=".php">vendor/gammamatrix/playground-test/src</directory>
         </include>
     </source>
     <php>
         <env name="APP_ENV" value="testing" />
-        <env name="APP_MAINTENANCE_DRIVER" value="file"/>
         <env name="APP_KEY" value="base64:lNTGdmOOxP5uNUVuCj9FB//Ssn8JmRXBdtPEE4/QReE=" />
+        <env name="APP_MAINTENANCE_DRIVER" value="file"/>
         <env name="BCRYPT_ROUNDS" value="4" />
         <env name="CACHE_STORE" value="array"/>
-        <env name="LOG_CHANNEL" value="stderr" />
-        <env name="TEST_DB_MIGRATIONS" value="true" />
         <env name="DB_CONNECTION" value="sqlite" />
         <env name="DB_DATABASE" value=":memory:" />
+        <env name="LOG_CHANNEL" value="stderr" />
         <env name="MAIL_MAILER" value="array" />
         <env name="PULSE_ENABLED" value="false"/>
         <env name="QUEUE_CONNECTION" value="sync" />
         <env name="SESSION_DRIVER" value="array" />
         <env name="TELESCOPE_ENABLED" value="false" />
+        <env name="TEST_DB_MIGRATIONS" value="true" />
+        <ini name="memory_limit" value="512M" />
     </php>
 </phpunit>
