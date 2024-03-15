@@ -176,6 +176,18 @@ composer analyse
 composer format
 ```
 
+## Themes
+
+playground-blade provides Bootstrap 5 themes, using CSS Variables.
+
+<p align="center">
+<img width="45%" src="resources/docs/edit-page-theme-dark.png" alt="screenshot of Editing a Page with the dark theme.">
+<img width="45%" src="resources/docs/edit-page-theme-wheat.png" alt="screenshot of Editing a Page with the wheat theme.">
+</p>
+
+<img src="resources/docs/sitemap-theme-wheat.png" alt="screenshot of the sitemap with the wheat theme.">
+
+
 ## `artisan about`
 
 Playground provides information in the `artisan about` command.
