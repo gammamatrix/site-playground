@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <crap_result>
   <project/>
-  <timestamp>2024-03-15 06:59:13</timestamp>
+  <timestamp>2024-03-16 22:21:56</timestamp>
   <stats>
     <name>Method Crap Stats</name>
-    <methodCount>636</methodCount>
+    <methodCount>638</methodCount>
     <crapMethodCount>8</crapMethodCount>
     <crapLoad>108</crapLoad>
-    <totalCrap>3470.26</totalCrap>
-    <crapMethodPercent>1.26</crapMethodPercent>
+    <totalCrap>3524.94</totalCrap>
+    <crapMethodPercent>1.25</crapMethodPercent>
   </stats>
   <methods>
     <method>
@@ -2140,8 +2140,8 @@
       <methodName>setOptions</methodName>
       <methodSignature>setOptions(array $options): self</methodSignature>
       <fullMethod>setOptions(array $options): self</fullMethod>
-      <crap>13</crap>
-      <complexity>13</complexity>
+      <crap>15</crap>
+      <complexity>15</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -2209,6 +2209,28 @@
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Blade\Themes</package>
+      <className>Playground\Blade\Themes\Theme</className>
+      <methodName>setBackground</methodName>
+      <methodSignature>setBackground(array $background): self</methodSignature>
+      <fullMethod>setBackground(array $background): self</fullMethod>
+      <crap>15</crap>
+      <complexity>15</complexity>
+      <coverage>98.11</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Blade\Themes</package>
+      <className>Playground\Blade\Themes\Theme</className>
+      <methodName>bodyStyle</methodName>
+      <methodSignature>bodyStyle(): string</methodSignature>
+      <fullMethod>bodyStyle(): string</fullMethod>
+      <crap>37.68</crap>
+      <complexity>11</complexity>
+      <coverage>39.58</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
