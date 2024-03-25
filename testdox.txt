@@ -244,6 +244,8 @@ Instance (Tests\Unit\Playground\Admin\Resource\Http\Requests\FormRequest\Instanc
 Instance (Tests\Unit\Playground\Admin\Resource\ServiceProvider\Instance)
  [x] Version matches
  [x] SetPolicies with empty array
+ [x] SetPolicies with invalid model
+ [x] SetPolicies with invalid policy
 
 Instance (Tests\Unit\Playground\Blade\Assets\Comment\Instance)
  [x] Instance with docs
@@ -276,6 +278,8 @@ Instance (Tests\Unit\Playground\Cms\Resource\Http\Requests\FormRequest\Instance)
 Instance (Tests\Unit\Playground\Cms\Resource\ServiceProvider\Instance)
  [x] Version matches
  [x] SetPolicies with empty array
+ [x] SetPolicies with invalid model
+ [x] SetPolicies with invalid policy
 
 Instance (Tests\Unit\Playground\ServiceProvider\Instance)
  [x] Version matches
@@ -879,6 +883,16 @@ Store Request (Tests\Unit\Playground\Admin\Resource\Http\Requests\User\StoreRequ
  [x] PrepareForValidation for playground
  [x] PrepareForValidation parameters
 
+Store Request (Tests\Unit\Playground\Cms\Resource\Http\Requests\Page\StoreRequest)
+ [x] Request instance
+ [x] StoreRequest rules with optional revisions disabled
+ [x] StoreRequest rules with optional revisions enabled
+
+Store Request (Tests\Unit\Playground\Cms\Resource\Http\Requests\Snippet\StoreRequest)
+ [x] Request instance
+ [x] StoreRequest rules with optional revisions disabled
+ [x] StoreRequest rules with optional revisions enabled
+
 System Fields Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\SystemFieldsTrait)
  [x] FilterSystemFields with empty input
  [x] FilterSystemFields for groups
@@ -944,6 +958,16 @@ Update Request (Tests\Unit\Playground\Admin\Resource\Http\Requests\User\UpdateRe
  [x] PrepareForValidation for laravel
  [x] PrepareForValidation for playground
  [x] PrepareForValidation parameters
+
+Update Request (Tests\Unit\Playground\Cms\Resource\Http\Requests\Page\UpdateRequest)
+ [x] Request instance
+ [x] UpdateRequest rules with optional revisions disabled
+ [x] UpdateRequest rules with optional revisions enabled
+
+Update Request (Tests\Unit\Playground\Cms\Resource\Http\Requests\Snippet\UpdateRequest)
+ [x] Request instance
+ [x] UpdateRequest rules with optional revisions disabled
+ [x] UpdateRequest rules with optional revisions enabled
 
 User Dashboard Route (Tests\Feature\Playground\Site\Blade\Http\Controllers\Laravel\UserDashboardRoute)
  [x] As guest and fail when disabled for guest and no redirect with auth middleware
