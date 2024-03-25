@@ -98,6 +98,7 @@
         <env name="DB_DATABASE" value=":memory:" />
         <env name="LOG_CHANNEL" value="stderr" />
         <env name="MAIL_MAILER" value="array" />
+        <env name="PLAYGROUND_SITE_BLADE_CMS_ENABLE" value="false" />
         <env name="PLAYGROUND_SITE_BLADE_ROUTES_PAGE" value="false" />
         <env name="PULSE_ENABLED" value="false"/>
         <env name="QUEUE_CONNECTION" value="sync" />
