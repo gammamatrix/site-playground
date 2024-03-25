@@ -1,7 +1,7 @@
 {
     "name": "gammamatrix/site-playground",
     "type": "project",
-    "description": "Playground: This package provides a Laravel site using Sanctum for authentication and authorization and utilizes Blade for the UI.",
+    "description": "Playground: This package provides a Laravel site using Sanctum for authentication and authorization and utilizes Blade for the UI. A Content Management System is also provided, along with user and settings management.",
     "keywords": [
         "blade",
         "gammamatrix",

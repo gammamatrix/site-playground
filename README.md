@@ -14,12 +14,11 @@ Read more on using [Site: Playground, at the Read the Docs: Playground Documenta
 **NOTE:** Playground uses `declare(strict_types=1);`
 
 **NOTE:** This package is meant to be forked, cloned or used `composer create-project`
-- TODO: Add a task list for clean up.
 
 Install the package with `composer create-project`
 
 ```sh
-composer create-project gammamatrix/site-playground site-example
+composer create-project gammamatrix/site-playground site-example --stability dev
 ```
 - NOTE: A stable release has not been deployed yet.
 
@@ -47,7 +46,7 @@ Installed Support Playground Packages
 ## Testing
 
 This application supports running integration tests with the installed Playground packages.
-- Currently, over [1,000 Unit and Feature tests are run.](https://raw.githubusercontent.com/gammamatrix/site-playground/testing/develop/testdox.txt)
+- Currently, over [800 Unit and Feature tests are run.](https://raw.githubusercontent.com/gammamatrix/site-playground/testing/develop/testdox.txt)
 
 ```xml
 <testsuites>
