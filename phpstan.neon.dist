@@ -4,7 +4,7 @@ includes:
     - vendor/phpstan/phpstan-phpunit/rules.neon
 
 parameters:
-    level: 9
+    level: 10
 
     paths:
         - app
@@ -18,5 +18,3 @@ parameters:
         - 'output/*'
 
     treatPhpDocTypesAsCertain: false
-
-    checkGenericClassInNonGenericObjectType: false

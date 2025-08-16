@@ -1,0 +1,10 @@
+{
+    "exclude": [
+        ".github",
+        "output",
+        "bootstrap/cache",
+        "resources",
+        "storage",
+        "vendor"
+    ]
+}

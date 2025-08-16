@@ -3,11 +3,14 @@
 declare(strict_types=1);
 
 return [
+
+    'about' => (bool) env('PLAYGROUND_SITE_BLADE_ABOUT', true),
+
     'layout' => env('PLAYGROUND_SITE_BLADE_LAYOUT', env('PLAYGROUND_BLADE_LAYOUT', 'playground::layouts.site')),
 
     'load' => [
-        'views' => (bool) env('PLAYGROUND_SITE_BLADE_LOAD_VIEWS', true),
         'routes' => (bool) env('PLAYGROUND_SITE_BLADE_LOAD_ROUTES', true),
+        'views' => (bool) env('PLAYGROUND_SITE_BLADE_LOAD_VIEWS', true),
     ],
 
     'middleware' => [
