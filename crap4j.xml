@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <crap_result>
   <project/>
-  <timestamp>2024-03-25 05:59:40</timestamp>
+  <timestamp>2025-08-16 19:09:10</timestamp>
   <stats>
     <name>Method Crap Stats</name>
-    <methodCount>660</methodCount>
+    <methodCount>658</methodCount>
     <crapMethodCount>10</crapMethodCount>
     <crapLoad>146</crapLoad>
-    <totalCrap>4247.81</totalCrap>
+    <totalCrap>4378.59</totalCrap>
     <crapMethodPercent>1.52</crapMethodPercent>
   </stats>
   <methods>
@@ -48,8 +48,8 @@
       <package>Playground\Admin\Resource\Http\Controllers\Concerns</package>
       <className>Playground\Admin\Resource\Http\Controllers\Concerns\UserProvider</className>
       <methodName>getUserInstance</methodName>
-      <methodSignature>getUserInstance(array $data): Illuminate\Database\Eloquent\Model</methodSignature>
-      <fullMethod>getUserInstance(array $data): Illuminate\Database\Eloquent\Model</fullMethod>
+      <methodSignature>getUserInstance(array $data): Model</methodSignature>
+      <fullMethod>getUserInstance(array $data): Model</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -59,8 +59,8 @@
       <package>Playground\Admin\Resource\Http\Controllers\Concerns</package>
       <className>Playground\Admin\Resource\Http\Controllers\Concerns\UserProvider</className>
       <methodName>findUserOrFail</methodName>
-      <methodSignature>findUserOrFail(string|int $id, bool $withTrash): Illuminate\Database\Eloquent\Model</methodSignature>
-      <fullMethod>findUserOrFail(string|int $id, bool $withTrash): Illuminate\Database\Eloquent\Model</fullMethod>
+      <methodSignature>findUserOrFail(string|int $id, bool $withTrash): Model</methodSignature>
+      <fullMethod>findUserOrFail(string|int $id, bool $withTrash): Model</fullMethod>
       <crap>3</crap>
       <complexity>3</complexity>
       <coverage>100</coverage>
@@ -92,8 +92,8 @@
       <package>Playground\Admin\Resource\Http\Controllers</package>
       <className>Playground\Admin\Resource\Http\Controllers\IndexController</className>
       <methodName>index</methodName>
-      <methodSignature>index(): Illuminate\View\View</methodSignature>
-      <fullMethod>index(): Illuminate\View\View</fullMethod>
+      <methodSignature>index(): View</methodSignature>
+      <fullMethod>index(): View</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -103,8 +103,8 @@
       <package>Playground\Admin\Resource\Http\Controllers</package>
       <className>Playground\Admin\Resource\Http\Controllers\SettingController</className>
       <methodName>create</methodName>
-      <methodSignature>create(Playground\Admin\Resource\Http\Requests\Setting\CreateRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</methodSignature>
-      <fullMethod>create(Playground\Admin\Resource\Http\Requests\Setting\CreateRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</fullMethod>
+      <methodSignature>create(CreateRequest $request): JsonResponse|View</methodSignature>
+      <fullMethod>create(CreateRequest $request): JsonResponse|View</fullMethod>
       <crap>4</crap>
       <complexity>4</complexity>
       <coverage>100</coverage>
@@ -114,8 +114,8 @@
       <package>Playground\Admin\Resource\Http\Controllers</package>
       <className>Playground\Admin\Resource\Http\Controllers\SettingController</className>
       <methodName>edit</methodName>
-      <methodSignature>edit(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\EditRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</methodSignature>
-      <fullMethod>edit(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\EditRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</fullMethod>
+      <methodSignature>edit(Setting $setting, EditRequest $request): JsonResponse|View</methodSignature>
+      <fullMethod>edit(Setting $setting, EditRequest $request): JsonResponse|View</fullMethod>
       <crap>3</crap>
       <complexity>3</complexity>
       <coverage>100</coverage>
@@ -125,8 +125,8 @@
       <package>Playground\Admin\Resource\Http\Controllers</package>
       <className>Playground\Admin\Resource\Http\Controllers\SettingController</className>
       <methodName>destroy</methodName>
-      <methodSignature>destroy(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\DestroyRequest $request): \Illuminate\Http\Response|\Illuminate\Http\RedirectResponse</methodSignature>
-      <fullMethod>destroy(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\DestroyRequest $request): \Illuminate\Http\Response|\Illuminate\Http\RedirectResponse</fullMethod>
+      <methodSignature>destroy(Setting $setting, DestroyRequest $request): Response|RedirectResponse</methodSignature>
+      <fullMethod>destroy(Setting $setting, DestroyRequest $request): Response|RedirectResponse</fullMethod>
       <crap>5</crap>
       <complexity>5</complexity>
       <coverage>100</coverage>
@@ -136,8 +136,8 @@
       <package>Playground\Admin\Resource\Http\Controllers</package>
       <className>Playground\Admin\Resource\Http\Controllers\SettingController</className>
       <methodName>lock</methodName>
-      <methodSignature>lock(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\LockRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\Setting</methodSignature>
-      <fullMethod>lock(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\LockRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\Setting</fullMethod>
+      <methodSignature>lock(Setting $setting, LockRequest $request): JsonResponse|RedirectResponse|SettingResource</methodSignature>
+      <fullMethod>lock(Setting $setting, LockRequest $request): JsonResponse|RedirectResponse|SettingResource</fullMethod>
       <crap>4</crap>
       <complexity>4</complexity>
       <coverage>100</coverage>
@@ -147,8 +147,8 @@
       <package>Playground\Admin\Resource\Http\Controllers</package>
       <className>Playground\Admin\Resource\Http\Controllers\SettingController</className>
       <methodName>index</methodName>
-      <methodSignature>index(Playground\Admin\Resource\Http\Requests\Setting\IndexRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Admin\Resource\Http\Resources\SettingCollection</methodSignature>
-      <fullMethod>index(Playground\Admin\Resource\Http\Requests\Setting\IndexRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Admin\Resource\Http\Resources\SettingCollection</fullMethod>
+      <methodSignature>index(IndexRequest $request): JsonResponse|View|SettingCollection</methodSignature>
+      <fullMethod>index(IndexRequest $request): JsonResponse|View|SettingCollection</fullMethod>
       <crap>6</crap>
       <complexity>6</complexity>
       <coverage>100</coverage>
@@ -158,8 +158,8 @@
       <package>Playground\Admin\Resource\Http\Controllers</package>
       <className>Playground\Admin\Resource\Http\Controllers\SettingController</className>
       <methodName>restore</methodName>
-      <methodSignature>restore(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\RestoreRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\Setting</methodSignature>
-      <fullMethod>restore(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\RestoreRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\Setting</fullMethod>
+      <methodSignature>restore(Setting $setting, RestoreRequest $request): JsonResponse|RedirectResponse|SettingResource</methodSignature>
+      <fullMethod>restore(Setting $setting, RestoreRequest $request): JsonResponse|RedirectResponse|SettingResource</fullMethod>
       <crap>4</crap>
       <complexity>4</complexity>
       <coverage>100</coverage>
@@ -169,8 +169,8 @@
       <package>Playground\Admin\Resource\Http\Controllers</package>
       <className>Playground\Admin\Resource\Http\Controllers\SettingController</className>
       <methodName>show</methodName>
-      <methodSignature>show(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\ShowRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Admin\Resource\Http\Resources\Setting</methodSignature>
-      <fullMethod>show(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\ShowRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Admin\Resource\Http\Resources\Setting</fullMethod>
+      <methodSignature>show(Setting $setting, ShowRequest $request): JsonResponse|View|SettingResource</methodSignature>
+      <fullMethod>show(Setting $setting, ShowRequest $request): JsonResponse|View|SettingResource</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -180,8 +180,8 @@
       <package>Playground\Admin\Resource\Http\Controllers</package>
       <className>Playground\Admin\Resource\Http\Controllers\SettingController</className>
       <methodName>store</methodName>
-      <methodSignature>store(Playground\Admin\Resource\Http\Requests\Setting\StoreRequest $request): \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\Setting</methodSignature>
-      <fullMethod>store(Playground\Admin\Resource\Http\Requests\Setting\StoreRequest $request): \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\Setting</fullMethod>
+      <methodSignature>store(StoreRequest $request): Response|JsonResponse|RedirectResponse|SettingResource</methodSignature>
+      <fullMethod>store(StoreRequest $request): Response|JsonResponse|RedirectResponse|SettingResource</fullMethod>
       <crap>4</crap>
       <complexity>4</complexity>
       <coverage>100</coverage>
@@ -191,8 +191,8 @@
       <package>Playground\Admin\Resource\Http\Controllers</package>
       <className>Playground\Admin\Resource\Http\Controllers\SettingController</className>
       <methodName>unlock</methodName>
-      <methodSignature>unlock(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\UnlockRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\Setting</methodSignature>
-      <fullMethod>unlock(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\UnlockRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\Setting</fullMethod>
+      <methodSignature>unlock(Setting $setting, UnlockRequest $request): JsonResponse|RedirectResponse|SettingResource</methodSignature>
+      <fullMethod>unlock(Setting $setting, UnlockRequest $request): JsonResponse|RedirectResponse|SettingResource</fullMethod>
       <crap>4</crap>
       <complexity>4</complexity>
       <coverage>100</coverage>
@@ -202,8 +202,8 @@
       <package>Playground\Admin\Resource\Http\Controllers</package>
       <className>Playground\Admin\Resource\Http\Controllers\SettingController</className>
       <methodName>update</methodName>
-      <methodSignature>update(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\UpdateRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\Setting</methodSignature>
-      <fullMethod>update(Playground\Admin\Models\Setting $setting, Playground\Admin\Resource\Http\Requests\Setting\UpdateRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\Setting</fullMethod>
+      <methodSignature>update(Setting $setting, UpdateRequest $request): JsonResponse|RedirectResponse|SettingResource</methodSignature>
+      <fullMethod>update(Setting $setting, UpdateRequest $request): JsonResponse|RedirectResponse|SettingResource</fullMethod>
       <crap>4</crap>
       <complexity>4</complexity>
       <coverage>100</coverage>
@@ -213,8 +213,8 @@
       <package>Playground\Admin\Resource\Http\Controllers</package>
       <className>Playground\Admin\Resource\Http\Controllers\UserController</className>
       <methodName>create</methodName>
-      <methodSignature>create(Playground\Admin\Resource\Http\Requests\User\CreateRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</methodSignature>
-      <fullMethod>create(Playground\Admin\Resource\Http\Requests\User\CreateRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</fullMethod>
+      <methodSignature>create(CreateRequest $request): JsonResponse|View</methodSignature>
+      <fullMethod>create(CreateRequest $request): JsonResponse|View</fullMethod>
       <crap>4</crap>
       <complexity>4</complexity>
       <coverage>100</coverage>
@@ -224,8 +224,8 @@
       <package>Playground\Admin\Resource\Http\Controllers</package>
       <className>Playground\Admin\Resource\Http\Controllers\UserController</className>
       <methodName>edit</methodName>
-      <methodSignature>edit(string|int $id, Playground\Admin\Resource\Http\Requests\User\EditRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</methodSignature>
-      <fullMethod>edit(string|int $id, Playground\Admin\Resource\Http\Requests\User\EditRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</fullMethod>
+      <methodSignature>edit(string|int $id, EditRequest $request): JsonResponse|View</methodSignature>
+      <fullMethod>edit(string|int $id, EditRequest $request): JsonResponse|View</fullMethod>
       <crap>3</crap>
       <complexity>3</complexity>
       <coverage>100</coverage>
@@ -235,8 +235,8 @@
       <package>Playground\Admin\Resource\Http\Controllers</package>
       <className>Playground\Admin\Resource\Http\Controllers\UserController</className>
       <methodName>destroy</methodName>
-      <methodSignature>destroy(string|int $id, Playground\Admin\Resource\Http\Requests\User\DestroyRequest $request): \Illuminate\Http\Response|\Illuminate\Http\RedirectResponse</methodSignature>
-      <fullMethod>destroy(string|int $id, Playground\Admin\Resource\Http\Requests\User\DestroyRequest $request): \Illuminate\Http\Response|\Illuminate\Http\RedirectResponse</fullMethod>
+      <methodSignature>destroy(string|int $id, DestroyRequest $request): Response|RedirectResponse</methodSignature>
+      <fullMethod>destroy(string|int $id, DestroyRequest $request): Response|RedirectResponse</fullMethod>
       <crap>5</crap>
       <complexity>5</complexity>
       <coverage>100</coverage>
@@ -246,8 +246,8 @@
       <package>Playground\Admin\Resource\Http\Controllers</package>
       <className>Playground\Admin\Resource\Http\Controllers\UserController</className>
       <methodName>lock</methodName>
-      <methodSignature>lock(string|int $id, Playground\Admin\Resource\Http\Requests\User\LockRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\User</methodSignature>
-      <fullMethod>lock(string|int $id, Playground\Admin\Resource\Http\Requests\User\LockRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\User</fullMethod>
+      <methodSignature>lock(string|int $id, LockRequest $request): JsonResponse|RedirectResponse|UserResource</methodSignature>
+      <fullMethod>lock(string|int $id, LockRequest $request): JsonResponse|RedirectResponse|UserResource</fullMethod>
       <crap>4</crap>
       <complexity>4</complexity>
       <coverage>100</coverage>
@@ -257,8 +257,8 @@
       <package>Playground\Admin\Resource\Http\Controllers</package>
       <className>Playground\Admin\Resource\Http\Controllers\UserController</className>
       <methodName>index</methodName>
-      <methodSignature>index(Playground\Admin\Resource\Http\Requests\User\IndexRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Admin\Resource\Http\Resources\UserCollection</methodSignature>
-      <fullMethod>index(Playground\Admin\Resource\Http\Requests\User\IndexRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Admin\Resource\Http\Resources\UserCollection</fullMethod>
+      <methodSignature>index(IndexRequest $request): JsonResponse|View|UserCollection</methodSignature>
+      <fullMethod>index(IndexRequest $request): JsonResponse|View|UserCollection</fullMethod>
       <crap>12</crap>
       <complexity>12</complexity>
       <coverage>100</coverage>
@@ -268,8 +268,8 @@
       <package>Playground\Admin\Resource\Http\Controllers</package>
       <className>Playground\Admin\Resource\Http\Controllers\UserController</className>
       <methodName>restore</methodName>
-      <methodSignature>restore(string|int $id, Playground\Admin\Resource\Http\Requests\User\RestoreRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\User</methodSignature>
-      <fullMethod>restore(string|int $id, Playground\Admin\Resource\Http\Requests\User\RestoreRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\User</fullMethod>
+      <methodSignature>restore(string|int $id, RestoreRequest $request): JsonResponse|RedirectResponse|UserResource</methodSignature>
+      <fullMethod>restore(string|int $id, RestoreRequest $request): JsonResponse|RedirectResponse|UserResource</fullMethod>
       <crap>5</crap>
       <complexity>5</complexity>
       <coverage>100</coverage>
@@ -279,8 +279,8 @@
       <package>Playground\Admin\Resource\Http\Controllers</package>
       <className>Playground\Admin\Resource\Http\Controllers\UserController</className>
       <methodName>show</methodName>
-      <methodSignature>show(string|int $id, Playground\Admin\Resource\Http\Requests\User\ShowRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Admin\Resource\Http\Resources\User</methodSignature>
-      <fullMethod>show(string|int $id, Playground\Admin\Resource\Http\Requests\User\ShowRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Admin\Resource\Http\Resources\User</fullMethod>
+      <methodSignature>show(string|int $id, ShowRequest $request): JsonResponse|View|UserResource</methodSignature>
+      <fullMethod>show(string|int $id, ShowRequest $request): JsonResponse|View|UserResource</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -290,8 +290,8 @@
       <package>Playground\Admin\Resource\Http\Controllers</package>
       <className>Playground\Admin\Resource\Http\Controllers\UserController</className>
       <methodName>store</methodName>
-      <methodSignature>store(Playground\Admin\Resource\Http\Requests\User\StoreRequest $request): \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\User</methodSignature>
-      <fullMethod>store(Playground\Admin\Resource\Http\Requests\User\StoreRequest $request): \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\User</fullMethod>
+      <methodSignature>store(StoreRequest $request): Response|JsonResponse|RedirectResponse|UserResource</methodSignature>
+      <fullMethod>store(StoreRequest $request): Response|JsonResponse|RedirectResponse|UserResource</fullMethod>
       <crap>4</crap>
       <complexity>4</complexity>
       <coverage>100</coverage>
@@ -301,8 +301,8 @@
       <package>Playground\Admin\Resource\Http\Controllers</package>
       <className>Playground\Admin\Resource\Http\Controllers\UserController</className>
       <methodName>unlock</methodName>
-      <methodSignature>unlock(string|int $id, Playground\Admin\Resource\Http\Requests\User\UnlockRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\User</methodSignature>
-      <fullMethod>unlock(string|int $id, Playground\Admin\Resource\Http\Requests\User\UnlockRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\User</fullMethod>
+      <methodSignature>unlock(string|int $id, UnlockRequest $request): JsonResponse|RedirectResponse|UserResource</methodSignature>
+      <fullMethod>unlock(string|int $id, UnlockRequest $request): JsonResponse|RedirectResponse|UserResource</fullMethod>
       <crap>4</crap>
       <complexity>4</complexity>
       <coverage>100</coverage>
@@ -312,8 +312,8 @@
       <package>Playground\Admin\Resource\Http\Controllers</package>
       <className>Playground\Admin\Resource\Http\Controllers\UserController</className>
       <methodName>update</methodName>
-      <methodSignature>update(string|int $id, Playground\Admin\Resource\Http\Requests\User\UpdateRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\User</methodSignature>
-      <fullMethod>update(string|int $id, Playground\Admin\Resource\Http\Requests\User\UpdateRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Admin\Resource\Http\Resources\User</fullMethod>
+      <methodSignature>update(string|int $id, UpdateRequest $request): JsonResponse|RedirectResponse|UserResource</methodSignature>
+      <fullMethod>update(string|int $id, UpdateRequest $request): JsonResponse|RedirectResponse|UserResource</fullMethod>
       <crap>4</crap>
       <complexity>4</complexity>
       <coverage>100</coverage>
@@ -345,8 +345,8 @@
       <package>Playground\Admin\Resource\Http\Requests</package>
       <className>Playground\Admin\Resource\Http\Requests\FormRequest</className>
       <methodName>userHasAdminPrivileges</methodName>
-      <methodSignature>userHasAdminPrivileges(Illuminate\Contracts\Auth\Authenticatable $user): bool</methodSignature>
-      <fullMethod>userHasAdminPrivileges(Illuminate\Contracts\Auth\Authenticatable $user): bool</fullMethod>
+      <methodSignature>userHasAdminPrivileges(?Authenticatable $user): bool</methodSignature>
+      <fullMethod>userHasAdminPrivileges(?Authenticatable $user): bool</fullMethod>
       <crap>3</crap>
       <complexity>3</complexity>
       <coverage>100</coverage>
@@ -457,19 +457,8 @@
       <methodName>rules</methodName>
       <methodSignature>rules(): array</methodSignature>
       <fullMethod>rules(): array</fullMethod>
-      <crap>4</crap>
-      <complexity>4</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground\Admin\Resource\Http\Resources</package>
-      <className>Playground\Admin\Resource\Http\Resources\Setting</className>
-      <methodName>toArray</methodName>
-      <methodSignature>toArray(Illuminate\Http\Request $request)</methodSignature>
-      <fullMethod>toArray(Illuminate\Http\Request $request)</fullMethod>
-      <crap>1</crap>
-      <complexity>1</complexity>
+      <crap>2</crap>
+      <complexity>2</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -477,19 +466,8 @@
       <package>Playground\Admin\Resource\Http\Resources</package>
       <className>Playground\Admin\Resource\Http\Resources\Setting</className>
       <methodName>with</methodName>
-      <methodSignature>with(Illuminate\Http\Request $request): array</methodSignature>
-      <fullMethod>with(Illuminate\Http\Request $request): array</fullMethod>
-      <crap>1</crap>
-      <complexity>1</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground\Admin\Resource\Http\Resources</package>
-      <className>Playground\Admin\Resource\Http\Resources\SettingCollection</className>
-      <methodName>toArray</methodName>
-      <methodSignature>toArray(Illuminate\Http\Request $request)</methodSignature>
-      <fullMethod>toArray(Illuminate\Http\Request $request)</fullMethod>
+      <methodSignature>with(Request $request): array</methodSignature>
+      <fullMethod>with(Request $request): array</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -499,19 +477,8 @@
       <package>Playground\Admin\Resource\Http\Resources</package>
       <className>Playground\Admin\Resource\Http\Resources\SettingCollection</className>
       <methodName>with</methodName>
-      <methodSignature>with(Illuminate\Http\Request $request): array</methodSignature>
-      <fullMethod>with(Illuminate\Http\Request $request): array</fullMethod>
-      <crap>1</crap>
-      <complexity>1</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground\Admin\Resource\Http\Resources</package>
-      <className>Playground\Admin\Resource\Http\Resources\User</className>
-      <methodName>toArray</methodName>
-      <methodSignature>toArray(Illuminate\Http\Request $request)</methodSignature>
-      <fullMethod>toArray(Illuminate\Http\Request $request)</fullMethod>
+      <methodSignature>with(Request $request): array</methodSignature>
+      <fullMethod>with(Request $request): array</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -521,19 +488,8 @@
       <package>Playground\Admin\Resource\Http\Resources</package>
       <className>Playground\Admin\Resource\Http\Resources\User</className>
       <methodName>with</methodName>
-      <methodSignature>with(Illuminate\Http\Request $request): array</methodSignature>
-      <fullMethod>with(Illuminate\Http\Request $request): array</fullMethod>
-      <crap>1</crap>
-      <complexity>1</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground\Admin\Resource\Http\Resources</package>
-      <className>Playground\Admin\Resource\Http\Resources\UserCollection</className>
-      <methodName>toArray</methodName>
-      <methodSignature>toArray(Illuminate\Http\Request $request)</methodSignature>
-      <fullMethod>toArray(Illuminate\Http\Request $request)</fullMethod>
+      <methodSignature>with(Request $request): array</methodSignature>
+      <fullMethod>with(Request $request): array</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -543,8 +499,8 @@
       <package>Playground\Admin\Resource\Http\Resources</package>
       <className>Playground\Admin\Resource\Http\Resources\UserCollection</className>
       <methodName>with</methodName>
-      <methodSignature>with(Illuminate\Http\Request $request): array</methodSignature>
-      <fullMethod>with(Illuminate\Http\Request $request): array</fullMethod>
+      <methodSignature>with(Request $request): array</methodSignature>
+      <fullMethod>with(Request $request): array</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -602,17 +558,6 @@
       <fullMethod>about(): void</fullMethod>
       <crap>23</crap>
       <complexity>23</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground\Admin\Resource</package>
-      <className>Playground\Admin\Resource\ServiceProvider</className>
-      <methodName>version</methodName>
-      <methodSignature>version(): string</methodSignature>
-      <fullMethod>version(): string</fullMethod>
-      <crap>1</crap>
-      <complexity>1</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -686,8 +631,8 @@
       <package>Playground\Auth</package>
       <className>Playground\Auth\Can</className>
       <methodName>matches</methodName>
-      <methodSignature>matches(?Illuminate\Contracts\Auth\Authenticatable $user): bool</methodSignature>
-      <fullMethod>matches(?Illuminate\Contracts\Auth\Authenticatable $user): bool</fullMethod>
+      <methodSignature>matches(?Authenticatable $user): bool</methodSignature>
+      <fullMethod>matches(?Authenticatable $user): bool</fullMethod>
       <crap>8.7</crap>
       <complexity>8</complexity>
       <coverage>77.78</coverage>
@@ -697,8 +642,8 @@
       <package>Playground\Auth</package>
       <className>Playground\Auth\Can</className>
       <methodName>init</methodName>
-      <methodSignature>init(?Illuminate\Contracts\Auth\Authenticatable $user): self</methodSignature>
-      <fullMethod>init(?Illuminate\Contracts\Auth\Authenticatable $user): self</fullMethod>
+      <methodSignature>init(?Authenticatable $user): self</methodSignature>
+      <fullMethod>init(?Authenticatable $user): self</fullMethod>
       <crap>14</crap>
       <complexity>14</complexity>
       <coverage>97.06</coverage>
@@ -708,8 +653,8 @@
       <package>Playground\Auth</package>
       <className>Playground\Auth\Can</className>
       <methodName>reset</methodName>
-      <methodSignature>reset(?Illuminate\Contracts\Auth\Authenticatable $user): self</methodSignature>
-      <fullMethod>reset(?Illuminate\Contracts\Auth\Authenticatable $user): self</fullMethod>
+      <methodSignature>reset(?Authenticatable $user): self</methodSignature>
+      <fullMethod>reset(?Authenticatable $user): self</fullMethod>
       <crap>2</crap>
       <complexity>1</complexity>
       <coverage>0</coverage>
@@ -719,8 +664,8 @@
       <package>Playground\Auth</package>
       <className>Playground\Auth\Can</className>
       <methodName>isGuest</methodName>
-      <methodSignature>isGuest(?Illuminate\Contracts\Auth\Authenticatable $user): bool</methodSignature>
-      <fullMethod>isGuest(?Illuminate\Contracts\Auth\Authenticatable $user): bool</fullMethod>
+      <methodSignature>isGuest(?Authenticatable $user): bool</methodSignature>
+      <fullMethod>isGuest(?Authenticatable $user): bool</fullMethod>
       <crap>4.07</crap>
       <complexity>4</complexity>
       <coverage>83.33</coverage>
@@ -730,10 +675,10 @@
       <package>Playground\Auth</package>
       <className>Playground\Auth\Can</className>
       <methodName>map</methodName>
-      <methodSignature>map(array $privileges, ?Illuminate\Contracts\Auth\Authenticatable $user): array</methodSignature>
-      <fullMethod>map(array $privileges, ?Illuminate\Contracts\Auth\Authenticatable $user): array</fullMethod>
-      <crap>30</crap>
-      <complexity>5</complexity>
+      <methodSignature>map(array $privileges, ?Authenticatable $user): array</methodSignature>
+      <fullMethod>map(array $privileges, ?Authenticatable $user): array</fullMethod>
+      <crap>20</crap>
+      <complexity>4</complexity>
       <coverage>0</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -743,21 +688,21 @@
       <methodName>wildcards</methodName>
       <methodSignature>wildcards(string $privilege): array</methodSignature>
       <fullMethod>wildcards(string $privilege): array</fullMethod>
-      <crap>110</crap>
-      <complexity>10</complexity>
+      <crap>90</crap>
+      <complexity>9</complexity>
       <coverage>0</coverage>
-      <crapLoad>10</crapLoad>
+      <crapLoad>9</crapLoad>
     </method>
     <method>
       <package>Playground\Auth</package>
       <className>Playground\Auth\Can</className>
       <methodName>access</methodName>
-      <methodSignature>access(?Illuminate\Contracts\Auth\Authenticatable $user, array $options): Playground\Auth\Permission</methodSignature>
-      <fullMethod>access(?Illuminate\Contracts\Auth\Authenticatable $user, array $options): Playground\Auth\Permission</fullMethod>
-      <crap>488.75</crap>
-      <complexity>49</complexity>
-      <coverage>43.21</coverage>
-      <crapLoad>29</crapLoad>
+      <methodSignature>access(?Authenticatable $user, array $options): Permission</methodSignature>
+      <fullMethod>access(?Authenticatable $user, array $options): Permission</fullMethod>
+      <crap>540.77</crap>
+      <complexity>51</complexity>
+      <coverage>42.68</coverage>
+      <crapLoad>30</crapLoad>
     </method>
     <method>
       <package>Playground\Auth</package>
@@ -829,8 +774,8 @@
       <package>Playground\Auth</package>
       <className>Playground\Auth\Issuer</className>
       <methodName>abilities</methodName>
-      <methodSignature>abilities(Illuminate\Contracts\Auth\Authenticatable $user): array</methodSignature>
-      <fullMethod>abilities(Illuminate\Contracts\Auth\Authenticatable $user): array</fullMethod>
+      <methodSignature>abilities(Authenticatable $user): array</methodSignature>
+      <fullMethod>abilities(Authenticatable $user): array</fullMethod>
       <crap>14.62</crap>
       <complexity>12</complexity>
       <coverage>73.68</coverage>
@@ -840,19 +785,19 @@
       <package>Playground\Auth</package>
       <className>Playground\Auth\Issuer</className>
       <methodName>init</methodName>
-      <methodSignature>init(Illuminate\Contracts\Auth\Authenticatable $user): self</methodSignature>
-      <fullMethod>init(Illuminate\Contracts\Auth\Authenticatable $user): self</fullMethod>
-      <crap>26.18</crap>
-      <complexity>21</complexity>
-      <coverage>77.27</coverage>
+      <methodSignature>init(Authenticatable $user): self</methodSignature>
+      <fullMethod>init(Authenticatable $user): self</fullMethod>
+      <crap>33</crap>
+      <complexity>24</complexity>
+      <coverage>75</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
       <package>Playground\Auth</package>
       <className>Playground\Auth\Issuer</className>
       <methodName>listed</methodName>
-      <methodSignature>listed(Illuminate\Contracts\Auth\Authenticatable $user): void</methodSignature>
-      <fullMethod>listed(Illuminate\Contracts\Auth\Authenticatable $user): void</fullMethod>
+      <methodSignature>listed(Authenticatable $user): void</methodSignature>
+      <fullMethod>listed(Authenticatable $user): void</fullMethod>
       <crap>7.54</crap>
       <complexity>7</complexity>
       <coverage>77.78</coverage>
@@ -862,8 +807,8 @@
       <package>Playground\Auth</package>
       <className>Playground\Auth\Issuer</className>
       <methodName>authorize</methodName>
-      <methodSignature>authorize(Illuminate\Contracts\Auth\Authenticatable $user): array</methodSignature>
-      <fullMethod>authorize(Illuminate\Contracts\Auth\Authenticatable $user): array</fullMethod>
+      <methodSignature>authorize(Authenticatable $user): array</methodSignature>
+      <fullMethod>authorize(Authenticatable $user): array</fullMethod>
       <crap>3</crap>
       <complexity>3</complexity>
       <coverage>100</coverage>
@@ -873,11 +818,11 @@
       <package>Playground\Auth</package>
       <className>Playground\Auth\Issuer</className>
       <methodName>sanctum</methodName>
-      <methodSignature>sanctum(Illuminate\Contracts\Auth\Authenticatable $user): array</methodSignature>
-      <fullMethod>sanctum(Illuminate\Contracts\Auth\Authenticatable $user): array</fullMethod>
-      <crap>7.06</crap>
-      <complexity>7</complexity>
-      <coverage>89.47</coverage>
+      <methodSignature>sanctum(Authenticatable $user): array</methodSignature>
+      <fullMethod>sanctum(Authenticatable $user): array</fullMethod>
+      <crap>9.08</crap>
+      <complexity>9</complexity>
+      <coverage>90</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -939,8 +884,8 @@
       <package>Playground\Auth\Policies</package>
       <className>Playground\Auth\Policies\ModelPolicy</className>
       <methodName>create</methodName>
-      <methodSignature>create(Illuminate\Contracts\Auth\Authenticatable $user): bool|\Illuminate\Auth\Access\Response</methodSignature>
-      <fullMethod>create(Illuminate\Contracts\Auth\Authenticatable $user): bool|\Illuminate\Auth\Access\Response</fullMethod>
+      <methodSignature>create(Authenticatable $user): bool|Response</methodSignature>
+      <fullMethod>create(Authenticatable $user): bool|Response</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -950,8 +895,8 @@
       <package>Playground\Auth\Policies</package>
       <className>Playground\Auth\Policies\ModelPolicy</className>
       <methodName>delete</methodName>
-      <methodSignature>delete(Illuminate\Contracts\Auth\Authenticatable $user, Illuminate\Database\Eloquent\Model $model): bool|\Illuminate\Auth\Access\Response</methodSignature>
-      <fullMethod>delete(Illuminate\Contracts\Auth\Authenticatable $user, Illuminate\Database\Eloquent\Model $model): bool|\Illuminate\Auth\Access\Response</fullMethod>
+      <methodSignature>delete(Authenticatable $user, Model $model): bool|Response</methodSignature>
+      <fullMethod>delete(Authenticatable $user, Model $model): bool|Response</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -961,8 +906,8 @@
       <package>Playground\Auth\Policies</package>
       <className>Playground\Auth\Policies\ModelPolicy</className>
       <methodName>detail</methodName>
-      <methodSignature>detail(Illuminate\Contracts\Auth\Authenticatable $user, Illuminate\Database\Eloquent\Model $model): bool|\Illuminate\Auth\Access\Response</methodSignature>
-      <fullMethod>detail(Illuminate\Contracts\Auth\Authenticatable $user, Illuminate\Database\Eloquent\Model $model): bool|\Illuminate\Auth\Access\Response</fullMethod>
+      <methodSignature>detail(Authenticatable $user, Model $model): bool|Response</methodSignature>
+      <fullMethod>detail(Authenticatable $user, Model $model): bool|Response</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -972,8 +917,8 @@
       <package>Playground\Auth\Policies</package>
       <className>Playground\Auth\Policies\ModelPolicy</className>
       <methodName>edit</methodName>
-      <methodSignature>edit(Illuminate\Contracts\Auth\Authenticatable $user, Illuminate\Database\Eloquent\Model $model): bool|\Illuminate\Auth\Access\Response</methodSignature>
-      <fullMethod>edit(Illuminate\Contracts\Auth\Authenticatable $user, Illuminate\Database\Eloquent\Model $model): bool|\Illuminate\Auth\Access\Response</fullMethod>
+      <methodSignature>edit(Authenticatable $user, ?Model $model): bool|Response</methodSignature>
+      <fullMethod>edit(Authenticatable $user, ?Model $model): bool|Response</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -983,8 +928,8 @@
       <package>Playground\Auth\Policies</package>
       <className>Playground\Auth\Policies\ModelPolicy</className>
       <methodName>forceDelete</methodName>
-      <methodSignature>forceDelete(Illuminate\Contracts\Auth\Authenticatable $user, Illuminate\Database\Eloquent\Model $model): bool|\Illuminate\Auth\Access\Response</methodSignature>
-      <fullMethod>forceDelete(Illuminate\Contracts\Auth\Authenticatable $user, Illuminate\Database\Eloquent\Model $model): bool|\Illuminate\Auth\Access\Response</fullMethod>
+      <methodSignature>forceDelete(Authenticatable $user, Model $model): bool|Response</methodSignature>
+      <fullMethod>forceDelete(Authenticatable $user, Model $model): bool|Response</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -994,8 +939,8 @@
       <package>Playground\Auth\Policies</package>
       <className>Playground\Auth\Policies\ModelPolicy</className>
       <methodName>lock</methodName>
-      <methodSignature>lock(Illuminate\Contracts\Auth\Authenticatable $user, Illuminate\Database\Eloquent\Model $model): bool|\Illuminate\Auth\Access\Response</methodSignature>
-      <fullMethod>lock(Illuminate\Contracts\Auth\Authenticatable $user, Illuminate\Database\Eloquent\Model $model): bool|\Illuminate\Auth\Access\Response</fullMethod>
+      <methodSignature>lock(Authenticatable $user, Model $model): bool|Response</methodSignature>
+      <fullMethod>lock(Authenticatable $user, Model $model): bool|Response</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -1005,8 +950,8 @@
       <package>Playground\Auth\Policies</package>
       <className>Playground\Auth\Policies\ModelPolicy</className>
       <methodName>manage</methodName>
-      <methodSignature>manage(Illuminate\Contracts\Auth\Authenticatable $user, Illuminate\Database\Eloquent\Model $model): bool|\Illuminate\Auth\Access\Response</methodSignature>
-      <fullMethod>manage(Illuminate\Contracts\Auth\Authenticatable $user, Illuminate\Database\Eloquent\Model $model): bool|\Illuminate\Auth\Access\Response</fullMethod>
+      <methodSignature>manage(Authenticatable $user, Model $model): bool|Response</methodSignature>
+      <fullMethod>manage(Authenticatable $user, Model $model): bool|Response</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -1016,8 +961,8 @@
       <package>Playground\Auth\Policies</package>
       <className>Playground\Auth\Policies\ModelPolicy</className>
       <methodName>restore</methodName>
-      <methodSignature>restore(Illuminate\Contracts\Auth\Authenticatable $user, Illuminate\Database\Eloquent\Model $model): bool|\Illuminate\Auth\Access\Response</methodSignature>
-      <fullMethod>restore(Illuminate\Contracts\Auth\Authenticatable $user, Illuminate\Database\Eloquent\Model $model): bool|\Illuminate\Auth\Access\Response</fullMethod>
+      <methodSignature>restore(Authenticatable $user, Model $model): bool|Response</methodSignature>
+      <fullMethod>restore(Authenticatable $user, Model $model): bool|Response</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -1027,8 +972,8 @@
       <package>Playground\Auth\Policies</package>
       <className>Playground\Auth\Policies\ModelPolicy</className>
       <methodName>store</methodName>
-      <methodSignature>store(Illuminate\Contracts\Auth\Authenticatable $user): bool|\Illuminate\Auth\Access\Response</methodSignature>
-      <fullMethod>store(Illuminate\Contracts\Auth\Authenticatable $user): bool|\Illuminate\Auth\Access\Response</fullMethod>
+      <methodSignature>store(Authenticatable $user): bool|Response</methodSignature>
+      <fullMethod>store(Authenticatable $user): bool|Response</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -1038,8 +983,8 @@
       <package>Playground\Auth\Policies</package>
       <className>Playground\Auth\Policies\ModelPolicy</className>
       <methodName>update</methodName>
-      <methodSignature>update(Illuminate\Contracts\Auth\Authenticatable $user, Illuminate\Database\Eloquent\Model $model): bool|\Illuminate\Auth\Access\Response</methodSignature>
-      <fullMethod>update(Illuminate\Contracts\Auth\Authenticatable $user, Illuminate\Database\Eloquent\Model $model): bool|\Illuminate\Auth\Access\Response</fullMethod>
+      <methodSignature>update(Authenticatable $user, Model $model): bool|Response</methodSignature>
+      <fullMethod>update(Authenticatable $user, Model $model): bool|Response</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -1049,8 +994,8 @@
       <package>Playground\Auth\Policies</package>
       <className>Playground\Auth\Policies\ModelPolicy</className>
       <methodName>unlock</methodName>
-      <methodSignature>unlock(Illuminate\Contracts\Auth\Authenticatable $user, Illuminate\Database\Eloquent\Model $model): bool|\Illuminate\Auth\Access\Response</methodSignature>
-      <fullMethod>unlock(Illuminate\Contracts\Auth\Authenticatable $user, Illuminate\Database\Eloquent\Model $model): bool|\Illuminate\Auth\Access\Response</fullMethod>
+      <methodSignature>unlock(Authenticatable $user, Model $model): bool|Response</methodSignature>
+      <fullMethod>unlock(Authenticatable $user, Model $model): bool|Response</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -1060,8 +1005,8 @@
       <package>Playground\Auth\Policies</package>
       <className>Playground\Auth\Policies\Policy</className>
       <methodName>before</methodName>
-      <methodSignature>before(Illuminate\Contracts\Auth\Authenticatable $user, $ability)</methodSignature>
-      <fullMethod>before(Illuminate\Contracts\Auth\Authenticatable $user, $ability)</fullMethod>
+      <methodSignature>before(Authenticatable $user, $ability)</methodSignature>
+      <fullMethod>before(Authenticatable $user, $ability)</fullMethod>
       <crap>5</crap>
       <complexity>5</complexity>
       <coverage>100</coverage>
@@ -1071,8 +1016,8 @@
       <package>Playground\Auth\Policies</package>
       <className>Playground\Auth\Policies\Policy</className>
       <methodName>index</methodName>
-      <methodSignature>index(Illuminate\Contracts\Auth\Authenticatable $user): bool|\Illuminate\Auth\Access\Response</methodSignature>
-      <fullMethod>index(Illuminate\Contracts\Auth\Authenticatable $user): bool|\Illuminate\Auth\Access\Response</fullMethod>
+      <methodSignature>index(Authenticatable $user): bool|Response</methodSignature>
+      <fullMethod>index(Authenticatable $user): bool|Response</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -1082,8 +1027,8 @@
       <package>Playground\Auth\Policies</package>
       <className>Playground\Auth\Policies\Policy</className>
       <methodName>view</methodName>
-      <methodSignature>view(Illuminate\Contracts\Auth\Authenticatable $user): bool|\Illuminate\Auth\Access\Response</methodSignature>
-      <fullMethod>view(Illuminate\Contracts\Auth\Authenticatable $user): bool|\Illuminate\Auth\Access\Response</fullMethod>
+      <methodSignature>view(Authenticatable $user): bool|Response</methodSignature>
+      <fullMethod>view(Authenticatable $user): bool|Response</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -1093,8 +1038,8 @@
       <package>Playground\Auth\Policies</package>
       <className>Playground\Auth\Policies\PolicyTrait</className>
       <methodName>hasPrivilege</methodName>
-      <methodSignature>hasPrivilege(Illuminate\Contracts\Auth\Authenticatable $user, string $privilege): bool|\Illuminate\Auth\Access\Response</methodSignature>
-      <fullMethod>hasPrivilege(Illuminate\Contracts\Auth\Authenticatable $user, string $privilege): bool|\Illuminate\Auth\Access\Response</fullMethod>
+      <methodSignature>hasPrivilege(Authenticatable $user, string $privilege): bool|Response</methodSignature>
+      <fullMethod>hasPrivilege(Authenticatable $user, string $privilege): bool|Response</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
       <coverage>100</coverage>
@@ -1104,8 +1049,8 @@
       <package>Playground\Auth\Policies</package>
       <className>Playground\Auth\Policies\PolicyTrait</className>
       <methodName>hasRole</methodName>
-      <methodSignature>hasRole(Illuminate\Contracts\Auth\Authenticatable $user, string $ability): bool|\Illuminate\Auth\Access\Response</methodSignature>
-      <fullMethod>hasRole(Illuminate\Contracts\Auth\Authenticatable $user, string $ability): bool|\Illuminate\Auth\Access\Response</fullMethod>
+      <methodSignature>hasRole(Authenticatable $user, string $ability): bool|Response</methodSignature>
+      <fullMethod>hasRole(Authenticatable $user, string $ability): bool|Response</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
       <coverage>100</coverage>
@@ -1159,8 +1104,8 @@
       <package>Playground\Auth\Policies</package>
       <className>Playground\Auth\Policies\PolicyTrait</className>
       <methodName>getToken</methodName>
-      <methodSignature>getToken(): ?Laravel\Sanctum\PersonalAccessToken</methodSignature>
-      <fullMethod>getToken(): ?Laravel\Sanctum\PersonalAccessToken</fullMethod>
+      <methodSignature>getToken(): ?PersonalAccessToken</methodSignature>
+      <fullMethod>getToken(): ?PersonalAccessToken</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -1170,8 +1115,8 @@
       <package>Playground\Auth\Policies</package>
       <className>Playground\Auth\Policies\PolicyTrait</className>
       <methodName>setToken</methodName>
-      <methodSignature>setToken(Laravel\Sanctum\PersonalAccessToken $token): self</methodSignature>
-      <fullMethod>setToken(Laravel\Sanctum\PersonalAccessToken $token): self</fullMethod>
+      <methodSignature>setToken(?PersonalAccessToken $token): self</methodSignature>
+      <fullMethod>setToken(?PersonalAccessToken $token): self</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -1181,8 +1126,8 @@
       <package>Playground\Auth\Policies</package>
       <className>Playground\Auth\Policies\PolicyTrait</className>
       <methodName>verify</methodName>
-      <methodSignature>verify(Illuminate\Contracts\Auth\Authenticatable $user, string $ability): bool|\Illuminate\Auth\Access\Response</methodSignature>
-      <fullMethod>verify(Illuminate\Contracts\Auth\Authenticatable $user, string $ability): bool|\Illuminate\Auth\Access\Response</fullMethod>
+      <methodSignature>verify(Authenticatable $user, string $ability): bool|Response</methodSignature>
+      <fullMethod>verify(Authenticatable $user, string $ability): bool|Response</fullMethod>
       <crap>8.01</crap>
       <complexity>8</complexity>
       <coverage>94.12</coverage>
@@ -1214,8 +1159,8 @@
       <package>Playground\Auth\Policies</package>
       <className>Playground\Auth\Policies\PrivilegeTrait</className>
       <methodName>getToken</methodName>
-      <methodSignature>getToken(): ?Laravel\Sanctum\PersonalAccessToken</methodSignature>
-      <fullMethod>getToken(): ?Laravel\Sanctum\PersonalAccessToken</fullMethod>
+      <methodSignature>getToken(): ?PersonalAccessToken</methodSignature>
+      <fullMethod>getToken(): ?PersonalAccessToken</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
       <coverage>100</coverage>
@@ -1236,8 +1181,8 @@
       <package>Playground\Auth\Policies</package>
       <className>Playground\Auth\Policies\PrivilegeTrait</className>
       <methodName>setToken</methodName>
-      <methodSignature>setToken(Laravel\Sanctum\PersonalAccessToken $token): self</methodSignature>
-      <fullMethod>setToken(Laravel\Sanctum\PersonalAccessToken $token): self</fullMethod>
+      <methodSignature>setToken(?PersonalAccessToken $token): self</methodSignature>
+      <fullMethod>setToken(?PersonalAccessToken $token): self</fullMethod>
       <crap>0</crap>
       <complexity>0</complexity>
       <coverage>100</coverage>
@@ -1269,8 +1214,8 @@
       <package>Playground\Auth\Policies</package>
       <className>Playground\Auth\Policies\PrivilegeTrait</className>
       <methodName>hasPrivilege</methodName>
-      <methodSignature>hasPrivilege(Illuminate\Contracts\Auth\Authenticatable $user, string $privilege): bool|\Illuminate\Auth\Access\Response</methodSignature>
-      <fullMethod>hasPrivilege(Illuminate\Contracts\Auth\Authenticatable $user, string $privilege): bool|\Illuminate\Auth\Access\Response</fullMethod>
+      <methodSignature>hasPrivilege(Authenticatable $user, string $privilege): bool|Response</methodSignature>
+      <fullMethod>hasPrivilege(Authenticatable $user, string $privilege): bool|Response</fullMethod>
       <crap>11.06</crap>
       <complexity>11</complexity>
       <coverage>92.31</coverage>
@@ -1280,8 +1225,8 @@
       <package>Playground\Auth\Policies</package>
       <className>Playground\Auth\Policies\PrivilegeTrait</className>
       <methodName>hasPrivilegeSanctum</methodName>
-      <methodSignature>hasPrivilegeSanctum(Illuminate\Contracts\Auth\Authenticatable $user, string $privilege): bool|\Illuminate\Auth\Access\Response</methodSignature>
-      <fullMethod>hasPrivilegeSanctum(Illuminate\Contracts\Auth\Authenticatable $user, string $privilege): bool|\Illuminate\Auth\Access\Response</fullMethod>
+      <methodSignature>hasPrivilegeSanctum(Authenticatable $user, string $privilege): bool|Response</methodSignature>
+      <fullMethod>hasPrivilegeSanctum(Authenticatable $user, string $privilege): bool|Response</fullMethod>
       <crap>120.55</crap>
       <complexity>16</complexity>
       <coverage>25.81</coverage>
@@ -1313,8 +1258,8 @@
       <package>Playground\Auth\Policies</package>
       <className>Playground\Auth\Policies\RoleTrait</className>
       <methodName>isRoot</methodName>
-      <methodSignature>isRoot(Illuminate\Contracts\Auth\Authenticatable $user): bool</methodSignature>
-      <fullMethod>isRoot(Illuminate\Contracts\Auth\Authenticatable $user): bool</fullMethod>
+      <methodSignature>isRoot(Authenticatable $user): bool</methodSignature>
+      <fullMethod>isRoot(Authenticatable $user): bool</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -1335,10 +1280,10 @@
       <package>Playground\Auth\Policies</package>
       <className>Playground\Auth\Policies\RoleTrait</className>
       <methodName>hasRole</methodName>
-      <methodSignature>hasRole(Illuminate\Contracts\Auth\Authenticatable $user, string $ability): bool|\Illuminate\Auth\Access\Response</methodSignature>
-      <fullMethod>hasRole(Illuminate\Contracts\Auth\Authenticatable $user, string $ability): bool|\Illuminate\Auth\Access\Response</fullMethod>
-      <crap>18</crap>
-      <complexity>18</complexity>
+      <methodSignature>hasRole(Authenticatable $user, string $ability): bool|Response</methodSignature>
+      <fullMethod>hasRole(Authenticatable $user, string $ability): bool|Response</fullMethod>
+      <crap>17</crap>
+      <complexity>17</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -1370,10 +1315,10 @@
       <methodName>about</methodName>
       <methodSignature>about(): void</methodSignature>
       <fullMethod>about(): void</fullMethod>
-      <crap>49.15</crap>
-      <complexity>48</complexity>
+      <crap>52.3</crap>
+      <complexity>51</complexity>
       <coverage>92.06</coverage>
-      <crapLoad>0</crapLoad>
+      <crapLoad>5</crapLoad>
     </method>
     <method>
       <package>Playground\Auth</package>
@@ -1907,8 +1852,8 @@
       <package>Playground\Blade\Concerns</package>
       <className>Playground\Blade\Concerns\WithAssets</className>
       <methodName>bodyAssets</methodName>
-      <methodSignature>bodyAssets(Playground\Blade\Themes\Theme $theme): array</methodSignature>
-      <fullMethod>bodyAssets(Playground\Blade\Themes\Theme $theme): array</fullMethod>
+      <methodSignature>bodyAssets(?Theme $theme): array</methodSignature>
+      <fullMethod>bodyAssets(?Theme $theme): array</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -1918,8 +1863,8 @@
       <package>Playground\Blade\Concerns</package>
       <className>Playground\Blade\Concerns\WithAssets</className>
       <methodName>headAssets</methodName>
-      <methodSignature>headAssets(Playground\Blade\Themes\Theme $theme): array</methodSignature>
-      <fullMethod>headAssets(Playground\Blade\Themes\Theme $theme): array</fullMethod>
+      <methodSignature>headAssets(?Theme $theme): array</methodSignature>
+      <fullMethod>headAssets(?Theme $theme): array</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -1951,8 +1896,8 @@
       <package>Playground\Blade\Concerns</package>
       <className>Playground\Blade\Concerns\WithThemes</className>
       <methodName>theme</methodName>
-      <methodSignature>theme(): Playground\Blade\Themes\Theme</methodSignature>
-      <fullMethod>theme(): Playground\Blade\Themes\Theme</fullMethod>
+      <methodSignature>theme(): Themes\Theme</methodSignature>
+      <fullMethod>theme(): Themes\Theme</fullMethod>
       <crap>4</crap>
       <complexity>4</complexity>
       <coverage>100</coverage>
@@ -1973,8 +1918,8 @@
       <package>Playground\Blade\Concerns</package>
       <className>Playground\Blade\Concerns\WithThemes</className>
       <methodName>getTheme</methodName>
-      <methodSignature>getTheme(string $key): ?Playground\Blade\Themes\Theme</methodSignature>
-      <fullMethod>getTheme(string $key): ?Playground\Blade\Themes\Theme</fullMethod>
+      <methodSignature>getTheme(string $key): ?Themes\Theme</methodSignature>
+      <fullMethod>getTheme(string $key): ?Themes\Theme</fullMethod>
       <crap>6</crap>
       <complexity>2</complexity>
       <coverage>0</coverage>
@@ -1995,8 +1940,8 @@
       <package>Playground\Blade\Concerns</package>
       <className>Playground\Blade\Concerns\WithThemes</className>
       <methodName>saveTheme</methodName>
-      <methodSignature>saveTheme(Playground\Blade\Themes\Theme $theme): self</methodSignature>
-      <fullMethod>saveTheme(Playground\Blade\Themes\Theme $theme): self</fullMethod>
+      <methodSignature>saveTheme(Themes\Theme $theme): self</methodSignature>
+      <fullMethod>saveTheme(Themes\Theme $theme): self</fullMethod>
       <crap>4</crap>
       <complexity>4</complexity>
       <coverage>100</coverage>
@@ -2052,8 +1997,8 @@
       <methodName>boot</methodName>
       <methodSignature>boot(): void</methodSignature>
       <fullMethod>boot(): void</fullMethod>
-      <crap>3</crap>
-      <complexity>3</complexity>
+      <crap>7</crap>
+      <complexity>7</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -2270,8 +2215,8 @@
       <package>Playground\Blade\View\Components\Forms</package>
       <className>Playground\Blade\View\Components\Forms\Column</className>
       <methodName>render</methodName>
-      <methodSignature>render(): \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View</methodSignature>
-      <fullMethod>render(): \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View</fullMethod>
+      <methodSignature>render(): Factory|View</methodSignature>
+      <fullMethod>render(): Factory|View</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -2292,8 +2237,8 @@
       <package>Playground\Blade\View\Components\Forms</package>
       <className>Playground\Blade\View\Components\Forms\ColumnEditor</className>
       <methodName>render</methodName>
-      <methodSignature>render(): \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View</methodSignature>
-      <fullMethod>render(): \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View</fullMethod>
+      <methodSignature>render(): Factory|View</methodSignature>
+      <fullMethod>render(): Factory|View</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -2303,8 +2248,8 @@
       <package>Playground\Blade\View\Components\Forms</package>
       <className>Playground\Blade\View\Components\Forms\ColumnSelect</className>
       <methodName>__construct</methodName>
-      <methodSignature>__construct(bool $advanced, ?bool $autocomplete, string $class, string $column, bool $default, string $described, ?bool $disabled, string $errorMessage, string $id, string $key, string $label, string $pattern, bool|string $placeholder, array $records, array $rules, string $step, ?bool $readonly, string $type, bool $withoutMargin)</methodSignature>
-      <fullMethod>__construct(bool $advanced, ?bool $autocomplete, string $class, string $column, bool $default, string $described, ?bool $disabled, string $errorMessage, string $id, string $key, string $label, string $pattern, bool|string $placeholder, array $records, array $rules, string $step, ?bool $readonly, string $type, bool $withoutMargin)</fullMethod>
+      <methodSignature>__construct(bool $advanced, ?bool $autocomplete, string $class, string $column, bool $default, string $described, ?bool $disabled, string $errorMessage, string $id, string $key, string $label, string $pattern, array $flags, bool|string $placeholder, array $records, array $rules, string $step, ?bool $readonly, string $type, bool $withoutMargin)</methodSignature>
+      <fullMethod>__construct(bool $advanced, ?bool $autocomplete, string $class, string $column, bool $default, string $described, ?bool $disabled, string $errorMessage, string $id, string $key, string $label, string $pattern, array $flags, bool|string $placeholder, array $records, array $rules, string $step, ?bool $readonly, string $type, bool $withoutMargin)</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -2314,8 +2259,8 @@
       <package>Playground\Blade\View\Components\Forms</package>
       <className>Playground\Blade\View\Components\Forms\ColumnSelect</className>
       <methodName>render</methodName>
-      <methodSignature>render(): \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View</methodSignature>
-      <fullMethod>render(): \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View</fullMethod>
+      <methodSignature>render(): Factory|View</methodSignature>
+      <fullMethod>render(): Factory|View</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -2336,11 +2281,33 @@
       <package>Playground\Blade\View\Components</package>
       <className>Playground\Blade\View\Components\ModelFlag</className>
       <methodName>render</methodName>
-      <methodSignature>render(): \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View</methodSignature>
-      <fullMethod>render(): \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View</fullMethod>
+      <methodSignature>render(): Factory|View</methodSignature>
+      <fullMethod>render(): Factory|View</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Blade\View\Components</package>
+      <className>Playground\Blade\View\Components\ModelImage</className>
+      <methodName>__construct</methodName>
+      <methodSignature>__construct(array $columnMeta, array $fkModelData, mixed $value)</methodSignature>
+      <fullMethod>__construct(array $columnMeta, array $fkModelData, mixed $value)</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Blade\View\Components</package>
+      <className>Playground\Blade\View\Components\ModelImage</className>
+      <methodName>render</methodName>
+      <methodSignature>render(): Factory|View</methodSignature>
+      <fullMethod>render(): Factory|View</fullMethod>
+      <crap>6</crap>
+      <complexity>2</complexity>
+      <coverage>0</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -2358,8 +2325,8 @@
       <package>Playground\Blade\View\Components</package>
       <className>Playground\Blade\View\Components\Snippets</className>
       <methodName>render</methodName>
-      <methodSignature>render(): \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View</methodSignature>
-      <fullMethod>render(): \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View</fullMethod>
+      <methodSignature>render(): Factory|View</methodSignature>
+      <fullMethod>render(): Factory|View</fullMethod>
       <crap>6</crap>
       <complexity>2</complexity>
       <coverage>0</coverage>
@@ -2369,8 +2336,8 @@
       <package>Playground\Blade\View\Components\Table</package>
       <className>Playground\Blade\View\Components\Table\Data</className>
       <methodName>__construct</methodName>
-      <methodSignature>__construct(string $id, string $icon, string $badge, bool $showPagination, bool $showLinks, bool $modelActions, bool $trashable, string $privilege, string $routeParameter, string $routeParameterKey, string $routeEdit, string $routeRestore, string $routeUnlock, string $routeDelete, string $routeDeleteRelationship, string $routeDeleteRelationshipId, bool $collapsible, string $returnUrl, array $columns, array $filters, array $validated, array $meta, array $sort, array $page_options, int $sorts, array $styling, string $class, ?Illuminate\Pagination\LengthAwarePaginator $paginator)</methodSignature>
-      <fullMethod>__construct(string $id, string $icon, string $badge, bool $showPagination, bool $showLinks, bool $modelActions, bool $trashable, string $privilege, string $routeParameter, string $routeParameterKey, string $routeEdit, string $routeRestore, string $routeUnlock, string $routeDelete, string $routeDeleteRelationship, string $routeDeleteRelationshipId, bool $collapsible, string $returnUrl, array $columns, array $filters, array $validated, array $meta, array $sort, array $page_options, int $sorts, array $styling, string $class, ?Illuminate\Pagination\LengthAwarePaginator $paginator)</fullMethod>
+      <methodSignature>__construct(string $id, string $icon, string $badge, bool $showPagination, bool $showLinks, bool $modelActions, bool $trashable, string $privilege, string $routeParameter, string $routeParameterKey, string $routeEdit, string $routeRestore, string $routeUnlock, string $routeDelete, string $routeDeleteRelationship, string $routeDeleteRelationshipId, bool $collapsible, string $returnUrl, array $columns, array $filters, array $validated, array $meta, array $sort, array $page_options, int $sorts, array $styling, string $class, ?LengthAwarePaginator $paginator)</methodSignature>
+      <fullMethod>__construct(string $id, string $icon, string $badge, bool $showPagination, bool $showLinks, bool $modelActions, bool $trashable, string $privilege, string $routeParameter, string $routeParameterKey, string $routeEdit, string $routeRestore, string $routeUnlock, string $routeDelete, string $routeDeleteRelationship, string $routeDeleteRelationshipId, bool $collapsible, string $returnUrl, array $columns, array $filters, array $validated, array $meta, array $sort, array $page_options, int $sorts, array $styling, string $class, ?LengthAwarePaginator $paginator)</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -2380,8 +2347,8 @@
       <package>Playground\Blade\View\Components\Table</package>
       <className>Playground\Blade\View\Components\Table\Data</className>
       <methodName>render</methodName>
-      <methodSignature>render(): \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View</methodSignature>
-      <fullMethod>render(): \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View</fullMethod>
+      <methodSignature>render(): Factory|View</methodSignature>
+      <fullMethod>render(): Factory|View</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -2389,21 +2356,10 @@
     </method>
     <method>
       <package>Playground\Cms\Resource\Http\Controllers</package>
-      <className>Playground\Cms\Resource\Http\Controllers\Controller</className>
-      <methodName>getViewPath</methodName>
-      <methodSignature>getViewPath(string $controller, string $view): string</methodSignature>
-      <fullMethod>getViewPath(string $controller, string $view): string</fullMethod>
-      <crap>4</crap>
-      <complexity>4</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\IndexController</className>
       <methodName>index</methodName>
-      <methodSignature>index(): Illuminate\View\View</methodSignature>
-      <fullMethod>index(): Illuminate\View\View</fullMethod>
+      <methodSignature>index(): View</methodSignature>
+      <fullMethod>index(): View</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -2413,8 +2369,8 @@
       <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\PageController</className>
       <methodName>create</methodName>
-      <methodSignature>create(Playground\Cms\Resource\Http\Requests\Page\CreateRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</methodSignature>
-      <fullMethod>create(Playground\Cms\Resource\Http\Requests\Page\CreateRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</fullMethod>
+      <methodSignature>create(Requests\Page\CreateRequest $request): JsonResponse|View|Resources\Page</methodSignature>
+      <fullMethod>create(Requests\Page\CreateRequest $request): JsonResponse|View|Resources\Page</fullMethod>
       <crap>4</crap>
       <complexity>4</complexity>
       <coverage>100</coverage>
@@ -2424,8 +2380,8 @@
       <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\PageController</className>
       <methodName>edit</methodName>
-      <methodSignature>edit(Playground\Cms\Models\Page $page, Playground\Cms\Resource\Http\Requests\Page\EditRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</methodSignature>
-      <fullMethod>edit(Playground\Cms\Models\Page $page, Playground\Cms\Resource\Http\Requests\Page\EditRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</fullMethod>
+      <methodSignature>edit(Page $page, Requests\Page\EditRequest $request): JsonResponse|View|Resources\Page</methodSignature>
+      <fullMethod>edit(Page $page, Requests\Page\EditRequest $request): JsonResponse|View|Resources\Page</fullMethod>
       <crap>3</crap>
       <complexity>3</complexity>
       <coverage>100</coverage>
@@ -2435,8 +2391,19 @@
       <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\PageController</className>
       <methodName>destroy</methodName>
-      <methodSignature>destroy(Playground\Cms\Models\Page $page, Playground\Cms\Resource\Http\Requests\Page\DestroyRequest $request): \Illuminate\Http\Response|\Illuminate\Http\RedirectResponse</methodSignature>
-      <fullMethod>destroy(Playground\Cms\Models\Page $page, Playground\Cms\Resource\Http\Requests\Page\DestroyRequest $request): \Illuminate\Http\Response|\Illuminate\Http\RedirectResponse</fullMethod>
+      <methodSignature>destroy(Page $page, Requests\Page\DestroyRequest $request): Response|RedirectResponse</methodSignature>
+      <fullMethod>destroy(Page $page, Requests\Page\DestroyRequest $request): Response|RedirectResponse</fullMethod>
+      <crap>6</crap>
+      <complexity>6</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Cms\Resource\Http\Controllers</package>
+      <className>Playground\Cms\Resource\Http\Controllers\PageController</className>
+      <methodName>lock</methodName>
+      <methodSignature>lock(Page $page, Requests\Page\LockRequest $request): JsonResponse|RedirectResponse|Resources\Page</methodSignature>
+      <fullMethod>lock(Page $page, Requests\Page\LockRequest $request): JsonResponse|RedirectResponse|Resources\Page</fullMethod>
       <crap>5</crap>
       <complexity>5</complexity>
       <coverage>100</coverage>
@@ -2445,20 +2412,9 @@
     <method>
       <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\PageController</className>
-      <methodName>lock</methodName>
-      <methodSignature>lock(Playground\Cms\Models\Page $page, Playground\Cms\Resource\Http\Requests\Page\LockRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Cms\Resource\Http\Resources\Page</methodSignature>
-      <fullMethod>lock(Playground\Cms\Models\Page $page, Playground\Cms\Resource\Http\Requests\Page\LockRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Cms\Resource\Http\Resources\Page</fullMethod>
-      <crap>4</crap>
-      <complexity>4</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground\Cms\Resource\Http\Controllers</package>
-      <className>Playground\Cms\Resource\Http\Controllers\PageController</className>
       <methodName>index</methodName>
-      <methodSignature>index(Playground\Cms\Resource\Http\Requests\Page\IndexRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Cms\Resource\Http\Resources\PageCollection</methodSignature>
-      <fullMethod>index(Playground\Cms\Resource\Http\Requests\Page\IndexRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Cms\Resource\Http\Resources\PageCollection</fullMethod>
+      <methodSignature>index(Requests\Page\IndexRequest $request): JsonResponse|View|Resources\PageCollection</methodSignature>
+      <fullMethod>index(Requests\Page\IndexRequest $request): JsonResponse|View|Resources\PageCollection</fullMethod>
       <crap>6</crap>
       <complexity>6</complexity>
       <coverage>100</coverage>
@@ -2468,10 +2424,10 @@
       <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\PageController</className>
       <methodName>restore</methodName>
-      <methodSignature>restore(Playground\Cms\Models\Page $page, Playground\Cms\Resource\Http\Requests\Page\RestoreRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Cms\Resource\Http\Resources\Page</methodSignature>
-      <fullMethod>restore(Playground\Cms\Models\Page $page, Playground\Cms\Resource\Http\Requests\Page\RestoreRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Cms\Resource\Http\Resources\Page</fullMethod>
-      <crap>4</crap>
-      <complexity>4</complexity>
+      <methodSignature>restore(Page $page, Requests\Page\RestoreRequest $request): JsonResponse|RedirectResponse|Resources\Page</methodSignature>
+      <fullMethod>restore(Page $page, Requests\Page\RestoreRequest $request): JsonResponse|RedirectResponse|Resources\Page</fullMethod>
+      <crap>5</crap>
+      <complexity>5</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -2479,8 +2435,8 @@
       <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\PageController</className>
       <methodName>restoreRevision</methodName>
-      <methodSignature>restoreRevision(Playground\Cms\Models\PageRevision $page_revision, Playground\Cms\Resource\Http\Requests\Page\RestoreRevisionRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Cms\Resource\Http\Resources\Page</methodSignature>
-      <fullMethod>restoreRevision(Playground\Cms\Models\PageRevision $page_revision, Playground\Cms\Resource\Http\Requests\Page\RestoreRevisionRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Cms\Resource\Http\Resources\Page</fullMethod>
+      <methodSignature>restoreRevision(PageRevision $page_revision, Requests\Page\RestoreRevisionRequest $request): JsonResponse|RedirectResponse|Resources\Page</methodSignature>
+      <fullMethod>restoreRevision(PageRevision $page_revision, Requests\Page\RestoreRevisionRequest $request): JsonResponse|RedirectResponse|Resources\Page</fullMethod>
       <crap>5</crap>
       <complexity>5</complexity>
       <coverage>100</coverage>
@@ -2490,8 +2446,8 @@
       <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\PageController</className>
       <methodName>revision</methodName>
-      <methodSignature>revision(Playground\Cms\Models\PageRevision $page_revision, Playground\Cms\Resource\Http\Requests\Page\ShowRevisionRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Cms\Resource\Http\Resources\PageRevision</methodSignature>
-      <fullMethod>revision(Playground\Cms\Models\PageRevision $page_revision, Playground\Cms\Resource\Http\Requests\Page\ShowRevisionRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Cms\Resource\Http\Resources\PageRevision</fullMethod>
+      <methodSignature>revision(PageRevision $page_revision, Requests\Page\ShowRevisionRequest $request): JsonResponse|View|Resources\PageRevision</methodSignature>
+      <fullMethod>revision(PageRevision $page_revision, Requests\Page\ShowRevisionRequest $request): JsonResponse|View|Resources\PageRevision</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -2501,8 +2457,8 @@
       <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\PageController</className>
       <methodName>revisions</methodName>
-      <methodSignature>revisions(Playground\Cms\Models\Page $page, Playground\Cms\Resource\Http\Requests\Page\RevisionsRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Cms\Resource\Http\Resources\PageRevisionCollection</methodSignature>
-      <fullMethod>revisions(Playground\Cms\Models\Page $page, Playground\Cms\Resource\Http\Requests\Page\RevisionsRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Cms\Resource\Http\Resources\PageRevisionCollection</fullMethod>
+      <methodSignature>revisions(Page $page, Requests\Page\RevisionsRequest $request): JsonResponse|View|Resources\PageRevisionCollection</methodSignature>
+      <fullMethod>revisions(Page $page, Requests\Page\RevisionsRequest $request): JsonResponse|View|Resources\PageRevisionCollection</fullMethod>
       <crap>6</crap>
       <complexity>6</complexity>
       <coverage>100</coverage>
@@ -2512,8 +2468,8 @@
       <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\PageController</className>
       <methodName>saveRevision</methodName>
-      <methodSignature>saveRevision(Playground\Cms\Models\Page $page): Playground\Cms\Models\PageRevision</methodSignature>
-      <fullMethod>saveRevision(Playground\Cms\Models\Page $page): Playground\Cms\Models\PageRevision</fullMethod>
+      <methodSignature>saveRevision(Page $page): PageRevision</methodSignature>
+      <fullMethod>saveRevision(Page $page): PageRevision</fullMethod>
       <crap>4</crap>
       <complexity>4</complexity>
       <coverage>100</coverage>
@@ -2523,8 +2479,8 @@
       <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\PageController</className>
       <methodName>show</methodName>
-      <methodSignature>show(Playground\Cms\Models\Page $page, Playground\Cms\Resource\Http\Requests\Page\ShowRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Cms\Resource\Http\Resources\Page</methodSignature>
-      <fullMethod>show(Playground\Cms\Models\Page $page, Playground\Cms\Resource\Http\Requests\Page\ShowRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Cms\Resource\Http\Resources\Page</fullMethod>
+      <methodSignature>show(Page $page, Requests\Page\ShowRequest $request): JsonResponse|View|Resources\Page</methodSignature>
+      <fullMethod>show(Page $page, Requests\Page\ShowRequest $request): JsonResponse|View|Resources\Page</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -2534,10 +2490,10 @@
       <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\PageController</className>
       <methodName>store</methodName>
-      <methodSignature>store(Playground\Cms\Resource\Http\Requests\Page\StoreRequest $request): \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Cms\Resource\Http\Resources\Page</methodSignature>
-      <fullMethod>store(Playground\Cms\Resource\Http\Requests\Page\StoreRequest $request): \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Cms\Resource\Http\Resources\Page</fullMethod>
-      <crap>4</crap>
-      <complexity>4</complexity>
+      <methodSignature>store(Requests\Page\StoreRequest $request): Response|JsonResponse|RedirectResponse|Resources\Page</methodSignature>
+      <fullMethod>store(Requests\Page\StoreRequest $request): Response|JsonResponse|RedirectResponse|Resources\Page</fullMethod>
+      <crap>5</crap>
+      <complexity>5</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -2545,10 +2501,10 @@
       <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\PageController</className>
       <methodName>unlock</methodName>
-      <methodSignature>unlock(Playground\Cms\Models\Page $page, Playground\Cms\Resource\Http\Requests\Page\UnlockRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Cms\Resource\Http\Resources\Page</methodSignature>
-      <fullMethod>unlock(Playground\Cms\Models\Page $page, Playground\Cms\Resource\Http\Requests\Page\UnlockRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Cms\Resource\Http\Resources\Page</fullMethod>
-      <crap>4</crap>
-      <complexity>4</complexity>
+      <methodSignature>unlock(Page $page, Requests\Page\UnlockRequest $request): JsonResponse|RedirectResponse|Resources\Page</methodSignature>
+      <fullMethod>unlock(Page $page, Requests\Page\UnlockRequest $request): JsonResponse|RedirectResponse|Resources\Page</fullMethod>
+      <crap>5</crap>
+      <complexity>5</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -2556,10 +2512,10 @@
       <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\PageController</className>
       <methodName>update</methodName>
-      <methodSignature>update(Playground\Cms\Models\Page $page, Playground\Cms\Resource\Http\Requests\Page\UpdateRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Cms\Resource\Http\Resources\Page</methodSignature>
-      <fullMethod>update(Playground\Cms\Models\Page $page, Playground\Cms\Resource\Http\Requests\Page\UpdateRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Cms\Resource\Http\Resources\Page</fullMethod>
-      <crap>4</crap>
-      <complexity>4</complexity>
+      <methodSignature>update(Page $page, Requests\Page\UpdateRequest $request): JsonResponse|RedirectResponse|Resources\Page</methodSignature>
+      <fullMethod>update(Page $page, Requests\Page\UpdateRequest $request): JsonResponse|RedirectResponse|Resources\Page</fullMethod>
+      <crap>5</crap>
+      <complexity>5</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -2567,8 +2523,8 @@
       <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\SnippetController</className>
       <methodName>create</methodName>
-      <methodSignature>create(Playground\Cms\Resource\Http\Requests\Snippet\CreateRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</methodSignature>
-      <fullMethod>create(Playground\Cms\Resource\Http\Requests\Snippet\CreateRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</fullMethod>
+      <methodSignature>create(Requests\Snippet\CreateRequest $request): JsonResponse|View|Resources\Snippet</methodSignature>
+      <fullMethod>create(Requests\Snippet\CreateRequest $request): JsonResponse|View|Resources\Snippet</fullMethod>
       <crap>4</crap>
       <complexity>4</complexity>
       <coverage>100</coverage>
@@ -2578,8 +2534,8 @@
       <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\SnippetController</className>
       <methodName>edit</methodName>
-      <methodSignature>edit(Playground\Cms\Models\Snippet $snippet, Playground\Cms\Resource\Http\Requests\Snippet\EditRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</methodSignature>
-      <fullMethod>edit(Playground\Cms\Models\Snippet $snippet, Playground\Cms\Resource\Http\Requests\Snippet\EditRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</fullMethod>
+      <methodSignature>edit(Snippet $snippet, Requests\Snippet\EditRequest $request): JsonResponse|View|Resources\Snippet</methodSignature>
+      <fullMethod>edit(Snippet $snippet, Requests\Snippet\EditRequest $request): JsonResponse|View|Resources\Snippet</fullMethod>
       <crap>3</crap>
       <complexity>3</complexity>
       <coverage>100</coverage>
@@ -2589,8 +2545,19 @@
       <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\SnippetController</className>
       <methodName>destroy</methodName>
-      <methodSignature>destroy(Playground\Cms\Models\Snippet $snippet, Playground\Cms\Resource\Http\Requests\Snippet\DestroyRequest $request): \Illuminate\Http\Response|\Illuminate\Http\RedirectResponse</methodSignature>
-      <fullMethod>destroy(Playground\Cms\Models\Snippet $snippet, Playground\Cms\Resource\Http\Requests\Snippet\DestroyRequest $request): \Illuminate\Http\Response|\Illuminate\Http\RedirectResponse</fullMethod>
+      <methodSignature>destroy(Snippet $snippet, Requests\Snippet\DestroyRequest $request): Response|RedirectResponse</methodSignature>
+      <fullMethod>destroy(Snippet $snippet, Requests\Snippet\DestroyRequest $request): Response|RedirectResponse</fullMethod>
+      <crap>6</crap>
+      <complexity>6</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Cms\Resource\Http\Controllers</package>
+      <className>Playground\Cms\Resource\Http\Controllers\SnippetController</className>
+      <methodName>lock</methodName>
+      <methodSignature>lock(Snippet $snippet, Requests\Snippet\LockRequest $request): JsonResponse|RedirectResponse|Resources\Snippet</methodSignature>
+      <fullMethod>lock(Snippet $snippet, Requests\Snippet\LockRequest $request): JsonResponse|RedirectResponse|Resources\Snippet</fullMethod>
       <crap>5</crap>
       <complexity>5</complexity>
       <coverage>100</coverage>
@@ -2599,20 +2566,9 @@
     <method>
       <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\SnippetController</className>
-      <methodName>lock</methodName>
-      <methodSignature>lock(Playground\Cms\Models\Snippet $snippet, Playground\Cms\Resource\Http\Requests\Snippet\LockRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Cms\Resource\Http\Resources\Snippet</methodSignature>
-      <fullMethod>lock(Playground\Cms\Models\Snippet $snippet, Playground\Cms\Resource\Http\Requests\Snippet\LockRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Cms\Resource\Http\Resources\Snippet</fullMethod>
-      <crap>4</crap>
-      <complexity>4</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground\Cms\Resource\Http\Controllers</package>
-      <className>Playground\Cms\Resource\Http\Controllers\SnippetController</className>
       <methodName>index</methodName>
-      <methodSignature>index(Playground\Cms\Resource\Http\Requests\Snippet\IndexRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Cms\Resource\Http\Resources\SnippetCollection</methodSignature>
-      <fullMethod>index(Playground\Cms\Resource\Http\Requests\Snippet\IndexRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Cms\Resource\Http\Resources\SnippetCollection</fullMethod>
+      <methodSignature>index(Requests\Snippet\IndexRequest $request): JsonResponse|View|Resources\SnippetCollection</methodSignature>
+      <fullMethod>index(Requests\Snippet\IndexRequest $request): JsonResponse|View|Resources\SnippetCollection</fullMethod>
       <crap>6</crap>
       <complexity>6</complexity>
       <coverage>100</coverage>
@@ -2622,10 +2578,10 @@
       <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\SnippetController</className>
       <methodName>restore</methodName>
-      <methodSignature>restore(Playground\Cms\Models\Snippet $snippet, Playground\Cms\Resource\Http\Requests\Snippet\RestoreRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Cms\Resource\Http\Resources\Snippet</methodSignature>
-      <fullMethod>restore(Playground\Cms\Models\Snippet $snippet, Playground\Cms\Resource\Http\Requests\Snippet\RestoreRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Cms\Resource\Http\Resources\Snippet</fullMethod>
-      <crap>4</crap>
-      <complexity>4</complexity>
+      <methodSignature>restore(Snippet $snippet, Requests\Snippet\RestoreRequest $request): JsonResponse|RedirectResponse|Resources\Snippet</methodSignature>
+      <fullMethod>restore(Snippet $snippet, Requests\Snippet\RestoreRequest $request): JsonResponse|RedirectResponse|Resources\Snippet</fullMethod>
+      <crap>5</crap>
+      <complexity>5</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -2633,8 +2589,8 @@
       <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\SnippetController</className>
       <methodName>restoreRevision</methodName>
-      <methodSignature>restoreRevision(Playground\Cms\Models\SnippetRevision $snippet_revision, Playground\Cms\Resource\Http\Requests\Snippet\RestoreRevisionRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Cms\Resource\Http\Resources\Snippet</methodSignature>
-      <fullMethod>restoreRevision(Playground\Cms\Models\SnippetRevision $snippet_revision, Playground\Cms\Resource\Http\Requests\Snippet\RestoreRevisionRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Cms\Resource\Http\Resources\Snippet</fullMethod>
+      <methodSignature>restoreRevision(SnippetRevision $snippet_revision, Requests\Snippet\RestoreRevisionRequest $request): JsonResponse|RedirectResponse|Resources\Snippet</methodSignature>
+      <fullMethod>restoreRevision(SnippetRevision $snippet_revision, Requests\Snippet\RestoreRevisionRequest $request): JsonResponse|RedirectResponse|Resources\Snippet</fullMethod>
       <crap>5</crap>
       <complexity>5</complexity>
       <coverage>100</coverage>
@@ -2644,8 +2600,8 @@
       <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\SnippetController</className>
       <methodName>revision</methodName>
-      <methodSignature>revision(Playground\Cms\Models\SnippetRevision $snippet_revision, Playground\Cms\Resource\Http\Requests\Snippet\ShowRevisionRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Cms\Resource\Http\Resources\SnippetRevision</methodSignature>
-      <fullMethod>revision(Playground\Cms\Models\SnippetRevision $snippet_revision, Playground\Cms\Resource\Http\Requests\Snippet\ShowRevisionRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Cms\Resource\Http\Resources\SnippetRevision</fullMethod>
+      <methodSignature>revision(SnippetRevision $snippet_revision, Requests\Snippet\ShowRevisionRequest $request): JsonResponse|View|Resources\SnippetRevision</methodSignature>
+      <fullMethod>revision(SnippetRevision $snippet_revision, Requests\Snippet\ShowRevisionRequest $request): JsonResponse|View|Resources\SnippetRevision</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -2655,8 +2611,8 @@
       <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\SnippetController</className>
       <methodName>revisions</methodName>
-      <methodSignature>revisions(Playground\Cms\Models\Snippet $snippet, Playground\Cms\Resource\Http\Requests\Snippet\RevisionsRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Cms\Resource\Http\Resources\SnippetRevisionCollection</methodSignature>
-      <fullMethod>revisions(Playground\Cms\Models\Snippet $snippet, Playground\Cms\Resource\Http\Requests\Snippet\RevisionsRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Cms\Resource\Http\Resources\SnippetRevisionCollection</fullMethod>
+      <methodSignature>revisions(Snippet $snippet, Requests\Snippet\RevisionsRequest $request): JsonResponse|View|Resources\SnippetRevisionCollection</methodSignature>
+      <fullMethod>revisions(Snippet $snippet, Requests\Snippet\RevisionsRequest $request): JsonResponse|View|Resources\SnippetRevisionCollection</fullMethod>
       <crap>6</crap>
       <complexity>6</complexity>
       <coverage>100</coverage>
@@ -2666,8 +2622,8 @@
       <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\SnippetController</className>
       <methodName>saveRevision</methodName>
-      <methodSignature>saveRevision(Playground\Cms\Models\Snippet $snippet): Playground\Cms\Models\SnippetRevision</methodSignature>
-      <fullMethod>saveRevision(Playground\Cms\Models\Snippet $snippet): Playground\Cms\Models\SnippetRevision</fullMethod>
+      <methodSignature>saveRevision(Snippet $snippet): SnippetRevision</methodSignature>
+      <fullMethod>saveRevision(Snippet $snippet): SnippetRevision</fullMethod>
       <crap>4</crap>
       <complexity>4</complexity>
       <coverage>100</coverage>
@@ -2677,8 +2633,8 @@
       <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\SnippetController</className>
       <methodName>show</methodName>
-      <methodSignature>show(Playground\Cms\Models\Snippet $snippet, Playground\Cms\Resource\Http\Requests\Snippet\ShowRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Cms\Resource\Http\Resources\Snippet</methodSignature>
-      <fullMethod>show(Playground\Cms\Models\Snippet $snippet, Playground\Cms\Resource\Http\Requests\Snippet\ShowRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View|\Playground\Cms\Resource\Http\Resources\Snippet</fullMethod>
+      <methodSignature>show(Snippet $snippet, Requests\Snippet\ShowRequest $request): JsonResponse|View|Resources\Snippet</methodSignature>
+      <fullMethod>show(Snippet $snippet, Requests\Snippet\ShowRequest $request): JsonResponse|View|Resources\Snippet</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -2688,10 +2644,10 @@
       <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\SnippetController</className>
       <methodName>store</methodName>
-      <methodSignature>store(Playground\Cms\Resource\Http\Requests\Snippet\StoreRequest $request): \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Cms\Resource\Http\Resources\Snippet</methodSignature>
-      <fullMethod>store(Playground\Cms\Resource\Http\Requests\Snippet\StoreRequest $request): \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Cms\Resource\Http\Resources\Snippet</fullMethod>
-      <crap>4</crap>
-      <complexity>4</complexity>
+      <methodSignature>store(Requests\Snippet\StoreRequest $request): Response|JsonResponse|RedirectResponse|Resources\Snippet</methodSignature>
+      <fullMethod>store(Requests\Snippet\StoreRequest $request): Response|JsonResponse|RedirectResponse|Resources\Snippet</fullMethod>
+      <crap>5</crap>
+      <complexity>5</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -2699,10 +2655,10 @@
       <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\SnippetController</className>
       <methodName>unlock</methodName>
-      <methodSignature>unlock(Playground\Cms\Models\Snippet $snippet, Playground\Cms\Resource\Http\Requests\Snippet\UnlockRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Cms\Resource\Http\Resources\Snippet</methodSignature>
-      <fullMethod>unlock(Playground\Cms\Models\Snippet $snippet, Playground\Cms\Resource\Http\Requests\Snippet\UnlockRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Cms\Resource\Http\Resources\Snippet</fullMethod>
-      <crap>4</crap>
-      <complexity>4</complexity>
+      <methodSignature>unlock(Snippet $snippet, Requests\Snippet\UnlockRequest $request): JsonResponse|RedirectResponse|Resources\Snippet</methodSignature>
+      <fullMethod>unlock(Snippet $snippet, Requests\Snippet\UnlockRequest $request): JsonResponse|RedirectResponse|Resources\Snippet</fullMethod>
+      <crap>5</crap>
+      <complexity>5</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -2710,10 +2666,10 @@
       <package>Playground\Cms\Resource\Http\Controllers</package>
       <className>Playground\Cms\Resource\Http\Controllers\SnippetController</className>
       <methodName>update</methodName>
-      <methodSignature>update(Playground\Cms\Models\Snippet $snippet, Playground\Cms\Resource\Http\Requests\Snippet\UpdateRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Cms\Resource\Http\Resources\Snippet</methodSignature>
-      <fullMethod>update(Playground\Cms\Models\Snippet $snippet, Playground\Cms\Resource\Http\Requests\Snippet\UpdateRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Playground\Cms\Resource\Http\Resources\Snippet</fullMethod>
-      <crap>4</crap>
-      <complexity>4</complexity>
+      <methodSignature>update(Snippet $snippet, Requests\Snippet\UpdateRequest $request): JsonResponse|RedirectResponse|Resources\Snippet</methodSignature>
+      <fullMethod>update(Snippet $snippet, Requests\Snippet\UpdateRequest $request): JsonResponse|RedirectResponse|Resources\Snippet</fullMethod>
+      <crap>5</crap>
+      <complexity>5</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -2734,8 +2690,8 @@
       <methodName>rules</methodName>
       <methodSignature>rules(): array</methodSignature>
       <fullMethod>rules(): array</fullMethod>
-      <crap>2</crap>
-      <complexity>2</complexity>
+      <crap>1</crap>
+      <complexity>1</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -2743,8 +2699,8 @@
       <package>Playground\Cms\Resource\Http\Requests</package>
       <className>Playground\Cms\Resource\Http\Requests\FormRequest</className>
       <methodName>userHasAdminPrivileges</methodName>
-      <methodSignature>userHasAdminPrivileges(Illuminate\Contracts\Auth\Authenticatable $user): bool</methodSignature>
-      <fullMethod>userHasAdminPrivileges(Illuminate\Contracts\Auth\Authenticatable $user): bool</fullMethod>
+      <methodSignature>userHasAdminPrivileges(?Authenticatable $user): bool</methodSignature>
+      <fullMethod>userHasAdminPrivileges(?Authenticatable $user): bool</fullMethod>
       <crap>3</crap>
       <complexity>3</complexity>
       <coverage>100</coverage>
@@ -2863,31 +2819,9 @@
     <method>
       <package>Playground\Cms\Resource\Http\Resources</package>
       <className>Playground\Cms\Resource\Http\Resources\Page</className>
-      <methodName>toArray</methodName>
-      <methodSignature>toArray(Illuminate\Http\Request $request)</methodSignature>
-      <fullMethod>toArray(Illuminate\Http\Request $request)</fullMethod>
-      <crap>1</crap>
-      <complexity>1</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground\Cms\Resource\Http\Resources</package>
-      <className>Playground\Cms\Resource\Http\Resources\Page</className>
       <methodName>with</methodName>
-      <methodSignature>with(Illuminate\Http\Request $request): array</methodSignature>
-      <fullMethod>with(Illuminate\Http\Request $request): array</fullMethod>
-      <crap>1</crap>
-      <complexity>1</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground\Cms\Resource\Http\Resources</package>
-      <className>Playground\Cms\Resource\Http\Resources\PageCollection</className>
-      <methodName>toArray</methodName>
-      <methodSignature>toArray(Illuminate\Http\Request $request)</methodSignature>
-      <fullMethod>toArray(Illuminate\Http\Request $request)</fullMethod>
+      <methodSignature>with(Request $request): array</methodSignature>
+      <fullMethod>with(Request $request): array</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -2897,19 +2831,8 @@
       <package>Playground\Cms\Resource\Http\Resources</package>
       <className>Playground\Cms\Resource\Http\Resources\PageCollection</className>
       <methodName>with</methodName>
-      <methodSignature>with(Illuminate\Http\Request $request): array</methodSignature>
-      <fullMethod>with(Illuminate\Http\Request $request): array</fullMethod>
-      <crap>1</crap>
-      <complexity>1</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground\Cms\Resource\Http\Resources</package>
-      <className>Playground\Cms\Resource\Http\Resources\PageRevision</className>
-      <methodName>toArray</methodName>
-      <methodSignature>toArray(Illuminate\Http\Request $request)</methodSignature>
-      <fullMethod>toArray(Illuminate\Http\Request $request)</fullMethod>
+      <methodSignature>with(Request $request): array</methodSignature>
+      <fullMethod>with(Request $request): array</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -2919,19 +2842,8 @@
       <package>Playground\Cms\Resource\Http\Resources</package>
       <className>Playground\Cms\Resource\Http\Resources\PageRevision</className>
       <methodName>with</methodName>
-      <methodSignature>with(Illuminate\Http\Request $request): array</methodSignature>
-      <fullMethod>with(Illuminate\Http\Request $request): array</fullMethod>
-      <crap>1</crap>
-      <complexity>1</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground\Cms\Resource\Http\Resources</package>
-      <className>Playground\Cms\Resource\Http\Resources\PageRevisionCollection</className>
-      <methodName>toArray</methodName>
-      <methodSignature>toArray(Illuminate\Http\Request $request)</methodSignature>
-      <fullMethod>toArray(Illuminate\Http\Request $request)</fullMethod>
+      <methodSignature>with(Request $request): array</methodSignature>
+      <fullMethod>with(Request $request): array</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -2941,19 +2853,8 @@
       <package>Playground\Cms\Resource\Http\Resources</package>
       <className>Playground\Cms\Resource\Http\Resources\PageRevisionCollection</className>
       <methodName>with</methodName>
-      <methodSignature>with(Illuminate\Http\Request $request): array</methodSignature>
-      <fullMethod>with(Illuminate\Http\Request $request): array</fullMethod>
-      <crap>1</crap>
-      <complexity>1</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground\Cms\Resource\Http\Resources</package>
-      <className>Playground\Cms\Resource\Http\Resources\Snippet</className>
-      <methodName>toArray</methodName>
-      <methodSignature>toArray(Illuminate\Http\Request $request)</methodSignature>
-      <fullMethod>toArray(Illuminate\Http\Request $request)</fullMethod>
+      <methodSignature>with(Request $request): array</methodSignature>
+      <fullMethod>with(Request $request): array</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -2963,19 +2864,8 @@
       <package>Playground\Cms\Resource\Http\Resources</package>
       <className>Playground\Cms\Resource\Http\Resources\Snippet</className>
       <methodName>with</methodName>
-      <methodSignature>with(Illuminate\Http\Request $request): array</methodSignature>
-      <fullMethod>with(Illuminate\Http\Request $request): array</fullMethod>
-      <crap>1</crap>
-      <complexity>1</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground\Cms\Resource\Http\Resources</package>
-      <className>Playground\Cms\Resource\Http\Resources\SnippetCollection</className>
-      <methodName>toArray</methodName>
-      <methodSignature>toArray(Illuminate\Http\Request $request)</methodSignature>
-      <fullMethod>toArray(Illuminate\Http\Request $request)</fullMethod>
+      <methodSignature>with(Request $request): array</methodSignature>
+      <fullMethod>with(Request $request): array</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -2985,19 +2875,8 @@
       <package>Playground\Cms\Resource\Http\Resources</package>
       <className>Playground\Cms\Resource\Http\Resources\SnippetCollection</className>
       <methodName>with</methodName>
-      <methodSignature>with(Illuminate\Http\Request $request): array</methodSignature>
-      <fullMethod>with(Illuminate\Http\Request $request): array</fullMethod>
-      <crap>1</crap>
-      <complexity>1</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground\Cms\Resource\Http\Resources</package>
-      <className>Playground\Cms\Resource\Http\Resources\SnippetRevision</className>
-      <methodName>toArray</methodName>
-      <methodSignature>toArray(Illuminate\Http\Request $request)</methodSignature>
-      <fullMethod>toArray(Illuminate\Http\Request $request)</fullMethod>
+      <methodSignature>with(Request $request): array</methodSignature>
+      <fullMethod>with(Request $request): array</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -3007,19 +2886,8 @@
       <package>Playground\Cms\Resource\Http\Resources</package>
       <className>Playground\Cms\Resource\Http\Resources\SnippetRevision</className>
       <methodName>with</methodName>
-      <methodSignature>with(Illuminate\Http\Request $request): array</methodSignature>
-      <fullMethod>with(Illuminate\Http\Request $request): array</fullMethod>
-      <crap>1</crap>
-      <complexity>1</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground\Cms\Resource\Http\Resources</package>
-      <className>Playground\Cms\Resource\Http\Resources\SnippetRevisionCollection</className>
-      <methodName>toArray</methodName>
-      <methodSignature>toArray(Illuminate\Http\Request $request)</methodSignature>
-      <fullMethod>toArray(Illuminate\Http\Request $request)</fullMethod>
+      <methodSignature>with(Request $request): array</methodSignature>
+      <fullMethod>with(Request $request): array</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -3029,8 +2897,8 @@
       <package>Playground\Cms\Resource\Http\Resources</package>
       <className>Playground\Cms\Resource\Http\Resources\SnippetRevisionCollection</className>
       <methodName>with</methodName>
-      <methodSignature>with(Illuminate\Http\Request $request): array</methodSignature>
-      <fullMethod>with(Illuminate\Http\Request $request): array</fullMethod>
+      <methodSignature>with(Request $request): array</methodSignature>
+      <fullMethod>with(Request $request): array</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -3040,8 +2908,8 @@
       <package>Playground\Cms\Resource\Policies</package>
       <className>Playground\Cms\Resource\Policies\PagePolicy</className>
       <methodName>revisions</methodName>
-      <methodSignature>revisions(Illuminate\Contracts\Auth\Authenticatable $user): bool|\Illuminate\Auth\Access\Response</methodSignature>
-      <fullMethod>revisions(Illuminate\Contracts\Auth\Authenticatable $user): bool|\Illuminate\Auth\Access\Response</fullMethod>
+      <methodSignature>revisions(Authenticatable $user): bool|Response</methodSignature>
+      <fullMethod>revisions(Authenticatable $user): bool|Response</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -3051,8 +2919,8 @@
       <package>Playground\Cms\Resource\Policies</package>
       <className>Playground\Cms\Resource\Policies\PagePolicy</className>
       <methodName>viewRevision</methodName>
-      <methodSignature>viewRevision(Illuminate\Contracts\Auth\Authenticatable $user, Playground\Cms\Models\PageRevision $page_revision): bool|\Illuminate\Auth\Access\Response</methodSignature>
-      <fullMethod>viewRevision(Illuminate\Contracts\Auth\Authenticatable $user, Playground\Cms\Models\PageRevision $page_revision): bool|\Illuminate\Auth\Access\Response</fullMethod>
+      <methodSignature>viewRevision(Authenticatable $user, PageRevision $page_revision): bool|Response</methodSignature>
+      <fullMethod>viewRevision(Authenticatable $user, PageRevision $page_revision): bool|Response</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -3062,8 +2930,8 @@
       <package>Playground\Cms\Resource\Policies</package>
       <className>Playground\Cms\Resource\Policies\PagePolicy</className>
       <methodName>restoreRevision</methodName>
-      <methodSignature>restoreRevision(Illuminate\Contracts\Auth\Authenticatable $user, Playground\Cms\Models\PageRevision $page_revision): bool|\Illuminate\Auth\Access\Response</methodSignature>
-      <fullMethod>restoreRevision(Illuminate\Contracts\Auth\Authenticatable $user, Playground\Cms\Models\PageRevision $page_revision): bool|\Illuminate\Auth\Access\Response</fullMethod>
+      <methodSignature>restoreRevision(Authenticatable $user, PageRevision $page_revision): bool|Response</methodSignature>
+      <fullMethod>restoreRevision(Authenticatable $user, PageRevision $page_revision): bool|Response</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -3073,8 +2941,8 @@
       <package>Playground\Cms\Resource\Policies</package>
       <className>Playground\Cms\Resource\Policies\SnippetPolicy</className>
       <methodName>revisions</methodName>
-      <methodSignature>revisions(Illuminate\Contracts\Auth\Authenticatable $user): bool|\Illuminate\Auth\Access\Response</methodSignature>
-      <fullMethod>revisions(Illuminate\Contracts\Auth\Authenticatable $user): bool|\Illuminate\Auth\Access\Response</fullMethod>
+      <methodSignature>revisions(Authenticatable $user): bool|Response</methodSignature>
+      <fullMethod>revisions(Authenticatable $user): bool|Response</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -3084,8 +2952,8 @@
       <package>Playground\Cms\Resource\Policies</package>
       <className>Playground\Cms\Resource\Policies\SnippetPolicy</className>
       <methodName>viewRevision</methodName>
-      <methodSignature>viewRevision(Illuminate\Contracts\Auth\Authenticatable $user, Playground\Cms\Models\SnippetRevision $snippet_revision): bool|\Illuminate\Auth\Access\Response</methodSignature>
-      <fullMethod>viewRevision(Illuminate\Contracts\Auth\Authenticatable $user, Playground\Cms\Models\SnippetRevision $snippet_revision): bool|\Illuminate\Auth\Access\Response</fullMethod>
+      <methodSignature>viewRevision(Authenticatable $user, SnippetRevision $snippet_revision): bool|Response</methodSignature>
+      <fullMethod>viewRevision(Authenticatable $user, SnippetRevision $snippet_revision): bool|Response</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -3095,8 +2963,8 @@
       <package>Playground\Cms\Resource\Policies</package>
       <className>Playground\Cms\Resource\Policies\SnippetPolicy</className>
       <methodName>restoreRevision</methodName>
-      <methodSignature>restoreRevision(Illuminate\Contracts\Auth\Authenticatable $user, Playground\Cms\Models\SnippetRevision $snippet_revision): bool|\Illuminate\Auth\Access\Response</methodSignature>
-      <fullMethod>restoreRevision(Illuminate\Contracts\Auth\Authenticatable $user, Playground\Cms\Models\SnippetRevision $snippet_revision): bool|\Illuminate\Auth\Access\Response</fullMethod>
+      <methodSignature>restoreRevision(Authenticatable $user, SnippetRevision $snippet_revision): bool|Response</methodSignature>
+      <fullMethod>restoreRevision(Authenticatable $user, SnippetRevision $snippet_revision): bool|Response</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -3108,8 +2976,8 @@
       <methodName>boot</methodName>
       <methodSignature>boot(): void</methodSignature>
       <fullMethod>boot(): void</fullMethod>
-      <crap>12</crap>
-      <complexity>12</complexity>
+      <crap>13</crap>
+      <complexity>13</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -3130,8 +2998,8 @@
       <methodName>setPolicies</methodName>
       <methodSignature>setPolicies(array $policies): void</methodSignature>
       <fullMethod>setPolicies(array $policies): void</fullMethod>
-      <crap>10</crap>
-      <complexity>10</complexity>
+      <crap>9</crap>
+      <complexity>9</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -3152,19 +3020,8 @@
       <methodName>about</methodName>
       <methodSignature>about(): void</methodSignature>
       <fullMethod>about(): void</fullMethod>
-      <crap>23</crap>
-      <complexity>23</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground\Cms\Resource</package>
-      <className>Playground\Cms\Resource\ServiceProvider</className>
-      <methodName>version</methodName>
-      <methodSignature>version(): string</methodSignature>
-      <fullMethod>version(): string</fullMethod>
-      <crap>1</crap>
-      <complexity>1</complexity>
+      <crap>27</crap>
+      <complexity>27</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -3183,8 +3040,8 @@
       <package>Playground\Cms\Models</package>
       <className>Playground\Cms\Models\Page</className>
       <methodName>revisions</methodName>
-      <methodSignature>revisions(): Illuminate\Database\Eloquent\Relations\HasMany</methodSignature>
-      <fullMethod>revisions(): Illuminate\Database\Eloquent\Relations\HasMany</fullMethod>
+      <methodSignature>revisions(): HasMany</methodSignature>
+      <fullMethod>revisions(): HasMany</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -3196,17 +3053,6 @@
       <methodName>casts</methodName>
       <methodSignature>casts(): array</methodSignature>
       <fullMethod>casts(): array</fullMethod>
-      <crap>1</crap>
-      <complexity>1</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground\Cms\Models</package>
-      <className>Playground\Cms\Models\PageRevision</className>
-      <methodName>parent</methodName>
-      <methodSignature>parent(): Illuminate\Database\Eloquent\Relations\HasOne</methodSignature>
-      <fullMethod>parent(): Illuminate\Database\Eloquent\Relations\HasOne</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -3216,8 +3062,8 @@
       <package>Playground\Cms\Models</package>
       <className>Playground\Cms\Models\PageRevision</className>
       <methodName>page</methodName>
-      <methodSignature>page(): Illuminate\Database\Eloquent\Relations\HasOne</methodSignature>
-      <fullMethod>page(): Illuminate\Database\Eloquent\Relations\HasOne</fullMethod>
+      <methodSignature>page(): HasOne</methodSignature>
+      <fullMethod>page(): HasOne</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -3238,8 +3084,8 @@
       <package>Playground\Cms\Models</package>
       <className>Playground\Cms\Models\Snippet</className>
       <methodName>revisions</methodName>
-      <methodSignature>revisions(): Illuminate\Database\Eloquent\Relations\HasMany</methodSignature>
-      <fullMethod>revisions(): Illuminate\Database\Eloquent\Relations\HasMany</fullMethod>
+      <methodSignature>revisions(): HasMany</methodSignature>
+      <fullMethod>revisions(): HasMany</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -3259,20 +3105,9 @@
     <method>
       <package>Playground\Cms\Models</package>
       <className>Playground\Cms\Models\SnippetRevision</className>
-      <methodName>parent</methodName>
-      <methodSignature>parent(): Illuminate\Database\Eloquent\Relations\HasOne</methodSignature>
-      <fullMethod>parent(): Illuminate\Database\Eloquent\Relations\HasOne</fullMethod>
-      <crap>1</crap>
-      <complexity>1</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground\Cms\Models</package>
-      <className>Playground\Cms\Models\SnippetRevision</className>
       <methodName>snippet</methodName>
-      <methodSignature>snippet(): Illuminate\Database\Eloquent\Relations\HasOne</methodSignature>
-      <fullMethod>snippet(): Illuminate\Database\Eloquent\Relations\HasOne</fullMethod>
+      <methodSignature>snippet(): HasOne</methodSignature>
+      <fullMethod>snippet(): HasOne</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -3319,17 +3154,6 @@
       <fullMethod>about(): void</fullMethod>
       <crap>5</crap>
       <complexity>5</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground\Cms</package>
-      <className>Playground\Cms\ServiceProvider</className>
-      <methodName>version</methodName>
-      <methodSignature>version(): string</methodSignature>
-      <fullMethod>version(): string</fullMethod>
-      <crap>1</crap>
-      <complexity>1</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -3548,8 +3372,8 @@
       <methodName>filterBits</methodName>
       <methodSignature>filterBits($value, $exponent): int</methodSignature>
       <fullMethod>filterBits($value, $exponent): int</fullMethod>
-      <crap>2</crap>
-      <complexity>2</complexity>
+      <crap>3</crap>
+      <complexity>3</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -3579,8 +3403,8 @@
       <package>Playground\Http\Requests\Concerns</package>
       <className>Playground\Http\Requests\Concerns\StoreFilter</className>
       <methodName>filterDateAsCarbon</methodName>
-      <methodSignature>filterDateAsCarbon($value, $locale): ?Illuminate\Support\Carbon</methodSignature>
-      <fullMethod>filterDateAsCarbon($value, $locale): ?Illuminate\Support\Carbon</fullMethod>
+      <methodSignature>filterDateAsCarbon($value, $locale): ?Carbon</methodSignature>
+      <fullMethod>filterDateAsCarbon($value, $locale): ?Carbon</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -3713,8 +3537,8 @@
       <methodName>filterSystemFields</methodName>
       <methodSignature>filterSystemFields(array $input): void</methodSignature>
       <fullMethod>filterSystemFields(array $input): void</fullMethod>
-      <crap>19</crap>
-      <complexity>19</complexity>
+      <crap>23</crap>
+      <complexity>23</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -3790,8 +3614,8 @@
       <methodName>rules</methodName>
       <methodSignature>rules(): array</methodSignature>
       <fullMethod>rules(): array</fullMethod>
-      <crap>2</crap>
-      <complexity>2</complexity>
+      <crap>1</crap>
+      <complexity>1</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -3812,8 +3636,8 @@
       <methodName>rules_filters</methodName>
       <methodSignature>rules_filters(array $rules): void</methodSignature>
       <fullMethod>rules_filters(array $rules): void</fullMethod>
-      <crap>5</crap>
-      <complexity>5</complexity>
+      <crap>1</crap>
+      <complexity>1</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -3823,8 +3647,8 @@
       <methodName>prepareForValidation</methodName>
       <methodSignature>prepareForValidation(): void</methodSignature>
       <fullMethod>prepareForValidation(): void</fullMethod>
-      <crap>4</crap>
-      <complexity>4</complexity>
+      <crap>1</crap>
+      <complexity>1</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -3867,8 +3691,8 @@
       <methodName>rules</methodName>
       <methodSignature>rules(): array</methodSignature>
       <fullMethod>rules(): array</fullMethod>
-      <crap>2</crap>
-      <complexity>2</complexity>
+      <crap>1</crap>
+      <complexity>1</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -3878,8 +3702,8 @@
       <methodName>prepareForValidation</methodName>
       <methodSignature>prepareForValidation()</methodSignature>
       <fullMethod>prepareForValidation()</fullMethod>
-      <crap>2</crap>
-      <complexity>2</complexity>
+      <crap>1</crap>
+      <complexity>1</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -3900,8 +3724,8 @@
       <methodName>rules</methodName>
       <methodSignature>rules(): array</methodSignature>
       <fullMethod>rules(): array</fullMethod>
-      <crap>2</crap>
-      <complexity>2</complexity>
+      <crap>1</crap>
+      <complexity>1</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -3911,8 +3735,8 @@
       <methodName>prepareForValidation</methodName>
       <methodSignature>prepareForValidation()</methodSignature>
       <fullMethod>prepareForValidation()</fullMethod>
-      <crap>2</crap>
-      <complexity>2</complexity>
+      <crap>1</crap>
+      <complexity>1</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -3950,22 +3774,11 @@
       <crapLoad>0</crapLoad>
     </method>
     <method>
-      <package>Playground\Http</package>
-      <className>Playground\Http\ServiceProvider</className>
-      <methodName>version</methodName>
-      <methodSignature>version(): string</methodSignature>
-      <fullMethod>version(): string</fullMethod>
-      <crap>1</crap>
-      <complexity>1</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
       <package>Playground\Login\Blade\Http\Controllers</package>
       <className>Playground\Login\Blade\Http\Controllers\AuthenticatedSessionController</className>
       <methodName>create</methodName>
-      <methodSignature>create(): Illuminate\View\View</methodSignature>
-      <fullMethod>create(): Illuminate\View\View</fullMethod>
+      <methodSignature>create(): View</methodSignature>
+      <fullMethod>create(): View</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -3975,8 +3788,8 @@
       <package>Playground\Login\Blade\Http\Controllers</package>
       <className>Playground\Login\Blade\Http\Controllers\AuthenticatedSessionController</className>
       <methodName>store</methodName>
-      <methodSignature>store(Playground\Login\Blade\Http\Requests\LoginRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse</methodSignature>
-      <fullMethod>store(Playground\Login\Blade\Http\Requests\LoginRequest $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse</fullMethod>
+      <methodSignature>store(LoginRequest $request): JsonResponse|RedirectResponse</methodSignature>
+      <fullMethod>store(LoginRequest $request): JsonResponse|RedirectResponse</fullMethod>
       <crap>16</crap>
       <complexity>16</complexity>
       <coverage>100</coverage>
@@ -3986,8 +3799,8 @@
       <package>Playground\Login\Blade\Http\Controllers</package>
       <className>Playground\Login\Blade\Http\Controllers\AuthenticatedSessionController</className>
       <methodName>destroy</methodName>
-      <methodSignature>destroy(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse</methodSignature>
-      <fullMethod>destroy(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse</fullMethod>
+      <methodSignature>destroy(Request $request): JsonResponse|RedirectResponse</methodSignature>
+      <fullMethod>destroy(Request $request): JsonResponse|RedirectResponse</fullMethod>
       <crap>10</crap>
       <complexity>10</complexity>
       <coverage>100</coverage>
@@ -3997,10 +3810,10 @@
       <package>Playground\Login\Blade\Http\Controllers</package>
       <className>Playground\Login\Blade\Http\Controllers\AuthenticatedSessionController</className>
       <methodName>destroyTokens</methodName>
-      <methodSignature>destroyTokens(Illuminate\Contracts\Auth\Authenticatable $user, Illuminate\Http\Request $request, array $config): void</methodSignature>
-      <fullMethod>destroyTokens(Illuminate\Contracts\Auth\Authenticatable $user, Illuminate\Http\Request $request, array $config): void</fullMethod>
-      <crap>17</crap>
-      <complexity>17</complexity>
+      <methodSignature>destroyTokens(Authenticatable $user, Request $request, array $config): void</methodSignature>
+      <fullMethod>destroyTokens(Authenticatable $user, Request $request, array $config): void</fullMethod>
+      <crap>18</crap>
+      <complexity>18</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -4008,8 +3821,8 @@
       <package>Playground\Login\Blade\Http\Controllers</package>
       <className>Playground\Login\Blade\Http\Controllers\AuthenticatedSessionController</className>
       <methodName>token</methodName>
-      <methodSignature>token(Illuminate\Http\Request $request): Illuminate\Http\JsonResponse</methodSignature>
-      <fullMethod>token(Illuminate\Http\Request $request): Illuminate\Http\JsonResponse</fullMethod>
+      <methodSignature>token(Request $request): JsonResponse</methodSignature>
+      <fullMethod>token(Request $request): JsonResponse</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -4019,8 +3832,8 @@
       <package>Playground\Login\Blade\Http\Controllers</package>
       <className>Playground\Login\Blade\Http\Controllers\ConfirmablePasswordController</className>
       <methodName>show</methodName>
-      <methodSignature>show(): Illuminate\View\View</methodSignature>
-      <fullMethod>show(): Illuminate\View\View</fullMethod>
+      <methodSignature>show(): View</methodSignature>
+      <fullMethod>show(): View</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -4030,8 +3843,8 @@
       <package>Playground\Login\Blade\Http\Controllers</package>
       <className>Playground\Login\Blade\Http\Controllers\ConfirmablePasswordController</className>
       <methodName>store</methodName>
-      <methodSignature>store(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse</methodSignature>
-      <fullMethod>store(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse</fullMethod>
+      <methodSignature>store(Request $request): JsonResponse|RedirectResponse</methodSignature>
+      <fullMethod>store(Request $request): JsonResponse|RedirectResponse</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -4063,8 +3876,8 @@
       <package>Playground\Login\Blade\Http\Controllers</package>
       <className>Playground\Login\Blade\Http\Controllers\EmailVerificationController</className>
       <methodName>show</methodName>
-      <methodSignature>show(Illuminate\Http\Request $request): \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Illuminate\View\View</methodSignature>
-      <fullMethod>show(Illuminate\Http\Request $request): \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Illuminate\View\View</fullMethod>
+      <methodSignature>show(Request $request): Response|JsonResponse|RedirectResponse|View</methodSignature>
+      <fullMethod>show(Request $request): Response|JsonResponse|RedirectResponse|View</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -4074,8 +3887,8 @@
       <package>Playground\Login\Blade\Http\Controllers</package>
       <className>Playground\Login\Blade\Http\Controllers\EmailVerificationController</className>
       <methodName>send</methodName>
-      <methodSignature>send(Illuminate\Http\Request $request): \Illuminate\Http\RedirectResponse|\Illuminate\Http\Response</methodSignature>
-      <fullMethod>send(Illuminate\Http\Request $request): \Illuminate\Http\RedirectResponse|\Illuminate\Http\Response</fullMethod>
+      <methodSignature>send(Request $request): RedirectResponse|Response</methodSignature>
+      <fullMethod>send(Request $request): RedirectResponse|Response</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -4085,8 +3898,8 @@
       <package>Playground\Login\Blade\Http\Controllers</package>
       <className>Playground\Login\Blade\Http\Controllers\EmailVerificationController</className>
       <methodName>verify</methodName>
-      <methodSignature>verify(Playground\Login\Blade\Http\Requests\EmailVerificationRequest $request): \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Illuminate\View\View</methodSignature>
-      <fullMethod>verify(Playground\Login\Blade\Http\Requests\EmailVerificationRequest $request): \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Illuminate\View\View</fullMethod>
+      <methodSignature>verify(EmailVerificationRequest $request): Response|JsonResponse|RedirectResponse|View</methodSignature>
+      <fullMethod>verify(EmailVerificationRequest $request): Response|JsonResponse|RedirectResponse|View</fullMethod>
       <crap>3</crap>
       <complexity>3</complexity>
       <coverage>100</coverage>
@@ -4096,8 +3909,8 @@
       <package>Playground\Login\Blade\Http\Controllers</package>
       <className>Playground\Login\Blade\Http\Controllers\NewPasswordController</className>
       <methodName>create</methodName>
-      <methodSignature>create(Playground\Login\Blade\Http\Requests\NewPasswordRequest $request): Illuminate\View\View</methodSignature>
-      <fullMethod>create(Playground\Login\Blade\Http\Requests\NewPasswordRequest $request): Illuminate\View\View</fullMethod>
+      <methodSignature>create(NewPasswordRequest $request): View</methodSignature>
+      <fullMethod>create(NewPasswordRequest $request): View</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -4107,8 +3920,8 @@
       <package>Playground\Login\Blade\Http\Controllers</package>
       <className>Playground\Login\Blade\Http\Controllers\NewPasswordController</className>
       <methodName>store</methodName>
-      <methodSignature>store(Playground\Login\Blade\Http\Requests\StoreNewPasswordRequest $request): Illuminate\Http\RedirectResponse</methodSignature>
-      <fullMethod>store(Playground\Login\Blade\Http\Requests\StoreNewPasswordRequest $request): Illuminate\Http\RedirectResponse</fullMethod>
+      <methodSignature>store(StoreNewPasswordRequest $request): RedirectResponse</methodSignature>
+      <fullMethod>store(StoreNewPasswordRequest $request): RedirectResponse</fullMethod>
       <crap>4</crap>
       <complexity>4</complexity>
       <coverage>100</coverage>
@@ -4118,8 +3931,8 @@
       <package>Playground\Login\Blade\Http\Controllers</package>
       <className>Playground\Login\Blade\Http\Controllers\PasswordResetLinkController</className>
       <methodName>create</methodName>
-      <methodSignature>create(): Illuminate\View\View</methodSignature>
-      <fullMethod>create(): Illuminate\View\View</fullMethod>
+      <methodSignature>create(): View</methodSignature>
+      <fullMethod>create(): View</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -4129,8 +3942,8 @@
       <package>Playground\Login\Blade\Http\Controllers</package>
       <className>Playground\Login\Blade\Http\Controllers\PasswordResetLinkController</className>
       <methodName>store</methodName>
-      <methodSignature>store(Playground\Login\Blade\Http\Requests\PasswordResetLinkRequest $request): Illuminate\Http\RedirectResponse</methodSignature>
-      <fullMethod>store(Playground\Login\Blade\Http\Requests\PasswordResetLinkRequest $request): Illuminate\Http\RedirectResponse</fullMethod>
+      <methodSignature>store(PasswordResetLinkRequest $request): RedirectResponse</methodSignature>
+      <fullMethod>store(PasswordResetLinkRequest $request): RedirectResponse</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -4140,10 +3953,10 @@
       <package>Playground\Login\Blade\Http\Controllers</package>
       <className>Playground\Login\Blade\Http\Controllers\RegisteredUserController</className>
       <methodName>create</methodName>
-      <methodSignature>create(): Illuminate\View\View</methodSignature>
-      <fullMethod>create(): Illuminate\View\View</fullMethod>
-      <crap>1</crap>
-      <complexity>1</complexity>
+      <methodSignature>create(): View</methodSignature>
+      <fullMethod>create(): View</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -4151,8 +3964,8 @@
       <package>Playground\Login\Blade\Http\Controllers</package>
       <className>Playground\Login\Blade\Http\Controllers\RegisteredUserController</className>
       <methodName>store</methodName>
-      <methodSignature>store(Playground\Login\Blade\Http\Requests\RegisterUserRequest $request): Illuminate\Http\RedirectResponse</methodSignature>
-      <fullMethod>store(Playground\Login\Blade\Http\Requests\RegisterUserRequest $request): Illuminate\Http\RedirectResponse</fullMethod>
+      <methodSignature>store(RegisterUserRequest $request): RedirectResponse</methodSignature>
+      <fullMethod>store(RegisterUserRequest $request): RedirectResponse</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -4318,8 +4131,8 @@
       <methodName>about</methodName>
       <methodSignature>about(): void</methodSignature>
       <fullMethod>about(): void</fullMethod>
-      <crap>23</crap>
-      <complexity>23</complexity>
+      <crap>29</crap>
+      <complexity>29</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -4360,8 +4173,8 @@
       <package>Playground\Site\Blade\Http\Controllers</package>
       <className>Playground\Site\Blade\Http\Controllers\AboutController</className>
       <methodName>index</methodName>
-      <methodSignature>index(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</methodSignature>
-      <fullMethod>index(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</fullMethod>
+      <methodSignature>index(Request $request): JsonResponse|View</methodSignature>
+      <fullMethod>index(Request $request): JsonResponse|View</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -4371,8 +4184,8 @@
       <package>Playground\Site\Blade\Http\Controllers</package>
       <className>Playground\Site\Blade\Http\Controllers\BootstrapController</className>
       <methodName>index</methodName>
-      <methodSignature>index(Illuminate\Http\Request $request): Illuminate\View\View</methodSignature>
-      <fullMethod>index(Illuminate\Http\Request $request): Illuminate\View\View</fullMethod>
+      <methodSignature>index(Request $request): View</methodSignature>
+      <fullMethod>index(Request $request): View</fullMethod>
       <crap>3</crap>
       <complexity>3</complexity>
       <coverage>92.86</coverage>
@@ -4382,8 +4195,8 @@
       <package>Playground\Site\Blade\Http\Controllers</package>
       <className>Playground\Site\Blade\Http\Controllers\BootstrapController</className>
       <methodName>theme</methodName>
-      <methodSignature>theme(Illuminate\Http\Request $request): \Illuminate\Http\RedirectResponse|\Illuminate\View\View</methodSignature>
-      <fullMethod>theme(Illuminate\Http\Request $request): \Illuminate\Http\RedirectResponse|\Illuminate\View\View</fullMethod>
+      <methodSignature>theme(Request $request): RedirectResponse|View</methodSignature>
+      <fullMethod>theme(Request $request): RedirectResponse|View</fullMethod>
       <crap>7</crap>
       <complexity>7</complexity>
       <coverage>95.45</coverage>
@@ -4393,12 +4206,12 @@
       <package>Playground\Site\Blade\Http\Controllers</package>
       <className>Playground\Site\Blade\Http\Controllers\ConcernsPages</className>
       <methodName>pageBySlug</methodName>
-      <methodSignature>pageBySlug(Illuminate\Http\Request $request, string $slug): ?Playground\Cms\Models\Page</methodSignature>
-      <fullMethod>pageBySlug(Illuminate\Http\Request $request, string $slug): ?Playground\Cms\Models\Page</fullMethod>
-      <crap>56</crap>
-      <complexity>7</complexity>
+      <methodSignature>pageBySlug(Request $request, string $slug): ?Page</methodSignature>
+      <fullMethod>pageBySlug(Request $request, string $slug): ?Page</fullMethod>
+      <crap>72</crap>
+      <complexity>8</complexity>
       <coverage>0</coverage>
-      <crapLoad>7</crapLoad>
+      <crapLoad>8</crapLoad>
     </method>
     <method>
       <package>Playground\Site\Blade\Http\Controllers</package>
@@ -4415,8 +4228,8 @@
       <package>Playground\Site\Blade\Http\Controllers</package>
       <className>Playground\Site\Blade\Http\Controllers\ConcernsPages</className>
       <methodName>page_query_user</methodName>
-      <methodSignature>page_query_user(Illuminate\Database\Eloquent\Builder $query): void</methodSignature>
-      <fullMethod>page_query_user(Illuminate\Database\Eloquent\Builder $query): void</fullMethod>
+      <methodSignature>page_query_user(Builder $query): void</methodSignature>
+      <fullMethod>page_query_user(Builder $query): void</fullMethod>
       <crap>12</crap>
       <complexity>3</complexity>
       <coverage>0</coverage>
@@ -4426,8 +4239,8 @@
       <package>Playground\Site\Blade\Http\Controllers</package>
       <className>Playground\Site\Blade\Http\Controllers\ConcernsPages</className>
       <methodName>pageBySlugForUser</methodName>
-      <methodSignature>pageBySlugForUser(string $slug): ?Playground\Cms\Models\Page</methodSignature>
-      <fullMethod>pageBySlugForUser(string $slug): ?Playground\Cms\Models\Page</fullMethod>
+      <methodSignature>pageBySlugForUser(string $slug): ?Page</methodSignature>
+      <fullMethod>pageBySlugForUser(string $slug): ?Page</fullMethod>
       <crap>2</crap>
       <complexity>1</complexity>
       <coverage>0</coverage>
@@ -4437,8 +4250,8 @@
       <package>Playground\Site\Blade\Http\Controllers</package>
       <className>Playground\Site\Blade\Http\Controllers\ConcernsPages</className>
       <methodName>pageBySlugForGuest</methodName>
-      <methodSignature>pageBySlugForGuest(string $slug): ?Playground\Cms\Models\Page</methodSignature>
-      <fullMethod>pageBySlugForGuest(string $slug): ?Playground\Cms\Models\Page</fullMethod>
+      <methodSignature>pageBySlugForGuest(string $slug): ?Page</methodSignature>
+      <fullMethod>pageBySlugForGuest(string $slug): ?Page</fullMethod>
       <crap>2</crap>
       <complexity>1</complexity>
       <coverage>0</coverage>
@@ -4448,8 +4261,8 @@
       <package>Playground\Site\Blade\Http\Controllers</package>
       <className>Playground\Site\Blade\Http\Controllers\ConcernsSnippets</className>
       <methodName>snippetsForRoute</methodName>
-      <methodSignature>snippetsForRoute(Illuminate\Http\Request $request, array $options): array</methodSignature>
-      <fullMethod>snippetsForRoute(Illuminate\Http\Request $request, array $options): array</fullMethod>
+      <methodSignature>snippetsForRoute(Request $request, array $options): array</methodSignature>
+      <fullMethod>snippetsForRoute(Request $request, array $options): array</fullMethod>
       <crap>17.8</crap>
       <complexity>5</complexity>
       <coverage>20</coverage>
@@ -4481,8 +4294,8 @@
       <package>Playground\Site\Blade\Http\Controllers</package>
       <className>Playground\Site\Blade\Http\Controllers\ConcernsSnippets</className>
       <methodName>snippets_query</methodName>
-      <methodSignature>snippets_query(string $slug): Illuminate\Database\Eloquent\Builder</methodSignature>
-      <fullMethod>snippets_query(string $slug): Illuminate\Database\Eloquent\Builder</fullMethod>
+      <methodSignature>snippets_query(string $slug): Builder</methodSignature>
+      <fullMethod>snippets_query(string $slug): Builder</fullMethod>
       <crap>12</crap>
       <complexity>3</complexity>
       <coverage>0</coverage>
@@ -4492,8 +4305,8 @@
       <package>Playground\Site\Blade\Http\Controllers</package>
       <className>Playground\Site\Blade\Http\Controllers\ConcernsSnippets</className>
       <methodName>snippets_query_user</methodName>
-      <methodSignature>snippets_query_user(Illuminate\Database\Eloquent\Builder $query): void</methodSignature>
-      <fullMethod>snippets_query_user(Illuminate\Database\Eloquent\Builder $query): void</fullMethod>
+      <methodSignature>snippets_query_user(Builder $query): void</methodSignature>
+      <fullMethod>snippets_query_user(Builder $query): void</fullMethod>
       <crap>12</crap>
       <complexity>3</complexity>
       <coverage>0</coverage>
@@ -4525,19 +4338,19 @@
       <package>Playground\Site\Blade\Http\Controllers</package>
       <className>Playground\Site\Blade\Http\Controllers\ConcernsSnippets</className>
       <methodName>snippetsBySlug</methodName>
-      <methodSignature>snippetsBySlug(string $slug, Illuminate\Http\Request $request): array</methodSignature>
-      <fullMethod>snippetsBySlug(string $slug, Illuminate\Http\Request $request): array</fullMethod>
-      <crap>90</crap>
-      <complexity>9</complexity>
+      <methodSignature>snippetsBySlug(string $slug, Request $request): array</methodSignature>
+      <fullMethod>snippetsBySlug(string $slug, Request $request): array</fullMethod>
+      <crap>110</crap>
+      <complexity>10</complexity>
       <coverage>0</coverage>
-      <crapLoad>9</crapLoad>
+      <crapLoad>10</crapLoad>
     </method>
     <method>
       <package>Playground\Site\Blade\Http\Controllers</package>
       <className>Playground\Site\Blade\Http\Controllers\Controller</className>
       <methodName>response_payload</methodName>
-      <methodSignature>response_payload(Illuminate\Http\Request $request): array</methodSignature>
-      <fullMethod>response_payload(Illuminate\Http\Request $request): array</fullMethod>
+      <methodSignature>response_payload(Request $request): array</methodSignature>
+      <fullMethod>response_payload(Request $request): array</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -4558,8 +4371,8 @@
       <package>Playground\Site\Blade\Http\Controllers</package>
       <className>Playground\Site\Blade\Http\Controllers\Controller</className>
       <methodName>init</methodName>
-      <methodSignature>init(Illuminate\Http\Request $request): void</methodSignature>
-      <fullMethod>init(Illuminate\Http\Request $request): void</fullMethod>
+      <methodSignature>init(?Request $request): void</methodSignature>
+      <fullMethod>init(?Request $request): void</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -4569,8 +4382,8 @@
       <package>Playground\Site\Blade\Http\Controllers</package>
       <className>Playground\Site\Blade\Http\Controllers\DashboardController</className>
       <methodName>index</methodName>
-      <methodSignature>index(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Illuminate\View\View</methodSignature>
-      <fullMethod>index(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Illuminate\View\View</fullMethod>
+      <methodSignature>index(Request $request): JsonResponse|RedirectResponse|View</methodSignature>
+      <fullMethod>index(Request $request): JsonResponse|RedirectResponse|View</fullMethod>
       <crap>5</crap>
       <complexity>5</complexity>
       <coverage>100</coverage>
@@ -4580,8 +4393,8 @@
       <package>Playground\Site\Blade\Http\Controllers</package>
       <className>Playground\Site\Blade\Http\Controllers\DashboardController</className>
       <methodName>init</methodName>
-      <methodSignature>init(Illuminate\Http\Request $request): void</methodSignature>
-      <fullMethod>init(Illuminate\Http\Request $request): void</fullMethod>
+      <methodSignature>init(?Request $request): void</methodSignature>
+      <fullMethod>init(?Request $request): void</fullMethod>
       <crap>5.01</crap>
       <complexity>5</complexity>
       <coverage>92.86</coverage>
@@ -4591,8 +4404,8 @@
       <package>Playground\Site\Blade\Http\Controllers</package>
       <className>Playground\Site\Blade\Http\Controllers\HomeController</className>
       <methodName>index</methodName>
-      <methodSignature>index(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Illuminate\View\View</methodSignature>
-      <fullMethod>index(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Illuminate\View\View</fullMethod>
+      <methodSignature>index(Request $request): JsonResponse|RedirectResponse|View</methodSignature>
+      <fullMethod>index(Request $request): JsonResponse|RedirectResponse|View</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -4602,8 +4415,8 @@
       <package>Playground\Site\Blade\Http\Controllers</package>
       <className>Playground\Site\Blade\Http\Controllers\IndexController</className>
       <methodName>index</methodName>
-      <methodSignature>index(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Illuminate\View\View</methodSignature>
-      <fullMethod>index(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Illuminate\View\View</fullMethod>
+      <methodSignature>index(Request $request): JsonResponse|RedirectResponse|View</methodSignature>
+      <fullMethod>index(Request $request): JsonResponse|RedirectResponse|View</fullMethod>
       <crap>2.04</crap>
       <complexity>2</complexity>
       <coverage>78.57</coverage>
@@ -4613,8 +4426,8 @@
       <package>Playground\Site\Blade\Http\Controllers</package>
       <className>Playground\Site\Blade\Http\Controllers\PageController</className>
       <methodName>page</methodName>
-      <methodSignature>page(Illuminate\Http\Request $request, string $slug): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Illuminate\View\View</methodSignature>
-      <fullMethod>page(Illuminate\Http\Request $request, string $slug): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Illuminate\View\View</fullMethod>
+      <methodSignature>page(Request $request, string $slug): JsonResponse|RedirectResponse|View</methodSignature>
+      <fullMethod>page(Request $request, string $slug): JsonResponse|RedirectResponse|View</fullMethod>
       <crap>12</crap>
       <complexity>3</complexity>
       <coverage>0</coverage>
@@ -4624,8 +4437,8 @@
       <package>Playground\Site\Blade\Http\Controllers</package>
       <className>Playground\Site\Blade\Http\Controllers\SitemapController</className>
       <methodName>index</methodName>
-      <methodSignature>index(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Illuminate\View\View</methodSignature>
-      <fullMethod>index(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse|\Illuminate\View\View</fullMethod>
+      <methodSignature>index(Request $request): JsonResponse|RedirectResponse|View</methodSignature>
+      <fullMethod>index(Request $request): JsonResponse|RedirectResponse|View</fullMethod>
       <crap>4</crap>
       <complexity>4</complexity>
       <coverage>100</coverage>
@@ -4635,8 +4448,8 @@
       <package>Playground\Site\Blade\Http\Controllers</package>
       <className>Playground\Site\Blade\Http\Controllers\SitemapController</className>
       <methodName>init</methodName>
-      <methodSignature>init(Illuminate\Http\Request $request): void</methodSignature>
-      <fullMethod>init(Illuminate\Http\Request $request): void</fullMethod>
+      <methodSignature>init(?Request $request): void</methodSignature>
+      <fullMethod>init(?Request $request): void</fullMethod>
       <crap>6.14</crap>
       <complexity>5</complexity>
       <coverage>64.29</coverage>
@@ -4668,8 +4481,8 @@
       <package>Playground\Site\Blade\Http\Controllers</package>
       <className>Playground\Site\Blade\Http\Controllers\WelcomeController</className>
       <methodName>index</methodName>
-      <methodSignature>index(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</methodSignature>
-      <fullMethod>index(Illuminate\Http\Request $request): \Illuminate\Http\JsonResponse|\Illuminate\View\View</fullMethod>
+      <methodSignature>index(Request $request): JsonResponse|View</methodSignature>
+      <fullMethod>index(Request $request): JsonResponse|View</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -4681,8 +4494,8 @@
       <methodName>boot</methodName>
       <methodSignature>boot(): void</methodSignature>
       <fullMethod>boot(): void</fullMethod>
-      <crap>7</crap>
-      <complexity>7</complexity>
+      <crap>8</crap>
+      <complexity>8</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -4692,8 +4505,8 @@
       <methodName>about</methodName>
       <methodSignature>about(): void</methodSignature>
       <fullMethod>about(): void</fullMethod>
-      <crap>23</crap>
-      <complexity>23</complexity>
+      <crap>29</crap>
+      <complexity>29</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -4728,6 +4541,105 @@
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Test\Concerns</package>
+      <className>Playground\Test\Concerns\Factories</className>
+      <methodName>getFactory</methodName>
+      <methodSignature>getFactory(string $modelClass, array $meta): Factory</methodSignature>
+      <fullMethod>getFactory(string $modelClass, array $meta): Factory</fullMethod>
+      <crap>7.96</crap>
+      <complexity>6</complexity>
+      <coverage>62.07</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Test\Concerns</package>
+      <className>Playground\Test\Concerns\Migrations</className>
+      <methodName>defineDatabaseMigrations</methodName>
+      <methodSignature>defineDatabaseMigrations()</methodSignature>
+      <fullMethod>defineDatabaseMigrations()</fullMethod>
+      <crap>7</crap>
+      <complexity>7</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Test\Concerns</package>
+      <className>Playground\Test\Concerns\Migrations</className>
+      <methodName>loadPackageMigrations</methodName>
+      <methodSignature>loadPackageMigrations(): void</methodSignature>
+      <fullMethod>loadPackageMigrations(): void</fullMethod>
+      <crap>8.12</crap>
+      <complexity>5</complexity>
+      <coverage>50</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Test\Concerns</package>
+      <className>Playground\Test\Concerns\Migrations</className>
+      <methodName>loadMigrationsFromPackages_org</methodName>
+      <methodSignature>loadMigrationsFromPackages_org(string $folderForOrganization, string $organization, array $packages): void</methodSignature>
+      <fullMethod>loadMigrationsFromPackages_org(string $folderForOrganization, string $organization, array $packages): void</fullMethod>
+      <crap>15.25</crap>
+      <complexity>8</complexity>
+      <coverage>51.61</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Test\Concerns</package>
+      <className>Playground\Test\Concerns\Migrations</className>
+      <methodName>loadMigrationsFromPackages_migrations</methodName>
+      <methodSignature>loadMigrationsFromPackages_migrations(string $folderForOrganizationPackageDatabase, string $organization, string $package, array $migrations): void</methodSignature>
+      <fullMethod>loadMigrationsFromPackages_migrations(string $folderForOrganizationPackageDatabase, string $organization, string $package, array $migrations): void</fullMethod>
+      <crap>8.74</crap>
+      <complexity>4</complexity>
+      <coverage>33.33</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Test\Concerns</package>
+      <className>Playground\Test\Concerns\Migrations</className>
+      <methodName>loadMigrationsFromPackages</methodName>
+      <methodSignature>loadMigrationsFromPackages(string $folderForVendor): void</methodSignature>
+      <fullMethod>loadMigrationsFromPackages(string $folderForVendor): void</fullMethod>
+      <crap>5.02</crap>
+      <complexity>4</complexity>
+      <coverage>60</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Test\Concerns</package>
+      <className>Playground\Test\Concerns\Migrations</className>
+      <methodName>verifyPlaygroundTestExists</methodName>
+      <methodSignature>verifyPlaygroundTestExists(): string</methodSignature>
+      <fullMethod>verifyPlaygroundTestExists(): string</fullMethod>
+      <crap>25.67</crap>
+      <complexity>8</complexity>
+      <coverage>34.88</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Test\Concerns</package>
+      <className>Playground\Test\Concerns\Orchestrating</className>
+      <methodName>orchestrateCarbon</methodName>
+      <methodSignature>orchestrateCarbon(): void</methodSignature>
+      <fullMethod>orchestrateCarbon(): void</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Test\Concerns</package>
+      <className>Playground\Test\Concerns\Orchestrating</className>
+      <methodName>orchestrateUsers</methodName>
+      <methodSignature>orchestrateUsers($app): void</methodSignature>
+      <fullMethod>orchestrateUsers($app): void</fullMethod>
+      <crap>12.93</crap>
+      <complexity>12</complexity>
+      <coverage>81.36</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -6460,9 +6372,9 @@
     <method>
       <package>Playground\Test\Feature\Http\Controllers\Resource\Playground</package>
       <className>Playground\Test\Feature\Http\Controllers\Resource\Playground\UpdateJsonTrait</className>
-      <methodName>test_json_update_as_admin_without_payload_and_fail_validation</methodName>
-      <methodSignature>test_json_update_as_admin_without_payload_and_fail_validation()</methodSignature>
-      <fullMethod>test_json_update_as_admin_without_payload_and_fail_validation()</fullMethod>
+      <methodName>test_json_update_as_admin_without_payload_and_passes_validation</methodName>
+      <methodSignature>test_json_update_as_admin_without_payload_and_passes_validation()</methodSignature>
+      <fullMethod>test_json_update_as_admin_without_payload_and_passes_validation()</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -6515,9 +6427,9 @@
     <method>
       <package>Playground\Test\Feature\Http\Controllers\Resource\Playground</package>
       <className>Playground\Test\Feature\Http\Controllers\Resource\Playground\UpdateTrait</className>
-      <methodName>test_update_as_admin_without_payload_and_fail_validation</methodName>
-      <methodSignature>test_update_as_admin_without_payload_and_fail_validation()</methodSignature>
-      <fullMethod>test_update_as_admin_without_payload_and_fail_validation()</fullMethod>
+      <methodName>test_update_as_admin_without_payload_and_passes_validation</methodName>
+      <methodSignature>test_update_as_admin_without_payload_and_passes_validation()</methodSignature>
+      <fullMethod>test_update_as_admin_without_payload_and_passes_validation()</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -6546,11 +6458,33 @@
       <crapLoad>0</crapLoad>
     </method>
     <method>
+      <package>Playground\Test\Feature\Models\Concerns</package>
+      <className>Playground\Test\Feature\Models\Concerns\HasMany</className>
+      <methodName>verifyRelationshipHasMany</methodName>
+      <methodSignature>verifyRelationshipHasMany(string $accessor, array $meta): void</methodSignature>
+      <fullMethod>verifyRelationshipHasMany(string $accessor, array $meta): void</fullMethod>
+      <crap>22.23</crap>
+      <complexity>22</complexity>
+      <coverage>92.21</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Test\Feature\Models\Concerns</package>
+      <className>Playground\Test\Feature\Models\Concerns\HasOne</className>
+      <methodName>verifyRelationshipHasOne</methodName>
+      <methodSignature>verifyRelationshipHasOne(string $accessor, array $meta): void</methodSignature>
+      <fullMethod>verifyRelationshipHasOne(string $accessor, array $meta): void</fullMethod>
+      <crap>17</crap>
+      <complexity>17</complexity>
+      <coverage>97.7</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
       <package>Playground\Test\Feature\Models</package>
       <className>Playground\Test\Feature\Models\ModelCase</className>
       <methodName>getModel</methodName>
-      <methodSignature>getModel(): Illuminate\Database\Eloquent\Model</methodSignature>
-      <fullMethod>getModel(): Illuminate\Database\Eloquent\Model</fullMethod>
+      <methodSignature>getModel(): Model</methodSignature>
+      <fullMethod>getModel(): Model</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -6581,45 +6515,12 @@
     <method>
       <package>Playground\Test\Feature\Models</package>
       <className>Playground\Test\Feature\Models\ModelCase</className>
-      <methodName>verifyRelationship</methodName>
-      <methodSignature>verifyRelationship(string $relationshipType, string $accessor): bool</methodSignature>
-      <fullMethod>verifyRelationship(string $relationshipType, string $accessor): bool</fullMethod>
-      <crap>26.98</crap>
-      <complexity>16</complexity>
-      <coverage>65</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground\Test\Feature\Models</package>
-      <className>Playground\Test\Feature\Models\ModelCase</className>
       <methodName>verifyRelationships</methodName>
-      <methodSignature>verifyRelationships(): array</methodSignature>
-      <fullMethod>verifyRelationships(): array</fullMethod>
-      <crap>7.33</crap>
-      <complexity>6</complexity>
-      <coverage>66.67</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground\Test\Feature\Models</package>
-      <className>Playground\Test\Feature\Models\ModelCase</className>
-      <methodName>verifyRelationshipHasOne</methodName>
-      <methodSignature>verifyRelationshipHasOne(Illuminate\Database\Eloquent\Model $model, string $accessor): void</methodSignature>
-      <fullMethod>verifyRelationshipHasOne(Illuminate\Database\Eloquent\Model $model, string $accessor): void</fullMethod>
-      <crap>18</crap>
-      <complexity>18</complexity>
-      <coverage>98.55</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground\Test\Feature\Models</package>
-      <className>Playground\Test\Feature\Models\ModelCase</className>
-      <methodName>verifyRelationshipHasMany</methodName>
-      <methodSignature>verifyRelationshipHasMany(Illuminate\Database\Eloquent\Model $model, string $accessor): void</methodSignature>
-      <fullMethod>verifyRelationshipHasMany(Illuminate\Database\Eloquent\Model $model, string $accessor): void</fullMethod>
-      <crap>15</crap>
-      <complexity>15</complexity>
-      <coverage>100</coverage>
+      <methodSignature>verifyRelationships(): void</methodSignature>
+      <fullMethod>verifyRelationships(): void</fullMethod>
+      <crap>4.3</crap>
+      <complexity>4</complexity>
+      <coverage>73.33</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -6639,9 +6540,9 @@
       <methodName>test_factory_create</methodName>
       <methodSignature>test_factory_create(): void</methodSignature>
       <fullMethod>test_factory_create(): void</fullMethod>
-      <crap>2</crap>
+      <crap>2.01</crap>
       <complexity>2</complexity>
-      <coverage>100</coverage>
+      <coverage>85.71</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -6745,14 +6646,25 @@
     </method>
     <method>
       <package>Playground\Test\Models</package>
+      <className>Playground\Test\Models\Demo</className>
+      <methodName>widgets</methodName>
+      <methodSignature>widgets(): HasMany</methodSignature>
+      <fullMethod>widgets(): HasMany</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Test\Models</package>
       <className>Playground\Test\Models\UserWithRole</className>
       <methodName>hasRole</methodName>
       <methodSignature>hasRole(mixed $roles): bool</methodSignature>
       <fullMethod>hasRole(mixed $roles): bool</fullMethod>
-      <crap>72</crap>
+      <crap>8</crap>
       <complexity>8</complexity>
-      <coverage>0</coverage>
-      <crapLoad>8</crapLoad>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
     </method>
     <method>
       <package>Playground\Test\Models</package>
@@ -6760,9 +6672,42 @@
       <methodName>isAdmin</methodName>
       <methodSignature>isAdmin(): bool</methodSignature>
       <fullMethod>isAdmin(): bool</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Test\Models</package>
+      <className>Playground\Test\Models\Widget</className>
+      <methodName>demo</methodName>
+      <methodSignature>demo(): HasOne</methodSignature>
+      <fullMethod>demo(): HasOne</fullMethod>
       <crap>2</crap>
       <complexity>1</complexity>
       <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Test</package>
+      <className>Playground\Test\OrchestraTestCase</className>
+      <methodName>setUp</methodName>
+      <methodSignature>setUp(): void</methodSignature>
+      <fullMethod>setUp(): void</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Test</package>
+      <className>Playground\Test\OrchestraTestCase</className>
+      <methodName>defineEnvironment</methodName>
+      <methodSignature>defineEnvironment($app)</methodSignature>
+      <fullMethod>defineEnvironment($app)</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -6771,8 +6716,8 @@
       <methodName>boot</methodName>
       <methodSignature>boot()</methodSignature>
       <fullMethod>boot()</fullMethod>
-      <crap>3</crap>
-      <complexity>3</complexity>
+      <crap>6</crap>
+      <complexity>6</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -6800,23 +6745,12 @@
     </method>
     <method>
       <package>Playground\Test</package>
-      <className>Playground\Test\ServiceProvider</className>
-      <methodName>version</methodName>
-      <methodSignature>version(): string</methodSignature>
-      <fullMethod>version(): string</fullMethod>
-      <crap>1</crap>
-      <complexity>1</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground\Test</package>
       <className>Playground\Test\SqlTrait</className>
       <methodName>setUp</methodName>
       <methodSignature>setUp(): void</methodSignature>
       <fullMethod>setUp(): void</fullMethod>
-      <crap>2</crap>
-      <complexity>2</complexity>
+      <crap>1</crap>
+      <complexity>1</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -6835,8 +6769,8 @@
       <package>Playground\Test\Unit\Http\Requests</package>
       <className>Playground\Test\Unit\Http\Requests\RequestCase</className>
       <methodName>getRequest</methodName>
-      <methodSignature>getRequest(): Illuminate\Foundation\Http\FormRequest</methodSignature>
-      <fullMethod>getRequest(): Illuminate\Foundation\Http\FormRequest</fullMethod>
+      <methodSignature>getRequest(): FormRequest</methodSignature>
+      <fullMethod>getRequest(): FormRequest</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -6867,20 +6801,9 @@
     <method>
       <package>Playground\Test\Unit\Models</package>
       <className>Playground\Test\Unit\Models\ModelCase</className>
-      <methodName>getEnvironmentSetUp</methodName>
-      <methodSignature>getEnvironmentSetUp($app)</methodSignature>
-      <fullMethod>getEnvironmentSetUp($app)</fullMethod>
-      <crap>2</crap>
-      <complexity>1</complexity>
-      <coverage>0</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground\Test\Unit\Models</package>
-      <className>Playground\Test\Unit\Models\ModelCase</className>
       <methodName>getModel</methodName>
-      <methodSignature>getModel(): Illuminate\Database\Eloquent\Model</methodSignature>
-      <fullMethod>getModel(): Illuminate\Database\Eloquent\Model</fullMethod>
+      <methodSignature>getModel(): Model</methodSignature>
+      <fullMethod>getModel(): Model</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -6900,6 +6823,17 @@
     <method>
       <package>Playground\Test\Unit\Models</package>
       <className>Playground\Test\Unit\Models\ModelCase</className>
+      <methodName>getFactoryModel</methodName>
+      <methodSignature>getFactoryModel(array $meta): Model</methodSignature>
+      <fullMethod>getFactoryModel(array $meta): Model</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Test\Unit\Models</package>
+      <className>Playground\Test\Unit\Models\ModelCase</className>
       <methodName>test_model_instance</methodName>
       <methodSignature>test_model_instance(): void</methodSignature>
       <fullMethod>test_model_instance(): void</fullMethod>
@@ -6914,9 +6848,9 @@
       <methodName>verifyRelationship</methodName>
       <methodSignature>verifyRelationship(string $relationshipType, string $accessor): bool</methodSignature>
       <fullMethod>verifyRelationship(string $relationshipType, string $accessor): bool</fullMethod>
-      <crap>17.57</crap>
-      <complexity>10</complexity>
-      <coverage>57.69</coverage>
+      <crap>37.42</crap>
+      <complexity>12</complexity>
+      <coverage>43.9</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -6956,8 +6890,8 @@
       <package>Playground\Test</package>
       <className>Playground\Test\WithFaker</className>
       <methodName>faker</methodName>
-      <methodSignature>faker(string $locale): Faker\Generator</methodSignature>
-      <fullMethod>faker(string $locale): Faker\Generator</fullMethod>
+      <methodSignature>faker(?string $locale): Generator</methodSignature>
+      <fullMethod>faker(?string $locale): Generator</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
       <coverage>100</coverage>
@@ -7077,8 +7011,8 @@
       <package>Playground\Models\Concerns</package>
       <className>Playground\Models\Concerns\WithChildren</className>
       <methodName>children</methodName>
-      <methodSignature>children(): Illuminate\Database\Eloquent\Relations\HasMany</methodSignature>
-      <fullMethod>children(): Illuminate\Database\Eloquent\Relations\HasMany</fullMethod>
+      <methodSignature>children(): HasMany</methodSignature>
+      <fullMethod>children(): HasMany</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -7088,8 +7022,8 @@
       <package>Playground\Models\Concerns</package>
       <className>Playground\Models\Concerns\WithCreator</className>
       <methodName>creator</methodName>
-      <methodSignature>creator(): Illuminate\Database\Eloquent\Relations\HasOne</methodSignature>
-      <fullMethod>creator(): Illuminate\Database\Eloquent\Relations\HasOne</fullMethod>
+      <methodSignature>creator(): HasOne</methodSignature>
+      <fullMethod>creator(): HasOne</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -7099,8 +7033,8 @@
       <package>Playground\Models\Concerns</package>
       <className>Playground\Models\Concerns\WithModifier</className>
       <methodName>modifier</methodName>
-      <methodSignature>modifier(): Illuminate\Database\Eloquent\Relations\HasOne</methodSignature>
-      <fullMethod>modifier(): Illuminate\Database\Eloquent\Relations\HasOne</fullMethod>
+      <methodSignature>modifier(): HasOne</methodSignature>
+      <fullMethod>modifier(): HasOne</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -7110,8 +7044,8 @@
       <package>Playground\Models\Concerns</package>
       <className>Playground\Models\Concerns\WithOwner</className>
       <methodName>owner</methodName>
-      <methodSignature>owner(): Illuminate\Database\Eloquent\Relations\HasOne</methodSignature>
-      <fullMethod>owner(): Illuminate\Database\Eloquent\Relations\HasOne</fullMethod>
+      <methodSignature>owner(): HasOne</methodSignature>
+      <fullMethod>owner(): HasOne</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -7121,10 +7055,21 @@
       <package>Playground\Models\Concerns</package>
       <className>Playground\Models\Concerns\WithParent</className>
       <methodName>parent</methodName>
-      <methodSignature>parent(): Illuminate\Database\Eloquent\Relations\HasOne</methodSignature>
-      <fullMethod>parent(): Illuminate\Database\Eloquent\Relations\HasOne</fullMethod>
+      <methodSignature>parent(): HasOne</methodSignature>
+      <fullMethod>parent(): HasOne</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Models</package>
+      <className>Playground\Models\Model</className>
+      <methodName>labelOrTitle</methodName>
+      <methodSignature>labelOrTitle(): Attribute</methodSignature>
+      <fullMethod>labelOrTitle(): Attribute</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -7132,10 +7077,10 @@
       <package>Playground\Models\Scopes</package>
       <className>Playground\Models\Scopes\ScopeFilterColumns</className>
       <methodName>scopeFilterColumns</methodName>
-      <methodSignature>scopeFilterColumns(Illuminate\Database\Eloquent\Builder $query, array $columns, array $validated): Illuminate\Database\Eloquent\Builder</methodSignature>
-      <fullMethod>scopeFilterColumns(Illuminate\Database\Eloquent\Builder $query, array $columns, array $validated): Illuminate\Database\Eloquent\Builder</fullMethod>
-      <crap>31</crap>
-      <complexity>31</complexity>
+      <methodSignature>scopeFilterColumns(Builder $query, array $columns, array $validated): Builder</methodSignature>
+      <fullMethod>scopeFilterColumns(Builder $query, array $columns, array $validated): Builder</fullMethod>
+      <crap>32</crap>
+      <complexity>32</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -7143,10 +7088,10 @@
       <package>Playground\Models\Scopes</package>
       <className>Playground\Models\Scopes\ScopeFilterDates</className>
       <methodName>scopeFilterDates</methodName>
-      <methodSignature>scopeFilterDates(Illuminate\Database\Eloquent\Builder $query, array $dates, array $validated): Illuminate\Database\Eloquent\Builder</methodSignature>
-      <fullMethod>scopeFilterDates(Illuminate\Database\Eloquent\Builder $query, array $dates, array $validated): Illuminate\Database\Eloquent\Builder</fullMethod>
-      <crap>43</crap>
-      <complexity>43</complexity>
+      <methodSignature>scopeFilterDates(Builder $query, array $dates, array $validated): Builder</methodSignature>
+      <fullMethod>scopeFilterDates(Builder $query, array $dates, array $validated): Builder</fullMethod>
+      <crap>46</crap>
+      <complexity>46</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -7154,8 +7099,8 @@
       <package>Playground\Models\Scopes</package>
       <className>Playground\Models\Scopes\ScopeFilterFlags</className>
       <methodName>scopeFilterFlags</methodName>
-      <methodSignature>scopeFilterFlags(Illuminate\Database\Eloquent\Builder $query, array $flags, array $validated): Illuminate\Database\Eloquent\Builder</methodSignature>
-      <fullMethod>scopeFilterFlags(Illuminate\Database\Eloquent\Builder $query, array $flags, array $validated): Illuminate\Database\Eloquent\Builder</fullMethod>
+      <methodSignature>scopeFilterFlags(Builder $query, array $flags, array $validated): Builder</methodSignature>
+      <fullMethod>scopeFilterFlags(Builder $query, array $flags, array $validated): Builder</fullMethod>
       <crap>9</crap>
       <complexity>9</complexity>
       <coverage>100</coverage>
@@ -7165,10 +7110,10 @@
       <package>Playground\Models\Scopes</package>
       <className>Playground\Models\Scopes\ScopeFilterIds</className>
       <methodName>scopeFilterIds</methodName>
-      <methodSignature>scopeFilterIds(Illuminate\Database\Eloquent\Builder $query, array $ids, array $validated): Illuminate\Database\Eloquent\Builder</methodSignature>
-      <fullMethod>scopeFilterIds(Illuminate\Database\Eloquent\Builder $query, array $ids, array $validated): Illuminate\Database\Eloquent\Builder</fullMethod>
-      <crap>27</crap>
-      <complexity>27</complexity>
+      <methodSignature>scopeFilterIds(Builder $query, array $ids, array $validated): Builder</methodSignature>
+      <fullMethod>scopeFilterIds(Builder $query, array $ids, array $validated): Builder</fullMethod>
+      <crap>29</crap>
+      <complexity>29</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -7176,8 +7121,8 @@
       <package>Playground\Models\Scopes</package>
       <className>Playground\Models\Scopes\ScopeFilterTrash</className>
       <methodName>scopeFilterTrash</methodName>
-      <methodSignature>scopeFilterTrash(Illuminate\Database\Eloquent\Builder $query, string $visibility): Illuminate\Database\Eloquent\Builder</methodSignature>
-      <fullMethod>scopeFilterTrash(Illuminate\Database\Eloquent\Builder $query, string $visibility): Illuminate\Database\Eloquent\Builder</fullMethod>
+      <methodSignature>scopeFilterTrash(Builder $query, ?string $visibility): Builder</methodSignature>
+      <fullMethod>scopeFilterTrash(Builder $query, ?string $visibility): Builder</fullMethod>
       <crap>7</crap>
       <complexity>7</complexity>
       <coverage>100</coverage>
@@ -7185,13 +7130,46 @@
     </method>
     <method>
       <package>Playground\Models\Scopes</package>
+      <className>Playground\Models\Scopes\ScopeIsActive</className>
+      <methodName>scopeIsActive</methodName>
+      <methodSignature>scopeIsActive(Builder $query): Builder</methodSignature>
+      <fullMethod>scopeIsActive(Builder $query): Builder</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Models\Scopes</package>
+      <className>Playground\Models\Scopes\ScopeIsNotClosed</className>
+      <methodName>scopeIsNotClosed</methodName>
+      <methodSignature>scopeIsNotClosed(Builder $query): Builder</methodSignature>
+      <fullMethod>scopeIsNotClosed(Builder $query): Builder</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Models\Scopes</package>
+      <className>Playground\Models\Scopes\ScopeIsPublished</className>
+      <methodName>scopeIsPublished</methodName>
+      <methodSignature>scopeIsPublished(Builder $query): Builder</methodSignature>
+      <fullMethod>scopeIsPublished(Builder $query): Builder</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Models\Scopes</package>
       <className>Playground\Models\Scopes\ScopeSort</className>
       <methodName>scopeSort</methodName>
-      <methodSignature>scopeSort(Illuminate\Database\Eloquent\Builder $query, mixed $sort): Illuminate\Database\Eloquent\Builder</methodSignature>
-      <fullMethod>scopeSort(Illuminate\Database\Eloquent\Builder $query, mixed $sort): Illuminate\Database\Eloquent\Builder</fullMethod>
-      <crap>16</crap>
-      <complexity>16</complexity>
-      <coverage>100</coverage>
+      <methodSignature>scopeSort(Builder $query, mixed $sort): Builder</methodSignature>
+      <fullMethod>scopeSort(Builder $query, mixed $sort): Builder</fullMethod>
+      <crap>19</crap>
+      <complexity>19</complexity>
+      <coverage>96.67</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -7211,8 +7189,19 @@
       <methodName>boot</methodName>
       <methodSignature>boot(): void</methodSignature>
       <fullMethod>boot(): void</fullMethod>
-      <crap>3</crap>
-      <complexity>3</complexity>
+      <crap>6</crap>
+      <complexity>6</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground</package>
+      <className>Playground\ServiceProvider</className>
+      <methodName>publishMigrations</methodName>
+      <methodSignature>publishMigrations(): void</methodSignature>
+      <fullMethod>publishMigrations(): void</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -7231,8 +7220,8 @@
       <package>Playground</package>
       <className>Playground\ServiceProvider</className>
       <methodName>userPrimaryKeyType</methodName>
-      <methodSignature>userPrimaryKeyType(string $auth_providers_users_model): string</methodSignature>
-      <fullMethod>userPrimaryKeyType(string $auth_providers_users_model): string</fullMethod>
+      <methodSignature>userPrimaryKeyType(?string $auth_providers_users_model): string</methodSignature>
+      <fullMethod>userPrimaryKeyType(?string $auth_providers_users_model): string</fullMethod>
       <crap>4</crap>
       <complexity>4</complexity>
       <coverage>100</coverage>
@@ -7255,17 +7244,6 @@
       <methodName>register</methodName>
       <methodSignature>register(): void</methodSignature>
       <fullMethod>register(): void</fullMethod>
-      <crap>1</crap>
-      <complexity>1</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground</package>
-      <className>Playground\ServiceProvider</className>
-      <methodName>version</methodName>
-      <methodSignature>version(): string</methodSignature>
-      <fullMethod>version(): string</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
